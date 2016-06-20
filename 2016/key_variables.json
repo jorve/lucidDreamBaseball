@@ -1,0 +1,49 @@
+{
+  "current_week": 11,
+  "ldb_cats": [
+    "HR",
+    "OBP",
+    "OPS",
+    "R",
+    "aRBI",
+    "aSB",
+    "ERA",
+    "HRA",
+    "K",
+    "NQW",
+    "VIJAY",
+    "aWHIP"
+  ],
+  "ldb_teams": [
+    "AIDS",
+    "DIPA",
+    "FISHFRY",
+    "BALK",
+    "CHOICE",
+    "MICE",
+    "CORN",
+    "ICHI",
+    "BUSTERS",
+    "POLLOS",
+    "WORKS",
+    "PWRS",
+    "WHACK",
+    "WIND"
+  ],
+  "ldb_bad_cats": [
+    "ERA",
+    "HRA",
+    "aWHIP"
+  ],
+  "ldb_good_cats": [
+    "HR",
+    "OBP",
+    "OPS",
+    "R",
+    "aRBI",
+    "aSB",
+    "K",
+    "NQW",
+    "VIJAY"
+  ]
+}

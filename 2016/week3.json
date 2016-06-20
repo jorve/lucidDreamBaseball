@@ -1,0 +1,1715 @@
+{
+  "body": {
+    "live_scoring": {
+      "my_team_id": "14",
+      "system": "h2h",
+      "period": "3",
+      "teams": [
+        {
+          "w": "23",
+          "long_abbr": "AIDS",
+          "home_away": "home",
+          "short_name": "AIDS",
+          "division": "Union",
+          "matchups": [
+            {
+              "opponent_pts": "0-12-0",
+              "pts": "12-0-0",
+              "home_away": "home",
+              "opponent_team_id": "4",
+              "opponent_team": "Los Pollos",
+              "id": "4",
+              "team_ids": {
+                "away": "4",
+                "home": "5"
+              }
+            }
+          ],
+          "abbr": "AID",
+          "opp_team_id": "4",
+          "id": "5",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "AIDS",
+          "reserve_live_stats": "17-87, 2 2B, HR, 8 RBI, 5 R, 16 BB, 3 CS, 0.3204 OBP, 0.5733 OPS, 5 aRBI, -1.5 aSB - 16.1 INN, 16 HA, 5 BBI, 15 K, 8 ER, 4.408 ERA, L, 2 HRA, -1 NQW, 4.08333333333333 VIJAY, 1.40816326530612 aWHIP",
+          "categories": [
+            {
+              "pts": 1,
+              "value": 10,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.4008",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.9122",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": 33,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "34.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "5.500",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "3.076",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 3,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 56,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "10.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "1.500",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "1.101",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "https://auth.cbssports.com/images/splash/baseball/36x36-a.jpg",
+          "l": "13",
+          "pts": "12-0-0",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "66-219, 14 2B, 3B, 10 HR, 38 RBI, 33 R, 7 SB, 31 BB, 3 CS, 0.4008 OBP, 0.9122 OPS, 34 aRBI, 5.5 aSB - 52.2 INN, 45 HA, 11 BBI, 56 K, 18 ER, 3.076 ERA, 4 W, 4 L, 2 S, 3 HRA, 10 NQW, 12.6666666666667 VIJAY, 1.10126582278481 aWHIP"
+        },
+        {
+          "w": "25",
+          "long_abbr": "DIPA",
+          "home_away": "away",
+          "short_name": "Americ",
+          "division": "Federal",
+          "matchups": [
+            {
+              "opponent_pts": "3-8-1",
+              "pts": "8-3-1",
+              "home_away": "away",
+              "opponent_team_id": "9",
+              "opponent_team": "Honeynut Ichiros",
+              "id": "1",
+              "team_ids": {
+                "away": "13",
+                "home": "9"
+              }
+            }
+          ],
+          "abbr": "ADI",
+          "opp_team_id": "9",
+          "id": "13",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "American Double IPAs",
+          "reserve_live_stats": "5-19, 2 HR, 3 RBI, 6 R, SB, 2 BB, 0.3636 OBP, 0.9426 OPS, 2 aRBI, aSB - 14.2 INN, 21 HA, 5 BBI, 11 K, 8 ER, 4.909 ERA, 2 L, 2 S, 2 HRA, -2 NQW, 3.16666666666667 VIJAY, 1.77272727272727 aWHIP",
+          "categories": [
+            {
+              "pts": 1,
+              "value": 11,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.3032",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.7127",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": 29,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "27.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": "0.5",
+              "value": "3.500",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "5.327",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 7,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 42,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "-3.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "6.417",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "1.429",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "http://luciddreambaseball.baseball.cbssports.com/images/team-logo/cshutzer-americandoubleipas-36x36.v02-10.png",
+          "l": "11",
+          "pts": "8-3-1",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "63-254, 6 2B, 3B, 11 HR, 37 RBI, 29 R, 4 SB, 20 BB, CS, 0.3032 OBP, 0.7127 OPS, 27 aRBI, 3.5 aSB - 49 INN, 53 HA, 13 BBI, 42 K, 29 ER, 5.327 ERA, 3 W, 4 L, 2 S, 7 HRA, -3 NQW, 16 VIJAY, 1.42857142857143 aWHIP"
+        },
+        {
+          "w": "17",
+          "long_abbr": "FISHFRY",
+          "home_away": "home",
+          "short_name": "Bed St",
+          "division": "Federal",
+          "matchups": [
+            {
+              "opponent_pts": "5-7-0",
+              "pts": "7-5-0",
+              "home_away": "home",
+              "opponent_team_id": "15",
+              "opponent_team": "Brooklyn Balks",
+              "id": "2",
+              "team_ids": {
+                "away": "15",
+                "home": "14"
+              }
+            }
+          ],
+          "abbr": "TPT",
+          "opp_team_id": "15",
+          "id": "14",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "Bed Stuy Fish Fry",
+          "reserve_live_stats": "4-15, 2B, 3 RBI, 2 BB, 0.3889 OBP, 0.7222 OPS, 2 aRBI",
+          "categories": [
+            {
+              "pts": 0,
+              "value": 3,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.3228",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.6577",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": 28,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "11.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "4.000",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "1.929",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 2,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 61,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "7.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "12.083",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "0.897",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "http://luciddreambaseball.baseball.cbssports.com/images/team-logo/jorve-salmon-36x36.gif",
+          "l": "19",
+          "pts": "7-5-0",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "54-224, 12 2B, 3 HR, 17 RBI, 28 R, 5 SB, 27 BB, 2 CS, 0.3228 OBP, 0.6577 OPS, 11 aRBI, 4 aSB - 74.2 INN, 45 HA, 20 BBI, 61 K, 16 ER, 1.929 ERA, 5 W, 2 L, 7 S, 2 HRA, 7 NQW, 24.9166666666667 VIJAY, 0.897321428571428 aWHIP"
+        },
+        {
+          "w": "22",
+          "long_abbr": "BALK",
+          "home_away": "away",
+          "short_name": "Brookl",
+          "division": "Union",
+          "matchups": [
+            {
+              "opponent_pts": "7-5-0",
+              "pts": "5-7-0",
+              "home_away": "away",
+              "opponent_team_id": "14",
+              "opponent_team": "Bed Stuy Fish Fry",
+              "id": "2",
+              "team_ids": {
+                "away": "15",
+                "home": "14"
+              }
+            }
+          ],
+          "abbr": "BB",
+          "opp_team_id": "14",
+          "id": "15",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "Brooklyn Balks",
+          "reserve_live_stats": "11-53, 6 2B, 3B, HR, 4 RBI, 6 R, SB, 2 BB, 0.2500 OBP, 0.6651 OPS, 3 aRBI, aSB",
+          "categories": [
+            {
+              "pts": 1,
+              "value": 4,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.3099",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.6882",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": 22,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "13.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "3.500",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "2.621",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 11,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 65,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "16.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "8.917",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "1.034",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "http://luciddreambaseball.baseball.cbssports.com/images/team-logo/ima221-balks-ian-36x36.jpg",
+          "l": "14",
+          "pts": "5-7-0",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "65-259, 19 2B, 3B, 4 HR, 24 RBI, 22 R, 4 SB, 19 BB, CS, 0.3099 OBP, 0.6882 OPS, 13 aRBI, 3.5 aSB - 68.2 INN, 48 HA, 22 BBI, 65 K, 20 ER, 2.621 ERA, 6 W, 2 L, 7 S, 11 HRA, 16 NQW, 21.9166666666667 VIJAY, 1.03398058252427 aWHIP"
+        },
+        {
+          "w": "30",
+          "long_abbr": "CHOICE",
+          "home_away": "away",
+          "short_name": "Brophy",
+          "division": "Federal",
+          "matchups": [
+            {
+              "opponent_pts": "2-10-0",
+              "pts": "10-2-0",
+              "home_away": "away",
+              "opponent_team_id": "8",
+              "opponent_team": "Capitol Hill Danger Mice of Lincoln Park",
+              "id": "5",
+              "team_ids": {
+                "away": "10",
+                "home": "8"
+              }
+            }
+          ],
+          "abbr": "BC",
+          "opp_team_id": "8",
+          "id": "10",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "Brophy's Choice",
+          "reserve_live_stats": "9-29, 4 2B, HR, 2 RBI, 5 R, 2 BB, CS, 0.3548 OBP, 0.9066 OPS, aRBI, -0.5 aSB",
+          "categories": [
+            {
+              "pts": 1,
+              "value": 11,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.3675",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.9126",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": 41,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "43.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "1.500",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "3.122",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 8,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 54,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "4.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "3.750",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "1.082",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "http://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&size=36x36",
+          "l": "6",
+          "pts": "10-2-0",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "81-255, 21 2B, 2 3B, 11 HR, 43 RBI, 41 R, 3 SB, 19 BB, 3 CS, 0.3675 OBP, 0.9126 OPS, 43 aRBI, 1.5 aSB - 49 INN, 43 HA, 9 BBI, 54 K, 17 ER, 3.122 ERA, 3 W, 3 L, 3 S, 8 HRA, 4 NQW, 14 VIJAY, 1.08163265306122 aWHIP"
+        },
+        {
+          "w": "11",
+          "long_abbr": "MICE",
+          "home_away": "home",
+          "short_name": "Capito",
+          "division": "Federal",
+          "matchups": [
+            {
+              "opponent_pts": "10-2-0",
+              "pts": "2-10-0",
+              "home_away": "home",
+              "opponent_team_id": "10",
+              "opponent_team": "Brophy's Choice",
+              "id": "5",
+              "team_ids": {
+                "away": "10",
+                "home": "8"
+              }
+            }
+          ],
+          "abbr": "AMD",
+          "opp_team_id": "10",
+          "id": "8",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "Capitol Hill Danger Mice of Lincoln Park",
+          "reserve_live_stats": "2-27, 2 2B, 2 RBI, 2 R, BB, 0.1379 OBP, 0.2861 OPS, 2 aRBI",
+          "categories": [
+            {
+              "pts": 0,
+              "value": 6,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.3519",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.8172",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": 39,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "20.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "2.500",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "3.911",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 11,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 62,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "-2.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "2.500",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "1.346",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "http://luciddreambaseball.baseball.cbssports.com/images/team-logo/gsh3219-dmlogo-36x36.jpg",
+          "l": "25",
+          "pts": "2-10-0",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "71-245, 23 2B, 3B, 6 HR, 24 RBI, 39 R, 4 SB, 24 BB, 3 CS, 0.3519 OBP, 0.8172 OPS, 20 aRBI, 2.5 aSB - 71.1 INN, 62 HA, 32 BBI, 62 K, 31 ER, 3.911 ERA, 5 W, 7 L, 3 S, 11 HRA, -2 NQW, 14.8333333333333 VIJAY, 1.34579439252336 aWHIP"
+        },
+        {
+          "w": "18",
+          "long_abbr": "CORN",
+          "home_away": "home",
+          "short_name": "Cornba",
+          "division": "Union",
+          "matchups": [
+            {
+              "opponent_pts": "5-7-0",
+              "pts": "7-5-0",
+              "home_away": "home",
+              "opponent_team_id": "1",
+              "opponent_team": "The Powers of Matthew Starr",
+              "id": "6",
+              "team_ids": {
+                "away": "1",
+                "home": "6"
+              }
+            }
+          ],
+          "abbr": "TC",
+          "opp_team_id": "1",
+          "id": "6",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "Cornballers",
+          "reserve_live_stats": "",
+          "categories": [
+            {
+              "pts": 0,
+              "value": 9,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.3740",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.8346",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": 34,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "19.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "4.000",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "3.600",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 7,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 49,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "1.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "4.667",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "1.200",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "http://luciddreambaseball.baseball.cbssports.com/images/team-logo/rhughes2270-corn-36x36.png",
+          "l": "18",
+          "pts": "7-5-0",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "65-228, 9 2B, 2 3B, 9 HR, 25 RBI, 34 R, 4 SB, 32 BB, 0.3740 OBP, 0.8346 OPS, 19 aRBI, 4 aSB - 55 INN, 54 HA, 9 BBI, 49 K, 22 ER, 3.600 ERA, 3 W, 2 L, 6 S, 7 HRA, NQW, 13.75 VIJAY, 1.2 aWHIP"
+        },
+        {
+          "w": "18",
+          "long_abbr": "ICHI",
+          "home_away": "home",
+          "short_name": "Honeyn",
+          "division": "Federal",
+          "matchups": [
+            {
+              "opponent_pts": "8-3-1",
+              "pts": "3-8-1",
+              "home_away": "home",
+              "opponent_team_id": "13",
+              "opponent_team": "American Double IPAs",
+              "id": "1",
+              "team_ids": {
+                "away": "13",
+                "home": "9"
+              }
+            }
+          ],
+          "abbr": "HI",
+          "opp_team_id": "13",
+          "id": "9",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "Honeynut Ichiros",
+          "reserve_live_stats": "9-34, 2 HR, 5 RBI, 2 R, 2 BB, 0.3056 OBP, 0.7467 OPS, 3 aRBI",
+          "categories": [
+            {
+              "pts": 0,
+              "value": 8,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.3680",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.8451",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": 26,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "29.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": "0.5",
+              "value": "3.500",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "6.577",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 9,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 33,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "-8.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "0.000",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "1.731",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "https://auth.cbssports.com/images/splash/baseball/36x36-h.jpg",
+          "l": "18",
+          "pts": "3-8-1",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "63-218, 13 2B, 2 3B, 8 HR, 33 RBI, 26 R, 4 SB, 27 BB, CS, 0.3680 OBP, 0.8451 OPS, 29 aRBI, 3.5 aSB - 52 INN, 71 HA, 15 BBI, 33 K, 38 ER, 6.577 ERA, 2 W, 6 L, 9 HRA, -8 NQW, 10 VIJAY, 1.73076923076923 aWHIP"
+        },
+        {
+          "w": "13",
+          "long_abbr": "BUSTERS",
+          "home_away": "away",
+          "short_name": "Izzy A",
+          "division": "Federal",
+          "matchups": [
+            {
+              "opponent_pts": "4-7-1",
+              "pts": "7-4-1",
+              "home_away": "away",
+              "opponent_team_id": "12",
+              "opponent_team": "Wind of El Guapo",
+              "id": "7",
+              "team_ids": {
+                "away": "11",
+                "home": "12"
+              }
+            }
+          ],
+          "abbr": "RMG",
+          "opp_team_id": "12",
+          "id": "11",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "Izzy Alcantara's Backstop Busters",
+          "reserve_live_stats": "9-37, 2 2B, 3 RBI, 3 R, 2 SB, 3 BB, CS, 0.3000 OBP, 0.5973 OPS, 2 aRBI, 1.5 aSB - 13.1 INN, 11 HA, 6 BBI, 8 K, 5 ER, 3.375 ERA, W, L, 4 NQW, 1.33333333333333 VIJAY, 1.35 aWHIP",
+          "categories": [
+            {
+              "pts": 0,
+              "value": 11,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.3783",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.9241",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": 41,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "27.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": "0.5",
+              "value": "2.500",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "4.426",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 9,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 54,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "0.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "5.167",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "1.295",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "http://luciddreambaseball.baseball.cbssports.com/images/team-logo/gruvymojo-screenshot2015-03-08at11-36x36.34.56am.png",
+          "l": "23",
+          "pts": "7-4-1",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "76-240, 18 2B, 2 3B, 11 HR, 33 RBI, 41 R, 3 SB, 22 BB, CS, 0.3783 OBP, 0.9241 OPS, 27 aRBI, 2.5 aSB - 61 INN, 59 HA, 16 BBI, 54 K, 30 ER, 4.426 ERA, 3 W, 3 L, 2 S, 9 HRA, 17 VIJAY, 1.29508196721311 aWHIP"
+        },
+        {
+          "w": "6",
+          "long_abbr": "POLLOS",
+          "home_away": "away",
+          "short_name": "Los Po",
+          "division": "Union",
+          "matchups": [
+            {
+              "opponent_pts": "12-0-0",
+              "pts": "0-12-0",
+              "home_away": "away",
+              "opponent_team_id": "5",
+              "opponent_team": "AIDS",
+              "id": "4",
+              "team_ids": {
+                "away": "4",
+                "home": "5"
+              }
+            }
+          ],
+          "abbr": "LP",
+          "opp_team_id": "5",
+          "id": "4",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "Los Pollos",
+          "reserve_live_stats": "12-44, 4 2B, 4 HR, 8 RBI, 9 R, 3 BB, 0.3191 OBP, 0.9555 OPS, 7 aRBI - 4.2 INN, 9 HA, 3 BBI, 2 K, 3 ER, 5.786 ERA, -2 NQW, 1.16666666666667 VIJAY, 2.57142857142857 aWHIP",
+          "categories": [
+            {
+              "pts": 0,
+              "value": 4,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.2846",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.6207",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": 27,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "11.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "1.500",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "4.618",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 8,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 54,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "6.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "1.333",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "1.421",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "http://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&size=36x36",
+          "l": "30",
+          "pts": "0-12-0",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "53-238, 13 2B, 3B, 4 HR, 17 RBI, 27 R, 3 SB, 17 BB, 3 CS, 0.2846 OBP, 0.6207 OPS, 11 aRBI, 1.5 aSB - 50.2 INN, 61 HA, 11 BBI, 54 K, 26 ER, 4.618 ERA, 4 W, 4 L, 4 S, 8 HRA, 6 NQW, 8.66666666666666 VIJAY, 1.42105263157895 aWHIP"
+        },
+        {
+          "w": "24",
+          "long_abbr": "WORKS",
+          "home_away": "home",
+          "short_name": "The Co",
+          "division": "Union",
+          "matchups": [
+            {
+              "opponent_pts": "4-8-0",
+              "pts": "8-4-0",
+              "home_away": "home",
+              "opponent_team_id": "7",
+              "opponent_team": "Whitey Whackers",
+              "id": "3",
+              "team_ids": {
+                "away": "7",
+                "home": "3"
+              }
+            }
+          ],
+          "abbr": "TCW",
+          "opp_team_id": "7",
+          "id": "3",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "The Compleat Works of Mtt McQny",
+          "reserve_live_stats": "8-36, 3 2B, HR, 4 RBI, 5 R, 2 BB, 0.2632 OBP, 0.6520 OPS, 3 aRBI - 6.2 INN, 6 HA, 6 BBI, 7 K, 4 ER, 5.400 ERA, W, L, HRA, -2 NQW, -2.33333333333333 VIJAY, 1.95 aWHIP",
+          "categories": [
+            {
+              "pts": 1,
+              "value": 12,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.3667",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "0.8780",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": 43,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "33.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "2.500",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "3.375",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 7,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 59,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "6.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "6.083",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "1.278",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "http://luciddreambaseball.baseball.cbssports.com/images/team-logo/jbdubner-barrelhouseliquors-36x36.png",
+          "l": "12",
+          "pts": "8-4-0",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "75-264, 18 2B, 3 3B, 12 HR, 39 RBI, 43 R, 3 SB, 33 BB, CS, 0.3667 OBP, 0.8780 OPS, 33 aRBI, 2.5 aSB - 58.2 INN, 50 HA, 21 BBI, 59 K, 22 ER, 3.375 ERA, 4 W, 2 L, 7 HRA, 6 NQW, 18.4166666666667 VIJAY, 1.27840909090909 aWHIP"
+        },
+        {
+          "w": "20",
+          "long_abbr": "PWRS",
+          "home_away": "away",
+          "short_name": "The Po",
+          "division": "Union",
+          "matchups": [
+            {
+              "opponent_pts": "7-5-0",
+              "pts": "5-7-0",
+              "home_away": "away",
+              "opponent_team_id": "6",
+              "opponent_team": "Cornballers",
+              "id": "6",
+              "team_ids": {
+                "away": "1",
+                "home": "6"
+              }
+            }
+          ],
+          "abbr": "YLH",
+          "opp_team_id": "6",
+          "id": "1",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "The Powers of Matthew Starr",
+          "reserve_live_stats": "15-53, 2B, 4 HR, 10 RBI, 7 R, 5 BB, 0.3448 OBP, 0.8731 OPS, 10 aRBI",
+          "categories": [
+            {
+              "pts": 1,
+              "value": 11,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.3022",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.7405",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": 36,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "27.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "8.500",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "5.736",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 9,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 50,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "-12.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "3.250",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "1.554",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "http://luciddreambaseball.baseball.cbssports.com/images/team-logo/starrdogg92-powers-36x36.png",
+          "l": "16",
+          "pts": "5-7-0",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "65-251, 12 2B, 11 HR, 34 RBI, 36 R, 10 SB, 16 BB, 3 CS, 0.3022 OBP, 0.7405 OPS, 27 aRBI, 8.5 aSB - 64.1 INN, 66 HA, 31 BBI, 50 K, 41 ER, 5.736 ERA, 3 W, 5 L, 2 S, 9 HRA, -12 NQW, 15.3333333333333 VIJAY, 1.55440414507772 aWHIP"
+        },
+        {
+          "w": "14",
+          "long_abbr": "WHACK",
+          "home_away": "away",
+          "short_name": "Whitey",
+          "division": "Union",
+          "matchups": [
+            {
+              "opponent_pts": "8-4-0",
+              "pts": "4-8-0",
+              "home_away": "away",
+              "opponent_team_id": "3",
+              "opponent_team": "The Compleat Works of Mtt McQny",
+              "id": "3",
+              "team_ids": {
+                "away": "7",
+                "home": "3"
+              }
+            }
+          ],
+          "abbr": "WW",
+          "opp_team_id": "3",
+          "id": "7",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "Whitey Whackers",
+          "reserve_live_stats": "5-31, HR, 5 RBI, 3 R, SB, 2 BB, 0.2059 OBP, 0.4639 OPS, 5 aRBI, aSB - 7 INN, 6 HA, 2 BBI, 2 K, 2 ER, 2.571 ERA, L, NQW, 1.75 VIJAY, 1.14285714285714 aWHIP",
+          "categories": [
+            {
+              "pts": 0,
+              "value": 7,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.3184",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.7208",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": 29,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "15.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "2.000",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "3.838",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 5,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 76,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "10.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": "7.500",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "1.294",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "http://luciddreambaseball.baseball.cbssports.com/images/team-logo/c75a20c8bb88-250px-whitey_ford-36x36.png",
+          "l": "22",
+          "pts": "4-8-0",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "61-241, 15 2B, 7 HR, 24 RBI, 29 R, 3 SB, 22 BB, 2 CS, 0.3184 OBP, 0.7208 OPS, 15 aRBI, 2 aSB - 65.2 INN, 63 HA, 20 BBI, 76 K, 28 ER, 3.838 ERA, 6 W, 2 L, 6 S, 5 HRA, 10 NQW, 20.4166666666667 VIJAY, 1.29441624365482 aWHIP"
+        },
+        {
+          "w": "11",
+          "long_abbr": "WIND",
+          "home_away": "home",
+          "short_name": "Wind o",
+          "division": "Federal",
+          "matchups": [
+            {
+              "opponent_pts": "7-4-1",
+              "pts": "4-7-1",
+              "home_away": "home",
+              "opponent_team_id": "11",
+              "opponent_team": "Izzy Alcantara's Backstop Busters",
+              "id": "7",
+              "team_ids": {
+                "away": "11",
+                "home": "12"
+              }
+            }
+          ],
+          "abbr": "WOE",
+          "opp_team_id": "11",
+          "id": "12",
+          "t": 0,
+          "active_live_stats_today": "",
+          "name": "Wind of El Guapo",
+          "reserve_live_stats": "10-33, 2B, 3B, 4 HR, 9 RBI, 7 R, 2 SB, 2 BB, 0.3429 OBP, 1.1004 OPS, 9 aRBI, 2 aSB - 9.2 INN, 15 HA, 3 BBI, 5 K, 10 ER, 9.310 ERA, 2 L, -6 NQW, 2.41666666666667 VIJAY, 1.86206896551724 aWHIP",
+          "categories": [
+            {
+              "pts": 1,
+              "value": 14,
+              "name": "HR",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.3357",
+              "name": "OBP",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": "0.8170",
+              "name": "OPS",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 0,
+              "value": 37,
+              "name": "R",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "35.000",
+              "name": "aRBI",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": "0.5",
+              "value": "2.500",
+              "name": "aSB",
+              "is_bad": "false",
+              "type": "batting"
+            },
+            {
+              "pts": 1,
+              "value": "3.095",
+              "name": "ERA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 1,
+              "value": 6,
+              "name": "HRA",
+              "is_bad": "true",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": 52,
+              "name": "K",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "-2.000",
+              "name": "NQW",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "4.917",
+              "name": "VIJAY",
+              "is_bad": "false",
+              "type": "pitching"
+            },
+            {
+              "pts": 0,
+              "value": "1.376",
+              "name": "aWHIP",
+              "is_bad": "true",
+              "type": "pitching"
+            }
+          ],
+          "reserve_live_stats_today": "",
+          "logo": "http://luciddreambaseball.baseball.cbssports.com/images/team-logo/creehano-elguapo-36x36.jpg",
+          "l": "25",
+          "pts": "4-7-1",
+          "psr": 0,
+          "roster-legal": "yes",
+          "active_live_stats": "59-241, 15 2B, 14 HR, 41 RBI, 37 R, 3 SB, 30 BB, CS, 0.3357 OBP, 0.8170 OPS, 35 aRBI, 2.5 aSB - 52.1 INN, 45 HA, 24 BBI, 52 K, 18 ER, 3.095 ERA, 5 W, 3 L, 2 S, 6 HRA, -2 NQW, 15.3333333333333 VIJAY, 1.37579617834395 aWHIP"
+        }
+      ],
+      "name": "Lucid Dream Baseball",
+      "season_start": "20160403",
+      "matchup_status": "final",
+      "first_game_time": null,
+      "season_end": "20160918",
+      "scoring_type": "Individual Categories"
+    }
+  },
+  "uriAlias": "/league/scoring/live",
+  "statusMessage": "OK",
+  "uri": "/league/scoring/live",
+  "statusCode": 200
+}
