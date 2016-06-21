@@ -1,9 +1,7 @@
-import codecs, json
+import json
 import scipy
 from scipy import stats
 import pprint
-import decimal
-import numpy
 import csv
 
 pp = pprint.PrettyPrinter(indent=2)
@@ -51,10 +49,6 @@ with open('team_CLAPS.json') as json_file1, open('ldbClap.json') as json_file2, 
 				ldb_xwins[ldb_team]["total_losses"] += (1-pscore)
 		ldb_xwins[ldb_team]["LUCK"] = team_scores[ldb_team]["season_record"][0] - ldb_xwins[ldb_team]["total_wins"]
 		ldb_xins_toprint.append([ldb_team, team_scores[ldb_team]["season_record"][0], ldb_xwins[ldb_team]["total_wins"], ldb_xwins[ldb_team]["LUCK"]])
-
-
-pp.pprint(ldb_xwins)
-pp.pprint(ldb_xins_toprint)
 
 csv_file = open('ldb_xwins.csv', 'wt')
 csv_xwins = csv.writer(csv_file)

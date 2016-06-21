@@ -1,0 +1,72 @@
+[
+  [
+    {
+      "away": true, 
+      "team": "MICE"
+    }, 
+    {
+      "away": false, 
+      "team": "CORN"
+    }
+  ], 
+  [
+    {
+      "away": true, 
+      "team": "PWRS"
+    }, 
+    {
+      "away": false, 
+      "team": "DIPA"
+    }
+  ], 
+  [
+    {
+      "away": true, 
+      "team": "WIND"
+    }, 
+    {
+      "away": false, 
+      "team": "AIDS"
+    }
+  ], 
+  [
+    {
+      "away": true, 
+      "team": "WHACK"
+    }, 
+    {
+      "away": false, 
+      "team": "BUSTERS"
+    }
+  ], 
+  [
+    {
+      "away": true, 
+      "team": "CHOICE"
+    }, 
+    {
+      "away": false, 
+      "team": "BALK"
+    }
+  ], 
+  [
+    {
+      "away": true, 
+      "team": "POLLOS"
+    }, 
+    {
+      "away": false, 
+      "team": "ICHI"
+    }
+  ], 
+  [
+    {
+      "away": true, 
+      "team": "FISHFRY"
+    }, 
+    {
+      "away": false, 
+      "team": "WORKS"
+    }
+  ]
+]

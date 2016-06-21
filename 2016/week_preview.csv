@@ -1,0 +1,28 @@
+Team,xBat,xPit,xWins,5 Categories Contested
+MICE,4.0,3.0,7.0,OBP OPS ERA NQW aWHIP 
+CORN,2.0,3.0,5.0,OBP OPS ERA NQW aWHIP 
+ 
+Team,xBat,xPit,xWins,3 Categories Contested
+PWRS,5.0,4.0,9.0,OBP OPS aWHIP 
+DIPA,1.0,2.0,3.0,OBP OPS aWHIP 
+ 
+Team,xBat,xPit,xWins,6 Categories Contested
+WIND,3.0,3.0,6.0,OBP OPS aRBI aSB ERA aWHIP 
+AIDS,3.0,3.0,6.0,OBP OPS aRBI aSB ERA aWHIP 
+ 
+Team,xBat,xPit,xWins,8 Categories Contested
+WHACK,3.0,3.0,6.0,OBP OPS R aRBI aSB ERA VIJAY aWHIP 
+BUSTERS,3.0,3.0,6.0,OBP OPS R aRBI aSB ERA VIJAY aWHIP 
+ 
+Team,xBat,xPit,xWins,6 Categories Contested
+CHOICE,4.0,3.0,7.0,OBP OPS aSB ERA VIJAY aWHIP 
+BALK,2.0,3.0,5.0,OBP OPS aSB ERA VIJAY aWHIP 
+ 
+Team,xBat,xPit,xWins,8 Categories Contested
+POLLOS,3.0,2.0,5.0,HR OBP OPS aSB ERA K VIJAY aWHIP 
+ICHI,3.0,4.0,7.0,HR OBP OPS aSB ERA K VIJAY aWHIP 
+ 
+Team,xBat,xPit,xWins,2 Categories Contested
+FISHFRY,1.0,5.0,6.0,OBP OPS 
+WORKS,5.0,1.0,6.0,OBP OPS 
+ 

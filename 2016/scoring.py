@@ -17,8 +17,6 @@ ldb_bad_cats = []
 ldb_good_cats = []
 ldb_CLAP = {}
 
-
-
 for i in range(1, current_week + 1):
 	weekly_scores["week" + str(i)] = {}
 	with open("week" + str(i)+ ".json") as json_file:
@@ -56,14 +54,11 @@ for ldb_cat in ldb_cats:
 		else:
 			cat_means["z" + ldb_cat].append((cat_means[ldb_cat + "_mean"] - item)/cat_means[ldb_cat + "_stddev"])
 
-pp.pprint(ldb_CLAP)
-pp.pprint(list_CLAP)
 
 csv_file = open('ldbClap.csv', 'wt')
 csvCLAP = csv.writer(csv_file)
 for item in list_CLAP:
 	csvCLAP.writerow(item)
-
 csv_file.close()
 
 f = open('weeklyScores.json', 'wt')
@@ -79,7 +74,23 @@ key_variables = {
 	"ldb_teams": ldb_teams,
 	"ldb_cats": ldb_cats,
 	"ldb_bad_cats": ldb_bad_cats,
-	"ldb_good_cats": ldb_good_cats
+	"ldb_good_cats": ldb_good_cats,
+	"ldb_bat_cats": [
+    "HR",
+    "OBP",
+    "OPS",
+    "R",
+    "aRBI",
+    "aSB"
+  ],
+  "ldb_pit_cats": [
+    "ERA",
+    "HRA",
+    "K",
+    "NQW",
+    "VIJAY",
+    "aWHIP"
+  ]
 }
 
 f = open('key_variables.json', 'wt')

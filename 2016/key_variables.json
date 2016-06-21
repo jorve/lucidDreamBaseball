@@ -14,6 +14,22 @@
     "VIJAY",
     "aWHIP"
   ],
+  "ldb_bat_cats": [
+    "HR",
+    "OBP",
+    "OPS",
+    "R",
+    "aRBI",
+    "aSB"
+  ],
+  "ldb_pit_cats": [
+    "ERA",
+    "HRA",
+    "K",
+    "NQW",
+    "VIJAY",
+    "aWHIP"
+  ],
   "ldb_teams": [
     "AIDS",
     "DIPA",
