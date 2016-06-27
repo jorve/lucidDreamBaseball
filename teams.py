@@ -1,3 +1,4 @@
+# must use Python 2x to use the statistics package
 import json
 import pprint
 import statistics
@@ -5,7 +6,8 @@ import csv
 
 pp = pprint.PrettyPrinter(indent=2)
 
-current_week = 11
+current_year = 2016
+current_week = 12
 api_token = ""
 data_url = "http://api.cbssports.com/fantasy/league/scoring/live?version=3.0&league_id=luciddreambaseball&period=" + str(current_week) + "0&no_players=1&access_token=" + api_token + "&response_format=json"
 
@@ -23,7 +25,7 @@ inn_adjustments = {
 }
 
 for i in range(1, current_week + 1):
-	with open("week" + str(i)+ ".json") as json_file:
+	with open("./" + str(current_year) + "/week" + str(i)+ ".json") as json_file:
 		json_data = json.load(json_file)
 		teams = json_data["body"]["live_scoring"]["teams"]
 		for team in teams:
@@ -54,6 +56,8 @@ for i in range(1, current_week + 1):
 				team_scores[team["long_abbr"]]["week" + str(i)][score["name"]] = score["value"]
 				if not score["name"] in cat_means:
 					cat_means[score["name"]] = []
+
+pp.pprint(team_scores)					
 
 for ldb_team in ldb_teams:
 	if ldb_team in inn_adjustments:

@@ -1,5 +1,28 @@
 {
-  "current_week": 11,
+  "ldb_bad_cats": [
+    "ERA",
+    "HRA",
+    "aWHIP"
+  ],
+  "ldb_good_cats": [
+    "HR",
+    "OBP",
+    "OPS",
+    "R",
+    "aRBI",
+    "aSB",
+    "K",
+    "NQW",
+    "VIJAY"
+  ],
+  "ldb_pit_cats": [
+    "ERA",
+    "HRA",
+    "K",
+    "NQW",
+    "VIJAY",
+    "aWHIP"
+  ],
   "ldb_cats": [
     "HR",
     "OBP",
@@ -22,14 +45,7 @@
     "aRBI",
     "aSB"
   ],
-  "ldb_pit_cats": [
-    "ERA",
-    "HRA",
-    "K",
-    "NQW",
-    "VIJAY",
-    "aWHIP"
-  ],
+  "current_week": 12,
   "ldb_teams": [
     "AIDS",
     "DIPA",
@@ -45,21 +61,5 @@
     "PWRS",
     "WHACK",
     "WIND"
-  ],
-  "ldb_bad_cats": [
-    "ERA",
-    "HRA",
-    "aWHIP"
-  ],
-  "ldb_good_cats": [
-    "HR",
-    "OBP",
-    "OPS",
-    "R",
-    "aRBI",
-    "aSB",
-    "K",
-    "NQW",
-    "VIJAY"
   ]
 }

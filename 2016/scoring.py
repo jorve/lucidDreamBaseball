@@ -19,8 +19,8 @@ ldb_good_cats = []
 ldb_CLAP = {}
 
 for i in range(1, current_week + 1):
-	weekly_scores["week" + str(i)] = {}
-	file_path = "./" + str(current_year) + "/week" + str(i)+ ".json"
+	weekly_scores[str(current"week" + str(i)] = {}
+	file_path = os.path.dirname(__file__) + "/" + str(current_year) + "/week" + str(i)+ ".json"
 	with open(file_path) as json_file:
 		json_data = json.load(json_file)
 		teams = json_data["body"]["live_scoring"]["teams"]
