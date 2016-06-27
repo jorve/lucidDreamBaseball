@@ -92,7 +92,14 @@ key_variables = {
     "NQW",
     "VIJAY",
     "aWHIP"
-  ]
+  ], 
+  "WAR_adjustments": {
+  	"at_bats": 25,
+  	"sp_inns": 8,
+  	"rp_inns": 3,
+  	"off_RL": 0.29,
+  	"pit_RL": 0.38
+  }
 }
 
 f = open('key_variables.json', 'wt')

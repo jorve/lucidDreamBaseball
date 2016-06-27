@@ -11,8 +11,6 @@ ldbvars = json.load(ldbvarfile)
 ldb_teams = ldbvars["ldb_teams"]
 ldb_cats = ldbvars["ldb_cats"]
 ldb_bad_cats = ldbvars["ldb_bad_cats"]
-ldb_bat_cats = ldbvars["ldb_bat_cats"]
-ldb_pit_cats = ldbvars["ldb_pit_cats"]
 
 ldb_xmatchups = {
 }
@@ -46,16 +44,10 @@ with open("ldbCLAP.json") as jsonfile:
 	ldbCLAP = json.load(jsonfile)
 	for ldb_cat in ldb_cats:
 		ldbReplacement[ldb_cat] = {}
-		ldbReplacement[ldb_cat]["mean_" + ldb_cat] = ldbCLAP[ldb_cat][0]
-		ldbReplacement[ldb_cat]["stdev_" + ldb_cat] = ldbCLAP[ldb_cat][1]
-		if ldb_cat in ldb_bat_cats:
-			RL_zScore = 0.29
-		else:
-			RL_zScore = 0.38
-		if ldb_cat in ldb_bad_cats:
-			ldbReplacement[ldb_cat]["mean_RL_" + ldb_cat] = scipy.stats.norm.ppf((1 - RL_zScore), loc=ldbCLAP[ldb_cat][0], scale=ldbCLAP[ldb_cat][1])
-		else:
-			ldbReplacement[ldb_cat]["mean_RL_" + ldb_cat] = scipy.stats.norm.ppf(RL_zScore, loc=ldbCLAP[ldb_cat][0], scale=ldbCLAP[ldb_cat][1])
+		ldbReplacement[ldb_cat]["mean_" + ldb_cat] = ldbCLAP["ldb_cat"][0]
+		ldbReplacement[ldb_cat]["stdev_" + ldb_cat] = ldbCLAP["ldb_cat"][1]
+		ldbReplacement[ldb_cat]["mean_RL_" + ldb_cat] = scipy.stats.norm.ppf(0.29, loc=ldbCLAP["ldb_cat"][0], scale=ldbCLAP["ldb_cat"][1])
+		ldbReplacement[ldb_cat]["mean_pp_RL_" + ldb_cat] = (ldbReplacement[ldb_cat]["mean_RL_" + ldb_cat]/10)
 
 pp.pprint(ldbReplacement)
 

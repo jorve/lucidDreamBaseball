@@ -1,0 +1,7353 @@
+Brophy...,Jose Altuve 2B | HOU ,347,54,13,34,0.425,0.9871,16.5,2
+
+The Co...,Mookie Betts CF | BOS ,356,65,16,48,0.334,0.8479,11.5,3
+
+Izzy A...,Ian Desmond SS | TEX ,322,54,13,45,0.373,0.8981,11.5,7
+
+The Co...,Xander Bogaerts SS | BOS ,342,58,9,44,0.395,0.8916,9,8
+
+Brophy...,Mike Trout CF | LAA ,331,53,16,49,0.411,0.9625,9.5,9
+
+The Co...,Nolan Arenado 3B | COL,327,53,21,56,0.376,0.9615,-0.5,10
+
+Wind o...,Josh Donaldson 3B | TOR ,335,62,17,41,0.398,0.9605,5,13
+
+Los Po...,Ian Kinsler 2B | DET,336,59,14,45,0.348,0.8368,6.5,14
+
+Wind o...,Wil Myers CF | SD ,324,49,17,48,0.336,0.8568,9,15
+
+The Po...,David Ortiz DH | BOS ,291,34,18,51,0.43,1.1123,2,17
+
+Whitey...,Manny Machado 3B | BAL ,318,55,18,39,0.384,0.9926,-1.5,18
+
+Wind o...,Robinson Cano 2B | SEA,342,53,19,46,0.354,0.9001,-0.5,19
+
+The Co...,Paul Goldschmidt 1B | ARI ,343,43,14,43,0.436,0.9577,8.5,21
+
+AIDS,Mark Trumbo RF | BAL ,321,43,22,48,0.33,0.8839,1,23
+
+AIDS,Francisco Lindor SS | CLE ,318,49,10,32,0.369,0.8426,10.5,25
+
+AIDS,Edwin Encarnacion 1B | TOR ,331,45,19,57,0.347,0.8649,2,26
+
+Bed St...,Trevor Story SS | COL ,320,47,19,48,0.339,0.8976,3.5,27
+
+Capito...,Carlos Gonzalez RF | COL ,307,49,16,40,0.362,0.9225,1.5,28
+
+Brookl...,Daniel Murphy 2B | WAS,304,42,12,46,0.391,0.968,1,29
+
+Wind o...,Jay Bruce RF | CIN ,287,44,17,52,0.328,0.9087,3,30
+
+Brophy...,Kris Bryant 3B | CHC ,322,55,18,50,0.357,0.8769,1,31
+
+Brookl...,Jonathan Villar SS | MIL ,316,38,6,26,0.38,0.814,21.5,32
+
+Brophy...,Marcell Ozuna RF | MIA ,299,47,16,41,0.375,0.9481,-0.5,33
+
+Honeyn...,Nelson Cruz RF | SEA ,323,45,19,41,0.368,0.8987,0,34
+
+AIDS,Anthony Rizzo 1B | CHC ,305,43,17,50,0.403,0.965,0.5,35
+
+Wind o...,Starling Marte CF | PIT ,283,38,6,24,0.367,0.8562,17,36
+
+Los Po...,George Springer RF | HOU,354,51,16,41,0.353,0.8176,3,37
+
+Bed St...,Carlos Beltran RF | NYY ,277,40,19,44,0.325,0.8908,0,38
+
+The Po...,Gregory Polanco RF | PIT ,301,47,10,38,0.377,0.894,6.5,39
+
+Izzy A...,Jackie Bradley CF | BOS ,291,40,13,47,0.388,0.9614,6,40
+
+Brophy...,Eduardo Nunez SS | MIN ,277,35,10,24,0.342,0.8149,14.5,42
+
+The Po...,Adam Duvall LF | CIN ,268,41,21,48,0.288,0.8644,0.5,43
+
+The Co...,Corey Seager SS | LAD ,329,50,16,31,0.356,0.8841,-0.5,44
+
+AIDS,Matt Carpenter 3B | STL,311,52,13,45,0.419,1.0038,-0.5,45
+
+The Co...,Eric Hosmer 1B | KC,310,40,12,39,0.368,0.866,3.5,46
+
+The Co...,Chris Davis 1B | BAL ,318,56,18,50,0.355,0.8535,0,47
+
+Izzy A...,Charlie Blackmon CF | COL ,277,45,12,37,0.367,0.8855,4.5,48
+
+The Co...,Jake Lamb 3B | ARI ,283,39,15,44,0.364,0.9342,2.5,50
+
+Americ...,Jean Segura SS | ARI ,331,46,5,29,0.361,0.8,10.5,51
+
+Brophy...,Bryce Harper RF | WAS,309,43,15,39,0.395,0.872,6,53
+
+Cornba...,Yoenis Cespedes LF | NYM ,274,39,18,39,0.358,0.9232,0.5,54
+
+Bed St...,Miguel Cabrera 1B | DET,330,41,16,35,0.37,0.892,0,55
+
+Izzy A...,Rougned Odor 2B | TEX,288,49,13,34,0.295,0.7715,6,56
+
+Bed St...,Melvin Upton CF | SD ,303,36,11,33,0.312,0.7362,14.5,57
+
+Americ...,Aledmys Diaz SS | STL ,284,49,10,36,0.371,0.8849,1.5,58
+
+Bed St...,Adam Jones CF | BAL ,308,46,15,39,0.313,0.7791,1,59
+
+Cornba...,Ryan Braun RF | MIL ,262,32,12,29,0.382,0.9237,4.5,61
+
+Whitey...,Todd Frazier 3B | CHW ,318,42,21,47,0.302,0.7508,5,62
+
+Capito...,Ben Zobrist 2B | CHC ,301,49,9,32,0.41,0.8697,2,65
+
+Capito...,Evan Longoria 3B | TB,313,41,18,39,0.326,0.8504,-1,67
+
+Whitey...,Rajai Davis LF | CLE ,252,36,7,25,0.333,0.75,19.5,68
+
+The Po...,Kyle Seager 3B | SEA,324,44,15,40,0.343,0.8321,0.5,70
+
+Whitey...,Mike Napoli 1B | CLE,295,43,16,43,0.308,0.7744,3,71
+
+Bed St...,Matt Kemp RF | SD ,320,38,16,46,0.278,0.7535,0,72
+
+Izzy A...,Jonathan Schoop 2B | BAL ,292,39,13,32,0.322,0.8237,0.5,75
+
+The Po...,DJ LeMahieu 2B | COL ,297,47,5,16,0.395,0.8932,4.5,76
+
+Whitey...,Odubel Herrera CF | PHI ,320,41,8,26,0.391,0.8161,8.5,77
+
+Whitey...,Wilson Ramos C | WAS ,239,30,12,34,0.385,0.948,0,80
+
+Capito...,Kole Calhoun RF | LAA ,323,45,10,37,0.362,0.8168,1,81
+
+Brophy...,Carlos Correa SS | HOU ,318,36,12,36,0.358,0.8186,6.5,82
+
+Honeyn...,Nick Castellanos 3B | DET ,302,37,13,38,0.331,0.8365,0.5,83
+
+Brookl...,Victor Martinez DH | DET ,282,29,14,31,0.365,0.896,0,84
+
+Capito...,Khris Davis LF | OAK ,275,32,18,41,0.284,0.7797,0.5,87
+
+Brophy...,Michael Saunders LF | TOR ,282,40,15,26,0.372,0.9443,-1,88
+
+Izzy A...,Dustin Pedroia 2B | BOS ,331,48,7,16,0.37,0.8194,3.5,89
+
+Izzy A...,Chris Carter 1B | MIL,299,36,19,37,0.308,0.8153,0,91
+
+Capito...,Stephen Piscotty LF | STL,302,43,8,36,0.374,0.8386,0.5,92
+
+Los Po...,Carlos Santana 1B | CLE ,323,42,16,32,0.331,0.7898,3.5,93
+
+The Co...,Lorenzo Cain CF | KC,299,37,8,27,0.334,0.7517,4,94
+
+The Po...,Hanley Ramirez LF | BOS ,310,40,8,37,0.339,0.7503,4,95
+
+Izzy A...,Jonathan Lucroy C | MIL,282,37,10,30,0.358,0.8542,3,96
+
+Wind o...,Brandon Belt 1B | SF ,304,38,10,35,0.408,0.9412,-2,97
+
+Honeyn...,Buster Posey C | SF ,279,43,8,29,0.348,0.8055,4,99
+
+Whitey...,J.D. Martinez RF | DET ,285,36,12,29,0.358,0.8777,0.5,100
+
+Izzy A...,Adrian Beltre 3B | TEX,289,38,10,40,0.332,0.7791,0,103
+
+Americ...,Brandon Moss RF | STL,219,37,16,32,0.347,0.9282,0,107
+
+Capito...,Christian Yelich LF | MIA ,291,35,6,28,0.399,0.8727,2.5,108
+
+Brophy...,Danny Valencia 3B | OAK,223,35,11,24,0.377,0.9181,0,109
+
+Cornba...,Freddie Freeman 1B | ATL ,321,36,13,25,0.368,0.8605,3,112
+
+Whitey...,Jason Kipnis 2B | CLE ,314,36,9,31,0.325,0.7629,3.5,113
+
+Whitey...,Dexter Fowler CF | CHC ,284,41,7,26,0.398,0.8811,4.5,114
+
+AIDS,Matt Holliday LF | STL ,276,33,14,36,0.326,0.81,0,117
+
+Cornba...,Joe Panik 2B | SF ,300,45,7,29,0.322,0.7333,5,118
+
+The Po...,Eugenio Suarez SS | CIN ,291,37,14,37,0.295,0.716,3.5,119
+
+Wind o...,Joey Votto 1B | CIN ,309,40,11,28,0.372,0.7934,4.5,120
+
+Izzy A...,Justin Bour 1B | MIA ,226,28,14,39,0.345,0.8751,0,122
+
+Americ...,Albert Pujols 1B | LAA ,317,30,14,35,0.312,0.7243,2,125
+
+The Po...,Marcus Semien SS | OAK ,280,32,14,33,0.311,0.7595,4.5,126
+
+AIDS,Josh Harrison 3B | PIT ,279,31,3,26,0.313,0.7023,11.5,127
+
+Izzy A...,Melky Cabrera LF | CHW ,305,35,8,33,0.348,0.8151,0,128
+
+The Co...,Zack Cozart SS | CIN ,275,41,11,26,0.316,0.8025,0.5,129
+
+AIDS,Salvador Perez C | KC ,257,29,12,30,0.327,0.8475,0,131
+
+The Co...,Brian Dozier 2B | MIN ,302,37,10,27,0.336,0.7716,6,135
+
+Brookl...,Jose Bautista RF | TOR ,286,41,12,29,0.36,0.8155,0.5,136
+
+Honeyn...,Elvis Andrus SS | TEX,277,33,3,22,0.341,0.7437,7.5,137
+
+Americ...,Jose Abreu 1B | CHW ,328,29,11,38,0.32,0.7555,-1,140
+
+The Co...,Leonys Martin CF | SEA,231,27,11,25,0.332,0.7855,7,141
+
+Brookl...,Travis Shaw 1B | BOS ,299,38,7,32,0.334,0.7715,2.5,142
+
+Bed St...,Anthony Rendon 2B | WAS,314,45,7,24,0.334,0.7315,4.5,143
+
+Izzy A...,Jose Ramirez SS | CLE ,252,37,4,24,0.351,0.776,6.5,144
+
+The Co...,Nomar Mazara RF | TEX,287,32,11,25,0.338,0.7721,-0.5,151
+
+Cornba...,Joc Pederson CF | LAD ,256,33,13,30,0.324,0.8042,3,152
+
+Americ...,Neil Walker 2B | NYM ,270,30,14,23,0.33,0.7909,0.5,153
+
+Los Po...,Andrew McCutchen CF | PIT ,320,41,12,29,0.316,0.7323,0,154
+
+Cornba...,Mark Reynolds 1B | COL ,261,38,8,28,0.356,0.8179,-0.5,155
+
+Los Po...,Yasmany Tomas RF | ARI ,260,35,12,22,0.308,0.7766,1,156
+
+Bed St...,Jayson Werth RF | WAS ,278,36,10,30,0.327,0.7605,1,158
+
+Brookl...,Adam Eaton CF | CHW ,345,39,4,19,0.366,0.7746,5.5,161
+
+Americ...,Brett Gardner CF | NYY ,282,43,5,14,0.368,0.7265,10,166
+
+The Po...,Colby Rasmus CF | HOU,284,28,10,34,0.329,0.7359,3.5,168
+
+AIDS,Jacoby Ellsbury CF | NYY ,272,31,3,20,0.336,0.7342,9,169
+
+Wind o...,Brandon Crawford SS | SF ,295,29,6,37,0.336,0.7356,3,170
+
+Brookl...,Justin Turner 3B | LAD ,289,31,11,28,0.332,0.7687,0.5,171
+
+Whitey...,Kevin Pillar LF | TOR,309,32,7,25,0.286,0.6871,4.5,177
+
+FA,Danny Espinosa 2B | WAS ,277,32,13,31,0.321,0.7339,3,178
+
+The Co...,Hunter Pence RF | SF ,208,27,7,31,0.375,0.8612,0,179
+
+Americ...,Giancarlo Stanton RF | MIA ,268,31,14,34,0.318,0.7623,0,181
+
+Whitey...,Ryan Zimmerman 1B | WAS ,271,38,10,25,0.288,0.6977,0.5,184
+
+FA,Didi Gregorius SS | NYY ,260,27,6,27,0.314,0.7221,2.5,186
+
+FA,David Freese 3B | PIT,236,33,6,24,0.369,0.8163,0,187
+
+Los Po...,Justin Upton LF | DET ,302,35,8,25,0.291,0.6705,5,188
+
+Honeyn...,Matt Wieters C | BAL ,205,20,9,31,0.332,0.8023,1,189
+
+Wind o...,Steve Pearce LF | TB ,196,23,9,24,0.393,0.9331,-1,190
+
+Honeyn...,Brett Lawrie 3B | CHW ,312,30,10,27,0.314,0.729,2.5,191
+
+Brophy...,Gerardo Parra RF | COL ,249,32,5,17,0.274,0.6981,4,192
+
+Cornba...,Trayce Thompson CF | LAD ,206,27,11,25,0.316,0.7804,3.5,194
+
+Brophy...,Matt Adams 1B | STL ,175,21,9,31,0.349,0.8765,-0.5,195
+
+Honeyn...,Brandon Phillips 2B | CIN,291,35,6,19,0.289,0.6696,1,196
+
+Whitey...,Angel Pagan CF | SF ,180,28,3,21,0.341,0.765,6.5,198
+
+Wind o...,Billy Hamilton CF | CIN ,209,30,2,8,0.291,0.6656,15,199
+
+FA,Coco Crisp CF | OAK ,252,33,7,27,0.295,0.7097,3,200
+
+Los Po...,Aaron Hill 2B | MIL ,257,28,7,21,0.353,0.7681,3,201
+
+FA,Johnny Giavotella 2B | LAA ,255,30,6,19,0.298,0.7126,1.5,202
+
+Brookl...,Addison Russell 2B | CHC ,276,29,7,35,0.333,0.7192,2,203
+
+FA,Martin Prado 3B | MIA ,306,33,2,16,0.359,0.7637,-0.5,204
+
+Americ...,Maikel Franco 3B | PHI ,291,24,12,29,0.302,0.7299,-0.5,205
+
+Los Po...,Steven Souza RF | TB ,232,26,10,23,0.315,0.7581,2,207
+
+FA,Ryan Rua LF | TEX ,159,28,6,12,0.371,0.8531,6,208
+
+AIDS,Joe Mauer 1B | MIN,315,32,7,23,0.368,0.7571,1,209
+
+AIDS,Denard Span CF | SF,329,33,3,22,0.33,0.6671,5.5,211
+
+FA,Jon Jay CF | SD ,291,35,2,20,0.345,0.7522,2,213
+
+FA,Mallex Smith LF | ATL ,192,25,3,18,0.312,0.6909,10.5,214
+
+Whitey...,Starlin Castro SS | NYY ,291,26,10,21,0.283,0.6886,2,215
+
+The Po...,J.T. Realmuto C | MIA ,255,24,4,16,0.329,0.7468,3,216
+
+Capito...,Brad Miller SS | TB ,257,27,9,21,0.3,0.745,2.5,217
+
+Brophy...,Adam Lind 1B | SEA ,203,24,11,28,0.276,0.7157,-0.5,219
+
+Los Po...,Mitch Moreland 1B | TEX ,254,28,11,29,0.299,0.7235,0,220
+
+Los Po...,Yunel Escobar 3B | LAA ,301,33,3,8,0.359,0.7678,-1,221
+
+Izzy A...,Curtis Granderson RF | NYM ,314,36,13,15,0.315,0.7496,1,224
+
+Capito...,Marwin Gonzalez 1B | HOU ,230,27,6,15,0.306,0.7094,6,225
+
+Cornba...,Matt Duffy 3B | SF ,286,32,4,12,0.313,0.6714,6,227
+
+Bed St...,Jung Ho Kang 3B | PIT ,154,17,11,22,0.325,0.8826,2,229
+
+Bed St...,Dae-Ho Lee 1B | SEA ,151,18,10,27,0.325,0.8315,0,230
+
+Honeyn...,Chase Utley 2B | LAD ,279,38,5,25,0.344,0.7262,0,231
+
+AIDS,Michael Conforto LF | NYM ,243,29,10,26,0.296,0.7269,1.5,232
+
+Brophy...,Scooter Gennett 2B | MIL ,227,29,7,18,0.332,0.766,2.5,233
+
+Whitey...,Kendrys Morales DH | KC ,274,27,10,26,0.299,0.692,0,238
+
+Bed St...,Jason Heyward RF | CHC ,293,35,4,17,0.325,0.6522,5.5,239
+
+FA,Matt Joyce LF | PIT ,133,21,8,23,0.429,1.0304,0.5,241
+
+Brookl...,Miguel Sano DH | MIN ,211,25,11,23,0.341,0.7993,1,242
+
+Brookl...,Evan Gattis DH | HOU ,214,25,12,24,0.29,0.7324,0,245
+
+Brookl...,Chris Herrmann C | ARI,136,20,6,24,0.363,0.8919,3,246
+
+Americ...,Ketel Marte SS | SEA ,247,33,1,13,0.305,0.6681,6,247
+
+FA,Asdrubal Cabrera SS | NYM ,294,30,8,15,0.323,0.7305,-0.5,248
+
+FA,Jordy Mercer SS | PIT ,288,31,4,20,0.359,0.7286,1,249
+
+The Po...,Derek Norris C | SD ,245,32,10,20,0.265,0.6537,3,250
+
+The Po...,Josh Reddick RF | OAK ,165,21,5,14,0.394,0.8597,4,251
+
+Honeyn...,C.J. Cron 1B | LAA ,241,25,6,28,0.318,0.7354,0,252
+
+FA,Logan Morrison 1B | TB,255,28,8,20,0.322,0.7048,3,253
+
+The Po...,Cameron Maybin CF | DET ,147,21,1,13,0.404,0.8101,6.5,257
+
+Wind o...,Welington Castillo C | ARI ,227,21,8,20,0.317,0.7553,2,262
+
+The Co...,Brian McCann C | NYY ,227,29,10,21,0.322,0.7307,0,263
+
+The Po...,Seth Smith LF | SEA ,225,31,6,22,0.36,0.7495,0,265
+
+Honeyn...,Adrian Gonzalez 1B | LAD ,301,24,6,24,0.336,0.7063,0,267
+
+Honeyn...,Corey Dickerson LF | TB ,237,21,13,32,0.259,0.7085,0,268
+
+AIDS,Nick Markakis RF | ATL,321,29,2,32,0.34,0.6931,0,269
+
+FA,Joey Rickard CF | BAL ,242,31,5,12,0.32,0.7041,3.5,270
+
+Cornba...,Troy Tulowitzki SS | TOR ,217,22,11,25,0.299,0.7318,1,273
+
+Americ...,Randal Grichuk LF | STL ,225,31,8,22,0.276,0.6677,2.5,275
+
+FA,Franklin Gutierrez LF | SEA,143,20,9,22,0.336,0.8513,0,276
+
+Capito...,Luis Valbuena 3B | HOU ,244,26,8,22,0.353,0.7881,-0.5,277
+
+FA,Chris Owings 2B | ARI ,196,21,2,14,0.34,0.7592,8,279
+
+Capito...,Logan Forsythe 2B | TB,197,24,5,14,0.36,0.8293,3,281
+
+Brookl...,Michael Taylor CF | WAS ,193,24,6,10,0.269,0.6574,8.5,282
+
+FA,Paulo Orlando CF | KC,180,15,1,13,0.386,0.8502,4.5,286
+
+FA,Freddy Galvis SS | PHI ,299,27,7,23,0.253,0.6123,3,287
+
+Los Po...,Alcides Escobar SS | KC,338,26,1,11,0.278,0.5893,8,289
+
+FA,Ichiro Suzuki RF | MIA ,166,25,0,8,0.412,0.7888,6,290
+
+Capito...,Derek Dietrich LF | MIA ,232,22,3,22,0.388,0.8352,0,291
+
+Los Po...,Brandon Drury 3B | ARI ,227,24,8,13,0.317,0.7653,-0.5,292
+
+Brookl...,Yasiel Puig RF | LAD ,217,24,6,14,0.29,0.6659,3.5,294
+
+Honeyn...,Tyler Naquin CF | CLE ,127,20,6,12,0.376,0.9673,1.5,296
+
+Capito...,Alexei Ramirez SS | SD,288,24,3,20,0.278,0.6001,2.5,299
+
+The Po...,Byung Ho Park 1B | MIN ,240,28,12,21,0.279,0.6962,1,300
+
+FA,Sean Rodriguez 1B | PIT ,154,25,6,18,0.333,0.8039,2,301
+
+Bed St...,Jose Iglesias SS | DET ,259,33,2,11,0.314,0.6456,4.5,302
+
+Brophy...,Javier Baez 2B | CHC ,175,21,6,16,0.303,0.7236,3.5,303
+
+FA,Jeremy Hazelbaker CF | STL,135,19,7,19,0.286,0.7696,3,304
+
+Brookl...,John Jaso DH | PIT ,258,27,4,16,0.354,0.7576,-1,305
+
+The Po...,Pedro Alvarez 1B | BAL ,178,17,9,24,0.315,0.7732,1,306
+
+Honeyn...,Lonnie Chisenhall RF | CLE ,180,22,3,17,0.352,0.8026,3,310
+
+FA,Avisail Garcia RF | CHW ,236,26,5,20,0.309,0.6675,0,312
+
+Whitey...,Whit Merrifield CF | KC,145,21,2,12,0.345,0.7948,3.5,313
+
+Brookl...,Billy Burns CF | OAK ,267,29,0,7,0.272,0.5773,11.5,315
+
+Capito...,Cheslor Cuthbert 3B | KC ,166,18,7,13,0.315,0.761,1,316
+
+Americ...,Trevor Plouffe 3B | MIN ,214,22,6,17,0.272,0.6645,1,320
+
+Los Po...,Alex Rodriguez DH | NYY ,178,17,8,23,0.264,0.6616,2,325
+
+Americ...,Prince Fielder DH | TEX ,298,22,7,29,0.282,0.6215,0,326
+
+Brophy...,Stephen Vogt C | OAK ,241,22,6,16,0.307,0.7312,0,329
+
+AIDS,Jason Castro C | HOU ,199,27,6,15,0.347,0.7443,2,330
+
+FA,Howie Kendrick 2B | LAD,221,28,3,4,0.299,0.6254,6,331
+
+Los Po...,Kevin Kiermaier CF | TB ,137,18,5,13,0.307,0.7537,5,333
+
+FA,Cameron Rupp C | PHI ,183,16,7,13,0.306,0.7888,1,337
+
+FA,Brandon Guyer RF | TB ,168,22,6,13,0.365,0.8375,0.5,338
+
+Americ...,Yadier Molina C | STL ,277,25,1,13,0.332,0.6735,1.5,340
+
+FA,Hernan Perez 3B | MIL ,116,10,3,14,0.304,0.7225,6.5,342
+
+FA,Danny Santana SS | MIN,144,17,2,12,0.28,0.6327,6.5,344
+
+Brophy...,Justin Smoak 1B | TOR ,209,20,7,15,0.344,0.7478,1,345
+
+FA,Chase Headley 3B | NYY ,249,23,4,15,0.321,0.6652,3.5,349
+
+FA,Adonis Garcia 3B | ATL ,206,19,5,16,0.296,0.6518,2,351
+
+Wind o...,Chris Young CF | BOS ,142,16,6,12,0.338,0.8457,2,353
+
+FA,Ezequiel Carrera LF | TOR ,126,24,3,5,0.379,0.8165,2,355
+
+Capito...,Ryan Raburn LF | COL,147,17,7,17,0.327,0.8072,0,358
+
+FA,Norichika Aoki RF | SEA ,284,36,1,3,0.323,0.6358,0.5,359
+
+FA,David Ross C | CHC ,124,16,6,22,0.358,0.8277,-0.5,362
+
+FA,Kirk Nieuwenhuis CF | MIL ,193,19,4,15,0.332,0.7074,5,365
+
+Bed St...,Russell Martin C | TOR ,235,21,6,22,0.299,0.6243,0.5,367
+
+Brophy...,Robbie Grossman CF | MIN,146,21,5,13,0.404,0.8831,-1,369
+
+Izzy A...,Jarrod Dyson CF | KC,142,16,0,4,0.326,0.635,10.5,370
+
+Brookl...,David Peralta LF | ARI ,159,21,4,12,0.308,0.7504,2,371
+
+Brookl...,David Wright 3B | NYM ,164,18,7,14,0.35,0.7876,2,373
+
+FA,Jed Lowrie 3B | OAK ,240,20,1,14,0.346,0.6929,0,374
+
+FA,Tommy Joseph C | PHI ,125,15,8,9,0.256,0.7434,0.5,376
+
+Brookl...,Yangervis Solarte 3B | SD ,142,16,4,21,0.359,0.7912,0,378
+
+FA,Michael Bourn CF | ARI ,129,16,2,12,0.312,0.68,5,382
+
+FA,Kurt Suzuki C | MIN ,174,12,4,21,0.312,0.7283,0,384
+
+Los Po...,Yan Gomes C | CLE ,216,21,8,25,0.222,0.585,0,385
+
+Wind o...,Jedd Gyorko 2B | STL,143,18,7,16,0.294,0.7136,0,390
+
+Cornba...,Carlos Gomez CF | HOU,216,18,3,9,0.285,0.6116,7,391
+
+Brophy...,Lucas Duda 1B | NYM ,145,16,7,18,0.297,0.7273,0,394
+
+FA,Cesar Hernandez 2B | PHI ,257,22,2,11,0.299,0.6452,0.5,399
+
+FA,Travis Jankowski CF | SD ,94,16,1,3,0.355,0.6798,8.5,401
+
+FA,Juan Uribe 3B | CLE ,203,17,7,16,0.281,0.6646,0,403
+
+Brookl...,Francisco Cervelli C | PIT ,201,19,0,13,0.373,0.6665,2,408
+
+FA,Darwin Barney 2B | TOR,161,18,3,3,0.342,0.7242,1.5,409
+
+FA,Adeiny Hechavarria SS | MIA,267,25,3,18,0.27,0.5964,0,410
+
+FA,Gregor Blanco LF | SF ,192,25,0,12,0.332,0.6807,2,412
+
+Capito...,Chris Iannetta C | SEA,225,17,7,16,0.326,0.7156,0,417
+
+Americ...,Brock Holt 2B | BOS ,130,17,3,18,0.31,0.6641,2,419
+
+FA,Nick Ahmed SS | ARI ,252,23,4,12,0.264,0.5816,2.5,421
+
+Honeyn...,Austin Jackson CF | CHW ,203,24,0,15,0.318,0.6609,1.5,422
+
+FA,Andres Blanco 3B | PHI ,135,18,3,11,0.319,0.7701,-0.5,427
+
+FA,Marlon Byrd RF | CLE ,129,11,5,18,0.326,0.7778,0,428
+
+Wind o...,Tyler White 3B | HOU ,189,16,7,15,0.296,0.6818,1,430
+
+Brophy...,Jurickson Profar 2B | TEX ,96,16,3,6,0.375,0.8859,-0.5,431
+
+FA,Peter Bourjos CF | PHI ,202,18,2,11,0.284,0.6513,2.5,432
+
+Izzy A...,Yonder Alonso 1B | OAK,249,23,1,11,0.305,0.621,1.5,435
+
+Bed St...,Devon Travis 2B | TOR ,108,14,4,14,0.296,0.7473,1,438
+
+Whitey...,Jorge Soler RF | CHC ,152,24,5,11,0.322,0.6993,0,439
+
+FA,Tyler Saladino 3B | CHW ,112,12,4,14,0.286,0.6799,1,440
+
+Los Po...,Jarrod Saltalamacchia C | DET,145,18,7,20,0.31,0.7168,0,441
+
+Cornba...,Alex Gordon LF | KC ,175,21,5,6,0.32,0.6776,3,442
+
+FA,Jeff Francoeur RF | ATL,172,16,3,15,0.296,0.6792,0,448
+
+FA,Matt Szczur CF | CHC,73,13,3,14,0.333,0.8039,0.5,453
+
+FA,Jimmy Rollins SS | CHW,166,25,2,6,0.295,0.624,4,454
+
+Whitey...,Ender Inciarte LF | ATL,211,22,0,7,0.311,0.6285,5.5,457
+
+FA,Nolan Reimold RF | BAL,128,17,4,4,0.328,0.7764,0,460
+
+FA,Desmond Jennings CF | TB,204,20,6,13,0.281,0.6178,2,462
+
+Honeyn...,Eduardo Escobar SS | MIN,180,15,2,17,0.296,0.6645,-1,463
+
+The Co...,Mike Moustakas 3B | KC ,113,12,7,8,0.301,0.8009,-0.5,464
+
+FA,Ryan Howard 1B | PHI ,199,16,11,20,0.206,0.5612,0,473
+
+FA,Gordon Beckham 3B | ATL ,110,12,2,11,0.382,0.8239,1,476
+
+Bed St...,Hyun Soo Kim LF | BAL ,132,14,1,5,0.424,0.8503,0.5,480
+
+Brophy...,Nick Hundley C | COL ,115,11,4,13,0.368,0.8426,0,484
+
+Honeyn...,Domingo Santana RF | MIL ,150,19,4,12,0.347,0.7373,-1,486
+
+FA,Adam Rosales 1B | SD ,136,20,5,13,0.287,0.6784,1,487
+
+Capito...,Shin-Soo Choo RF | TEX ,79,13,3,7,0.418,0.8622,2,491
+
+FA,Gregorio Petit 2B | LAA,115,14,2,9,0.333,0.7714,0,497
+
+FA,Greg Garcia SS | STL,52,14,2,7,0.558,1.1827,-0.5,498
+
+FA,Rickie Weeks LF | ARI,103,14,4,6,0.32,0.7828,1,502
+
+FA,Christian Bethancourt C | SD,93,10,4,12,0.312,0.7537,0,503
+
+FA,Stephen Drew 2B | WAS,85,9,6,14,0.294,0.8141,0,504
+
+Capito...,Max Kepler CF | MIN ,106,13,3,13,0.321,0.7569,2,505
+
+FA,Drew Stubbs CF | TEX ,61,10,2,4,0.328,0.6864,7,507
+
+Americ...,Ben Revere CF | WAS ,183,19,1,7,0.257,0.5187,5.5,512
+
+FA,Bobby Wilson C | TEX,119,10,3,17,0.287,0.6454,0,513
+
+Americ...,Yasmani Grandal C | LAD ,192,13,6,21,0.297,0.6383,-1,515
+
+Cornba...,Miguel Montero C | CHC ,147,17,4,12,0.313,0.6489,1,517
+
+FA,Dioner Navarro C | CHW,159,16,4,14,0.27,0.636,0.5,518
+
+FA,James McCann C | DET ,153,12,5,17,0.25,0.5929,0,519
+
+FA,Rafael Ortega CF | LAA,130,17,1,8,0.273,0.5767,2.5,523
+
+FA,Daniel Descalso SS | COL,52,12,1,12,0.462,0.9615,0,524
+
+Americ...,Delino DeShields CF | TEX,121,17,2,7,0.294,0.596,2.5,528
+
+The Po...,Dee Gordon 2B | MIA ,97,13,0,4,0.289,0.6291,5,529
+
+FA,Jace Peterson 2B | ATL ,114,17,1,9,0.336,0.6595,0,531
+
+FA,Tony Wolters C | COL ,122,15,1,14,0.3,0.6178,3,532
+
+FA,Ryan Flaherty 2B | BAL ,131,15,3,11,0.313,0.6664,1,533
+
+Honeyn...,Oswaldo Arcia RF | TB ,123,9,5,15,0.301,0.7099,0,534
+
+FA,Ramon Flores LF | MIL,187,14,1,8,0.31,0.5955,3,535
+
+FA,Kelly Johnson LF | NYM ,169,13,3,9,0.296,0.64,2,537
+
+FA,Jefry Marte 1B | LAA ,76,8,4,11,0.289,0.7756,0,542
+
+FA,Jake Smolinski LF | OAK,63,8,3,12,0.318,0.8175,0,543
+
+Cornba...,Aaron Hicks CF | NYY ,162,18,3,9,0.273,0.6089,-0.5,544
+
+FA,Billy Butler DH | OAK ,128,10,2,13,0.289,0.6641,0,545
+
+FA,Cody Asche LF | PHI ,77,10,2,6,0.325,0.7969,2.5,548
+
+Brookl...,Wilmer Flores SS | NYM ,139,12,3,9,0.309,0.6774,1,549
+
+FA,Chase d'Arnaud SS | ATL ,143,11,0,2,0.35,0.709,4,553
+
+FA,Bryan Holaday C | TEX,94,14,2,13,0.29,0.6951,-0.5,555
+
+FA,Trevor Brown C | SF,97,12,4,10,0.278,0.674,0,556
+
+FA,Jarrett Parker RF | SF,84,12,3,6,0.369,0.7996,-0.5,557
+
+Capito...,Tyler Flowers C | ATL ,163,9,4,12,0.337,0.7011,0,558
+
+Honeyn...,Curt Casali C | TB,162,16,6,15,0.256,0.5849,0,560
+
+FA,Enrique Hernandez CF | LAD ,140,15,5,11,0.264,0.6107,1,561
+
+FA,Tyler Goeddel LF | PHI,148,13,3,9,0.279,0.6412,1,562
+
+Capito...,Eddie Rosario LF | MIN,121,15,3,6,0.218,0.5315,3,564
+
+FA,Alexi Amarista SS | SD,90,8,0,3,0.326,0.6133,5.5,565
+
+Bed St...,Tim Anderson SS | CHW ,74,13,3,1,0.274,0.7671,1,567
+
+FA,James Loney 1B | NYM ,99,9,2,4,0.357,0.8016,0,576
+
+FA,Kelby Tomlinson 2B | SF ,88,9,0,2,0.379,0.7083,4.5,578
+
+FA,Tommy La Stella 2B | CHC ,90,11,2,6,0.378,0.8714,0,579
+
+FA,Carlos Ruiz C | PHI ,120,13,3,8,0.317,0.6563,0.5,580
+
+AIDS,Kolten Wong 2B | STL ,171,18,1,3,0.304,0.587,3,583
+
+FA,Steven Moya LF | DET ,63,7,3,6,0.365,0.9752,-0.5,588
+
+Brophy...,Byron Buxton CF | MIN ,135,13,1,9,0.233,0.5637,6,590
+
+FA,Geovany Soto C | LAA ,67,9,3,6,0.339,0.8218,0,592
+
+FA,Tucker Barnhart C | CIN ,192,14,2,7,0.314,0.6647,0,593
+
+FA,Drew Butera C | KC,54,9,2,7,0.358,0.9299,0,594
+
+FA,J.J. Hardy SS | BAL,121,12,2,7,0.281,0.6615,0,595
+
+FA,Tyler Holt CF | CIN,112,13,0,3,0.309,0.5846,2.5,597
+
+FA,Willson Contreras C | CHC ,28,5,3,7,0.464,1.2469,-0.5,600
+
+FA,Juan Lagares CF | NYM ,96,8,2,5,0.326,0.7596,1,602
+
+FA,Shane Robinson CF | LAA,62,13,1,4,0.361,0.6683,1.5,603
+
+Whitey...,Brett Wallace 1B | SD ,173,14,4,10,0.353,0.7118,0,608
+
+FA,Christian Vazquez C | BOS ,161,21,1,8,0.261,0.5589,0,614
+
+FA,Clint Robinson 1B | WAS ,85,5,3,12,0.294,0.6914,0,615
+
+FA,Ivan De Jesus 2B | CIN ,100,9,1,11,0.273,0.5584,2.5,617
+
+FA,Alex Avila C | CHW ,130,12,3,3,0.354,0.7266,0,619
+
+AIDS,Austin Romine 1B | NYY,89,4,2,9,0.273,0.6894,0,623
+
+Wind o...,Chris Coghlan LF | CHC ,209,22,5,10,0.249,0.5338,0.5,624
+
+FA,Josh Phegley C | OAK ,76,10,1,5,0.342,0.7392,0,626
+
+FA,Omar Infante 2B | KC ,149,16,0,11,0.279,0.5998,0,628
+
+FA,Miguel Rojas SS | MIA ,104,13,0,3,0.284,0.5715,1,630
+
+Cornba...,Mark Teixeira 1B | NYY ,195,17,4,11,0.272,0.5493,1,631
+
+FA,Chris Johnson 1B | MIA ,125,10,3,6,0.274,0.6104,0,637
+
+FA,Alex Presley CF | MIL,129,12,3,9,0.271,0.5644,-1,642
+
+FA,Carlos Perez C | LAA ,179,13,3,12,0.218,0.5111,1,645
+
+FA,Michael Martinez SS | CLE,59,10,1,2,0.328,0.7383,-1,648
+
+FA,Rob Refsnyder 2B | NYY ,63,9,0,4,0.339,0.7316,0,651
+
+FA,Andrelton Simmons SS | LAA,159,10,1,3,0.264,0.5555,0.5,657
+
+FA,Jett Bandy C | LAA ,46,5,1,8,0.295,0.7101,0,662
+
+FA,Conor Gillaspie 3B | SF ,70,6,2,6,0.286,0.6451,1,663
+
+Brookl...,Tim Beckham 2B | TB,97,10,3,6,0.26,0.6581,1,664
+
+FA,Eric Fryer C | STL,41,7,0,5,0.415,0.8357,-0.5,666
+
+FA,Ben Paulsen 1B | COL,70,6,1,8,0.3,0.6788,0,667
+
+FA,Cliff Pennington 2B | LAA ,66,8,1,5,0.344,0.7403,0,669
+
+FA,Brett Eibner RF | KC ,41,6,1,7,0.35,0.8635,0,673
+
+Los Po...,Jake Marisnick CF | HOU,111,14,1,3,0.236,0.5037,2,681
+
+FA,Josh Rutledge 2B | BOS ,56,9,0,0,0.345,0.7332,2,683
+
+The Co...,Robinson Chirinos C | TEX,49,4,4,5,0.286,0.7973,0,691
+
+FA,Phil Gosselin 2B | ARI ,111,10,1,6,0.3,0.63,0,693
+
+Los Po...,Cory Spangenberg 2B | SD ,53,6,1,8,0.302,0.6561,1,694
+
+FA,Chris Parmelee 1B | NYY ,8,4,2,4,0.5,1.875,0,697
+
+Honeyn...,Jose Peraza 2B | CIN ,44,3,0,1,0.273,0.5285,5,698
+
+FA,Sandy Leon C | BOS ,30,4,0,4,0.567,1.2067,0,699
+
+FA,Chris Heisey LF | WAS,74,7,4,5,0.284,0.7232,-0.5,700
+
+FA,Luis Sardinas 2B | SEA,66,10,2,2,0.215,0.5011,0.5,701
+
+Los Po...,Jhonny Peralta SS | STL ,68,6,2,8,0.265,0.6801,0,702
+
+Izzy A...,Anthony Gose CF | DET,101,11,2,6,0.287,0.6278,-0.5,703
+
+FA,Marco Hernandez SS | BOS,31,7,1,4,0.323,0.693,1,715
+
+FA,Keon Broxton CF | MIL,69,7,1,0,0.246,0.4464,5.5,717
+
+FA,Peter O'Brien LF | ARI ,52,5,4,7,0.173,0.5531,0,719
+
+FA,Mike Aviles LF | DET ,96,11,1,4,0.255,0.5331,-0.5,721
+
+FA,Brett Nicholas C | TEX,39,5,2,2,0.333,0.8762,0,722
+
+Los Po...,Hank Conger C | TB,109,5,3,6,0.296,0.64,0,726
+
+Izzy A...,Blake Swihart C | BOS ,74,9,0,5,0.365,0.7197,-0.5,727
+
+FA,Jimmy Paredes DH | PHI,62,4,2,8,0.258,0.6479,0,731
+
+FA,Mac Williamson RF | SF ,41,5,2,3,0.317,0.7495,0,732
+
+FA,Ryan Goins 2B | TOR,167,11,3,6,0.217,0.527,1,738
+
+FA,Matt Reynolds SS | NYM,37,4,1,6,0.306,0.7761,0,739
+
+FA,Socrates Brito CF | ARI ,38,4,2,2,0.21,0.6316,1,740
+
+FA,Brandon Snyder 1B | ATL,15,3,2,4,0.267,1.0667,0,742
+
+Cornba...,Michael Brantley LF | CLE ,43,5,0,6,0.279,0.5611,1,743
+
+FA,Steve Clevenger DH | SEA,76,7,1,4,0.303,0.6115,0,747
+
+FA,Chris Stewart C | PIT ,98,10,1,4,0.316,0.6104,0,748
+
+FA,A.J. Ellis C | LAD ,115,8,1,6,0.304,0.5819,-0.5,749
+
+FA,Ramiro Pena 2B | SF ,26,3,0,4,0.423,0.9831,0,750
+
+FA,Juan Centeno C | MIN,69,4,2,5,0.246,0.6046,0,751
+
+FA,Jorge Polanco SS | MIN,32,4,1,3,0.344,0.8053,1,753
+
+FA,Rene Rivera C | NYM,73,4,2,9,0.264,0.5608,0,754
+
+FA,Chris Gimenez C | CLE,66,8,2,1,0.258,0.5742,0,755
+
+FA,Ramon Cabrera C | CIN,55,4,0,3,0.315,0.6413,0.5,760
+
+FA,Dustin Garneau C | COL,67,6,1,4,0.298,0.6652,0,764
+
+FA,Andrew Romine 3B | DET,62,6,0,3,0.279,0.5009,3,765
+
+FA,Taylor Motter SS | TB,81,8,2,6,0.272,0.5573,-0.5,766
+
+FA,Erick Aybar SS | ATL ,209,12,0,3,0.262,0.5175,0,768
+
+FA,Ronald Torreyes 2B | NYY,62,7,0,4,0.306,0.6398,0,769
+
+FA,Cristhian Adames SS | COL ,80,5,1,5,0.333,0.6617,-0.5,770
+
+FA,J.B. Shuck LF | CHW,82,6,2,3,0.235,0.5679,0,772
+
+FA,Reymond Fuentes CF | KC,44,2,0,5,0.364,0.7051,-1,773
+
+FA,A.J. Pierzynski C | ATL,160,9,0,6,0.225,0.4618,1,775
+
+FA,Brandon Barnes CF | COL ,58,6,0,4,0.273,0.5997,0,777
+
+FA,David Lough RF | PHI,79,6,0,4,0.342,0.6552,0,778
+
+FA,Thomas Pham CF | STL ,19,3,2,2,0.278,0.866,0,780
+
+FA,Scott Schebler LF | CIN,69,4,1,7,0.246,0.5901,0.5,782
+
+FA,Mark Canha 1B | OAK ,44,4,3,5,0.14,0.481,-0.5,787
+
+FA,Charlie Culberson 3B | LAD,28,3,0,2,0.286,0.619,1,788
+
+Los Po...,Albert Almora CF | CHC ,47,4,0,4,0.298,0.6757,0,790
+
+FA,Jerry Sands RF | CHW,58,2,1,4,0.276,0.5668,0,791
+
+FA,Daniel Nava RF | LAA,70,6,1,4,0.271,0.5371,0,796
+
+FA,Cole Gillespie LF | MIA,44,5,0,4,0.273,0.663,0,797
+
+FA,Ryan Hanigan C | BOS ,76,7,0,7,0.25,0.4786,0,798
+
+FA,Scott Van Slyke RF | LAD,40,5,1,5,0.25,0.6284,0,801
+
+FA,Hector Sanchez C | SD ,26,1,1,5,0.346,0.7809,0,807
+
+FA,Preston Tucker LF | HOU,89,6,3,5,0.213,0.5664,0,813
+
+FA,Christian Colon SS | KC,67,4,0,2,0.328,0.6348,-0.5,814
+
+FA,Tony Kemp 2B | HOU ,51,4,0,1,0.34,0.6971,0.5,815
+
+FA,Francisco Pena C | BAL,31,4,1,1,0.267,0.5881,0,816
+
+FA,Matt den Dekker CF | WAS,39,3,1,4,0.282,0.5762,1,818
+
+FA,Ehire Adrianza 2B | SF ,12,2,1,2,0.364,1.0636,0,822
+
+FA,Eric Campbell 3B | NYM,74,7,1,4,0.27,0.4925,1,823
+
+FA,Alex Dickerson RF | SD,10,1,1,4,0.2,0.7,0,829
+
+FA,Terrance Gore LF | KC,1,2,0,0,0,0,2,833
+
+FA,Martin Maldonado C | MIL,68,5,2,3,0.328,0.6247,0,834
+
+FA,Bryce Brentz LF | BOS ,11,1,1,1,0.364,1,0,835
+
+FA,Jeff Mathis C | MIA,63,6,1,6,0.206,0.4563,0,840
+
+FA,Yadiel Rivera 2B | MIL ,51,8,0,-1,0.22,0.4853,0,841
+
+FA,Kevin Plawecki C | NYM,143,6,1,9,0.301,0.5588,0,853
+
+FA,Shawn O'Malley LF | SEA,61,3,0,5,0.246,0.5562,1,855
+
+FA,Jose Lobaton C | WAS ,71,5,1,1,0.296,0.5861,0,858
+
+FA,Ruben Tejada SS | STL,40,6,0,2,0.225,0.4603,0,864
+
+FA,Max Muncy 1B | OAK ,41,3,0,2,0.366,0.6801,0,866
+
+FA,Arismendy Alcantara 2B | OAK ,8,0,0,0,0.25,0.5,1.5,867
+
+FA,Carl Crawford LF | LAD,87,8,0,3,0.23,0.4645,-0.5,869
+
+FA,Junior Lake LF | TOR ,5,1,1,1,0.2,1,0,870
+
+FA,Adam Frazier SS | PIT ,6,1,0,1,0.5,1,0,872
+
+Bed St...,Rusney Castillo RF | BOS,8,4,0,0,0.25,0.625,0,873
+
+FA,Alejandro De Aza LF | NYM,96,4,1,2,0.221,0.4682,1.5,884
+
+FA,Jared Hoying LF | TEX,25,2,0,3,0.28,0.4974,0,885
+
+Whitey...,Trea Turner 2B | WAS,4,0,0,0,1,2.3333,0,886
+
+FA,Ryan Kalish CF | CHC,10,1,0,2,0.444,0.7302,0,887
+
+FA,Kyle Waldrop RF | CIN ,17,1,0,1,0.353,0.7279,-0.5,889
+
+FA,Munenori Kawasaki 2B | CHC,2,0,0,0,0.5,1,1,891
+
+Honeyn...,Hector Olivera 3B | ATL ,21,2,0,1,0.238,0.5013,0,898
+
+FA,Tim Federowicz C | CHC,27,3,0,1,0.222,0.4915,0,904
+
+FA,Ike Davis 1B | NYY ,15,2,0,0,0.267,0.481,0,907
+
+Izzy A...,Alen Hanson 2B | PIT,2,1,0,0,0.5,1,0,990
+
+FA,Hanser Alberto 2B | TEX,39,2,0,2,0.162,0.3243,1,992
+
+FA,Steve Selsky OF | CIN,10,1,0,-1,0.3,0.7,0,993
+
+FA,Reid Brignac 3B | ATL,29,3,0,1,0.207,0.4828,0,994
+
+FA,Stefen Romero LF | SEA,16,1,0,2,0.188,0.4542,0,995
+
+Los Po...,A.J. Reed 1B | HOU ,8,2,0,1,0.25,0.25,0,1000
+
+FA,Justin Ruggiano RF | TEX,4,0,0,1,0.25,0.75,0,1006
+
+FA,Cole Figueroa 3B | PIT ,27,0,0,3,0.185,0.339,1,1007
+
+FA,Ty Kelly 3B | NYM ,29,1,1,0,0.207,0.4662,0,1008
+
+FA,Matt McBride LF | OAK,19,1,0,1,0.263,0.5409,0,1010
+
+FA,Tyler Ladendorf LF | OAK,26,4,0,-2,0.115,0.1954,1,1013
+
+Brookl...,Nick Franklin 2B | TB,7,0,0,0,0.286,0.2857,1,1016
+
+FA,Chris Taylor SS | LAD,3,0,0,0,0.333,0.6667,0,1018
+
+FA,Jemile Weeks 2B | SD ,57,5,0,1,0.204,0.4037,1,1022
+
+Brophy...,Raul Mondesi SS | KC ,0,0,0,0,0,0,0,1027
+
+Wind o...,Garin Cecchini 1B | MIL,0,0,0,0,0,0,0,1027
+
+FA,Kennys Vargas DH | MIN,0,0,0,0,0,0,0,1027
+
+Brookl...,Greg Bird 1B | NYY ,0,0,0,0,0,0,0,1027
+
+FA,Spencer Kieboom C | WAS,0,0,0,0,0,0,0,1027
+
+FA,Chris Bostick SS | WAS,0,0,0,0,0,0,0,1027
+
+FA,Elias Diaz C | PIT ,0,0,0,0,0,0,0,1027
+
+Brophy...,Yorman Rodriguez CF | CIN ,0,0,0,0,0,0,0,1027
+
+FA,Tuffy Gosewisch C | ARI,0,0,0,0,0,0,0,1027
+
+FA,Ryan Brett 2B | TB ,0,0,0,0,0,0,0,1027
+
+FA,Taylor Featherston 3B | PHI,0,0,0,0,0,0,0,1027
+
+FA,Anthony Garcia C | STL,0,0,0,0,0,0,0,1027
+
+FA,Kyle Skipworth C | CIN,0,0,0,0,0,0,0,1027
+
+FA,Charlie Tilson CF | STL,0,0,0,0,0,0,0,1027
+
+FA,Dariel Alvarez RF | BAL,0,0,0,0,0,0,0,1027
+
+Izzy A...,Mike Zunino C | SEA,0,0,0,0,0,0,0,1027
+
+AIDS,Dan Vogelbach 1B | CHC,0,0,0,0,0,0,0,1027
+
+FA,Michael Reed CF | MIL,0,0,0,0,0,0,0,1027
+
+Izzy A...,Rymer Liriano RF | MIL ,0,0,0,0,0,0,0,1027
+
+Cornba...,Orlando Arcia SS | MIL,0,0,0,0,0,0,0,1027
+
+FA,Josh Hamilton RF | TEX ,0,0,0,0,0,0,0,1027
+
+Izzy A...,Mason Williams CF | NYY ,0,0,0,0,0,0,0,1027
+
+FA,Wynton Bernard RF | DET ,0,0,0,0,0,0,0,1027
+
+FA,Dixon Machado SS | DET,0,0,0,0,0,0,0,1027
+
+FA,Richie Shaffer 1B | TB ,0,0,0,0,0,0,0,1027
+
+FA,Adam Brett Walker RF | MIN,0,0,0,0,0,0,0,1027
+
+FA,Wilmer Difo 2B | WAS,0,0,0,0,0,0,0,1027
+
+FA,Zach Walters LF | LAD,0,0,0,0,0,0,0,1027
+
+FA,Guillermo Heredia CF | SEA ,0,0,0,0,0,0,0,1027
+
+FA,Willy Garcia RF | PIT,0,0,0,0,0,0,0,1027
+
+AIDS,Austin Hedges C | SD ,0,0,0,0,0,0,0,1027
+
+FA,Kyle Kubitza 3B | TEX,0,0,0,0,0,0,0,1027
+
+FA,Andrew Susac C | SF,0,0,0,0,0,0,0,1027
+
+Capito...,Andre Ethier RF | LAD ,0,0,0,0,0,0,0,1027
+
+FA,Rangel Ravelo 1B | OAK,0,0,0,0,0,0,0,1027
+
+FA,Oscar Hernandez C | ARI,0,0,0,0,0,0,0,1027
+
+Cornba...,Alex Guerrero LF | LAD,0,0,0,0,0,0,0,1027
+
+FA,Boog Powell CF | SEA ,0,0,0,0,0,0,0,1027
+
+FA,Henry Urrutia LF | BAL,0,0,0,0,0,0,0,1027
+
+Americ...,Josh Bell 1B | PIT,0,0,0,0,0,0,0,1027
+
+FA,Joey Butler LF | CLE,0,0,0,0,0,0,0,1027
+
+FA,Leury Garcia CF | CHW,0,0,0,0,0,0,0,1027
+
+FA,Max Moroff 2B | PIT,0,0,0,0,0,0,0,1027
+
+FA,Nolan Fontana SS | HOU,0,0,0,0,0,0,0,1027
+
+FA,Christian Villanueva 3B | CHC ,0,0,0,0,0,0,0,1027
+
+FA,Gift Ngoepe 2B | PIT,0,0,0,0,0,0,0,1027
+
+FA,Christian Walker 1B | BAL,0,0,0,0,0,0,0,1027
+
+FA,Tom Murphy C | COL,0,0,0,0,0,0,0,1027
+
+FA,Rafael Ynoa LF | COL,0,0,0,0,0,0,0,1027
+
+FA,Patrick Kivlehan 3B | SEA,0,0,0,0,0,0,0,1027
+
+FA,Rey Navarro 2B | LAA,0,0,0,0,0,0,0,1027
+
+FA,Alfredo Gonzalez C | HOU ,0,0,0,0,0,0,0,1027
+
+FA,Andy Wilkins 1B | MIL,0,0,0,0,0,0,0,1027
+
+FA,Eric Sogard 2B | OAK ,0,0,0,0,0,0,0,1027
+
+FA,Joey Wendle 2B | OAK,0,0,0,0,0,0,0,1027
+
+FA,Renato Nunez 3B | OAK,0,0,0,0,0,0,0,1027
+
+FA,Brayan Pena C | STL ,0,0,0,0,0,0,0,1027
+
+FA,Tomas Telis C | MIA,0,0,0,0,0,0,0,1027
+
+FA,Aaron Altherr LF | PHI ,0,0,0,0,0,0,0,1027
+
+FA,Roman Quinn CF | PHI ,0,0,0,0,0,0,0,1027
+
+FA,Justin Morneau 1B | CHW ,0,0,0,0,0,0,0,1027
+
+Los Po...,Brian Goodwin CF | WAS,0,0,0,0,0,0,0,1027
+
+FA,Sean Coyle 2B | BOS,0,0,0,0,0,0,0,1027
+
+Honeyn...,Jose Reyes SS | COL ,0,0,0,0,0,0,0,1027
+
+FA,Luke Maile C | TB,0,0,0,0,0,0,0,1027
+
+FA,Sam Fuld LF | OAK ,0,0,0,0,0,0,0,1027
+
+FA,Dean Anna SS | STL,0,0,0,0,0,0,0,1027
+
+FA,Jesus Aguilar 1B | CLE,0,0,0,0,0,0,0,1027
+
+Americ...,Jon Singleton 1B | HOU,0,0,0,0,0,0,0,1027
+
+FA,Brandon Allen 1B | CIN,0,0,0,0,0,0,0,1027
+
+FA,Harold Ramirez CF | PIT,0,0,0,0,0,0,0,1027
+
+FA,Erik Gonzalez SS | CLE,0,0,0,0,0,0,0,1027
+
+FA,Andrew Aplin CF | HOU,0,0,0,0,0,0,0,1027
+
+FA,Jose Rondon SS | SD,0,0,0,0,0,0,0,1027
+
+FA,Jorge Bonifacio RF | KC ,0,0,0,0,0,0,0,1027
+
+Whitey...,A.J. Pollock CF | ARI ,0,0,0,0,0,0,0,1027
+
+FA,Ramon Torres 2B | KC,0,0,0,0,0,0,0,1027
+
+FA,Gabby Guerrero RF | ARI,0,0,0,0,0,0,0,1027
+
+FA,Abraham Almonte CF | CLE ,0,0,0,0,0,0,0,1027
+
+FA,Justin O'Conner C | TB ,0,0,0,0,0,0,0,1027
+
+Capito...,Bubba Starling CF | KC,0,0,0,0,0,0,0,1027
+
+FA,Jesus Sucre C | SEA ,0,0,0,0,0,0,0,1027
+
+FA,Dilson Herrera 2B | NYM,0,0,0,0,0,0,0,1027
+
+FA,Giovanny Urshela 3B | CLE,0,0,0,0,0,0,0,1027
+
+FA,Daniel Fields CF | CHW,0,0,0,0,0,0,0,1027
+
+Capito...,Jorge Alfaro C | PHI,0,0,0,0,0,0,0,1027
+
+FA,Darnell Sweeney LF | PHI,0,0,0,0,0,0,0,1027
+
+Izzy A...,Dalton Pompey CF | TOR ,0,0,0,0,0,0,0,1027
+
+FA,James Ramsey CF | LAD,0,0,0,0,0,0,0,1027
+
+FA,John Hicks C | DET,0,0,0,0,0,0,0,1027
+
+FA,Mike Ohlman C | STL,0,0,0,0,0,0,0,1027
+
+FA,Slade Heathcott CF | NYY ,0,0,0,0,0,0,0,1027
+
+FA,Juan Duran LF | CIN ,0,0,0,0,0,0,0,1027
+
+FA,Adam Moore C | CLE,0,0,0,0,0,0,0,1027
+
+FA,Steven Baron C | SEA,0,0,0,0,0,0,0,1027
+
+Honeyn...,Matt Davidson 3B | CHW,0,0,0,0,0,0,0,1027
+
+FA,Jeimer Candelario 3B | CHC,0,0,0,0,0,0,0,1027
+
+Capito...,Manuel Margot CF | SD,0,0,0,0,0,0,0,1027
+
+Bed St...,Raimel Tapia CF | COL,0,0,0,0,0,0,0,1027
+
+FA,Kevan Smith C | CHW ,0,0,0,0,0,0,0,1027
+
+FA,Jose Martinez LF | STL,0,0,0,0,0,0,0,1027
+
+FA,Jason Rogers 1B | PIT,19,2,0,2,0.316,0.5301,0,1128
+
+FA,Roberto Perez C | CLE ,15,2,0,1,0.4,0.4,0,1129
+
+FA,Todd Cunningham CF | LAA,13,3,0,0,0.154,0.3205,0,1131
+
+FA,Darin Mastroianni CF | MIN ,11,1,0,0,0.182,0.1818,1,1132
+
+FA,Carlos Sanchez 2B | CHW,29,3,0,1,0.214,0.4066,0,1133
+
+FA,Paul Janish SS | BAL ,35,3,0,0,0.286,0.5115,0,1134
+
+FA,Emilio Bonifacio 2B | ATL ,14,1,0,0,0.308,0.4895,0,1137
+
+FA,Andrew Lambo RF | OAK ,1,0,0,0,0,0,0,1138
+
+FA,Casey McGehee 3B | DET,1,0,0,0,0,0,0,1138
+
+Cornba...,Joey Gallo LF | TEX,1,0,0,0,0,0,0,1138
+
+FA,Daniel Castro 2B | ATL,128,8,0,0,0.221,0.4106,0.5,1142
+
+Honeyn...,Dustin Ackley LF | NYY ,70,6,0,4,0.243,0.3904,0,1143
+
+FA,Ben Gamel DH | NYY,9,1,0,-1,0.222,0.3472,0,1144
+
+FA,Jacob Stallings C | PIT ,8,0,0,1,0.125,0.375,0,1146
+
+FA,Pedro Severino C | WAS,3,0,0,0,0.333,0.3333,0,1147
+
+Capito...,Travis d'Arnaud C | NYM ,67,3,0,3,0.254,0.4832,0,1148
+
+FA,Kaleb Cowart 3B | LAA,6,0,0,0,0.167,0.3333,0,1150
+
+FA,Ryan LaMarre CF | BOS,6,1,0,-1,0.167,0.1667,0,1151
+
+FA,Micah Johnson 2B | LAD,3,0,0,0,0,0,0,1154
+
+FA,Tony Cruz C | KC,3,0,0,0,0,0,0,1154
+
+FA,Matt Tuiasosopo LF | ATL,3,0,0,0,0,0,0,1154
+
+FA,Matt Duffy 3B | HOU,3,0,0,0,0,0,0,1154
+
+FA,Darrell Ceciliani CF | TOR ,3,0,0,0,0,0,0,1154
+
+FA,Deven Marrero 3B | BOS ,7,0,0,0,0.143,0.2857,0,1159
+
+FA,Will Venable RF | LAD ,11,1,0,0,0.182,0.3818,0,1161
+
+Capito...,Brandon Nimmo CF | NYM ,4,0,0,0,0,0,0,1164
+
+Brookl...,Gary Sanchez C | NYY,4,0,0,0,0,0,0,1164
+
+FA,Max Stassi C | HOU,4,0,0,0,0,0,0,1164
+
+Whitey...,Kyle Schwarber LF | CHC ,5,0,0,0,0.2,0.2,0,1164
+
+FA,Ryan Schimpf 2B | SD ,33,3,0,0,0.273,0.465,0,1169
+
+FA,Danny Worth SS | HOU,25,2,0,0,0.16,0.4,0,1171
+
+FA,Craig Gentry LF | LAA ,39,2,0,0,0.237,0.4133,0,1173
+
+FA,Cedric Hunter CF | PHI,36,3,1,0,0.139,0.3154,0,1175
+
+FA,Andy Burns SS | TOR,7,0,0,0,0.143,0.1429,0,1176
+
+FA,Pablo Sandoval 3B | BOS ,7,0,0,0,0.143,0.1429,0,1176
+
+FA,Austin Barnes C | LAD,22,1,0,1,0.227,0.3325,0,1181
+
+FA,Brendan Ryan 2B | LAA,14,1,0,0,0.077,0.1538,0,1182
+
+Bed St...,Colin Moran 3B | HOU,20,0,0,-1,0.15,0.2553,0,1183
+
+FA,Emmanuel Burriss 2B | PHI,36,2,0,0,0.194,0.4066,1,1186
+
+FA,Mikie Mahtook LF | TB ,70,5,0,2,0.2,0.3846,0,1187
+
+FA,Caleb Joseph C | BAL ,71,5,0,-3,0.239,0.4516,0,1190
+
+FA,Michael Morse 1B | PIT,8,0,0,0,0,0,0,1191
+
+FA,Darin Ruf 1B | PHI,63,3,0,-2,0.206,0.3993,-0.5,1192
+
+FA,Collin Cowgill RF | CLE,14,0,0,-1,0.214,0.2976,0,1194
+
+FA,Jabari Blash RF | SD,29,2,0,-1,0.241,0.4014,0,1195
+
+FA,Jason Coats LF | CHW,21,1,0,0,0.3,0.4333,0,1196
+
+FA,Tyler Collins RF | DET,20,0,0,1,0.1,0.25,0,1203
+
+FA,Matt Dominguez 3B | TOR,12,0,0,0,0.083,0.0833,0,1206
+
+FA,Jose Pirela 2B | SD,41,2,0,0,0.175,0.3801,-0.5,1207
+
+FA,Jaff Decker LF | TB ,32,0,0,-1,0.219,0.3567,0,1213
+
+FA,Ji-Man Choi 1B | LAA,24,0,0,0,0.292,0.3472,-0.5,1215
+
+Bed St...,Devin Mesoraco C | CIN ,55,2,0,-2,0.218,0.3782,-0.5,1219
+
+FA,Colin Walsh 2B | MIL,63,4,0,1,0.318,0.4238,0,1223
+
+FA,Josh Thole C | TOR,73,4,1,-1,0.211,0.37,0,1226
+
+FA,Jordan Pacheco C | CIN ,51,1,0,-1,0.157,0.3922,0,1228
+
+FA,Chris Colabello LF | TOR ,32,0,0,-1,0.156,0.2252,0,1231
+
+FA,John Ryan Murphy C | MIN,44,0,0,-1,0.119,0.219,0,1244
+
+FA,Erik Kratz C | PIT,56,1,1,-2,0.071,0.1987,0,1248
+
+FA,Vince Belnome DH | TB,0,0,0,0,0,0,0,9999
+
+FA,Ryan Lollis RF | SF,0,0,0,0,0,0,0,9999
+
+FA,Alton Pinkney LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Rowdy Tellez 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,James Rapoport RF | STL,0,0,0,0,0,0,0,9999
+
+FA,John Alonso 1B | MIL,0,0,0,0,0,0,0,9999
+
+FA,William Beckwith 1B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Jeff McNeil 3B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Ross Kivett CF | DET,0,0,0,0,0,0,0,9999
+
+FA,David DeJesus LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Greg Porter LF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Matthew Marquis OF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Scott Sizemore 3B | WAS,0,0,0,0,0,0,0,9999
+
+FA,James Robbins 1B | DET,0,0,0,0,0,0,0,9999
+
+FA,Aaron Hathaway C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Casey Benjamin SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Michael O'Neill LF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Ivan Castillo SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Ty Ross C | SF,0,0,0,0,0,0,0,9999
+
+FA,Chris Rahl LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Justin Marra C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Billy Bell CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jerry Gil SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jose Yepez C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Kellen Sweeney 3B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Mitch Nay 3B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Domingo Leyba 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Austin Krum OF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Luis Alexander Basabe CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Ben Carhart C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jimmy Swift SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Mark Zagunis RF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Cody Keefer OF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Yosmany Guerra SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Chad Wright CF | DET,0,0,0,0,0,0,0,9999
+
+FA,Juan Sanchez LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Luis Marte SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Martin Medina C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Tom King 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,Douglas Vroman LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Alex Frazier LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Daniel Palka 1B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Osvaldo Fernando SS | HOU,0,0,0,0,0,0,0,9999
+
+FA,Brett Carroll RF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ronald Guzman 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,James Cooper CF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Nelson Ward SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Bryan Byrne 1B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Tyler Rahmatulla 2B | STL,0,0,0,0,0,0,0,9999
+
+FA,Japhet Amador 1B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Rylan Sandoval 2B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Donnie Murphy 2B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Sean Godfrey CF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Tyson Auer CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Steve Moss LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Hainley Statia SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Seth Spivey 2B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Shea Vucinich 2B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Tony Sanchez C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Sean McCraw C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Skye Bolt CF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Erick San Pedro C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Melky Mesa LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Chandler Laurent RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Gabe Lopez 2B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Dennis Anderson C | CHC,0,0,0,0,0,0,0,9999
+
+FA,C.J. Henry LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Meyer 3B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Jeff Dominguez SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Joe Jackson C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Micah Schnurstein 3B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Mike Curry LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Radley Haddad C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Patrick Perry C | BOS,0,0,0,0,0,0,0,9999
+
+FA,David Fletcher SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Nick Benedetto LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Ali Solis C | BOS,0,0,0,0,0,0,0,9999
+
+FA,Matt Rogelstad 3B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Brandon Pinckney 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Michael Marseco SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jordan Ribera 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Andrew Knapp C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Casey Soltis CF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Simon Ferrer 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Henry Charles OF | SD,0,0,0,0,0,0,0,9999
+
+FA,Neftali Soto 1B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Josh Whitaker LF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Kellin Deglan C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Jason James RF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Randy R. Walter LF | SF,0,0,0,0,0,0,0,9999
+
+FA,David Chester 1B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Patrick Leyland C | DET,0,0,0,0,0,0,0,9999
+
+FA,Adam Calderone CF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Dustin Biell CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Wendell Fairley CF | SF,0,0,0,0,0,0,0,9999
+
+FA,Alejandro Segovia C | TB,0,0,0,0,0,0,0,9999
+
+FA,Alex Verdugo CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Barrett Kleinknecht 3B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Joaquin Arias 3B | ARI,0,0,0,0,0,0,0,9999
+
+FA,John Schneider C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ricardo Sosa 3B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jordan Edgerton 3B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Efren Navarro 1B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Angelo Gumbs 2B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Eloy Jimenez RF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Edgar Corcino 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Greg Sexton 3B | TB,0,0,0,0,0,0,0,9999
+
+FA,Tim Smalling SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Alex Monsalve C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Luis Soto SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Brian Anderson 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Wilfredo Tovar SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Cornelius Randolph LF | PHI ,0,0,0,0,0,0,0,9999
+
+FA,Mike Fish CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Josh Elander C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Derek Bruce SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jonel Pacheco LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Orlando Mercado C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Rainel Rosario LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Marcus Wilson CF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Austin Nola SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Adam Younger SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Joseph Becker SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Matt Long RF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Justin Bloxom 1B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Kevin Frandsen 1B | SF,0,0,0,0,0,0,0,9999
+
+FA,Kade Keowen LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Carlos Lopez RF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Demetrius Washington 2B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Orlando Guevara C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Paul Gran 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Alexi Casilla 2B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Kyle Hudson LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Michael De Leon SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,David Macias CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Aaron Luna LF | STL,0,0,0,0,0,0,0,9999
+
+FA,Edinson Rincon 3B | KC,0,0,0,0,0,0,0,9999
+
+FA,Edwin Gomez SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Evan Bigley RF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Dom Nunez C | COL,0,0,0,0,0,0,0,9999
+
+FA,Hector Guevara SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Clint Barmes SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Alfred Joseph LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Myrio Richard RF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Dawel Lugo SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Reynoso CF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Marty Gantt LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Joel Jimenez C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jose Ortiz C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Guillermo Quiroz C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Brendon Davis 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Craig Ringe SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Brian Bock C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Stephen Perez SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Lizahio Baez LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Alfredo Amezaga SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Ramoncito Santana SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Brian Ruggiano 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Kurt Fleming CF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Mark Dolenc LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Bryson Myles OF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Erick Mejia SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jason Place CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Justin Henry 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Nyjer Morgan CF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Skyler Stromsmoe 2B | SF,0,0,0,0,0,0,0,9999
+
+FA,Ryan D. Smith C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Lucas Montero LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Adam LaRoche 1B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Mike Hrynio 3B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Gustavo Pierre SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Benjamin Kline SS | TB,0,0,0,0,0,0,0,9999
+
+FA,O'Koyea Dickson 1B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Travis Adair 2B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Riley Unroe 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Francisco Mejia C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Marten Gasparini SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Robelys Reyes SS | STL,0,0,0,0,0,0,0,9999
+
+FA,Joseph Dickerson RF | KC,0,0,0,0,0,0,0,9999
+
+FA,Franklin Barreto SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Michael Snyder 1B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jason Leblebijian 2B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Jason Cooper LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Luis Urena RF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Carlos Moncrief RF | SF,0,0,0,0,0,0,0,9999
+
+FA,Brian Finegan SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Brad Davis C | DET,0,0,0,0,0,0,0,9999
+
+FA,Ydwin Villegas SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Albert Cartwright 2B | PHI,0,0,0,0,0,0,0,9999
+
+FA,William Rowell 3B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Taylor Ratliff CF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Duanel Jones 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Anthony Giansanti OF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Sam Travis 1B | BOS ,0,0,0,0,0,0,0,9999
+
+FA,A.J. Kirby-Jones 1B | SD,0,0,0,0,0,0,0,9999
+
+FA,J.D. Alfaro 3B | KC,0,0,0,0,0,0,0,9999
+
+FA,Anthony McQuade LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Franmil Reyes OF | SD,0,0,0,0,0,0,0,9999
+
+FA,Eric Jenkins CF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Eduardo Cornejo 3B | OAK,0,0,0,0,0,0,0,9999
+
+FA,J.C. Boscan C | KC,0,0,0,0,0,0,0,9999
+
+FA,Edwin Espinal 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,John Shelby CF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Nicholas Romero 2B | MIN,0,0,0,0,0,0,0,9999
+
+FA,C.J. Retherford 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Corey Hart 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Dayan Viciedo RF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Chris Nowak 3B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Ian Gac 1B | KC,0,0,0,0,0,0,0,9999
+
+FA,Justin Sherrod LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,William Cipriano 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Jim Adduci LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Marc Tugwell 3B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Raoul Torrez 2B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Xavier Fernandez C | KC,0,0,0,0,0,0,0,9999
+
+FA,Abad Septimo SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Luke Murton 1B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Chris Jacobs 1B | STL,0,0,0,0,0,0,0,9999
+
+FA,Justin Miller 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,Phillip Wunderlich 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Arturo Rodriguez C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Will Remillard C | CHC,0,0,0,0,0,0,0,9999
+
+Brophy...,Matt Olson 1B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Adrian Nieto C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Johan Mieses RF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Miguel Gonzalez C | DET,0,0,0,0,0,0,0,9999
+
+FA,Eric Avila 3B | PIT,0,0,0,0,0,0,0,9999
+
+FA,David Gonzalez 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Ian Bladergroen 1B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Timothy Battle LF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Edwin Moreno LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Chris Kroski C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Robert Andino SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jeff Bannon SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Luis Jean SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Chase Vallot C | KC,0,0,0,0,0,0,0,9999
+
+FA,Casey Rasmus C | STL,0,0,0,0,0,0,0,9999
+
+FA,Brooks Colvin SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Bobby Crocker CF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Leandro Castro CF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Kiel Thibault C | KC,0,0,0,0,0,0,0,9999
+
+FA,Gabriel Noriega SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Dallas Tarleton C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Juan Perez CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Kevin Davidson C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Avain Rachal 1B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Brant Colamarino 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Aaron Blanton SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Trayvon Robinson CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,David Murphy RF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Paul Chiaffredo C | PIT,0,0,0,0,0,0,0,9999
+
+FA,Reydel Medina RF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Blake Lalli 1B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Eric Wood 3B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Ronny Cedeno SS | PHI,0,0,0,0,0,0,0,9999
+
+FA,Lars Anderson LF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Tim Sherlock RF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Nick Shaw 2B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Bryan Pounds 3B | DET,0,0,0,0,0,0,0,9999
+
+FA,Drew M. Anderson 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Joe Benson LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Matt Curry 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Max Pentecost C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Brent Clevlen RF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Josh Hansen C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Dillon Dobson SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Jesus Brito SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Warren Schaeffer SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Griff Erickson C | SD,0,0,0,0,0,0,0,9999
+
+FA,Marquez Smith 3B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Phillip Britton C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Grant Buckner 3B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Auston Bousfield CF | SD,0,0,0,0,0,0,0,9999
+
+FA,Blake Smith RF | SD,0,0,0,0,0,0,0,9999
+
+FA,Mark Hallberg SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Brian Burgamy 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,J.R. Towles C | STL,0,0,0,0,0,0,0,9999
+
+FA,Jesus Cota 1B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Gerald Bautista 1B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Gaby Sanchez 1B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Jon Owings LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Johnson 2B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Christopher McConnell SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Chuckie Jones OF | SF,0,0,0,0,0,0,0,9999
+
+FA,Aderlin Rodriguez 3B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Juan Senreiso LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Nestor Rojas C | SF,0,0,0,0,0,0,0,9999
+
+FA,Keenan Wiley RF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Chris Dickerson LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Brian Van Kirk OF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Luis Hernandez SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Mark Minicozzi 3B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Kennard Bibbs LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Tyler Minges LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Trey Webb SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Alberto Rosario C | STL,0,0,0,0,0,0,0,9999
+
+FA,Wilkin Ramirez LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Rafael Neda C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Ruddy Giron SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Hunter Jones CF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Tony Campana CF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Luis Cruz C | STL,0,0,0,0,0,0,0,9999
+
+FA,Brian Cavazos-Galvez LF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Aaron Brown CF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Carlos Penalver 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jeff Kindel 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Jaime Trejo 3B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Chris Henderson 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jake Hager SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Andy Leer 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Jordy Lara 1B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Ke'Bryan Hayes 3B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jacob Eigsti SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Luis Jimenez 3B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Eduardo Sosa CF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Adam Abraham 1B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Daniel Pertusati 2B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Fred Ford LF | KC,0,0,0,0,0,0,0,9999
+
+FA,Mike O'Neill LF | CHC,0,0,0,0,0,0,0,9999
+
+Izzy A...,Taylor Lindsey 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,Bo Way CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Marco Scutaro 2B | SF,0,0,0,0,0,0,0,9999
+
+FA,Kerry Jenkins LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Leslie Anderson 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Austin Fisher SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Chris Swauger LF | STL,0,0,0,0,0,0,0,9999
+
+FA,Steven Sollmann 2B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Josh Rodriguez SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Tyler Nevin 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Felix Cabrera 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Jason Grove LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Sam Carter LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Bridger Hunt 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Sean Henry SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Ryan Roberts 3B | KC,0,0,0,0,0,0,0,9999
+
+FA,Hector Made SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Keith Curcio CF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Ash 2B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Aaron Westlake 1B | DET,0,0,0,0,0,0,0,9999
+
+FA,Hunter Dozier 3B | KC ,0,0,0,0,0,0,0,9999
+
+FA,Ismael Castro 2B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Micah Gibbs C | KC,0,0,0,0,0,0,0,9999
+
+FA,Josh Fuentes 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Armitage LF | SF,0,0,0,0,0,0,0,9999
+
+FA,Jared Reaves SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Will Swanner C | COL,0,0,0,0,0,0,0,9999
+
+FA,Jason Knoedler LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Walter Ibarra SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Johan Limonta 1B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Randy Reyes LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Michael Myers SS | CHW,0,0,0,0,0,0,0,9999
+
+FA,Rafael Fernandez CF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Brandon Boggs LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Travis Tartamella C | STL,0,0,0,0,0,0,0,9999
+
+Wind o...,Forrest Wall 2B | COL,0,0,0,0,0,0,0,9999
+
+FA,James Rohan SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Carlos George SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Tila Reynolds SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Billy Bereszniewicz LF | LAD,0,0,0,0,0,0,0,9999
+
+FA,David Wabick 1B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Eric Thames LF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Dominique Taylor LF | KC,0,0,0,0,0,0,0,9999
+
+FA,Steve Bean C | STL,0,0,0,0,0,0,0,9999
+
+FA,Casey Gillaspie 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Jack Lopez SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Farrell 3B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Jose Carlos Urena RF | SD,0,0,0,0,0,0,0,9999
+
+FA,Christopher Klemm LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Pedro Zapata CF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Jaime Pedroza 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Cord Phelps 2B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Ray Olmedo SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Pablo Reyes 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Carlos Quinones LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Scott Dragicevich SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Tyler Filliben SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Yonathan Daza RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Anthony Gomez 2B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Dante Bichette 3B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Davis Stoneburner SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Casey Rowlett 2B | STL,0,0,0,0,0,0,0,9999
+
+FA,Brian Hitchcox SS | PHI,0,0,0,0,0,0,0,9999
+
+FA,Magneuris Sierra CF | STL,0,0,0,0,0,0,0,9999
+
+FA,Brad Coon CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Johneshwy Fargas CF | SF,0,0,0,0,0,0,0,9999
+
+FA,Mike McCoy CF | SD,0,0,0,0,0,0,0,9999
+
+FA,L.J. Mazzilli 2B | NYM,0,0,0,0,0,0,0,9999
+
+Bed St...,Eddy Martinez LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Peter Lavin CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Michael Jones 1B | BOS,0,0,0,0,0,0,0,9999
+
+Honeyn...,Lewis Brinson CF | TEX ,0,0,0,0,0,0,0,9999
+
+FA,Kevin Ahrens SS | ATL,0,0,0,0,0,0,0,9999
+
+FA,Trey Vavra 1B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Ramon Santiago 3B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Jason Brown C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Carson Kelly C | STL ,0,0,0,0,0,0,0,9999
+
+FA,Thomas Giles RF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Daniel Suero CF | COL,0,0,0,0,0,0,0,9999
+
+FA,Luis Jimenez 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Tyler Heineman C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Hector Gomez 2B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Endy Chavez RF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Michael Almanzar 3B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Jamie Westbrook 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Taylor Dugas CF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Josh Bell 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Taylor Hawkins C | TB,0,0,0,0,0,0,0,9999
+
+FA,Carlos Garcia 2B | KC,0,0,0,0,0,0,0,9999
+
+Brophy...,Dorssys Paulino LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Kyle Garlick CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Burt Reynolds OF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Ryon Healy 3B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Gabe Gutierrez C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Christopher Kunda 2B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Francisco Leandro LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Brandon Bednar 3B | SF,0,0,0,0,0,0,0,9999
+
+FA,Collin Radack CF | STL,0,0,0,0,0,0,0,9999
+
+FA,Jiovanni Mier SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Francisco Soriano 2B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Tyler Roberts C | MIL,0,0,0,0,0,0,0,9999
+
+FA,David Nick 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Claudio Bautista SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Ikko Sumi C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Kris Negron LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Chase Lambin SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jose Jimenez C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Brent Greer SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Brian Friday SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Tyler Von Schell 1B | SF,0,0,0,0,0,0,0,9999
+
+FA,Ariel Soriano 3B | TB,0,0,0,0,0,0,0,9999
+
+FA,Jose Dore RF | SD,0,0,0,0,0,0,0,9999
+
+FA,Henry Ramos RF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Ty Wright LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Garrett Cooper 1B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Joe Sclafani 3B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Brett Hayes C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Timothy Kennelly C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Mark Fleisher 1B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Shelley Duncan 1B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Ryan Harvey LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Darryl George 3B | TB,0,0,0,0,0,0,0,9999
+
+FA,Scott Baker XX | NYY,0,0,0,0,0,0,0,9999
+
+FA,Braden Bishop CF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Cesar Nicolas 1B | DET,0,0,0,0,0,0,0,9999
+
+FA,Yonathan Mendoza 3B | CLE,0,0,0,0,0,0,0,9999
+
+FA,David Castillo C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Michael Fisher 2B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Nick Natoli SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Eric Arnold 2B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ryan Bolden CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Gary Varner 3B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Mauricio Ramos 3B | KC,0,0,0,0,0,0,0,9999
+
+FA,Alexis Pantoja SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,John Suomi C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Alex Lavisky C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Paco Figueroa 2B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Cameron Garfield C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Luis Nunez 2B | ATL,0,0,0,0,0,0,0,9999
+
+FA,David Marks RF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jim Negrych 2B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Ryan Sweeney RF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Carlos Quentin LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Aramis Ramirez 3B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Randolph Oduber RF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Matt Winn C | SF,0,0,0,0,0,0,0,9999
+
+FA,Mel Rojas CF | ATL,0,0,0,0,0,0,0,9999
+
+Brophy...,Daz Cameron CF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Ricardo Valenzuela C | SD,0,0,0,0,0,0,0,9999
+
+FA,Peter Pope 3B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Alex Swim C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Kai Gronauer C | NYM,0,0,0,0,0,0,0,9999
+
+FA,James Deschaine SS | PHI,0,0,0,0,0,0,0,9999
+
+FA,Gregory Paiml SS | CHW,0,0,0,0,0,0,0,9999
+
+FA,Jamie Hoffmann LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Matt Angle LF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Chad Spann 3B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Zach Borenstein LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Kyle Russell RF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Justin Maxwell CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jared Price C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Kyle Peter CF | DET,0,0,0,0,0,0,0,9999
+
+FA,Brent Cordell C | STL,0,0,0,0,0,0,0,9999
+
+FA,Matthew Gedman 3B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Matthew Klimas LF | SF,0,0,0,0,0,0,0,9999
+
+FA,Tony Thompson 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Dustin Majewski LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Juan Francia 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Brandon Dixon 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Jahmai Jones CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,James Skelton C | COL,0,0,0,0,0,0,0,9999
+
+FA,Grant Gerrard RF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Yordy Cabrera 3B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Narciso Crook RF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Mike Gonzales 1B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Jacob Wilson 2B | STL,0,0,0,0,0,0,0,9999
+
+FA,Selwyn Langaigne LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Tony Renda 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Robi Estrada SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Ed Easley C | PIT,0,0,0,0,0,0,0,9999
+
+FA,Nelfi Zapata 3B-C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Carlos Duran LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Josh Satin 1B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Daniel Paolini 2B | SEA,0,0,0,0,0,0,0,9999
+
+FA,John Drennen CF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jeff Arnold C | SF,0,0,0,0,0,0,0,9999
+
+FA,Tyler LaTorre C | SF,0,0,0,0,0,0,0,9999
+
+FA,Michael Affronti SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Raddy Sierra CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Terrence Buchanan SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Matt Tolbert SS | PHI,0,0,0,0,0,0,0,9999
+
+FA,Jake Cave CF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Trae Santos 1B | SD,0,0,0,0,0,0,0,9999
+
+FA,Courtney Hawkins LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Luke Guarnaccia C | SEA,0,0,0,0,0,0,0,9999
+
+FA,Brady Shoemaker LF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Angel Miguel SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Christopher De La Cruz SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Todd Hankins 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Kevin Ramos SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Luis Bryan SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Grady Sizemore CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Terrence Dayleg 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Rayner Contreras 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,Cam Gallagher C | KC,0,0,0,0,0,0,0,9999
+
+FA,Elliott Blair CF | SF,0,0,0,0,0,0,0,9999
+
+FA,Daniel Gonzalez SS | PHI,0,0,0,0,0,0,0,9999
+
+FA,Joey Wong SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Travis Ozga 1B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Jose Leger C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Drew Biery 3B | SF,0,0,0,0,0,0,0,9999
+
+FA,Kentrail Davis CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Levi Hyams 1B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Dustin Yount 1B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Garrett Stubbs C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Juan M. Gonzalez 2B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Johnathan Moore C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Pedro Ciriaco 3B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Stephen Young 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Luis Bolivar 2B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Johnny Raburn SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Russ Canzler LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Garrett Whitley OF | TB,0,0,0,0,0,0,0,9999
+
+FA,Zach Shank 3B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Brent Del Chiaro C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Casey Craig LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Dan Robertson CF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Cody Puckett 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Frank Moore LF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Nate McLouth LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Luis Domoromo CF | SD,0,0,0,0,0,0,0,9999
+
+FA,Roberto Pena C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Antonio Lamas SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Forrestt Allday RF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Rafael Alvarez LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Chad Stang CF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Justin Bass 2B | LAA,0,0,0,0,0,0,0,9999
+
+FA,D'vone McClure RF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Nick Urbanus 2B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Joshua Lansford 3B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Roman Hernandez OF | KC,0,0,0,0,0,0,0,9999
+
+FA,Adam Law LF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Kristopher Watts C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Edmundo Sosa SS | STL,0,0,0,0,0,0,0,9999
+
+FA,Eduard Pinto OF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Drew Garcia 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Jon Kemmer RF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Brett Tanos 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Andrew Robinson 2B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Eliezer Zambrano C | SF,0,0,0,0,0,0,0,9999
+
+FA,Eugenio Velez 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Chad Tracy 3B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Matthew Cerda C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Matt Spring C | BOS,0,0,0,0,0,0,0,9999
+
+FA,Angel Gonzalez 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Tyson Gillies RF | SD,0,0,0,0,0,0,0,9999
+
+FA,Ryan Bear 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Robert Widlansky 1B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Santiago Chavez C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Bradley McCann 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Josh Almonte CF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Reid Engel CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Nicholas Longmire CF | STL,0,0,0,0,0,0,0,9999
+
+FA,Nova Valdez 3B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Toby Gardenhire SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Brian Munhall C | SF,0,0,0,0,0,0,0,9999
+
+FA,Alan Moye LF | KC,0,0,0,0,0,0,0,9999
+
+FA,Austin Wates CF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Hernan Iribarren 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Hunter Morris 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Drew Weeks LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Chris Lofton OF | SF,0,0,0,0,0,0,0,9999
+
+FA,John Matulia RF | TB,0,0,0,0,0,0,0,9999
+
+FA,Brahiam Maldonado OF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Jose Castro SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Lucius Fox SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Steve Susdorf LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Alfredo Lopez SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Nicholas Crosta LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Wilin Rosario 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Wilmer Dominguez C | TB,0,0,0,0,0,0,0,9999
+
+FA,Yovan Gonzalez C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Brett Jackson CF | SF,0,0,0,0,0,0,0,9999
+
+FA,Andy Parrino SS | CHW,0,0,0,0,0,0,0,9999
+
+FA,Smaily Borgues RF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Anthony Aliotti 1B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Allan de San Miguel C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Nick Schulz LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Matt Newman OF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Brent Johnson CF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Felix Perez CF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Matt Stocco C | SD,0,0,0,0,0,0,0,9999
+
+FA,Taylor Krick DH | MIA,0,0,0,0,0,0,0,9999
+
+FA,Miles Durham 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Victor Roache OF | MIL ,0,0,0,0,0,0,0,9999
+
+FA,Bryan Pritz LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Zach Shepherd SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Eric Haase C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Garrett Boulware C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Tyler Ogle C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Nicky Delmonico 3B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Rayner R. Bautista SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Steven Murphy LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Kes Carter LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Jay Brossman 3B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Joe Gaetti LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Kevin Franklin 3B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Elian Herrera 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Monte Harrison RF | MIL ,0,0,0,0,0,0,0,9999
+
+FA,Edward Lucas SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Aldemar Burgos CF | SD,0,0,0,0,0,0,0,9999
+
+FA,Christopher Murrill CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Paul Hoenecke 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Corban Joseph 2B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Cole Sturgeon CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Michael Rozema SS | ATL,0,0,0,0,0,0,0,9999
+
+FA,Logan Taylor OF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Jaylen Ferguson OF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Mitch Canham C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Kenneth Holmberg 2B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Edgar Trejo 3B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Casey Hughston OF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Juan Silverio SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,John Shelby 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Mike Nickeas C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Neil Wilson C | COL,0,0,0,0,0,0,0,9999
+
+FA,Clint Moore SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Rich Thompson LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Charlie Mirabal SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Chevy Clarke CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Riccio Torrez SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Vince Sinisi LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Teoscar Hernandez LF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Brian Snyder 3B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Scott Whitrock LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Jake Bauers 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Erick Salcedo SS | BAL,0,0,0,0,0,0,0,9999
+
+FA,James Parque RF | STL,0,0,0,0,0,0,0,9999
+
+FA,Kevin Howard 2B | TOR,0,0,0,0,0,0,0,9999
+
+FA,John Whittleman 3B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Reynaldo Brugeura 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,Robert Kral C | SD,0,0,0,0,0,0,0,9999
+
+FA,Keoni De Renne SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Zoilo Almonte LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Michael Strentz C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Chadd Krist C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jeffrey Eure LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Matthew Sharp C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Brock Hebert 2B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Anton French LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ordomar Valdez 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Andrew Means RF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Adam Pavkovich SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Miguel Quintana LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Francis Gomez SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Schwind C | PIT,0,0,0,0,0,0,0,9999
+
+FA,Benji Gonzalez SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,Michael Spina 3B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Renny Osuna SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Michael Ambort C | SF,0,0,0,0,0,0,0,9999
+
+FA,Zach Esquerra RF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Marcos Cabral SS | HOU,0,0,0,0,0,0,0,9999
+
+FA,Ryan Nagle OF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Kevin Medrano 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jarod Rine LF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Rodri Cumberbatch LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Matty Johnson CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Lance Zawadzki SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Matt Sheely CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jairo Perez 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Dylan Cozens OF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Gerardo Alvarez SS | BAL,0,0,0,0,0,0,0,9999
+
+FA,Isaac Galloway CF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Trent Woodward C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Amalani Fukofuka RF | KC,0,0,0,0,0,0,0,9999
+
+FA,Brandon Bayardi RF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Ildemaro Vargas 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Stephen Bruno SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Matt C. Brown CF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Wyatt Mathisen C | PIT,0,0,0,0,0,0,0,9999
+
+FA,Nate Hanson 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Larry Grayson LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Brandon Burgess LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Rodrigo Vigil 2B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Beau Amaral CF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Derek Hill OF | DET,0,0,0,0,0,0,0,9999
+
+FA,Omir Santos C | PIT,0,0,0,0,0,0,0,9999
+
+FA,David Bote 3B | CHC,0,0,0,0,0,0,0,9999
+
+Los Po...,Gleyber Torres SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jose Fernandez CF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Austin Schotts CF | DET,0,0,0,0,0,0,0,9999
+
+FA,Kevin Keyes RF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Brandon Downes CF | KC,0,0,0,0,0,0,0,9999
+
+FA,Brian O'Grady CF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Erick Monzon SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,Tim Wheeler CF | COL,0,0,0,0,0,0,0,9999
+
+FA,Ronald Harris CF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Anthony Hewitt LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Jonah Heim C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Adrian Sanchez 3B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Taylor Lewis CF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Kelly Hunt 1B | DET,0,0,0,0,0,0,0,9999
+
+FA,Anthony Contreras SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Bradley Chalk RF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Ty France 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Koby Clemens C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Michael Choice CF | CLE,0,0,0,0,0,0,0,9999
+
+FA,J.P. Sportman CF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Travis Mattair 3B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Jamie Romak LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Daniel Mayora 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Quincy Latimore LF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Chris Cates SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Erik Miller CF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Mauricio Dubon SS | BOS ,0,0,0,0,0,0,0,9999
+
+FA,Jason Krizan RF | DET,0,0,0,0,0,0,0,9999
+
+FA,Ben B. Johnson C | MIL,0,0,0,0,0,0,0,9999
+
+FA,John Alexander 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Ryan Leahy SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Angel Franco 2B | KC,0,0,0,0,0,0,0,9999
+
+FA,Galvi Moscat RF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Joshua Johnson C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Christian Arroyo SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Jose Azocar CF | DET,0,0,0,0,0,0,0,9999
+
+FA,Joseph Austin CF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Corey Wimberly 2B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Zane Evans C | KC,0,0,0,0,0,0,0,9999
+
+FA,Leody Taveras CF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Matt Sweeney 3B | TB,0,0,0,0,0,0,0,9999
+
+FA,Jefry Sierra 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Bruce Caldwell DH | STL,0,0,0,0,0,0,0,9999
+
+FA,Jake Skole CF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Ernesto Manzanillo 2B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Brandon Loy SS | DET,0,0,0,0,0,0,0,9999
+
+FA,David Smith LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Danny Rams C | MIN,0,0,0,0,0,0,0,9999
+
+FA,James Darnell LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Raudy Read C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Travis Taijeron OF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Jamie Johnson CF | DET,0,0,0,0,0,0,0,9999
+
+FA,Niko Gallego 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Tim Smith LF | KC,0,0,0,0,0,0,0,9999
+
+FA,Travis Harrison LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Ryan Lipkin C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Juan Ciriaco SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Keon Barnum 1B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Alex Glenn OF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Luis Mateo 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Henry Garcia 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Willie Cabrera LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Che-Hsuan Lin RF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Juan Portes 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Gioskar Amaya SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Tommy Duenas C | KC,0,0,0,0,0,0,0,9999
+
+FA,Christopher Gutierrez SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Randy Ruiz 1B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Juan A. Rivera SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Kyle Boyer SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Milver Reyes C | PIT,0,0,0,0,0,0,0,9999
+
+FA,Mike Olt 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Zeke DeVoss 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Alex Blandino SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Justin Williams LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Michael Benjamin 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,LaMonte Wade CF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Andrew Jenkins 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Jones CF | MIA,0,0,0,0,0,0,0,9999
+
+The Po...,Javier Guerra SS | SD ,0,0,0,0,0,0,0,9999
+
+FA,Xavier Scruggs 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Michael Mooney LF | SF,0,0,0,0,0,0,0,9999
+
+FA,Aaron Cunningham LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Clifford Andersen RF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Isiah Kiner-Falefa 2B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Joe Odom C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Salomon Manriquez C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Parker Berberet C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Tyler Krieger SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Tommy Mendonca C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Juancito Martinez CF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Michael Medina RF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Will Kengor SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Carter Bell SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Donald Lutz OF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Conor Jackson 1B | BAL,0,0,0,0,0,0,0,9999
+
+FA,James Sitzman LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Tyler O'Neill LF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Jose Duarte C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Santiago Nessy C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Drew Locke LF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Yohel Pozo C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Tony Gwynn CF | WAS,0,0,0,0,0,0,0,9999
+
+The Co...,Vladimir Guerrero OF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Chih-Hsien Chiang RF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Henry Blanco C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Colt Sedbrook 2B | STL,0,0,0,0,0,0,0,9999
+
+FA,Matt Carson RF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Kyle Colligan CF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Dustin Martin LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Johnny Eierman SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Kevin Torres C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Craig Albernaz C | DET,0,0,0,0,0,0,0,9999
+
+FA,Isael Soto CF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Shane Hoelscher 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Patrick Breen LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Drew McMillan C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Jason Tweedy SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Alex Jamieson C | TB,0,0,0,0,0,0,0,9999
+
+FA,Chance Sisco C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Luigi Rodriguez 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Oscar Bernard C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Casper Wells RF | DET,0,0,0,0,0,0,0,9999
+
+FA,Anderson Franco 3B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Willie Calhoun 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,David Washington 1B | STL,0,0,0,0,0,0,0,9999
+
+FA,Anthony Jackson CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Stephen Cardullo 2B | COL,0,0,0,0,0,0,0,9999
+
+FA,Devan Ahart CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Slack LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Joe Mahoney 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Telvin Nash DH | HOU,0,0,0,0,0,0,0,9999
+
+FA,Lance Durham 1B | DET,0,0,0,0,0,0,0,9999
+
+FA,Wes Timmons SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Logan Moon RF | KC,0,0,0,0,0,0,0,9999
+
+FA,Jerad Head RF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Brenton Calfee 1B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Vicente Conde SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Brendan Duffy RF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Zach Cone OF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Jacob Schrader 1B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Ismael Salgado OF | DET,0,0,0,0,0,0,0,9999
+
+FA,Adrian Rondon SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Leury Bonilla 2B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Lorenzo Scott LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Trey Mancini 1B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Jeffrey Farnham C | NYY,0,0,0,0,0,0,0,9999
+
+FA,John Nogowski 1B | OAK,0,0,0,0,0,0,0,9999
+
+FA,David Renfroe 3B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Rudy Flores 1B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Paddy Matera 3B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Francisco Aponte 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Riley Good CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Juan Valdes LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Luis Caballero 3B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Sergio Morales LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Jorge Martinez 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Miguel Fermin C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Carlos Herrera SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Andy Wilson C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Reymond Nunez 1B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Ryan Rieger 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Moises Sierra LF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Luis Sanz 1B | DET,0,0,0,0,0,0,0,9999
+
+FA,Daniel Kaczrowski LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Anthony Recker C | ATL ,0,0,0,0,0,0,0,9999
+
+FA,Ricky Oropesa 1B | SF,0,0,0,0,0,0,0,9999
+
+FA,Jon Nelson 2B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Mike Tauchman RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Mayo Acosta C | TB,0,0,0,0,0,0,0,9999
+
+FA,Armando Camacaro C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Daron Roberts RF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Brantley Bell 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Patrick Brady 2B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Jason Hagerty C | SD,0,0,0,0,0,0,0,9999
+
+FA,Evan Van Hoosier CF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Alvaro Rondon SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Kory Wayment SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Trevor Crowe LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Anthony Scelfo CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Lee Mitchell 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Niuman Romero 2B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Ryan LaPensee RF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Alfredo Marte LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Francisco Hernandez C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Grayson Greiner C | DET,0,0,0,0,0,0,0,9999
+
+FA,Gregory Jacobs LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Donnie Dewees CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Curt Powell SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Angel Molina C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Brian Schweiger C | SEA,0,0,0,0,0,0,0,9999
+
+FA,Nick Torres RF | SD,0,0,0,0,0,0,0,9999
+
+FA,Robel Garcia 3B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Tony Granadillo 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Peter Mooney SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Larry Greene OF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Antoan Richardson CF | PIT ,0,0,0,0,0,0,0,9999
+
+FA,Anthony Manuel 2B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Rene Garcia C | MIL,0,0,0,0,0,0,0,9999
+
+Brookl...,Ozzie Albies SS | ATL,0,0,0,0,0,0,0,9999
+
+FA,Ryan Mount SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Carlos Rivero 3B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Narciso Mesa RF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Jake Gatewood SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Zachary Dillon C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Chris Maples 3B | DET,0,0,0,0,0,0,0,9999
+
+FA,Jimmy Allen 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Malcolm Holland CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Mark Threlkeld 1B | KC,0,0,0,0,0,0,0,9999
+
+FA,Bryan Petersen RF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Thomas Collaro LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Jordany Valdespin RF | DET,0,0,0,0,0,0,0,9999
+
+FA,Derrick Loveless RF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Keury De La Cruz CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Angelberth Montilla RF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Ryan Westmoreland CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,John Rye RF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Paul DeJong 3B | STL,0,0,0,0,0,0,0,9999
+
+FA,Cody Ferrell RF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Matt Hague 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Julio Perez LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Justin Fuller SS | CHW,0,0,0,0,0,0,0,9999
+
+FA,David Armendariz LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Edward Ovalle LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Josh Richmond RF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Glynn Davis SS | BAL,0,0,0,0,0,0,0,9999
+
+FA,Ryan Rogowski CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Christian Colonel 3B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Luis A. Rivera SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Rathjen OF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Pete Orr OF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Danny Hayes 1B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Dennis Raben 1B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Hector Pellot 2B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Ray Chang 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Michael Burgess RF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Michael McKenry C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Dave Freitas C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Fernando Perez 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,Victor Marte SS | CHW,0,0,0,0,0,0,0,9999
+
+FA,Franklin Guzman RF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Henry Rodriguez 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Angel Moreno CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Logan Vick LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jin-De Jhang C | PIT,0,0,0,0,0,0,0,9999
+
+FA,Anthony Bemboom C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Beau Maggi C | KC,0,0,0,0,0,0,0,9999
+
+FA,Everth Cabrera SS | SF,0,0,0,0,0,0,0,9999
+
+Izzy A...,Austin Riley 3B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Joseph Persichina LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Derrick Mitchell LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Harold Riggins 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,John Murrian C | DET,0,0,0,0,0,0,0,9999
+
+FA,Chris Hawkins 3B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Victor Mendez SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Josh Hart OF | BAL,0,0,0,0,0,0,0,9999
+
+FA,John Wooten 1B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Corey Toups SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Adam Weisenburger C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Wendell Soto SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Garrett Weber SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Charlie Cutler C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Thomas Coyle 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Ron Davenport 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Donovan Solano SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Victor Caratini C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jose Medina LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jose Martinez SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Lloyd Turner 2B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Arturo Rivas LF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Derek Nicholson LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Nebasett Brown 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Scott Beerer LF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Nick Basto 3B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Brian Peacock C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Cole Bruce 1B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Zach Vincej SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Clayton McCullough C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Domnit Bolivar 3B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jose Rivera 2B | COL,0,0,0,0,0,0,0,9999
+
+FA,Mike Eylward 1B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jabari Henry LF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Jesus Merchan SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Dustin Houle C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jason Armstrong SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ralph Henriquez C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Austin Slater 2B | SF,0,0,0,0,0,0,0,9999
+
+FA,Jake Henson C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Deivi Grullon C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Bryan Hansen 1B | PHI,0,0,0,0,0,0,0,9999
+
+FA,London Lindley OF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Victor R. Alvarez SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Deiner Lopez 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Kody Eaves 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Omar Luna SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Greg Golson RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Jimmy Van Ostrand DH | WAS,0,0,0,0,0,0,0,9999
+
+FA,Miles Head 3B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Iker Franco C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Gianfranco Wawoe SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,Tyler Pastornicky 2B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Billy McKinney OF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Brandon Trinkwon 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Billy Fleming 2B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jordan Danks CF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Brandon Chaves SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Thomas Neal LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Rodriguez 1B | STL,0,0,0,0,0,0,0,9999
+
+FA,Alex Burg C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Doug Deeds RF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Coty Blanchard 3B | TB,0,0,0,0,0,0,0,9999
+
+FA,Matt Moses 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Rand Smith CF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Radames Nazario 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Levi Michael SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Alberto Robles 2B | SF,0,0,0,0,0,0,0,9999
+
+FA,Tyler Horan RF | SF,0,0,0,0,0,0,0,9999
+
+FA,Shane Peterson LF | MIL ,0,0,0,0,0,0,0,9999
+
+FA,Keenyn Walker CF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Dan Massiatte C | TB,0,0,0,0,0,0,0,9999
+
+FA,Javier Herrera LF | SF,0,0,0,0,0,0,0,9999
+
+FA,Ashley Ponce 3B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Francisco Plasencia LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Mat Gamel 1B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Austin Cousino CF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Nick Vilter 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Bryan Brito SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,Hirotoshi Onaka OF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Jay Garthwaite LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Casey McElroy SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Michael Taylor LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Adam Milligan LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Adrian Marin SS | BAL,0,0,0,0,0,0,0,9999
+
+FA,Gabe Jacobo 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Taylor Harbin SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Joe Hudson C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Travis Brewster OF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Robinzon Diaz C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Heiker Meneses 2B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Alex Hassan RF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Sean Ochinko C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Sean Halton 1B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Sam Mende SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Steve Lombardozzi 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Cesar Puello RF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Rob Brantly C | SEA,0,0,0,0,0,0,0,9999
+
+FA,Ryan Goleski LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jose Felix C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Travis Demeritte SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Cristian Toribio SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Alex Castellanos RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Ronnie Mitchell LF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Johnny Davis CF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jud Thigpen LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Chris Shaw 1B | SF,0,0,0,0,0,0,0,9999
+
+FA,Brian Guinn SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Chris Berset C | CIN,0,0,0,0,0,0,0,9999
+
+FA,James Simmons CF | SF,0,0,0,0,0,0,0,9999
+
+FA,Pat Boran SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Christian Lara 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Rico Noel DH | LAD ,0,0,0,0,0,0,0,9999
+
+FA,Carlo Testa LF | KC,0,0,0,0,0,0,0,9999
+
+FA,Luis Segovia 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Quinonez 3B | TB,0,0,0,0,0,0,0,9999
+
+FA,Drew Turbin 2B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Peter Ciofrone SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Ryan Aper CF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Steven Bumbry CF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Christopher Malec 2B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Javon Moran LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,T.J. Rivera SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Harts LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Tim Ferguson RF | KC,0,0,0,0,0,0,0,9999
+
+FA,Melvin Mercedes SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Carl Loadenthal LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Gary Cates 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Paul Hendrix SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Evan Chambers CF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Richie Martin SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Leandro Caminero CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Joey Gomes LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Cody Stanley C | STL,0,0,0,0,0,0,0,9999
+
+FA,Gabriel Mejia CF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Cristian Gomez SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Adam Fox 3B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Tim Fedroff CF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Matt Clark 1B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Nathan Panther LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Carlos Sepulveda 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Tyler Grimes SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Edward Prasch 3B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Andrew Sohn SS | STL,0,0,0,0,0,0,0,9999
+
+FA,Geulin Beltre CF | KC,0,0,0,0,0,0,0,9999
+
+FA,Carlos Paulino C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Christopher White CF | DET,0,0,0,0,0,0,0,9999
+
+AIDS,Daniel Robertson SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Patrick Norris CF | KC,0,0,0,0,0,0,0,9999
+
+FA,Beau Taylor C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Ryan Rohlinger SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Zach Daeges RF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Cory Patton LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Johnston C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Wilkin Castillo LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Stephen Chapman LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,D.J. Hicks 1B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Jakson Reetz C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Delvi Cid CF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Nick Rickles C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Michael Rockett RF | DET,0,0,0,0,0,0,0,9999
+
+FA,Sean M. Smith LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Jeff Roy LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Archie Gilbert CF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jack Marder C | SEA,0,0,0,0,0,0,0,9999
+
+FA,Mike Costanzo 1B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Simon Klink 3B | SF,0,0,0,0,0,0,0,9999
+
+FA,Connor Harrell OF | DET,0,0,0,0,0,0,0,9999
+
+FA,Caleb Ramsey OF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Chris Denorfia CF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Blake Drake RF | STL,0,0,0,0,0,0,0,9999
+
+FA,Mycal Jones SS | ATL,0,0,0,0,0,0,0,9999
+
+FA,Issmael Salas 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Matt Skole 3B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Joseph Simokaitis SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Reid Redman 3B | TB,0,0,0,0,0,0,0,9999
+
+FA,Luis Torrens C | NYY ,0,0,0,0,0,0,0,9999
+
+FA,Hunter Brown 3B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Gabriel Lino C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Wilberto Ortiz SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Leon Landry OF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Drew Hedman 1B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Steve Rodriguez C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Wes Wilson C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Donell Linares 3B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Corey Brown RF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Nevin Ashley C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Shane Victorino RF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Granden Goetzman OF | TB,0,0,0,0,0,0,0,9999
+
+FA,Sergio Garcia 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Clayton Fuller CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Terry McClure LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Michael Miller C | SD,0,0,0,0,0,0,0,9999
+
+FA,A.J. Jimenez C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Kade Scivicque C | DET,0,0,0,0,0,0,0,9999
+
+FA,Logan Moore C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Tanner English CF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Jared King LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Marcus Davis 1B | SD,0,0,0,0,0,0,0,9999
+
+FA,Julio Borbon CF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Dalton Kelly 1B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Collin Ferguson 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Cory Harrilchak OF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Patrick Arlis C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Mike Papi OF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Josh Ockimey 1B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Cam Maron C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Logan Schafer CF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Chris Dominguez LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Dian Toscano LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Jose Marmolejos-Diaz 1B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Mike Zuanich 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Edward Salcedo RF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Ronald Prettyman 3B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Luke Wakamatsu SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jordan Brown 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Isaac Ballou LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Jared Prince RF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Lopez Jova 3B | TOR,0,0,0,0,0,0,0,9999
+
+The Co...,Alex Jackson OF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Steel Russell C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Dale Mollenhauer 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Sicnarf Loopstok C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Johan Camargo SS | ATL,0,0,0,0,0,0,0,9999
+
+FA,Anthony Norman LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Marc Maddox 2B | KC,0,0,0,0,0,0,0,9999
+
+FA,Khayyan Norfork 2B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Michael Carlin 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Alec Sole SS | TB,0,0,0,0,0,0,0,9999
+
+Izzy A...,Dominic Smith 1B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Joey DeMichele 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Taylor Murphy RF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Bobby Haney SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Zeringue LF | ARI,0,0,0,0,0,0,0,9999
+
+Honeyn...,Carlos Triunfel SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Gabriel Ortiz C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Steve McQuail RF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Trent Gilbert 2B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Jon-Mark Sprowl C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Everett Williams CF | SD,0,0,0,0,0,0,0,9999
+
+FA,Rusty Ryal 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Matt Helm 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Xavier Paul LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Nick Hamilton SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Steve Stanley LF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Tonys Gutierrez LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Matthew Oxendine SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Louis Ott SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Danny Muno 3B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Mike Miller SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Brian Barden 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Julio Rodriguez C | KC,0,0,0,0,0,0,0,9999
+
+FA,Brandon Bantz C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Victor Mercedes 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Glenn Gallagher 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Michael Dirosa C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Cody Ransom 3B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Preston Mattingly SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,John Castellano C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Jesus Valdez LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Justin Jacobs RF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Brandon Gemoll 1B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Brett Austin C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Anthony Webster LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Tyler Wade SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,James Murphy 1B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Yasser Gomez LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Kent Sakamoto 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jared Goedert 3B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Lino Garcia LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Kyle Higashioka C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Ronny Gil SS | STL,0,0,0,0,0,0,0,9999
+
+FA,Diego Cedeno RF | TEX,0,0,0,0,0,0,0,9999
+
+FA,John Raglani LF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Matthew Betsill 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Harold Baines LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Fernery Ozuna 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Dylan Johnston SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Shelby Ford 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Zach Nehrir CF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Derin McMains 2B | SF,0,0,0,0,0,0,0,9999
+
+FA,Mike Freeman SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Matt Camp 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Ryan Spilman C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Hancer Vargas SS | CHW,0,0,0,0,0,0,0,9999
+
+FA,Tommy Manzella SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,J.C. Holt 2B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Argenis Diaz SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Caleb Gindl LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Candon Myles OF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Isaias Velasquez 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Manny Mayorson SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ozzie Chavez SS | ATL,0,0,0,0,0,0,0,9999
+
+FA,Nate Gold 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Mike Reeves C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Jason Martinson SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Carlos Martinez C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Erisbel Arruebarrena SS | LAD ,0,0,0,0,0,0,0,9999
+
+FA,Raph Rhymes OF | DET,0,0,0,0,0,0,0,9999
+
+FA,Marcos Vechionacci 3B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Kenny Diekroeger 2B | KC,0,0,0,0,0,0,0,9999
+
+FA,Danny Oh LF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Ivan Contreras LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Jesse Hodges 3B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Felix Pie LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Corky Miller C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Emmanuel Garcia 2B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Adam Keim 2B | KC,0,0,0,0,0,0,0,9999
+
+FA,Scott Moore 3B | STL,0,0,0,0,0,0,0,9999
+
+FA,Ben Francisco LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Tyler Bortnick SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Champ Stuart CF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Ryan Stephens CF | COL,0,0,0,0,0,0,0,9999
+
+FA,Michel Abreu 1B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Stone Garrett CF | MIA ,0,0,0,0,0,0,0,9999
+
+FA,Danny Mars CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Andrew Ray LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Gerson Montilla 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Shane Zeile C | DET,0,0,0,0,0,0,0,9999
+
+FA,Ben Theriot C | KC,0,0,0,0,0,0,0,9999
+
+FA,Brent Brewer SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Chase Jensen 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Anel De Los Santos C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Casio Grider SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Javier Rodriguez RF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Elier Hernandez RF | KC,0,0,0,0,0,0,0,9999
+
+FA,Seth Loman 1B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Wilkerman Garcia SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Brad Nelson 1B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Kelly Shoppach C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jesus Martinez CF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Nate Schierholtz RF | DET,0,0,0,0,0,0,0,9999
+
+FA,Jesus Loya CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,John Mora CF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Wilson Soriano CF | COL,0,0,0,0,0,0,0,9999
+
+FA,Eric Rodland 2B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jereme Milons LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Raywilly Gomez C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Adam Engel CF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Elliot Soto SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Anderson Hidalgo 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Jake Gautreau 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Damon Sublett 2B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Adam Donachie C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Keith Castillo C | TB,0,0,0,0,0,0,0,9999
+
+FA,Joey Terdoslavich 1B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Trent Mummey CF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Daniel Carte LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Justin Arneson LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Josh Prince OF | DET,0,0,0,0,0,0,0,9999
+
+FA,Ryan Eigsti C | KC,0,0,0,0,0,0,0,9999
+
+FA,Reynaldo Rodriguez C | MIN ,0,0,0,0,0,0,0,9999
+
+FA,Dan Rohlfing C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jeffrey Corsaletti CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jesus Campos SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Andrew Toles OF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Luis Asuncion RF | SD,0,0,0,0,0,0,0,9999
+
+FA,Dan Butler C | BOS,0,0,0,0,0,0,0,9999
+
+FA,Rocky Gale C | SD,0,0,0,0,0,0,0,9999
+
+FA,Blake Kelso SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Luis Castillo CF | DET,0,0,0,0,0,0,0,9999
+
+FA,Andy Vasquez SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Synan LF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Timothy Pahuta 3B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Flint Wipke C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Sebastian Valle C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jhoan Urena 3B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Pin-Chieh Chen 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Trever Allen OF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Brian Humphries OF | COL,0,0,0,0,0,0,0,9999
+
+FA,Jermaine Curtis OF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Dan Moylan C | STL,0,0,0,0,0,0,0,9999
+
+FA,Ryan Klosterman SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Michael Bianucci LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Steve Tolleson 2B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Jordan Schafer CF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Jeudy Valdez 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Steve Jackson 1B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Zach Zaneski C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Jeramy Laster LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Josh Fields 3B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Felix Molina 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Desmond Lindsay CF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Aristides Aquino RF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Jordan Patterson RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Joe Bennie 2B | OAK,0,0,0,0,0,0,0,9999
+
+Honeyn...,Hunter Renfroe OF | SD ,0,0,0,0,0,0,0,9999
+
+FA,Jimmy Pickens LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Kirk Singer SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,John Baker C | SEA,0,0,0,0,0,0,0,9999
+
+FA,Aaron Senne 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Stewart Ijames RF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Trevor Heid LF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Justin Greene CF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Alex Rios RF | KC,0,0,0,0,0,0,0,9999
+
+FA,Deivy Castillo CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jerrick Suiter RF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Pete Kozma SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Nathan Lukes OF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Rebel Ridling 1B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Anderson De La Rosa C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Dillon Thomas LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Lou Santangelo C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Jomar Reyes 3B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Dan Johnson 1B | STL,0,0,0,0,0,0,0,9999
+
+FA,Brandon Roberts RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Shane Mardirosian 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Jacke Healey SS | HOU,0,0,0,0,0,0,0,9999
+
+FA,James Baldwin CF | LAD,0,0,0,0,0,0,0,9999
+
+AIDS,Aaron Judge OF | NYY ,0,0,0,0,0,0,0,9999
+
+FA,Andrew Pullin LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Casey Stevenson 2B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Patrick Cantwell C | TEX,0,0,0,0,0,0,0,9999
+
+FA,William Alvino C | DET,0,0,0,0,0,0,0,9999
+
+FA,Will Allen C | DET,0,0,0,0,0,0,0,9999
+
+FA,Mickey Wiswall 3B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Travis Whitmore 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,Matthew Van Der Bosch LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Melvin Ray CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Sergio Miranda 2B | MIL,0,0,0,0,0,0,0,9999
+
+FA,David Adams 3B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Brad Haynal C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Blake Forsythe C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Ben Orloff 2B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Koyie Hill C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Raul Fortunato LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Estarlin Martinez 2B | WAS,0,0,0,0,0,0,0,9999
+
+FA,David Vidal 3B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Robbie Shields SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Nick Punto 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Cruz 3B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jeff Malm 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Rashun Dixon LF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Reed Gragnani 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Rolando Gomez SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Reed Johnson LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Kenny Williams DH | CHW,0,0,0,0,0,0,0,9999
+
+FA,Nick Ramirez 1B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jon Gaston LF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Jhonatan Solano C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Kyle Lafrenz C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Steve Wilkerson 2B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Ricardo Marcano LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jordan Lennerton 1B | DET,0,0,0,0,0,0,0,9999
+
+FA,Matthew Bouchard SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Tyler Massey RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Zach Wright C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Sean Buckley 3B | CIN,0,0,0,0,0,0,0,9999
+
+Bed St...,Nick Williams OF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Tyler Stubblefield 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,Jeff Dragicevich SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Kevin David C | KC,0,0,0,0,0,0,0,9999
+
+FA,Robert Stevens 2B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Yohannis Perez LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Baltazar Lopez 1B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Oliver Zapata CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Logan Watkins 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Carlos Perdomo 2B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Andy LaRoche 3B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Adam Ehrlich C | STL,0,0,0,0,0,0,0,9999
+
+FA,Stefan Welch 1B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Darren Fenster 2B | KC,0,0,0,0,0,0,0,9999
+
+FA,Jharmidy De Jesus 1B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Alberti Chavez 3B | CIN,0,0,0,0,0,0,0,9999
+
+Honeyn...,Rosell Herrera SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Kevin Kaczmarski OF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Alexander Simon 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Kila Ka'aihue 1B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Julian Leon C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Mike Ahmed 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Brett Dowdy 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,Brad Zunica 1B | SD,0,0,0,0,0,0,0,9999
+
+FA,Nick McIntyre 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Bobby Felmy CF | SF,0,0,0,0,0,0,0,9999
+
+FA,Donnie Webb RF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Baltz LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Trey Michalczewski 3B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Justin Gemoll 3B | KC,0,0,0,0,0,0,0,9999
+
+FA,Brandon Tripp LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,KD Kang RF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Kyle Knudson C | MIN,0,0,0,0,0,0,0,9999
+
+FA,River Stevens 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,Ranyelmy Mendoza RF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jason Radwan C | SEA,0,0,0,0,0,0,0,9999
+
+FA,Jacob Hannemann CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Dustin Delucchi LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Logan Sorensen 1B | BOS,0,0,0,0,0,0,0,9999
+
+Capito...,Andrew Benintendi CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Erick Castillo C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Reid Fronk LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Kala Kaaihue 1B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Natanael Delgado LF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Brad Snyder 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Josh Parr SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Ryan Court 3B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Trey Amburgey CF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Kean Wong 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Charles Caufield LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Sammie Starr 2B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Jared Simon OF | COL,0,0,0,0,0,0,0,9999
+
+FA,Emerson Jimenez SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Ryan Crew SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Matt Williams SS | STL,0,0,0,0,0,0,0,9999
+
+FA,Zach Lutz 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Papo J. Bolivar LF | STL,0,0,0,0,0,0,0,9999
+
+FA,Robert Valido SS | BAL,0,0,0,0,0,0,0,9999
+
+FA,Josmil Pinto C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Erik Lis 1B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Rich Poythress 1B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Mario Martinez 3B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Kevin Moesquit SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Ofilio Castro SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Correlle Prime 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Jose Campusano SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Brandon Timm CF | DET,0,0,0,0,0,0,0,9999
+
+Americ...,Yoan Moncada 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Zachary Wilson 3B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Drew Vettleson RF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Taylor Davis C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Chris McMurray C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Andres Torres CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Nate Tenbrink 3B | SEA,0,0,0,0,0,0,0,9999
+
+FA,P.J. Pilittere C | ARI,0,0,0,0,0,0,0,9999
+
+Wind o...,Rafael Devers 3B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jason Clair 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Mark Thomas C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Wanell Macia SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Joshua Howard LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Roybell Herrera C | NYY,0,0,0,0,0,0,0,9999
+
+FA,James Wooster LF | MIA,0,0,0,0,0,0,0,9999
+
+The Co...,Jorge Mateo SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Gary Burnham 1B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Daniel Lockhart SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Lee Haydel LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Bobby Ison CF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Mark Hamilton 1B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Caleb Stewart LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Yunesky Sanchez SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Shawn Garrett LF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Brian Rike RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Tyler Colvin LF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jorge Jimenez 3B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Taber Lee 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Gregory Burns LF | MIA,0,0,0,0,0,0,0,9999
+
+FA,David Cooper 1B | CLE,0,0,0,0,0,0,0,9999
+
+Bed St...,Austin Meadows OF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Zach Granite CF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Eudy Pina CF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Alex Fuselier RF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Russell Wilson SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Pedro Florimon SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Luke Voit 1B | STL,0,0,0,0,0,0,0,9999
+
+FA,Mike Kvasnicka C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Corey Jones 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Landon Powell C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Ryan Cordell LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Alden Carrithers 2B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Jeremy West 1B | BOS,0,0,0,0,0,0,0,9999
+
+Cornba...,D.J. Peterson 1B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Agustin Murillo 3B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Matt Rizzotti 1B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Exircado Cayones OF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jonah Arenado 3B | SF,0,0,0,0,0,0,0,9999
+
+FA,Grant Richardson 1B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Luke Carlin C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Darrell Sales LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jon Weber RF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Anthony Ray LF | STL,0,0,0,0,0,0,0,9999
+
+FA,Chuck Moorman C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Sy SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Tommy Medica 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Adron Chambers CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,David Walker RF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Harold Castro 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Chad Tromp C | CIN,0,0,0,0,0,0,0,9999
+
+FA,T.J. Mittelstaedt 3B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Kevin Kouzmanoff 3B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Kyle Farmer C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jamal Austin LF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Angelo Songco LF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Drew Robinson SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Justin Jackson SS | ATL,0,0,0,0,0,0,0,9999
+
+FA,Royce Huffman 3B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Yusuf Carter LF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Tyler Booth OF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Chad Christensen 1B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Hamlet Marte C | COL,0,0,0,0,0,0,0,9999
+
+FA,Marcus Bradley OF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Wilfredo Gimenez C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Max White LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Steve Singleton SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Chairon Isenia C | TB,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Douillard C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Martijn LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Jason Martin CF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Joshua Adams 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Marco Albano 2B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Tim Torres 3B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Travis Ishikawa 1B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Rafael Arroyo C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Angelo Mora 2B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Gabby Torres C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Brandon Taylor 3B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Brandon Short LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Junior Arias SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Tim Duff C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Ronnie Welty RF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Wande Olabisi RF | SD,0,0,0,0,0,0,0,9999
+
+FA,Eury Perez CF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Cael Brockmeyer C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Yadir Drake RF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jacob May CF | CHW ,0,0,0,0,0,0,0,9999
+
+FA,Gavin Cecchini SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Cameron Seitzer 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Chesny Young 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Chris Robinson C | SD,0,0,0,0,0,0,0,9999
+
+FA,John Ruettiger CF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Matthew Spencer LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Luis Flores C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Sharif Othman C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Kevin Newman SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Omar Carrizales CF | COL,0,0,0,0,0,0,0,9999
+
+FA,Francisco Martinez 3B | DET,0,0,0,0,0,0,0,9999
+
+FA,Mitch Garver C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Matthew Hall 3B | TB,0,0,0,0,0,0,0,9999
+
+FA,Matt Whitney 3B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Kyung-Min Na LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Joey Curletta RF | LAD,0,0,0,0,0,0,0,9999
+
+AIDS,Shawon Dunston OF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jasha Balcom LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Kennard Jones LF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Johnny Field LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Mike McBryde LF | SF,0,0,0,0,0,0,0,9999
+
+FA,John Hester C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Carlos T. Perez C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Kyle Geiger C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Todd Glaesmann RF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Dominic Ficociello 3B | DET,0,0,0,0,0,0,0,9999
+
+FA,Ryan Mountcastle SS | BAL,0,0,0,0,0,0,0,9999
+
+FA,Jesmuel Valentin 2B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Rob Johnson C | STL,0,0,0,0,0,0,0,9999
+
+FA,Brett Newsome 1B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Reegie Corona 2B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Pat Magness 1B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Luis Urias 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,Quesada Mendez LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,William Rhinehart 1B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Miguel Linares 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Tim Brown 1B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Cutter Dykstra LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Brian Walker C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jared Mitchell CF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Connor Joe OF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Daniel Carbonell CF | SF,0,0,0,0,0,0,0,9999
+
+FA,John Walk C | PIT,0,0,0,0,0,0,0,9999
+
+FA,Destin Hood LF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jecksson Flores SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Marc Krauss 1B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Rashad Crawford RF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Angel Ortega SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jorge Saez C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Brian Jeroloman C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Jovan Rosa SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Grenny Cumana SS | PHI,0,0,0,0,0,0,0,9999
+
+FA,Nate Samson SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Ryan Dent 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Ryan McCarthy 3B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Dan Dement SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Erik Komatsu RF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Anthony Gallas OF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Patrick Biondi CF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Kyle Parker RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Yhoxian Medina SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Galvez SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Hunt 1B | SD,0,0,0,0,0,0,0,9999
+
+FA,Stantrel Smith LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Brandon Brewer SS | LAA,0,0,0,0,0,0,0,9999
+
+Americ...,David Dahl OF | COL,0,0,0,0,0,0,0,9999
+
+FA,Dean Espy SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Rossmel Perez C | BAL,0,0,0,0,0,0,0,9999
+
+FA,D.J. Jarrad SS | CHW,0,0,0,0,0,0,0,9999
+
+FA,Jhalan Jackson RF | NYY,0,0,0,0,0,0,0,9999
+
+FA,John Andreoli LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Francisco Peguero LF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Casey Kotchman 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Miguel Bernard C | ATL,0,0,0,0,0,0,0,9999
+
+Americ...,Bradley Zimmer OF | CLE ,0,0,0,0,0,0,0,9999
+
+FA,Michael Floyd LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Nick Longhi LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jarek Cunningham SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,James Kang SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Mauro Gomez 1B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Ryan Ortiz C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Brian Adams RF | SD,0,0,0,0,0,0,0,9999
+
+FA,Jack Murphy C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Ramon Laureano RF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Hector Tiburcio SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Louie Lechich RF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Mike Blanke C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Cord Sandberg CF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Pat Valaika SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Dustin Fowler CF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Julio Morillo C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Junior Sosa CF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Yenier Bello C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Brock Peterson OF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Alex Llanos RF | KC,0,0,0,0,0,0,0,9999
+
+FA,Yandy Diaz SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Delta Cleary CF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Jason Delaney LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Santo De Leon SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Jason Pridie LF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Seth Conner C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Guilder Rodriguez 3B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Fernando Martinez OF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jason Christian 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Kiel Roling 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Luis Liberato CF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Matthew Lawson 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Darius Day CF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Gosuke Katoh 2B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Michael Johnson 1B | SD,0,0,0,0,0,0,0,9999
+
+FA,Blake DeWitt 3B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Luis De La Cruz C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Mayobanex Santana 1B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jack Reinheimer SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Aramis Garcia C | SF ,0,0,0,0,0,0,0,9999
+
+FA,Christopher Kelly LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Adam Ricks 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,David Hernandez SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Eliezer Alfonzo C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Eric Nielsen RF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Josh Womack LF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Chris Valaika 1B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Emeel Salem RF | TB,0,0,0,0,0,0,0,9999
+
+FA,Garrett Mattlage SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Shaun Cumberland LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Keanon Simon LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Drew Jackson SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,Willie Mota LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Tanner Rahier SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Matthew Cline SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,D.J. Davis OF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Justin Sellers 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,Freddy Guzman DH | TB,0,0,0,0,0,0,0,9999
+
+FA,Jodd Carter LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Matt Meath LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Osvaldo Abreu SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,K.J. Woods OF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Eli Iorg LF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Darren Ford CF | SF,0,0,0,0,0,0,0,9999
+
+FA,Grant Fink 3B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jared Bolden 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Kyle Blanks 1B | SF ,0,0,0,0,0,0,0,9999
+
+FA,Phillip Ervin CF | CIN ,0,0,0,0,0,0,0,9999
+
+FA,Wade Moore LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Emerson Landoni 2B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Luis Bernardo C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Aderlin Mejia SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Justin Howard 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Justin Christian LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Juan Gomes C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Rock Shoulders 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Michael Walker 1B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Mark Reed C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Ronnie Jebavy CF | SF,0,0,0,0,0,0,0,9999
+
+FA,Rhys Hoskins 1B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Will Piwnica-Worms RF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Ryan Jones RF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Grant Desme LF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Jose Vinicio SS | BOS,0,0,0,0,0,0,0,9999
+
+Americ...,Jesse Winker LF | CIN ,0,0,0,0,0,0,0,9999
+
+FA,Yefri Perez CF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Anthony Delmonico C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Joshua Leblanc 2B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Kevyn Feiner SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Tony Plagman 1B | DET,0,0,0,0,0,0,0,9999
+
+FA,Brett Martinez C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Daniel Schwartzbauer SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Chris Hoo C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Mike Hessman 3B | DET,0,0,0,0,0,0,0,9999
+
+FA,Aaron Peel LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jairo De La Rosa SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Chase Simpson 3B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Chris O'Brien C | BAL,0,0,0,0,0,0,0,9999
+
+FA,James Kennedy C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Luis Palacios SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Gil Velazquez SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Steven Duggar RF | SF,0,0,0,0,0,0,0,9999
+
+FA,Jose Colorado RF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Javier Herrera C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Joe Sever 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Casey Kelley 1B | SD,0,0,0,0,0,0,0,9999
+
+FA,Brent Krause LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Brendan Harris 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Erik Wetzel 2B | COL,0,0,0,0,0,0,0,9999
+
+FA,Tommy Field 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Daniel Torres C | SEA,0,0,0,0,0,0,0,9999
+
+FA,Ozzie Martinez SS | BAL,0,0,0,0,0,0,0,9999
+
+FA,Frazier Hall 1B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Eric Duncan 1B | KC,0,0,0,0,0,0,0,9999
+
+FA,Jeff Kunkel C | DET,0,0,0,0,0,0,0,9999
+
+FA,Steve Doetsch LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Michael Perez C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Mike Collins C | SD,0,0,0,0,0,0,0,9999
+
+FA,Taylor Ward C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Nelson Perez LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Andrew Brown LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,David Paisano CF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Tyler Baker C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Luis Tejada OF | SD,0,0,0,0,0,0,0,9999
+
+FA,Ryan McBroom 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Austin Wynns C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Brent Wyatt LF | DET,0,0,0,0,0,0,0,9999
+
+Brophy...,Ryan McMahon 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Evan Frey RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Gabriel Martinez 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Omar Quintanilla SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Luis Sabino LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Jose Paez OF | TB,0,0,0,0,0,0,0,9999
+
+FA,Matt Pagnozzi C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Carson Blair C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Christopher Amador 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Wes Darvill SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Peter Hissey CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Drew Dosch 3B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Christopher Curry C | SF,0,0,0,0,0,0,0,9999
+
+FA,Francisco Lizarraga SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Anthony Miller 1B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Arby Fields CF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Isan Diaz SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Kensuke Tanaka LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Corey Ragsdale SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Tyler Wampler 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Michael Brenly C | BOS,0,0,0,0,0,0,0,9999
+
+FA,Karl Herren LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Carmen Angelini SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Tyler Parker LF | STL,0,0,0,0,0,0,0,9999
+
+FA,Delmon Young LF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Cesar Galvez SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Eric Aguilera 1B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Chris Diaz SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jhailyn Ortiz OF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Matt Lipka SS | ATL,0,0,0,0,0,0,0,9999
+
+FA,Danny Diekroeger 3B | STL,0,0,0,0,0,0,0,9999
+
+FA,John Tolisano 2B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Sean Jamieson SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Toddric Johnson RF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Josh VanMeter SS | SD,0,0,0,0,0,0,0,9999
+
+FA,David Kandilas RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Andy Bouchie C | DET,0,0,0,0,0,0,0,9999
+
+FA,Eddy Martinez-Esteve LF | SF,0,0,0,0,0,0,0,9999
+
+FA,Cameron Flynn OF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Christopher Turner LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Daniel Wagner 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Matt Dean 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Alex Liddi 1B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Jordan Tarsovich 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Daniel Brewer 3B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jacob Rogers 1B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Angel Flores C | DET,0,0,0,0,0,0,0,9999
+
+FA,Will Ferrell SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Deibinson Romero 3B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jose Herrera C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Ty Morrison LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Steve Garrabrants 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Elio Sarmiento C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Brett Phillips RF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Brad Correll LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Brett Nommensen RF | TB,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Hee 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Alex Santana 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Justin Justice CF | DET,0,0,0,0,0,0,0,9999
+
+FA,Kellen Kulbacki LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Nick Buss CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Justin Toole SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Erik Morrison 1B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Raffy Lopez C | DET,0,0,0,0,0,0,0,9999
+
+FA,Adam Bourassa LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Austin McClune LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Henry Castillo 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Bryan Bass SS | BAL,0,0,0,0,0,0,0,9999
+
+FA,Andrew Cumberland SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Brandon Waring 1B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Franklin Romero CF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Taylor Grote CF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Pat Blair 3B | TB,0,0,0,0,0,0,0,9999
+
+FA,Ryan Ludwick LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,John Buck C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Brennan Boesch RF | BOS ,0,0,0,0,0,0,0,9999
+
+FA,Carlos Mesa OF | PIT,0,0,0,0,0,0,0,9999
+
+FA,David L. Espinosa LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Joseph Astacio 3B | TB,0,0,0,0,0,0,0,9999
+
+FA,Jose Valdez CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jason Esposito 3B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Brant Ust 3B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Silento Sayles CF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Lopez Patino SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Wade Kirkland 2B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Abel Nieves 2B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Justin Hatcher C | SD,0,0,0,0,0,0,0,9999
+
+FA,Greg Sain 1B | SD,0,0,0,0,0,0,0,9999
+
+FA,Nick Plummer OF | STL,0,0,0,0,0,0,0,9999
+
+FA,Diego Goris SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Zach Maggard C | DET,0,0,0,0,0,0,0,9999
+
+FA,Pedro Mendoza SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Rene Tosoni RF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Mike Lockwood LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Eric Farris 2B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Don Kelly 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Mike Jacobs 1B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jose Constanza LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Tyson Blaser C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Eliezer Mesa CF | COL,0,0,0,0,0,0,0,9999
+
+AIDS,Alex Bregman SS | HOU ,0,0,0,0,0,0,0,9999
+
+FA,Yu-Cheng Chang SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jarred Ball LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Chris Colton LF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Drew Maggi SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Nick Tanielu 3B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Jose Duarte CF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Kelly Dugan CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Austin Dean OF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Justin Twine SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Nicholas Francis LF | KC,0,0,0,0,0,0,0,9999
+
+FA,Kuo Hui Lo LF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Xavier Avery LF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Humberto Quintero C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Juan Silva RF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Devries C | BOS,0,0,0,0,0,0,0,9999
+
+FA,Adrian Casanova C | DET,0,0,0,0,0,0,0,9999
+
+FA,Ben Lasater 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Willie Bloomquist 2B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Bradley McElroy CF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Jeffrey Fortenberry LF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Cory Vaughn RF | NYM,0,0,0,0,0,0,0,9999
+
+Bed St...,Clint Frazier OF | CLE ,0,0,0,0,0,0,0,9999
+
+FA,Gregory Picart 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jose Tabata LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Brian Bormaster C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ryan Khoury SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Chad Pinder SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Jared Clark 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Benjamin Blumenthal C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Charlie Fermaint LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Ed Lucas 2B | SEA,0,0,0,0,0,0,0,9999
+
+FA,James Jones RF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Chip Cannon 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Justin Maffei LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Blake Tekotte LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Kevin Heller CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Kodie Tidwell SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Jeff Howell C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Mike Sansoe LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Brian Martin LF | STL,0,0,0,0,0,0,0,9999
+
+FA,Brennan King 3B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Brian Bryles LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Chris Wallace C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Miguel Del Castillo C | SD,0,0,0,0,0,0,0,9999
+
+FA,Ryan Cavan SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Henry Wrigley 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Yem Prades CF | KC,0,0,0,0,0,0,0,9999
+
+FA,Danny Ortiz LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Kyle Reynolds 3B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Aaron Mathews CF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Darwin Perez SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Skip Schumaker LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Brent Lillibridge SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Danny Jansen C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Alex McClure SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Michael Chavis SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Josh Altmann SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Greg Rohan 3B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Juan Carlos Linares OF | BOS,0,0,0,0,0,0,0,9999
+
+FA,David Cook LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Kent Matthes RF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Gorkys Hernandez CF | SF,0,0,0,0,0,0,0,9999
+
+FA,Leonardo Ware CF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Jordan Paroubeck OF | SD,0,0,0,0,0,0,0,9999
+
+FA,Rodney Nye 3B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Dave Sappelt CF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Jason Giambi DH | CLE,0,0,0,0,0,0,0,9999
+
+FA,Carlos Colmenares SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Buck Britton 2B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Chris Denove C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Alberto Garcia 1B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Roberto Ramos 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Brian Stavisky LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Luis A. Soto LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Adam Melker OF | STL,0,0,0,0,0,0,0,9999
+
+FA,Mike Gerber RF | DET,0,0,0,0,0,0,0,9999
+
+FA,Chase Weems C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Tripper Johnson 3B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Joel Weeks SS | SF,0,0,0,0,0,0,0,9999
+
+Bed St...,Brendan Rodgers SS | COL ,0,0,0,0,0,0,0,9999
+
+FA,Maxx Tissenbaum 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Mike Dowd C | SEA,0,0,0,0,0,0,0,9999
+
+FA,Gary Brown CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jovanny Rosario SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Donavan Tate CF | SD,0,0,0,0,0,0,0,9999
+
+FA,Joe McCarthy 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Brenden Webb CF | BAL,0,0,0,0,0,0,0,9999
+
+FA,David Mailman 1B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Tom Belza 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Kyle Wren CF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Ben Verlander CF | DET,0,0,0,0,0,0,0,9999
+
+FA,Allen Craig RF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Miguel Abreu 2B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Matt Padgett LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Ryan Hankins C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Mark Shorey RF | STL,0,0,0,0,0,0,0,9999
+
+FA,Luke Scott DH | TB,0,0,0,0,0,0,0,9999
+
+FA,Chris Nelson 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Julio C. Santana SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Josh Horton SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Kyle Roller 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Luis Salas LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Luis Sumoza RF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Cody Livesay CF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Cory Keylor LF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Elvis Escobar CF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Matt Miller LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Victor Hall LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Brad Corley 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Garret Baker LF | SF,0,0,0,0,0,0,0,9999
+
+FA,Richard Urena SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Adam Godwin LF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Vincent Blue LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Angel Morales CF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Diogenes Luis SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Coby Smith CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Noah Perio SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Ronnie Freeman C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jamar Hill LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Luis Martinez C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Oney Guillen 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Mason Davis 2B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Seth Mejias-Brean 3B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Royce Bolinger RF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Austin Bailey SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Eric Stamets SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Francisco Sosa LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Jose Cardona CF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Ben Harrison LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Estarlyn Morales RF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Francisco Arcia C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Alberth Martinez CF | SD,0,0,0,0,0,0,0,9999
+
+FA,Javier Azcona SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Richard Lucas 3B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Michael Fransoso 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Edgar Duran SS | PHI,0,0,0,0,0,0,0,9999
+
+FA,Leivi Ventura C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Tony Thomas 2B | MIN,0,0,0,0,0,0,0,9999
+
+FA,J.D. Davis 3B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Cedric Mullins CF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Tyler Henley CF | STL,0,0,0,0,0,0,0,9999
+
+FA,Jean Almanzar SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Bobby Malek LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Eric Eymann SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Eduardo Gonzalez CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Slayden CF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Aneudi Cuevas 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Ben Turner C | SF,0,0,0,0,0,0,0,9999
+
+FA,Alex Buchholz 2B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Bill Rice OF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Jesus Guzman 1B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Gavin LaValley 3B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Pedro Guerrero SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Tyler Stephenson C | CIN ,0,0,0,0,0,0,0,9999
+
+FA,Micker Adolfo RF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Chad Oberacker OF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jairo Rosario C | COL,0,0,0,0,0,0,0,9999
+
+FA,Domonic Brown LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Zach Green 3B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Christian Marrero 1B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Delvis Morales 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Malik Collymore LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Brett Wellman C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ozzie Lewis LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Vasili Spanos 3B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Lee Orr OF | SD,0,0,0,0,0,0,0,9999
+
+FA,Jake Goebbert 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Chris O'Dowd C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Matt Esquivel LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,B.J. Boyd OF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Devin Lohman SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Lance Rymel C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Craig Ansman C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Cole Leonida C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Tyler Henson SS | PHI,0,0,0,0,0,0,0,9999
+
+FA,Christian Acosta LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,J.P. Arencibia C | TB,0,0,0,0,0,0,0,9999
+
+FA,Andy Workman RF | LAA,0,0,0,0,0,0,0,9999
+
+FA,David Rodriguez C | TB,0,0,0,0,0,0,0,9999
+
+FA,Josh McAdams LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Carlos Asuaje 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Juan Ciriaco SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Jake Peter 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Abiatal Avelino SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Drew Sutton LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Abel Baker C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Clinton Naylor C | SD,0,0,0,0,0,0,0,9999
+
+FA,Edwin Garcia SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Drake Roberts 3B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Kurt Mertins 2B | KC,0,0,0,0,0,0,0,9999
+
+FA,Joey Meneses 1B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Deik Scram LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Luis Sierra LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,David Gregg LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jae-Hoon Ha RF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Alberto Gonzalez 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Ronny Rodriguez SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Steven Tinoco 1B | TB,0,0,0,0,0,0,0,9999
+
+Whitey...,Trent Clark OF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jose Gomez SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Anthony Lunetta SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Cristo Arnal 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Luis Rodriguez SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Mark Mathias 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jayson Langfels 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Mott Hyde SS | HOU,0,0,0,0,0,0,0,9999
+
+FA,Derrick Chung C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Carlos Ramirez C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Tyler Smith SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Roof SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Sean Shoffit 2B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Yancarlos Ortiz SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Angel Rosa SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jose Lozada SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Mark Teahen 3B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Ollie Linton CF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jayson Nix 3B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Dustin Peterson LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Travis Snider LF | KC,0,0,0,0,0,0,0,9999
+
+FA,Jackson Williams C | COL,0,0,0,0,0,0,0,9999
+
+FA,Kevin Garcia LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Harold Garcia 2B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Parker Morin C | KC,0,0,0,0,0,0,0,9999
+
+FA,Carlos H. Lee C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Jose Fernandez 2B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Trey Martin CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Garrett Guzman LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Christopher Fox RF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Rowan Wick RF | STL,0,0,0,0,0,0,0,9999
+
+FA,Carlos Corporan C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Caleb Adams RF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Marcus Knecht LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ryan Gebhardt 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Yamaico Navarro 2B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Aron Weston LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Ryan Roberson 1B | DET,0,0,0,0,0,0,0,9999
+
+FA,Luke Anders 1B | SF,0,0,0,0,0,0,0,9999
+
+FA,Luis Mendez 3B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Alberto Callaspo 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Tucker RF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Kenny Perez 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Logan Landon CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jared Walsh 1B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Michael Daniel LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Hoy Jun Park SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Beamer Weems SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Adalberto Santos 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jerrud Sabourin 1B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Branden Florence LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Johnny Monell C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Mike Yastrzemski RF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Lucas May C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jon Schuerholz 2B | ATL,0,0,0,0,0,0,0,9999
+
+FA,K.C. Hobson 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Mark Fleury C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Jordan Renz LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Grant Kay 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Karexon Sanchez 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Gilbert Lara SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Addison Maruszak SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Chris Gibson LF | STL,0,0,0,0,0,0,0,9999
+
+FA,Josh Sale RF | TB,0,0,0,0,0,0,0,9999
+
+FA,Shane Opitz SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Drew Turocy RF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Aaron Baker 1B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Ross Wilson SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Victor Reyes RF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jaime Ortiz 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jordan Smith 3B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Breland Almadova OF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Mike Fontenot 2B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Tanner Murphy C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Jake Lowery C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jose Pujols RF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Rayon Lampe SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,Eric Young LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Zelous Wheeler 3B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Bradley Suttle 3B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Scott Campbell 2B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Steven Lerud C | SEA,0,0,0,0,0,0,0,9999
+
+FA,Edgardo Baez LF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Nick Derba C | STL,0,0,0,0,0,0,0,9999
+
+FA,Steven Proscia 3B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Gilberto Mejia 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Roemon Fields CF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Wes Carroll 2B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Max Ramirez C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Albert Cordero C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Michael Garciaparra SS | HOU,0,0,0,0,0,0,0,9999
+
+The Co...,Bobby Bradley 1B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Andrew Pinckney 3B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ryan Mulhern LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jose Briceno C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Jose Cuas 3B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Kyle Gaedele OF | SD,0,0,0,0,0,0,0,9999
+
+FA,Dillon Baird 1B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Christian Lopes SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Jermaine Palacios 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Jay Caligiuri 1B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Ryan Lormand SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Mitchell LeVier CF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Denzel Richardson RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Jeff Kobernus 2B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Chad Noble C | CHC,0,0,0,0,0,0,0,9999
+
+FA,James Barksdale LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Todd Johnson LF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Ruben Sosa 2B | HOU,0,0,0,0,0,0,0,9999
+
+FA,John Otness LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Nick Ciuffo C | TB,0,0,0,0,0,0,0,9999
+
+FA,Carlos Rojas SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Eric Langill C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Robert Perry LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Jeff Glenn C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Nate Freiman 1B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Maikis De La Cruz LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Dee Haynes LF | STL,0,0,0,0,0,0,0,9999
+
+FA,Felipe Blanco 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Sergio Pedroza LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Dominic Ramos SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jimmy Gulliver SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Luis Guillorme SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Chad Tracy 1B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Alfredo Silverio LF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Derek Fisher LF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Mark Tracy 1B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Marcus Littlewood C-SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,Blake Miller 1B | SF,0,0,0,0,0,0,0,9999
+
+FA,Dwayne Bailey 3B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Michael Gettys CF | SD,0,0,0,0,0,0,0,9999
+
+FA,Gary Harris LF | SEA,0,0,0,0,0,0,0,9999
+
+FA,John Eshleman SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Cole Garner RF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jose Garcia SS | STL,0,0,0,0,0,0,0,9999
+
+FA,Carlos Lugo C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Anthony Hatch 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,James Cesario 2B | COL,0,0,0,0,0,0,0,9999
+
+FA,Mike Baxter RF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Max George SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Travis Witherspoon CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jeff Baker 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jeff Rowland OF | DET,0,0,0,0,0,0,0,9999
+
+FA,Conner Crumbliss 2B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Robby Price 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Juan Apodaca C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Rio Ruiz 3B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Kyle Greene 3B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Pat Osborn 3B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Maikol Gonzalez 2B | COL,0,0,0,0,0,0,0,9999
+
+FA,Curt Smith 1B | STL,0,0,0,0,0,0,0,9999
+
+FA,Michael Mitchell LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Josh Arhart C | TB,0,0,0,0,0,0,0,9999
+
+FA,Taylor Teagarden C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Angelys Nina 2B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Erick Meza 1B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Skip Adams 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,John Vanden Berg C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Neil Medchill LF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Aaron Herr 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Gustavo Rosendo C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Brian Ward C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Kyle Conley LF | STL,0,0,0,0,0,0,0,9999
+
+FA,Vic Buttler LF | PIT,0,0,0,0,0,0,0,9999
+
+Wind o...,J.P. Crawford SS | PHI,0,0,0,0,0,0,0,9999
+
+FA,Josh Fellhauer CF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Chris Marrero 1B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Ben McMahan OF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Tim Locastro 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Michael Antonio SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Demi Orimoloye RF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Josh Kroeger LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Rodolfo Guillen LF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Steve Baker LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Braxton Lee CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Omar Casillas C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Kevin Nolan SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Michael Crouse CF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Mike Spidale LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Matthew Nuzzo 3B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ramon Morla SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,David Christensen RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Justin Bohn SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Matt Antonelli 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Luis Sanchez SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Jake Jefferies C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Willians Astudillo C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Matt Koch C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Nick Trzesniak C | DET,0,0,0,0,0,0,0,9999
+
+FA,D.J. Stewart OF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Spencer Edwards SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Miguel Andujar 3B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Michael Paulk 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Steven Caseres 1B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Ignacio Suarez SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,D.K. Carey CF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Michael Suchy RF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Omar Narvaez C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Alfredo Escalera-Maldonado CF | KC,0,0,0,0,0,0,0,9999
+
+FA,Roberto Lopez DH | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jeremias Pineda 2B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Chuck Taylor LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Kenny Wilson CF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Timothy Moss 2B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Stephen Carmon SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Orlando Calixte SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Luis Nieves 2B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Mitch Delfino 3B | SF,0,0,0,0,0,0,0,9999
+
+FA,Yasiel Balaguert RF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Brian Hernandez 3B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Andrew Heid LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Ryde Rodriguez RF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Josh Johnson 3B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Sawyer Carroll 1B | SD,0,0,0,0,0,0,0,9999
+
+FA,Scott Wingo SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Joey Paciorek C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Emilio Guerrero SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Shannon Wilkerson RF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Amaurys Minier LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,George Kottaras C | SF,0,0,0,0,0,0,0,9999
+
+FA,Gustavo Nunez SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Sherman Johnson 3B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Craig Manuel C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Rafael Bautista CF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Barrett Barnes LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Miguel Tejada 2B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Aaron Reza SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Shawn Pleffner 1B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Josh Vitters 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Shawn Scobee LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Willie Argo RF | TB,0,0,0,0,0,0,0,9999
+
+FA,Taylor Sparks 3B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Tyler Moore 1B | ATL ,0,0,0,0,0,0,0,9999
+
+FA,Clinton Chauncey C | BOS,0,0,0,0,0,0,0,9999
+
+FA,Dan Black 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Charcer Burks CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Matt Rico LF | TB,0,0,0,0,0,0,0,9999
+
+Americ...,Dansby Swanson SS | ATL ,0,0,0,0,0,0,0,9999
+
+FA,Steven Liddle RF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Rick Ankiel CF | NYM,0,0,0,0,0,0,0,9999
+
+FA,David Masters SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Bennett Pickar C | DET,0,0,0,0,0,0,0,9999
+
+FA,Lawrence Day C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Trent Pratt C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Chad De La Guerra 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Ryan O'Hearn 1B | KC ,0,0,0,0,0,0,0,9999
+
+FA,Matt McPhearson LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jeff McVaney RF | DET,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Barfield RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Theodis Bowe LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Drew Niles SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jacob Butler LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Matt Kennelly C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Jeff Holm 1B | DET,0,0,0,0,0,0,0,9999
+
+FA,Darin Holcomb 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Michael Wing 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Seth Harrison CF | SF,0,0,0,0,0,0,0,9999
+
+FA,Juan Graterol C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Matt Wessinger 2B | COL,0,0,0,0,0,0,0,9999
+
+FA,Carlo Cota 2B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Jiwan James CF | DET,0,0,0,0,0,0,0,9999
+
+FA,Braxton Davidson LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Peter Van Gansen SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Adam Witter 1B | SF,0,0,0,0,0,0,0,9999
+
+FA,Will Rhymes 2B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Greg Miclat 2B | STL,0,0,0,0,0,0,0,9999
+
+FA,Sebastian Elizalde OF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Blake Anderson C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jair Fernandez C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Chris McGuiness 1B | PHI,0,0,0,0,0,0,0,9999
+
+Capito...,Amed Rosario SS | NYM ,0,0,0,0,0,0,0,9999
+
+FA,Kyle Bellows 3B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jamie Ritchie C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Juan Perez 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Kyle Mura 3B | STL,0,0,0,0,0,0,0,9999
+
+FA,Brandon Jacobs LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Cody Decker 1B | COL,0,0,0,0,0,0,0,9999
+
+FA,Juan Crousset OF | COL,0,0,0,0,0,0,0,9999
+
+FA,Jeffrey Culpepper LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,J.R. Taylor SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Tyler Kuhn SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Bobby Borchering 1B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Anthony Phillips SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Andrew Douglas 2B | CHW,0,0,0,0,0,0,0,9999
+
+Capito...,Kyle Tucker OF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Ryan Royster LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Michael Collins 3B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Carlos Sosa LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Austin Green C | DET,0,0,0,0,0,0,0,9999
+
+FA,Shawn Norris 3B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Robert Hefflinger RF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Cory Dunlap 1B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Chad Huffman LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Alonzo Harris SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Andy Dirks CF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ethan Chapman OF | KC,0,0,0,0,0,0,0,9999
+
+FA,Carlton Tanabe C | SEA,0,0,0,0,0,0,0,9999
+
+FA,C.J. Hinojosa SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Jaycob Brugman LF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Brandon Thomas OF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Dayner Moreira 2B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Reese McGuire C | PIT,0,0,0,0,0,0,0,9999
+
+FA,Reggie Keen CF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jose Coronado SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Shane Brown OF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Gerald Laird C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Dayton Buller C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Roberto Baldoquin SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Bralin Jackson CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Luis A. Garcia LF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Kalian Sams CF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Irving Falu 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Brock Stassi 1B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Bryson Smith LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Webster Rivas C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jeff Boehm 2B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Adam Boeve LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jason Vosler SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Ronnie Richardson CF | SD,0,0,0,0,0,0,0,9999
+
+FA,Mason Smith CF | SD,0,0,0,0,0,0,0,9999
+
+FA,Mark Haddow RF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Felix Gonzalez 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Ryan Hubele C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Noah Hall LF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Sean Ratliff RF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Ryan Casteel C | COL,0,0,0,0,0,0,0,9999
+
+FA,Javier Betancourt SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Mark A. Thompson SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Anfernee Seymour SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Wesley Jones 2B | COL,0,0,0,0,0,0,0,9999
+
+FA,Kevin Mahoney 3B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jermaine Mitchell RF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Andy Brown LF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Scott Youngbauer SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,Max Walla RF | MIL,0,0,0,0,0,0,0,9999
+
+FA,James Tomlin LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Zacrey Law CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Seth Johnston SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Luis Gonzalez SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Xorge Carrillo C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Alex Yarbrough 2B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Paul Witt SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Carlos Fernandez-Oliva 1B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Charles Thurber RF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Tim Lopes SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,Rian Kiniry CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Chris Ellison LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Alberto Concepcion C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Wyatt CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Josh Tobias 2B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Devin Ivany C | WAS,0,0,0,0,0,0,0,9999
+
+FA,Cody Ross CF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Andrew Rundle LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,KC Serna SS | PHI,0,0,0,0,0,0,0,9999
+
+FA,Evan Crawford CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Tim Whittaker C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Joantoni Garcia SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Anthony Labarbera 2B | SF,0,0,0,0,0,0,0,9999
+
+FA,Brandon Hicks 2B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Philip Pohl C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Chad Wallach C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Rivera SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Chris Gittens 1B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Tyler Gibson OF | DET,0,0,0,0,0,0,0,9999
+
+FA,Blake Davis 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Scott Cousins CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Bryant Flete 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Eli Tintor C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Joseph Monge RF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Ben Risinger 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Carlos Tocci CF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Will Middlebrooks 3B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Corey Coles LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Dan Uggla 2B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Adam Mannon LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Quintin Berry CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Rawley Bishop 1B | DET,0,0,0,0,0,0,0,9999
+
+FA,Stephen Wickens SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Mitchell Hilligoss SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Thomas Milone CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Griffin SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jobduan Morales C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Roger Bernadina CF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Luke Tendler LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Daniel Figueroa 2B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Mark Sobolewski 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Wuilmer Becerra RF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Jordan Wideman C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Mike McDade 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Antoin Gray 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Rashad Brown LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Jayce Boyd 1B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Tyler L. Johnson LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Cristian Jimenez OF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Fidel Hernandez 2B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Amaury Cazana RF | STL,0,0,0,0,0,0,0,9999
+
+FA,Wade Gaynor 3B | DET,0,0,0,0,0,0,0,9999
+
+FA,Jordan Hankins 3B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Brian Peterson C | BOS,0,0,0,0,0,0,0,9999
+
+FA,Matt Wallach C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Hak-Ju Lee SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Matt Juengel 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Ryan Jackson 2B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Cody Overbeck 1B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Jordan Kreke 3B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Jayson Hernandez C | BOS,0,0,0,0,0,0,0,9999
+
+FA,David Harris LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Bo Flowers LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jon Talley C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Steven Fuentes 3B | DET,0,0,0,0,0,0,0,9999
+
+FA,Lenell McGee 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Travis Blankenhorn 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Tito Polo LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jason Donald SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Luke Bailey C | TB,0,0,0,0,0,0,0,9999
+
+FA,Collin Delome LF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Anderson Feliz 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Rayder Ascanio SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,Stuart Turner C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Aneury Tavarez 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Matt Downs 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Reggie Golden CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Troy Hanzawa SS | PHI,0,0,0,0,0,0,0,9999
+
+FA,Brandon Douglas SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Tadd Brewer 2B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jose Toussen 2B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Yusniel Diaz CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jon Berti SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Aceves C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Stefan Sabol LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Stephen King SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Matt Argyropoulos 3B | COL,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Greene 3B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Chun-Hsiu Chen C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Andrew Toussaint 2B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Drew Dominguez 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Kolbrin Vitek CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Colin Bray RF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Niko Goodrum SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Tony Mansolino 3B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Nick Weglarz 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Derrick Robinson LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Matt Morgan C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Hermida RF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Bobby Kingsbury LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jordan Czarniecki LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Andrew Graham C | DET,0,0,0,0,0,0,0,9999
+
+FA,J.T. Wise 1B-C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Brandon Miller RF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Jared Schlehuber 1B | KC,0,0,0,0,0,0,0,9999
+
+FA,Vito Chiaravolloti 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Aaron Barbosa CF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Trever Adams 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Patrick Wisdom 3B | STL,0,0,0,0,0,0,0,9999
+
+FA,Ryder Jones 3B | SF,0,0,0,0,0,0,0,9999
+
+FA,Yeison Asencio RF | SD,0,0,0,0,0,0,0,9999
+
+FA,David Wallace C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Blake Barber 2B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Brent Keys LF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Emerson Frostad 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Kelson Brown SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jim Buckley C | BOS,0,0,0,0,0,0,0,9999
+
+FA,Danny Dorn LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Casey C. Smith SS | PHI,0,0,0,0,0,0,0,9999
+
+FA,Nick Swisher LF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Juremi Profar 3B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Derrik Gibson 2B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Jake Elmore 1B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Dan Grovatt RF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Todd Jennings C | SF,0,0,0,0,0,0,0,9999
+
+FA,Jake Blalock LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Jason Bourgeois RF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Brian Sellier LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Freddy Parejo LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Dillon Moyer SS | LAD,0,0,0,0,0,0,0,9999
+
+FA,Seth Bynum SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Mike Wilson LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Jed Morris C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Andrew Velazquez SS | TB,0,0,0,0,0,0,0,9999
+
+FA,William Holmes LF | BOS,0,0,0,0,0,0,0,9999
+
+Wind o...,Anthony Alford CF | TOR ,0,0,0,0,0,0,0,9999
+
+FA,Yeyson Yrizarri SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Mikey White SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Humberto Arteaga SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Ryan Wheeler 3B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Kevin Brown RF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Michael Sheridan 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Juan Romero 3B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Brallan Perez SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Troy Snitker C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Calvin Anderson 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jose Trevino C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Chad Hinshaw CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Justin Snyder 2B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Erich Weiss 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,J.T. Riddle 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Dan Gamache 3B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Herrera 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Danny Perales OF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Clete Thomas RF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Kyle Holder SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jeffrey Natale 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Garrett Jones RF | NYY,0,0,0,0,0,0,0,9999
+
+Cornba...,Clint Coulter C | MIL,0,0,0,0,0,0,0,9999
+
+FA,James Beresford SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Stetson Allie RF | PIT,0,0,0,0,0,0,0,9999
+
+AIDS,Grant Green 2B | SF,0,0,0,0,0,0,0,9999
+
+FA,Greg Allen RF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Chris Lubanski RF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Sanchez LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Branden Cogswell SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Brett Pill 1B | SF,0,0,0,0,0,0,0,9999
+
+FA,Kyle Anson 3B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Armando Araiza C | TB,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Gilmore 3B | CHW,0,0,0,0,0,0,0,9999
+
+FA,John Bowker OF | SF,0,0,0,0,0,0,0,9999
+
+FA,Danry Vasquez RF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Cody Strait LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Teodoro Martinez CF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Cody Johnson LF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Francisco Diaz C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Garabez Rosa SS | BAL,0,0,0,0,0,0,0,9999
+
+FA,D' Vontrey Richardson CF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Nicholas Ciolli LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Jason Aspito 3B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Tucker Neuhaus SS | MIL ,0,0,0,0,0,0,0,9999
+
+FA,Trevor Gretzky 1B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Michael Campbell LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Dwight Smith LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Bruce Maxwell C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Raul Nieves SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Maxwell Leon 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Mark Haske SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Nick Gordon SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Chris Epps RF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Dayron Varona CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Jacob Williams 1B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Tzu-Wei Lin SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Evan Marzilli OF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Kevin Hankerd LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Rob Segedin 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jayce Tingler LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Michael Ratterree RF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Erik Forgione 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Mykal Stokes CF | SD,0,0,0,0,0,0,0,9999
+
+FA,Trace Tam Sing 2B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Lane Adams RF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jonny Gomes LF | KC,0,0,0,0,0,0,0,9999
+
+FA,Jason Sugden LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,James Boone LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Nick Van Stratten RF | KC,0,0,0,0,0,0,0,9999
+
+FA,Bijan Rademacher LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Christopher Minaker SS | SEA,0,0,0,0,0,0,0,9999
+
+FA,Allan Dykstra 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Brian Bogusevic RF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Shawn Zarraga C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jeff Bianchi 3B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Phillip Evans SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Jose Gonzalez C | COL,0,0,0,0,0,0,0,9999
+
+FA,Jantzen Witte 1B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Colton Plaia C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Yairo Munoz SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Danny Lehmann C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Brad Glenn RF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Willi Castro 2B | CLE,0,0,0,0,0,0,0,9999
+
+FA,John Bormann C | PIT,0,0,0,0,0,0,0,9999
+
+FA,James Harris CF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Mike Gallic OF | SD,0,0,0,0,0,0,0,9999
+
+FA,Daniel Payne CF | SD,0,0,0,0,0,0,0,9999
+
+FA,Jesus Lopez SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Truan Mehl LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Lance Ray 1B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Kevin Nelson C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Maicer Izturis 2B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Edwar Gonzalez LF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jesus Montero C | STL,0,0,0,0,0,0,0,9999
+
+FA,Alcantara Roa C | DET,0,0,0,0,0,0,0,9999
+
+FA,Stephen Head 1B | CLE,0,0,0,0,0,0,0,9999
+
+Brophy...,Victor Robles CF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Mota 2B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Angel Castillo RF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Raul Reyes LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Gavin Dickey LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Sebastien Boucher LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Matt Liuzza C | TOR,0,0,0,0,0,0,0,9999
+
+FA,James Fasano 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Kody Hinze 1B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Christin Stewart LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Breyvic Valera 2B | STL,0,0,0,0,0,0,0,9999
+
+FA,Alan Rick C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Chris Durbin LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Sean Kazmar SS | ATL,0,0,0,0,0,0,0,9999
+
+FA,Tony Caldwell C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Kyler Burke RF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Geoff Rowan C | TB,0,0,0,0,0,0,0,9999
+
+FA,Mike Folli 2B | TB,0,0,0,0,0,0,0,9999
+
+FA,Dwaine Bacon LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Yazy Arbelo 1B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Shaun Skrehot SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Jose Siri CF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Cole Tucker SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Robert Hudson 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Adam Haley 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Preston Beck 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Michael O'Keefe LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Yefri Carvajal LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Jordan Henry CF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Trent Garrison C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Abner Abreu LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Angel Villalona 1B | SF,0,0,0,0,0,0,0,9999
+
+FA,Julio Morban RF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Frank Schwindel 1B | KC,0,0,0,0,0,0,0,9999
+
+FA,Carlos Franco 3B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Josh Naylor 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,J.T. Watkins C | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Malo SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Dong-Yub Kim LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Bryan Anderson C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Wilson Valdez SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Mickey Hall RF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jacob Scavuzzo OF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Todd Linden LF | SF,0,0,0,0,0,0,0,9999
+
+FA,Brett Vertigan CF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Danny Black SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Matt Mangini 3B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Jorge Cortes LF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Ryan Stovall 3B | KC,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Moore RF | TB,0,0,0,0,0,0,0,9999
+
+FA,Cody Rogers CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Anderson Gomes LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Eddy Rodriguez C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jacob Nottingham C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Zach Osborne SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Starlin Rodriguez 2B | STL,0,0,0,0,0,0,0,9999
+
+FA,Phil Avlas C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Luke Montz 1B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Dane Phillips C | SD,0,0,0,0,0,0,0,9999
+
+FA,Matt Fields 1B | KC,0,0,0,0,0,0,0,9999
+
+FA,Matt Chapman 3B | OAK,0,0,0,0,0,0,0,9999
+
+FA,L.J. Hoes RF | BAL,0,0,0,0,0,0,0,9999
+
+FA,Rex Rundgren SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Wendell Rijo 2B | BOS ,0,0,0,0,0,0,0,9999
+
+FA,Bryan Mejia 2B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Walker Gourley 3B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jose Ruiz 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Lucas C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Zac Clements C | NYM,0,0,0,0,0,0,0,9999
+
+FA,Willy Adames SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Wil Nieves C | SD,0,0,0,0,0,0,0,9999
+
+FA,Beau Mills 1B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Guillermo Pimentel RF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Aaron Munoz C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Lars Davis C | ARI,0,0,0,0,0,0,0,9999
+
+FA,J.D. Williams LF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Wirfin Obispo SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jason Van Kooten SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Elmer Reyes SS | ATL,0,0,0,0,0,0,0,9999
+
+FA,Jairo Beras RF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Pierce Rankin C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Tim Saunders SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Mitchell Dening LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Gabriel Quintana 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,Jordan Parraz CF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Justin Jirschele 2B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Cam Gibson CF | DET,0,0,0,0,0,0,0,9999
+
+FA,Caleb Brock C | CLE,0,0,0,0,0,0,0,9999
+
+FA,Mat Kent C | BOS,0,0,0,0,0,0,0,9999
+
+FA,Kevin Cron 1B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Denis Phipps RF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Edwin Diaz SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Chris Snyder C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Angel Perez RF | TB,0,0,0,0,0,0,0,9999
+
+FA,Nestor Corredor C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Matthew Colantonio C | SD,0,0,0,0,0,0,0,9999
+
+FA,Noel Cuevas LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Josh Wilson 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Eliezer Alvarez 2B | STL,0,0,0,0,0,0,0,9999
+
+FA,Andrew Stevenson CF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Chris Garia CF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Cristian Paulino LF | SF,0,0,0,0,0,0,0,9999
+
+FA,Bo Greenwell LF | CLE,0,0,0,0,0,0,0,9999
+
+FA,Mylz Jones SS | COL,0,0,0,0,0,0,0,9999
+
+FA,Delgado Peralta SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Tyrone Taylor CF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jorge Flores SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Bryan Hudson LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jon Fulton SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Engel Beltre CF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Carter Jurica SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Robbie Garvey CF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Austin Wilson OF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Jose Rosario 2B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Tyler Austin OF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Jeff Gelalich RF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Scott Robinson LF | COL,0,0,0,0,0,0,0,9999
+
+FA,Salvador Sanchez LF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Rick Hague SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Nellie Rodriguez 1B | CLE,0,0,0,0,0,0,0,9999
+
+FA,Jose Gil C | NYY,0,0,0,0,0,0,0,9999
+
+FA,Yowill Espinal SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Felix Sanchez CF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Oscar Mercado SS | STL,0,0,0,0,0,0,0,9999
+
+FA,Alan Garcia OF | SD,0,0,0,0,0,0,0,9999
+
+FA,David Lyon C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Ashford Fulmer RF | SF,0,0,0,0,0,0,0,9999
+
+FA,Eric Jagielo 3B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Elevys Gonzalez 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Matt Jones LF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Ian Stewart 3B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Rhyne Hughes 1B | BAL,0,0,0,0,0,0,0,9999
+
+FA,T.J. Steele CF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Dario Pizzano OF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Austin Yount 3B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Ronald Garth 2B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Wesley Freeman RF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Ryan Wright SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Franchy Cordero SS | SD,0,0,0,0,0,0,0,9999
+
+FA,JaCoby Jones SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Kyle Johnson CF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Cade Gotta CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Josh Morgan 2B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Manny Pina C | MIL,0,0,0,0,0,0,0,9999
+
+FA,Zach Borowiak SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Anderson Rosario LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,John Purdom C | PHI,0,0,0,0,0,0,0,9999
+
+FA,Johermyn Chavez RF | KC,0,0,0,0,0,0,0,9999
+
+FA,Kevin Mattison CF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Javier Castillo SS | CHW,0,0,0,0,0,0,0,9999
+
+FA,Craig Cooper 1B | SD,0,0,0,0,0,0,0,9999
+
+FA,Jordan Betts 3B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jesus Flores C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Mitch Maier CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Aaron Dudley C | MIA,0,0,0,0,0,0,0,9999
+
+FA,Eric Campbell 3B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Phillips Castillo LF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Chris Walker CF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Hector Gimenez C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Chris Rivera 2B | STL,0,0,0,0,0,0,0,9999
+
+FA,Jesse Gutierrez 1B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Ardley Jansen LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Juniel Querecuto SS | TB,0,0,0,0,0,0,0,9999
+
+FA,John Defendis LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Raymond Kruml LF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Torii Hunter RF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Dustin Geiger 3B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jeff Larish 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Ryan Lavarnway C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Casey Kopitzke C | CHC,0,0,0,0,0,0,0,9999
+
+FA,Brian Fletcher SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Taylor Green 3B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jason Kanzler CF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Daric Barton 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Richard Lane LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Brendan Katin LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Nate Sutton 2B | LAA,0,0,0,0,0,0,0,9999
+
+FA,Mark Ori 1B | HOU,0,0,0,0,0,0,0,9999
+
+FA,Matt Murton LF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Carlos Leon 2B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Wilson Betemit SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Brodie Greene SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Jon Garcia RF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Julian Morillo SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Jamie Jarmon LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Jorge Vazquez 3B | NYY,0,0,0,0,0,0,0,9999
+
+Los Po...,Jesus Montero 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Cody Regis LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Ian Miller CF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Justin Tordi SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Engelb Vielma SS | MIN,0,0,0,0,0,0,0,9999
+
+FA,Dallas Poulk 2B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Drew Ward 3B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Myles Schroder C | SF,0,0,0,0,0,0,0,9999
+
+FA,Kevin Padlo 3B | TB,0,0,0,0,0,0,0,9999
+
+FA,Mark Jurich LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Reese Havens 2B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Damaso Espino C | CHW,0,0,0,0,0,0,0,9999
+
+FA,Mike Earley OF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Cody Clark C | HOU,0,0,0,0,0,0,0,9999
+
+FA,Daniel Carroll CF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Luis Carpio SS | NYM ,0,0,0,0,0,0,0,9999
+
+FA,Javier Colina 1B | CHW,0,0,0,0,0,0,0,9999
+
+FA,Joantgel Segovia LF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Carlos Pena 1B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Dustin Lawley 3B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Brandon Yarbrough C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Charles Jeroloman SS | BOS,0,0,0,0,0,0,0,9999
+
+Capito...,Ian Happ OF | CHC ,0,0,0,0,0,0,0,9999
+
+FA,Brandon Cashman LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Chad Johnson C | KC,0,0,0,0,0,0,0,9999
+
+FA,Johan Cruz SS | CHW,0,0,0,0,0,0,0,9999
+
+FA,Cito Culver SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Edward Groce CF | TB,0,0,0,0,0,0,0,9999
+
+FA,Brad Hassey SS | TOR,0,0,0,0,0,0,0,9999
+
+FA,Sharlon Schoop SS | BAL,0,0,0,0,0,0,0,9999
+
+FA,Tyler Marlette C | SEA,0,0,0,0,0,0,0,9999
+
+FA,Avery Romero 2B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Isaiah White CF | MIA,0,0,0,0,0,0,0,9999
+
+FA,C.J. McElroy OF | STL,0,0,0,0,0,0,0,9999
+
+FA,Chris Giovinazzo CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Antonio Dejesus OF | STL,0,0,0,0,0,0,0,9999
+
+FA,Jake Lemmerman SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Raul Navarro SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Joseph Dunigan 1B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Patrick Cottrell SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Jake Wald SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Matthew Sulentic RF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Rubi Silva CF | CHC,0,0,0,0,0,0,0,9999
+
+FA,Chris Mariscal 3B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Dylan Moore SS | TEX,0,0,0,0,0,0,0,9999
+
+FA,Tim Roberson C | BOS,0,0,0,0,0,0,0,9999
+
+FA,Mike MacDonald 2B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Brandon Sing 3B | BAL,0,0,0,0,0,0,0,9999
+
+FA,Calten Daal SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Ben Guez CF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Ronnier Mustelier OF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Jose De Los Santos SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Gareth Morgan CF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Julio Garcia SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,James Hall LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Cesar Suarez 3B | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jake Yacinich SS | LAA,0,0,0,0,0,0,0,9999
+
+FA,Michael Pericht DH | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jim Gallagher 1B | CHW,0,0,0,0,0,0,0,9999
+
+FA,David Bacani 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,David Rohm RF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Mark Shannon CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Ronald Bermudez LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Boomer Whiting CF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Elliot Johnson RF | LAD,0,0,0,0,0,0,0,9999
+
+FA,Kevin Randel SS | MIA,0,0,0,0,0,0,0,9999
+
+FA,Roger Kieschnick LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Brett Krill OF | SF,0,0,0,0,0,0,0,9999
+
+FA,C.J. Ebarb C | TOR,0,0,0,0,0,0,0,9999
+
+FA,Zach Gentile 2B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Juan Francisco 3B | TB,0,0,0,0,0,0,0,9999
+
+FA,Ali Castillo 3B | SF,0,0,0,0,0,0,0,9999
+
+FA,Walter Norwood 1B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Shawn Roof SS | DET,0,0,0,0,0,0,0,9999
+
+FA,Maiko Loyola RF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Juan Segura XX | LAA,0,0,0,0,0,0,0,9999
+
+FA,Corey Patterson LF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Greg Veloz 2B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Jemel Spearman SS | CHC,0,0,0,0,0,0,0,9999
+
+FA,Korey Feiner C | MIN,0,0,0,0,0,0,0,9999
+
+FA,Joe Leonard 3B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Miguel Olivo C | SF,0,0,0,0,0,0,0,9999
+
+FA,Nick Evans 1B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Leonardo Reginatto SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Rafael Cruz C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Ismel Antunez RF | TB,0,0,0,0,0,0,0,9999
+
+FA,James Roberts SS | CLE,0,0,0,0,0,0,0,9999
+
+FA,Rando Moreno SS | SF,0,0,0,0,0,0,0,9999
+
+FA,Harrison Bader CF | STL ,0,0,0,0,0,0,0,9999
+
+FA,Tyler Greene 2B | ATL,0,0,0,0,0,0,0,9999
+
+FA,Josh Ford C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Patrick Leonard 1B | TB,0,0,0,0,0,0,0,9999
+
+FA,Shane Keough SS | OAK,0,0,0,0,0,0,0,9999
+
+FA,Yasmil Bucce 3B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Viosergy Rosa 1B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Tyler Marincov RF | OAK,0,0,0,0,0,0,0,9999
+
+FA,Sean Danielson LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Buzz Hannahan 3B | PHI,0,0,0,0,0,0,0,9999
+
+FA,James Guerrero 2B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Ender Chavez LF | WAS,0,0,0,0,0,0,0,9999
+
+FA,Balbino Fuenmayor 1B | KC,0,0,0,0,0,0,0,9999
+
+FA,Connor Lien LF | ATL,0,0,0,0,0,0,0,9999
+
+FA,Kevin Russo 2B | DET,0,0,0,0,0,0,0,9999
+
+FA,Cody Bellinger 1B | LAD ,0,0,0,0,0,0,0,9999
+
+FA,Anthony Seratelli SS | NYM,0,0,0,0,0,0,0,9999
+
+FA,Alfredo Morales RF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Hunter Harrigan C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Kyle Jensen LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Matthew Scioscia 1B | CHC,0,0,0,0,0,0,0,9999
+
+FA,Jacob Blackwood 3B | SD,0,0,0,0,0,0,0,9999
+
+FA,D.J. Crumlich SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Wade Robinson SS | HOU,0,0,0,0,0,0,0,9999
+
+FA,Jimmy Comerota 3B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Cal Towey OF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Cole White OF | PIT,0,0,0,0,0,0,0,9999
+
+FA,Sean Nicol SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Connor Marabell RF | CLE,0,0,0,0,0,0,0,9999
+
+FA,William Vazquez C | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jesus Galindo CF | SF,0,0,0,0,0,0,0,9999
+
+FA,Ronald Bueno 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Austin Aune SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Cleuluis Rondon SS | CHW,0,0,0,0,0,0,0,9999
+
+FA,Doug Bernier 2B | TEX,0,0,0,0,0,0,0,9999
+
+FA,Spencer Navin C | LAD,0,0,0,0,0,0,0,9999
+
+FA,Jared Foster OF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Chris Frey CF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Leo Heras LF | HOU,0,0,0,0,0,0,0,9999
+
+FA,Ryan Fleming LF | PHI,0,0,0,0,0,0,0,9999
+
+FA,Michael Griffin 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Juan Camilo LF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Logan Parker 1B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Nate Orf RF | MIL,0,0,0,0,0,0,0,9999
+
+FA,Carlos Munoz 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Travis Buck LF | SD,0,0,0,0,0,0,0,9999
+
+FA,Fidel Pena 3B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Maximo Mendez RF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Braeden Schlehuber C | ATL,0,0,0,0,0,0,0,9999
+
+FA,Bryan Goelz LF | BOS,0,0,0,0,0,0,0,9999
+
+FA,Jaron Shepherd RF | COL,0,0,0,0,0,0,0,9999
+
+FA,Josh Kreuzer 1B | TOR,0,0,0,0,0,0,0,9999
+
+FA,Mitch Haniger CF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Marcus Lemon SS | CHW,0,0,0,0,0,0,0,9999
+
+FA,Alec Keller CF | WAS,0,0,0,0,0,0,0,9999
+
+The Co...,Stryker Trahan RF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Brad Rea 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Joseph Loftus 3B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Erold Andrus LF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Jeffrey Waldron C | TEX,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Piron 2B | COL,0,0,0,0,0,0,0,9999
+
+FA,Jason Morozowski CF | ARI,0,0,0,0,0,0,0,9999
+
+FA,Brent Morel 3B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Seth Brown 1B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Connor McKay OF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Carlos Alvarez SS | WAS,0,0,0,0,0,0,0,9999
+
+FA,Jose Osuna 1B | PIT,0,0,0,0,0,0,0,9999
+
+FA,Stephen McGee C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Luis Exposito C | DET,0,0,0,0,0,0,0,9999
+
+FA,Sean Coughlin C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Steffan Wilson 3B | MIL,0,0,0,0,0,0,0,9999
+
+FA,D'Arby Myers RF | SD,0,0,0,0,0,0,0,9999
+
+FA,Justin Singleton LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Luany Sanchez C | KC,0,0,0,0,0,0,0,9999
+
+FA,Brett Harper 1B | OAK,0,0,0,0,0,0,0,9999
+
+FA,Blake Trahan SS | CIN,0,0,0,0,0,0,0,9999
+
+FA,Oscar Tejeda SS | BOS,0,0,0,0,0,0,0,9999
+
+FA,Konrad Schmidt C | CIN,0,0,0,0,0,0,0,9999
+
+FA,Sam Hilliard OF | COL,0,0,0,0,0,0,0,9999
+
+FA,Xavier Arroyo LF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Rafael Furcal 2B | KC,0,0,0,0,0,0,0,9999
+
+FA,Ryan Curry 2B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Ryan Fisher 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Diaz SS | NYY,0,0,0,0,0,0,0,9999
+
+FA,Michael Bell SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Jeff Reynolds 3B | NYM,0,0,0,0,0,0,0,9999
+
+FA,Jorge Padron 1B | BOS,0,0,0,0,0,0,0,9999
+
+FA,Audry Perez C | BAL,0,0,0,0,0,0,0,9999
+
+FA,Carlos Peguero RF | STL,0,0,0,0,0,0,0,9999
+
+FA,Corey Myers C | ARI,0,0,0,0,0,0,0,9999
+
+FA,Alfredo Reyes SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Jake DePew C | TB,0,0,0,0,0,0,0,9999
+
+FA,Matthew Maniscalco SS | TB,0,0,0,0,0,0,0,9999
+
+FA,Brandon Laird 3B | KC,0,0,0,0,0,0,0,9999
+
+FA,Dusty Coleman 3B | KC,0,0,0,0,0,0,0,9999
+
+FA,Dan Fiorito 3B | NYY,0,0,0,0,0,0,0,9999
+
+FA,Joel Galarraga C | OAK,0,0,0,0,0,0,0,9999
+
+FA,Hector Vargas 2B | CIN,0,0,0,0,0,0,0,9999
+
+FA,Juan Tejeda 1B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Ryan Patterson LF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Ricardo Nanita LF | TOR,0,0,0,0,0,0,0,9999
+
+FA,Ronald Acuna CF | ATL ,0,0,0,0,0,0,0,9999
+
+FA,Justin Trapp SS | KC,0,0,0,0,0,0,0,9999
+
+FA,Denny Almonte CF | SEA,0,0,0,0,0,0,0,9999
+
+FA,Jose Carlos Thompson SS | HOU,0,0,0,0,0,0,0,9999
+
+FA,Sergio Alcantara SS | ARI,0,0,0,0,0,0,0,9999
+
+FA,Carl Thomore OF | CHW,0,0,0,0,0,0,0,9999
+
+FA,Ryan Strausborger RF | TEX,0,0,0,0,0,0,0,9999
+
+FA,Jeremy Jirschele 2B | KC,0,0,0,0,0,0,0,9999
+
+AIDS,Zack Cox 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Daniel Bravo 2B | SD,0,0,0,0,0,0,0,9999
+
+FA,James Shanks LF | MIA,0,0,0,0,0,0,0,9999
+
+FA,Matthew Craig 3B | MIA,0,0,0,0,0,0,0,9999
+
+FA,Jon Matthews LF | CIN,0,0,0,0,0,0,0,9999
+
+FA,Brennan Gowens CF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Wade Wass C | LAA,0,0,0,0,0,0,0,9999
+
+FA,Ryan Knox LF | TB,0,0,0,0,0,0,0,9999
+
+FA,Leonardo Molina CF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Adam Heisler CF | CHW,0,0,0,0,0,0,0,9999
+
+FA,John Mayberry LF | DET,0,0,0,0,0,0,0,9999
+
+FA,Michael Cuddyer RF | NYM,0,0,0,0,0,0,0,9999
+
+FA,Mark Payton CF | NYY,0,0,0,0,0,0,0,9999
+
+FA,Andy Marte 3B | ARI,0,0,0,0,0,0,0,9999
+
+FA,Stephen Parker 1B | MIL,0,0,0,0,0,0,0,9999
+
+FA,Cam Perkins 3B | PHI,0,0,0,0,0,0,0,9999
+
+FA,Juan Diaz SS | PIT,0,0,0,0,0,0,0,9999
+
+FA,Mike Carp 1B | WAS,0,0,0,0,0,0,0,9999
+
+FA,Danilo Sanchez C | STL,0,0,0,0,0,0,0,9999
+
+FA,Jonathan Goncalves OF | MIN,0,0,0,0,0,0,0,9999
+
+FA,Jake Mauer 3B | MIN,0,0,0,0,0,0,0,9999
+
+FA,Brandon Macias SS | MIL,0,0,0,0,0,0,0,9999
+
+FA,Brock Bond 2B | SF,0,0,0,0,0,0,0,9999
+
+FA,Nick Noonan SS | SD,0,0,0,0,0,0,0,9999
+
+FA,Joe Bowen C | DET,0,0,0,0,0,0,0,9999
+
+FA,Cody Fuller LF | LAA,0,0,0,0,0,0,0,9999
+
+FA,Jeffrey Zimmerman 1B | SEA,0,0,0,0,0,0,0,9999
+
+FA,Eric Roof C | DET,0,0,0,0,0,0,0,9999
+
+FA,Lance Roenicke OF | MIL,0,0,0,0,0,0,0,9999
+
+Report Updated as of  6/27/16 12:21 PM EST,,,,,,,,,

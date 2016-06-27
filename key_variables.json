@@ -1,9 +1,12 @@
 {
-  "ldb_bad_cats": [
-    "ERA",
-    "HRA",
-    "aWHIP"
-  ],
+  "current_week": 12,
+  "WAR_adjustments": {
+    "rp_inns": 3,
+    "pit_RL": 0.38,
+    "at_bats": 25,
+    "sp_inns": 8,
+    "off_RL": 0.29
+  },
   "ldb_good_cats": [
     "HR",
     "OBP",
@@ -37,15 +40,6 @@
     "VIJAY",
     "aWHIP"
   ],
-  "ldb_bat_cats": [
-    "HR",
-    "OBP",
-    "OPS",
-    "R",
-    "aRBI",
-    "aSB"
-  ],
-  "current_week": 12,
   "ldb_teams": [
     "AIDS",
     "DIPA",
@@ -61,5 +55,18 @@
     "PWRS",
     "WHACK",
     "WIND"
+  ],
+  "ldb_bad_cats": [
+    "ERA",
+    "HRA",
+    "aWHIP"
+  ],
+  "ldb_bat_cats": [
+    "HR",
+    "OBP",
+    "OPS",
+    "R",
+    "aRBI",
+    "aSB"
   ]
 }
