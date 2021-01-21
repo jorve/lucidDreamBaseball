@@ -1,6 +1,10 @@
 import random
 import csv
 
+class Percent(float):
+    def __str__(self):
+        return '{:.2%}'.format(self)
+
 def gen_team_dict(team, entries):
     team_dict = {
         'team': team,
@@ -46,7 +50,7 @@ while (len(draft_order) < len(lottery)):
         if team['team'] is selected_team:
             team_odds = team['entries']/entries
             first_pick_odds = team['entries']/total_entries
-    selected_team_dict = gen_draft_dict(selected_team, len(draft_order), team_odds, first_pick_odds)
+    selected_team_dict = gen_draft_dict(selected_team, len(draft_order), Percent(team_odds), Percent(first_pick_odds))
     results.append(selected_team_dict)
     pass
 
