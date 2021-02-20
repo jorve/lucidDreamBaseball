@@ -41,7 +41,6 @@ while (len(draft_order) < len(lottery)):
     for team in lottery:
         if team['team'] not in draft_order:
             for i in range(team['entries']):
-                print(team['team'])
                 entry_list.append(str(team['team']))
             entries += team['entries']
     selected_team = random.choice(entry_list)
