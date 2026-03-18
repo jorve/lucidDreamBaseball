@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-03-17T15:53:14.074818Z",
+  "triggered": false,
+  "reason_codes": [
+    "NO_NEW_APPLIED_EVENTS"
+  ],
+  "target_date": "2026-03-16",
+  "event_window": {
+    "first_new_event_id": null,
+    "last_new_event_id": null,
+    "new_event_count": 0
+  },
+  "affected_team_ids": [],
+  "affected_player_ids": [],
+  "recommended_scope": "none",
+  "fallback_full_recompute": false
+}

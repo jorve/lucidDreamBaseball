@@ -1,0 +1,95 @@
+/* ─────────────────────────────────────────────────────────────────────────── */
+/* LDB — Brand Design Tokens                                                    */
+/* Source: Brand Standards · Ember & Gold                                       */
+/*                                                                              */
+/* Usage: link this file BEFORE styles.css in index.html                        */
+/* All tokens are prefixed --brand-* to avoid collisions with semantic vars     */
+/* ─────────────────────────────────────────────────────────────────────────── */
+
+/* ── Self-hosted fonts (woff2, latin subset only) ───────────────────────── */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/ibm-plex-mono-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/ibm-plex-mono-latin-700-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/eb-garamond-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/eb-garamond-latin-400-italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('fonts/eb-garamond-latin-600-normal.woff2') format('woff2');
+}
+
+:root {
+
+  /* ── Color: Core palette ──────────────────────────────────────────────── */
+  /* Ember  · Primary brand color — headers, accents, CTAs (25% of layout)  */
+  --brand-ember:         #FF6B2B;
+
+  /* Saffron · Supporting accent — highlights, secondary elements (5%)       */
+  --brand-saffron:       #F5A623;
+
+  /* Cream  · Body text, light elements — replaces white (10%)               */
+  --brand-cream:         #FAF0DC;
+
+  /* Charcoal · Base background (60%)                                        */
+  --brand-charcoal:      #1A1A1A;
+
+  /* ── Color: Surface steps (warm-tinted charcoal, each step clearly       */
+  /*           lighter than the last — bg < surface < surface-2)           */
+  --brand-surface:       #272018;  /* cards, nav, header (+1 step)  */
+  --brand-surface-2:     #322A20;  /* table headers, hover states   */
+  --brand-border:        #3D3028;  /* primary dividers              */
+  --brand-border-2:      #4A3B2E;  /* secondary borders, inputs     */
+
+  /* ── Color: Ember & Saffron — dimmed fills ───────────────────────────── */
+  --brand-ember-dim:     #8B3812;  /* active fills — dark ember, reads "selected" not "disabled" */
+  --brand-saffron-dim:   #A8690C;  /* secondary active fills        */
+
+  /* ── Color: Text hierarchy (cream-based) ─────────────────────────────── */
+  --brand-text:          #FAF0DC;                   /* primary text          */
+  --brand-text-dim:      rgba(250, 240, 220, 0.55); /* secondary / labels    */
+  --brand-text-muted:    rgba(250, 240, 220, 0.40); /* ghost / placeholders — was 25%, raised for legibility */
+
+  /* ── Typography: Font families ───────────────────────────────────────── */
+  /* IBM Plex Mono — headings, labels, UI chrome, code                      */
+  --brand-font-mono:     'IBM Plex Mono', 'Courier New', monospace;
+
+  /* EB Garamond — body copy, long-form text, quotes                        */
+  --brand-font-serif:    'EB Garamond', Georgia, serif;
+
+  /* ── Typography: Scale (matches brand spec) ──────────────────────────── */
+  --brand-size-display:  1.75rem;    /* 28px — Display / Title     */
+  --brand-size-heading:  1.125rem;   /* 18px — Section Heading     */
+  --brand-size-label:    0.75rem;    /* 12px — Subheading / Label  */
+  --brand-size-body:     0.6875rem;  /* 11px — Body Text           */
+  --brand-size-caption:  0.5625rem;  /* 9px  — Caption / Footer    */
+
+}

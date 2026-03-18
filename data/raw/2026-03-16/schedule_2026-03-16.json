@@ -1,0 +1,4224 @@
+{
+  "uri": "/league/schedules",
+  "uriAlias": "/league/schedules",
+  "body": {
+    "schedule": {
+      "periods": [
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "home_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "home_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "home_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "home_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "home_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "home_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "home_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "home_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "4/5/26",
+          "id": "1",
+          "type": "Regular Season",
+          "label": "Period 1",
+          "start": "3/25/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "home_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "home_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "home_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "home_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "home_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "home_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "home_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "home_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "4/12/26",
+          "id": "2",
+          "type": "Regular Season",
+          "label": "Period 2",
+          "start": "4/6/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "home_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "home_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "home_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "home_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "home_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "home_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "home_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "home_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "4/19/26",
+          "id": "3",
+          "type": "Regular Season",
+          "label": "Period 3",
+          "start": "4/13/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "home_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "home_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "home_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "home_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "home_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "home_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "home_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "home_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "4/26/26",
+          "id": "4",
+          "type": "Regular Season",
+          "label": "Period 4",
+          "start": "4/20/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "home_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "home_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "home_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "home_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "home_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "home_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "home_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "home_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "5/3/26",
+          "id": "5",
+          "type": "Regular Season",
+          "label": "Period 5",
+          "start": "4/27/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "home_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "home_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "home_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "home_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "home_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "home_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "home_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "home_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "5/10/26",
+          "id": "6",
+          "type": "Regular Season",
+          "label": "Period 6",
+          "start": "5/4/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "home_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "home_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "home_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "home_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "home_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "home_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "home_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "home_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "5/17/26",
+          "id": "7",
+          "type": "Regular Season",
+          "label": "Period 7",
+          "start": "5/11/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "home_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "home_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "home_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "home_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "home_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "home_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "home_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "home_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "5/24/26",
+          "id": "8",
+          "type": "Regular Season",
+          "label": "Period 8",
+          "start": "5/18/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "home_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "home_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "home_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "home_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "home_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "home_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "home_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "home_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "5/31/26",
+          "id": "9",
+          "type": "Regular Season",
+          "label": "Period 9",
+          "start": "5/25/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "home_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "home_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "home_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "home_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "home_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "home_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "home_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "home_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "6/7/26",
+          "id": "10",
+          "type": "Regular Season",
+          "label": "Period 10",
+          "start": "6/1/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "home_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "home_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "home_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "home_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "home_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "home_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "home_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "home_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "6/14/26",
+          "id": "11",
+          "type": "Regular Season",
+          "label": "Period 11",
+          "start": "6/8/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "home_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "home_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "home_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "home_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "home_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "home_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "home_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "home_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "6/21/26",
+          "id": "12",
+          "type": "Regular Season",
+          "label": "Period 12",
+          "start": "6/15/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "home_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "home_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "home_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "home_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "home_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "home_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "home_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "home_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "6/28/26",
+          "id": "13",
+          "type": "Regular Season",
+          "label": "Period 13",
+          "start": "6/22/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "home_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "home_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "home_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "home_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "home_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "home_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "home_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "home_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "7/5/26",
+          "id": "14",
+          "type": "Regular Season",
+          "label": "Period 14",
+          "start": "6/29/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "home_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "home_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "home_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "home_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "home_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "home_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "home_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "home_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "7/12/26",
+          "id": "15",
+          "type": "Regular Season",
+          "label": "Period 15",
+          "start": "7/6/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "home_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "home_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "home_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "home_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "home_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "home_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "home_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "home_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "7/26/26",
+          "id": "16",
+          "type": "Regular Season",
+          "label": "Period 16",
+          "start": "7/13/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "home_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "home_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "home_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "home_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "home_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "home_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "home_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "home_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "8/2/26",
+          "id": "17",
+          "type": "Regular Season",
+          "label": "Period 17",
+          "start": "7/27/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "home_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "home_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "home_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "home_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "home_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "home_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "home_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "home_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "8/9/26",
+          "id": "18",
+          "type": "Regular Season",
+          "label": "Period 18",
+          "start": "8/3/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "home_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "home_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "home_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "home_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "home_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "home_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "home_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "home_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "8/16/26",
+          "id": "19",
+          "type": "Regular Season",
+          "label": "Period 19",
+          "start": "8/10/26"
+        },
+        {
+          "matchups": [
+            {
+              "away_team": {
+                "short_name": "Cornba",
+                "long_abbr": "CORN",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+                "abbr": "TC",
+                "id": "6",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Cornballers"
+              },
+              "home_team": {
+                "short_name": "Nate's",
+                "long_abbr": "N8",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+                "abbr": "T1",
+                "id": "17",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Nate's Team"
+              },
+              "id": "1"
+            },
+            {
+              "away_team": {
+                "short_name": "The Du",
+                "long_abbr": "TONES",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+                "abbr": "RMG",
+                "id": "11",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Dulcet Tones of Vincent Scully"
+              },
+              "home_team": {
+                "short_name": "Izzy A",
+                "long_abbr": "IZZY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+                "abbr": "AMD",
+                "id": "8",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Izzy Alcantara's New Backstop Busters"
+              },
+              "id": "2"
+            },
+            {
+              "away_team": {
+                "short_name": "Northe",
+                "long_abbr": "NEO",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+                "abbr": "WW",
+                "id": "7",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Northeastern Oklahoma A&M"
+              },
+              "home_team": {
+                "short_name": "Americ",
+                "long_abbr": "DIPAS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+                "abbr": "ADI",
+                "id": "13",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "American Double IPAs"
+              },
+              "id": "3"
+            },
+            {
+              "away_team": {
+                "short_name": "Olympi",
+                "long_abbr": "ROOF",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+                "abbr": "T1",
+                "id": "16",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Olympic-Size Swimming Pool Up On The Roof"
+              },
+              "home_team": {
+                "short_name": "Honeyn",
+                "long_abbr": "ICHI",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/h.png?width=100&height=100",
+                "abbr": "HI",
+                "id": "9",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Honeynut Ichiros"
+              },
+              "id": "4"
+            },
+            {
+              "away_team": {
+                "short_name": "Brophy",
+                "long_abbr": "CHOICE",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "BC",
+                "id": "10",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brophy's Choice"
+              },
+              "home_team": {
+                "short_name": "Bed St",
+                "long_abbr": "FRY",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+                "abbr": "TPT",
+                "id": "14",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Bed Stuy Fish Fry"
+              },
+              "id": "5"
+            },
+            {
+              "away_team": {
+                "short_name": "The Co",
+                "long_abbr": "WORK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+                "abbr": "TCW",
+                "id": "3",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Compleat Works of Mtt McQny"
+              },
+              "home_team": {
+                "short_name": "The Po",
+                "long_abbr": "PWRS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+                "abbr": "YLH",
+                "id": "1",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "The Powers of Matthew Starr"
+              },
+              "id": "6"
+            },
+            {
+              "away_team": {
+                "short_name": "AIDS",
+                "long_abbr": "AIDS",
+                "logo": "http://sports.cbsimg.net/images/fantasy/teams/a.png?width=100&height=100",
+                "abbr": "AID",
+                "id": "5",
+                "division": "Honkbal Hoofdklasse (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "AIDS"
+              },
+              "home_team": {
+                "short_name": "Brookl",
+                "long_abbr": "BALK",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+                "abbr": "BB",
+                "id": "15",
+                "division": "All-American Girls (UNION)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Brooklyn Balks"
+              },
+              "id": "7"
+            },
+            {
+              "away_team": {
+                "short_name": "Los Po",
+                "long_abbr": "POLLOS",
+                "logo": "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+                "abbr": "LP",
+                "id": "4",
+                "division": "Iron & Oil (Federal)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Los Pollos"
+              },
+              "home_team": {
+                "short_name": "Orchid",
+                "long_abbr": "OADS",
+                "logo": "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+                "abbr": "WOE",
+                "id": "12",
+                "division": "California Winter (FEDERAL)",
+                "is_vacant": 0,
+                "record": "0-0-0",
+                "name": "Orchids of Asia Day Spa"
+              },
+              "id": "8"
+            }
+          ],
+          "end": "8/23/26",
+          "id": "20",
+          "type": "Regular Season",
+          "label": "Period 20",
+          "start": "8/17/26"
+        },
+        {
+          "matchups": [],
+          "end": "8/30/26",
+          "id": "21",
+          "type": "Playoffs",
+          "label": "Period 21",
+          "start": "8/24/26"
+        },
+        {
+          "matchups": [],
+          "end": "9/6/26",
+          "id": "22",
+          "type": "Playoffs",
+          "label": "Period 22",
+          "start": "8/31/26"
+        },
+        {
+          "matchups": [],
+          "end": "9/13/26",
+          "id": "23",
+          "type": "Playoffs",
+          "label": "Period 23",
+          "start": "9/7/26"
+        },
+        {
+          "matchups": [],
+          "end": "9/20/26",
+          "id": "24",
+          "type": "Playoffs",
+          "label": "Period 24",
+          "start": "9/14/26"
+        }
+      ]
+    }
+  },
+  "statusMessage": "OK",
+  "statusCode": 200
+}

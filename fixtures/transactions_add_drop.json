@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-03-17T03:15:00Z",
+  "source": {
+    "provider": "cbssports",
+    "league_id": "luciddreambaseball",
+    "target_date": "2026-03-16"
+  },
+  "summary": {
+    "events_seen": 2,
+    "events_new": 2,
+    "events_deduped": 0,
+    "events_failed": 0,
+    "events_inferred": 0,
+    "events_quarantined": 0
+  },
+  "events": [
+    {
+      "event_id": "txn_20260316110000_add_17_12345",
+      "event_ts": "2026-03-16T11:00:00Z",
+      "event_type": "add",
+      "team_to": {
+        "team_id": "17",
+        "team_name": "Team A"
+      },
+      "players": [
+        {
+          "player_id": "12345",
+          "player_name": "Player One",
+          "movement": "to_team"
+        }
+      ],
+      "source": "cbs_api",
+      "ingested_at_utc": "2026-03-17T03:15:00Z",
+      "validation_code": "ok"
+    },
+    {
+      "event_id": "txn_20260316113000_drop_9_67890",
+      "event_ts": "2026-03-16T11:30:00Z",
+      "event_type": "drop",
+      "team_from": {
+        "team_id": "9",
+        "team_name": "Team B"
+      },
+      "players": [
+        {
+          "player_id": "67890",
+          "player_name": "Player Two",
+          "movement": "from_team"
+        }
+      ],
+      "source": "cbs_api",
+      "ingested_at_utc": "2026-03-17T03:15:00Z",
+      "validation_code": "ok"
+    }
+  ]
+}

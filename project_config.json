@@ -1,0 +1,160 @@
+{
+  "current_year": 2016,
+  "current_week": 12,
+  "paths": {
+    "data_dir": "data",
+    "json_dir": "json",
+    "csv_dir": "csv",
+    "ingestion_raw_dir": "data/raw",
+    "ingestion_state_dir": ".state",
+    "logs_dir": "logs"
+  },
+  "ingestion": {
+    "enabled": true,
+    "auth_mode": "hybrid",
+    "live_scoring_include_players": true,
+    "retention_days": 45,
+    "health_max_age_hours": 30,
+    "transaction_health_max_age_hours": 168,
+    "request_policy": {
+      "max_attempts": 3,
+      "retry_backoff_seconds": 2.0,
+      "min_interval_seconds": 1.5,
+      "jitter_seconds": 0.75,
+      "user_agent": "lucidDreamBaseball-ingestion/1.0 (+respectful-request-policy)"
+    },
+    "run_lock": {
+      "enabled": true,
+      "stale_hours": 8
+    },
+    "history": {
+      "enabled": true,
+      "retention_days": 180
+    },
+    "calibration": {
+      "enabled": true,
+      "trend_weeks": 4,
+      "degrade_mae_pct": 5.0
+    },
+    "clap_v2": {
+      "enabled": true,
+      "selected_engine": "analytic_normal",
+      "monte_carlo_samples": 3000,
+      "player_cv": 0.35,
+      "min_sigma": 0.05,
+      "random_seed": 42,
+      "calibration_lookback_days": 45,
+      "stabilization_samples_weekly": 6,
+      "stabilization_samples_starts": 6,
+      "sp_start_min_outs": 9,
+      "sp_two_start_threshold": 1.5
+    },
+    "transactions": {
+      "enabled": true
+    },
+    "recompute": {
+      "trigger_enabled": true,
+      "force_full_on_integrity_error": true
+    },
+    "player_blend": {
+      "enabled": true,
+      "preseason_csvs": {
+        "batters": "data/{year}/preseason/batter_priors.csv",
+        "sp": "data/{year}/preseason/sp_priors.csv",
+        "rp": "data/{year}/preseason/rp_priors.csv"
+      },
+      "preseason_csv": "data/{year}/preseason/player_priors.csv",
+      "transition_weeks": 6,
+      "season_days": 183,
+      "prior_variance": 25.0,
+      "observed_variance": 36.0,
+      "overperform_threshold": 1.0,
+      "underperform_threshold": 1.0,
+      "performance_thresholds_percent": {
+        "overall": {
+          "over": 10.0,
+          "under": 10.0
+        },
+        "aRBI": {
+          "over": 15.0,
+          "under": 15.0
+        },
+        "aSB": {
+          "over": 20.0,
+          "under": 20.0
+        },
+        "MGS": {
+          "over": 12.0,
+          "under": 12.0
+        },
+        "VIJAY": {
+          "over": 20.0,
+          "under": 20.0
+        }
+      }
+    },
+    "projections": {
+      "scoring_week_end_weekday": 6,
+      "free_agents": {
+        "enabled": true,
+        "daily_weight": 0.3,
+        "weekly_weight": 0.7,
+        "max_candidates": 250,
+        "drop_pool_size": 8,
+        "max_replacement_suggestions": 120,
+        "min_net_gain": 0.0
+      },
+      "weekly_email": {
+        "enabled": true,
+        "top_players": 8,
+        "top_swaps": 5,
+        "send_day_weekday": 0,
+        "send_time_local": "08:00",
+        "subject_template": "LDB Weekly Recap + Outlook ({week_start} to {week_end})",
+        "recipients": []
+      }
+    },
+    "eligibility": {
+      "enabled": true,
+      "csvs": {
+        "batters": "data/{year}/preseason/CBS_batter_elig.csv",
+        "sp": "data/{year}/preseason/CBS_SP_elig.csv",
+        "rp": "data/{year}/preseason/CBS_RP_elig.csv"
+      }
+    },
+    "optional_resources": [
+      "player_stats",
+      "league_lineup",
+      "scout_team"
+    ],
+    "timezone": "local",
+    "cbs": {
+      "league_id": "luciddreambaseball",
+      "base_url": "https://api.cbssports.com/fantasy",
+      "login_url": "https://www.cbssports.com/login",
+      "token_source_url": "https://www.cbssports.com/fantasy/baseball/",
+      "token_source_urls": [
+        "https://luciddreambaseball.baseball.cbssports.com/",
+        "https://www.cbssports.com/fantasy/baseball/leagues/luciddreambaseball/"
+      ],
+      "response_format": "json",
+      "version": "3.0",
+      "endpoints": {
+        "live_scoring": "league/scoring/live",
+        "schedule": "league/schedules",
+        "rosters": "league/rosters",
+        "league_lineup": "https://luciddreambaseball.baseball.cbssports.com/api/league/transactions/lineup",
+        "scout_team": "https://luciddreambaseball.baseball.cbssports.com/api/players/scout-team"
+      }
+    },
+    "auth": {
+      "username_env": "CBS_USERNAME",
+      "password_env": "CBS_PASSWORD",
+      "keyring_service": "lucidDreamBaseball",
+      "session_key_name": "cbs_session",
+      "token_key_name": "cbs_api_token",
+      "headless": true,
+      "timeout_seconds": 60
+    }
+  }
+}

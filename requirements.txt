@@ -1,0 +1,5 @@
+scipy
+simplejson
+requests
+keyring
+playwright

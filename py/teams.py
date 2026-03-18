@@ -1,15 +1,13 @@
-# must use Python 2x to use the statistics package
 import json
 import pprint
 import statistics
 import csv
+from project_config import CURRENT_WEEK, get_week_file_path, get_json_output_path
 
 pp = pprint.PrettyPrinter(indent=2)
 
-current_year = 2016
-current_week = 12
 api_token = ""
-data_url = "http://api.cbssports.com/fantasy/league/scoring/live?version=3.0&league_id=luciddreambaseball&period=" + str(current_week) + "0&no_players=1&access_token=" + api_token + "&response_format=json"
+data_url = "http://api.cbssports.com/fantasy/league/scoring/live?version=3.0&league_id=luciddreambaseball&period=" + str(CURRENT_WEEK) + "0&no_players=1&access_token=" + api_token + "&response_format=json"
 
 team_scores = {}
 team_CLAPS = {}
@@ -24,8 +22,9 @@ inn_adjustments = {
 	"ICHI":	[-5,5]
 }
 
-for i in range(1, current_week + 1):
-	with open("./" + str(current_year) + "/week" + str(i)+ ".json") as json_file:
+for i in range(1, CURRENT_WEEK + 1):
+	file_path = get_week_file_path(i)
+	with file_path.open() as json_file:
 		json_data = json.load(json_file)
 		teams = json_data["body"]["live_scoring"]["teams"]
 		for team in teams:
@@ -65,9 +64,8 @@ for ldb_team in ldb_teams:
 		team_scores[ldb_team]["season_record"][1] += inn_adjustments[ldb_team][1] 
 	pp.pprint(team_scores[ldb_team]["season_record"])
 
-f = open('team_scores.json', 'wt')
-json.dump(team_scores, f,indent = 4)
-f.close()
+with get_json_output_path("team_scores.json").open('wt') as f:
+	json.dump(team_scores, f, indent=4)
 
 for team in ldb_teams:
 	if not team in team_CLAPS:
@@ -76,7 +74,7 @@ for team in ldb_teams:
 	for ldb_cat in ldb_cats:
 		if not ldb_cat in team_CLAP:
 			team_CLAP[ldb_cat + "_array"] = []
-		for i in range(1, current_week + 1):
+		for i in range(1, CURRENT_WEEK + 1):
 			team_CLAP[ldb_cat + "_array"].append(float(team_scores[team]["week" + str(i)][ldb_cat]))
 
 for team in ldb_teams:
@@ -88,8 +86,7 @@ for team in ldb_teams:
 		team_CLAP[cat_stddev] = statistics.stdev(team_CLAP[ldb_cat + "_array"])
 
 
-f = open('team_CLAPS.json', 'wt')
-json.dump(team_CLAPS, f,indent = 4)
-f.close()
+with get_json_output_path("team_CLAPS.json").open('wt') as f:
+	json.dump(team_CLAPS, f, indent=4)
 
 

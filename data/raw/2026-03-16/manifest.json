@@ -1,0 +1,39 @@
+{
+  "target_date": "2026-03-16",
+  "resources": {
+    "live_scoring": {
+      "file": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16\\live_scoring_2026-03-16.json",
+      "metadata": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16\\live_scoring_2026-03-16.meta.json",
+      "status": "ok"
+    },
+    "schedule": {
+      "file": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16\\schedule_2026-03-16.json",
+      "metadata": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16\\schedule_2026-03-16.meta.json",
+      "status": "ok"
+    },
+    "rosters": {
+      "file": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16\\rosters_2026-03-16.json",
+      "metadata": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16\\rosters_2026-03-16.meta.json",
+      "status": "ok"
+    },
+    "player_stats": {
+      "file": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16\\player_stats_2026-03-16.json",
+      "metadata": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16\\player_stats_2026-03-16.meta.json",
+      "status": "optional_failed",
+      "error": "400 Bad Request at /fantasy/players/stats"
+    },
+    "league_lineup": {
+      "file": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16\\league_lineup_2026-03-16.json",
+      "metadata": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16\\league_lineup_2026-03-16.meta.json",
+      "status": "optional_failed",
+      "error": "400 Bad Request at /api/league/transactions/lineup"
+    },
+    "scout_team": {
+      "file": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16\\scout_team_2026-03-16.json",
+      "metadata": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16\\scout_team_2026-03-16.meta.json",
+      "status": "optional_failed",
+      "error": "400 Bad Request at /api/players/scout-team"
+    }
+  },
+  "fetched_at": "2026-03-17T20:55:55.416018+00:00"
+}

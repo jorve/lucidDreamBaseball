@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LDB Apps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="ui/tokens.css">
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: var(--brand-charcoal);
+      color: var(--brand-cream);
+      font-family: var(--brand-font-serif);
+    }
+    .panel {
+      width: min(720px, 92vw);
+      background: var(--brand-surface);
+      border: 1px solid var(--brand-border);
+      border-radius: 12px;
+      padding: 24px;
+    }
+    h1 {
+      margin: 0 0 8px 0;
+      color: var(--brand-ember);
+      font-family: var(--brand-font-mono);
+      font-size: 24px;
+    }
+    p {
+      margin: 0 0 18px 0;
+      color: var(--brand-text-dim);
+    }
+    .links {
+      display: grid;
+      gap: 12px;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      color: var(--brand-cream);
+      border: 1px solid var(--brand-border-2);
+      border-radius: 8px;
+      padding: 12px 14px;
+      background: var(--brand-surface-2);
+      font-family: var(--brand-font-mono);
+    }
+    a:hover {
+      border-color: var(--brand-ember);
+    }
+    .hint {
+      margin-top: 14px;
+      font-size: 12px;
+      color: var(--brand-text-dim);
+    }
+  </style>
+</head>
+<body>
+  <main class="panel">
+    <h1>Lucid Dream Baseball Apps</h1>
+    <p>Select a view.</p>
+    <div class="links">
+      <a href="/ui-league/index.html">League View (public facing)</a>
+      <a href="/ui/index.html">GM View (private tools)</a>
+    </div>
+    <div class="hint">Served from repository root on port 8080.</div>
+  </main>
+</body>
+</html>

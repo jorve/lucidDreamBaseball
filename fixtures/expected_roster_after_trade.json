@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "as_of_utc": "2026-03-16T18:30:12Z",
+  "base_snapshot": {
+    "source_date": "2026-03-16",
+    "resource": "rosters"
+  },
+  "event_apply_window": {
+    "first_event_id": "txn_20260316183012_trade_9_17_12345_67890",
+    "last_event_id_applied": "txn_20260316183012_trade_9_17_12345_67890",
+    "events_applied_count": 1
+  },
+  "teams": [
+    {
+      "team_id": "9",
+      "team_name": "Team B",
+      "players": [
+        {
+          "player_id": "12345",
+          "player_name": "Player One",
+          "positions": [
+            "OF"
+          ],
+          "status": "active",
+          "acquired_via_event_id": "txn_20260316183012_trade_9_17_12345_67890"
+        }
+      ]
+    },
+    {
+      "team_id": "17",
+      "team_name": "Team A",
+      "players": [
+        {
+          "player_id": "67890",
+          "player_name": "Player Two",
+          "positions": [
+            "1B"
+          ],
+          "status": "active",
+          "acquired_via_event_id": "txn_20260316183012_trade_9_17_12345_67890"
+        }
+      ]
+    }
+  ],
+  "integrity": {
+    "duplicate_player_assignments": 0,
+    "unknown_players_quarantined": 0,
+    "atomic_trade_failures": 0,
+    "status": "ok"
+  }
+}

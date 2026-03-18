@@ -2,13 +2,12 @@ import json
 import pprint
 import statistics
 import csv
+from project_config import CURRENT_WEEK, get_week_file_path, get_json_output_path, get_csv_output_path
 
 pp = pprint.PrettyPrinter(indent=2)
 
-current_year = 2016
-current_week = 12
 api_token = ""
-data_url = "http://api.cbssports.com/fantasy/league/scoring/live?version=3.0&league_id=luciddreambaseball&period=" + str(current_week) + "0&no_players=1&access_token=" + api_token + "&response_format=json"
+data_url = "http://api.cbssports.com/fantasy/league/scoring/live?version=3.0&league_id=luciddreambaseball&period=" + str(CURRENT_WEEK) + "0&no_players=1&access_token=" + api_token + "&response_format=json"
 weekly_scores = {}
 team_scores = {}
 cat_means = {}
@@ -18,10 +17,10 @@ ldb_bad_cats = []
 ldb_good_cats = []
 ldb_CLAP = {}
 
-for i in range(1, current_week + 1):
+for i in range(1, CURRENT_WEEK + 1):
 	weekly_scores["week" + str(i)] = {}
-	file_path = "./" + str(current_year) + "/week" + str(i)+ ".json"
-	with open(file_path) as json_file:
+	file_path = get_week_file_path(i)
+	with file_path.open() as json_file:
 		json_data = json.load(json_file)
 		teams = json_data["body"]["live_scoring"]["teams"]
 		for team in teams:
@@ -57,22 +56,19 @@ for ldb_cat in ldb_cats:
 			cat_means["z" + ldb_cat].append((cat_means[ldb_cat + "_mean"] - item)/cat_means[ldb_cat + "_stddev"])
 
 
-csv_file = open('ldbClap.csv', 'wt')
-csvCLAP = csv.writer(csv_file)
-for item in list_CLAP:
-	csvCLAP.writerow(item)
-csv_file.close()
+with get_csv_output_path("ldbClap.csv").open('wt', newline='') as csv_file:
+	csvCLAP = csv.writer(csv_file)
+	for item in list_CLAP:
+		csvCLAP.writerow(item)
 
-f = open('weeklyScores.json', 'wt')
-json.dump(weekly_scores, f, indent = 2)
-f.close()
+with get_json_output_path("weeklyScores.json").open('wt') as f:
+	json.dump(weekly_scores, f, indent=2)
 
-f = open('ldbCLAP.json', 'wt')
-json.dump(ldb_CLAP, f, indent = 2)
-f.close()
+with get_json_output_path("ldbCLAP.json").open('wt') as f:
+	json.dump(ldb_CLAP, f, indent=2)
 
 key_variables = {
-	"current_week": current_week,
+	"current_week": CURRENT_WEEK,
 	"ldb_teams": ldb_teams,
 	"ldb_cats": ldb_cats,
 	"ldb_bad_cats": ldb_bad_cats,
@@ -102,6 +98,5 @@ key_variables = {
   }
 }
 
-f = open('key_variables.json', 'wt')
-json.dump(key_variables, f, indent = 2)
-f.close()
+with get_json_output_path("key_variables.json").open('wt') as f:
+	json.dump(key_variables, f, indent=2)

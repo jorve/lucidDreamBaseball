@@ -8,6 +8,7 @@
 *.so
 *.pyc
 *.idea
+.venv/
 
 # Logs and databases #
 ######################

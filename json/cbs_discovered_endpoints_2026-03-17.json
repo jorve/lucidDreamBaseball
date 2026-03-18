@@ -1,0 +1,144 @@
+{
+  "generated_at": "2026-03-17T14:15:04.901348+00:00",
+  "login_final_url": "https://www.cbssports.com/login/confirmation",
+  "visited_pages": [
+    "https://luciddreambaseball.baseball.cbssports.com/scoring/standard",
+    "https://luciddreambaseball.baseball.cbssports.com/teams"
+  ],
+  "visited_results": [
+    {
+      "requested_url": "https://luciddreambaseball.baseball.cbssports.com/scoring/standard",
+      "final_url": "https://luciddreambaseball.baseball.cbssports.com/scoring/standard",
+      "title": "Lucid Dream Baseball - CBSSports.com",
+      "is_sign_in_page": false
+    },
+    {
+      "requested_url": "https://luciddreambaseball.baseball.cbssports.com/teams",
+      "final_url": "https://luciddreambaseball.baseball.cbssports.com/teams",
+      "title": "Lucid Dream Baseball - CBSSports.com",
+      "is_sign_in_page": false
+    }
+  ],
+  "cbssports_request_count": 47,
+  "cbssports_request_samples": [
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/1-155359.png?width=100&height=100",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/11-1741920215.jpg?width=100&height=100",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/12-1770830960.png?width=100&height=100",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=100&height=100",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/13-95824.png?width=72&height=72",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?size=36x36&teamname=Bed_Stuy_Fish_Fry&id=jorve",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=100&height=100",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/14-19642.gif?width=72&height=72",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/15-235078.jpg?width=100&height=100",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/16-1617171527.png?width=100&height=100",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/17-4313.jpg?width=100&height=100",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/3-263153.png?width=100&height=100",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/6-1614114913.png?width=100&height=100",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/7-1757074331.jpg?width=100&height=100",
+    "https://fantasy-media.cbssports.com/baseball/luciddreambaseball/team_logo/8-1613767456.png?width=100&height=100",
+    "https://league2ndchanceleagu1549760409.baseball.cbssports.com/ownerlogo?size=36x36&teamname=Bed_Stuy_Fish_Fry&id=jorve",
+    "https://luciddreambaseball.baseball.cbssports.com/api/league/chat/status",
+    "https://luciddreambaseball.baseball.cbssports.com/ownerlogo?size=36x36&teamname=Bed_Stuy_Fish_Fry&id=jorve",
+    "https://luciddreambaseball.baseball.cbssports.com/scoring/standard",
+    "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Aminilogo&captype=cap&capcolor=blue&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+    "https://luciddreambaseball.baseball.cbssports.com/team-logo?logo_type=cap%3Atext&captype=whitecap&capcolor=black&logo=1star.gif&minilogo=1star.gif&flipbg=&fgtype=&flipfg=&bgtype=&bgcolor=&letters=CHCE&text_color=aliceblue&text_position=bottom&button_type=flat&button_color=none&?width=100&height=100",
+    "https://luciddreambaseball.baseball.cbssports.com/teams",
+    "https://torq.cbssports.com/torq/handler/info",
+    "https://www.cbssports.com/?login=confirmed&tid=1773756882"
+  ],
+  "html_endpoint_hints": {
+    "https://luciddreambaseball.baseball.cbssports.com/scoring/standard": [
+      "/api/players/scout-team",
+      "/fantasy/baseball/scoreboard/each_most_scoring_left_arrow.gif",
+      "/fantasy/baseball/scoreboard/each_most_scoring_right_arrow.gif",
+      "/fantasy/contacts/loading.gif",
+      "/fantasy/games/",
+      "/fantasy/games/my-teams/",
+      "/fantasy/global-min-v205.js",
+      "/fantasy/icons/audio_play.gif",
+      "/fantasy/icons/video_new_burst.gif",
+      "/fantasy/mgmt/scoreboard",
+      "/fantasy/stickynotes/icon_block.gif",
+      "/fantasy/stickynotes/icon_reply.gif",
+      "/fantasy/stickynotes/icon_unblock.gif",
+      "/fantasy/teams/a.png?width=100&amp",
+      "/fantasy/teams/a.png?width=100&height=100",
+      "/fantasy/teams/a.png?width=15&height=15",
+      "/fantasy/teams/a.png?width=72&height=72",
+      "/fantasy/teams/h.png?width=100&amp",
+      "/fantasy/teams/h.png?width=100&height=100",
+      "/fantasy/teams/h.png?width=15&height=15",
+      "/fantasy/teams/h.png?width=72&height=72",
+      "league//",
+      "stats/sortable/team",
+      "stats/stats-main"
+    ],
+    "https://luciddreambaseball.baseball.cbssports.com/teams": [
+      "/api/league/transactions/lineup",
+      "/api/players/scout-team",
+      "/fantasy/contacts/loader.gif",
+      "/fantasy/contacts/loading.gif",
+      "/fantasy/games/",
+      "/fantasy/games/my-teams/",
+      "/fantasy/global-min-v205.js",
+      "/fantasy/mgmt/teams_lineup",
+      "/fantasy/stickynotes/icon_block.gif",
+      "/fantasy/stickynotes/icon_reply.gif",
+      "/fantasy/stickynotes/icon_unblock.gif",
+      "/fantasy/teams/a.png?width=100&amp",
+      "/fantasy/teams/a.png?width=100&height=100",
+      "/fantasy/teams/h.png?width=100&amp",
+      "/fantasy/teams/h.png?width=100&height=100",
+      "league/transactions/lineup",
+      "stats/stats-main"
+    ]
+  },
+  "endpoints": [
+    {
+      "path": "/api/authex/analytics",
+      "hosts": [
+        "www.cbssports.com"
+      ],
+      "request_count": 2,
+      "methods": [
+        "POST"
+      ],
+      "resource_types": [
+        "ping"
+      ],
+      "query_keys": [],
+      "sample_url": "https://www.cbssports.com/api/authex/analytics"
+    },
+    {
+      "path": "/api/authex/web-vitals",
+      "hosts": [
+        "www.cbssports.com"
+      ],
+      "request_count": 12,
+      "methods": [
+        "POST"
+      ],
+      "resource_types": [
+        "ping"
+      ],
+      "query_keys": [],
+      "sample_url": "https://www.cbssports.com/api/authex/web-vitals"
+    },
+    {
+      "path": "/api/league/chat/status",
+      "hosts": [
+        "luciddreambaseball.baseball.cbssports.com"
+      ],
+      "request_count": 1,
+      "methods": [
+        "PUT"
+      ],
+      "resource_types": [
+        "xhr"
+      ],
+      "query_keys": [],
+      "sample_url": "https://luciddreambaseball.baseball.cbssports.com/api/league/chat/status"
+    }
+  ]
+}

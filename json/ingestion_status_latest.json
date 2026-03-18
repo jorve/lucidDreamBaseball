@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "status": "ok",
+  "last_success_utc": "2026-03-17T20:56:58.710692Z",
+  "target_date": "2026-03-16",
+  "freshness_hours": 0.0,
+  "resources": [
+    {
+      "name": "auth",
+      "status": "ok",
+      "path": "",
+      "error_short": null
+    },
+    {
+      "name": "fetch",
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16",
+      "error_short": null
+    },
+    {
+      "name": "normalize",
+      "status": "skipped",
+      "path": "",
+      "error_short": "NORMALIZE_NOT_OK"
+    },
+    {
+      "name": "transactions",
+      "status": "skipped",
+      "path": "",
+      "error_short": "TRANSACTIONS_NOT_OK"
+    },
+    {
+      "name": "roster_state",
+      "status": "skipped",
+      "path": "",
+      "error_short": "ROSTER_STATE_NOT_OK"
+    },
+    {
+      "name": "recompute_trigger",
+      "status": "skipped",
+      "path": "",
+      "error_short": "RECOMPUTE_TRIGGER_NOT_OK"
+    },
+    {
+      "name": "player_priors",
+      "status": "skipped",
+      "path": "",
+      "error_short": "PLAYER_PRIORS_NOT_OK"
+    },
+    {
+      "name": "player_eligibility",
+      "status": "skipped",
+      "path": "",
+      "error_short": "PLAYER_ELIGIBILITY_NOT_OK"
+    },
+    {
+      "name": "player_blend",
+      "status": "skipped",
+      "path": "",
+      "error_short": "PLAYER_BLEND_NOT_OK"
+    },
+    {
+      "name": "projection_horizons",
+      "status": "skipped",
+      "path": "",
+      "error_short": "PROJECTION_HORIZONS_NOT_OK"
+    },
+    {
+      "name": "view_models",
+      "status": "skipped",
+      "path": "",
+      "error_short": "VIEW_MODELS_NOT_OK"
+    },
+    {
+      "name": "free_agent_candidates",
+      "status": "skipped",
+      "path": "",
+      "error_short": "FREE_AGENT_CANDIDATES_NOT_OK"
+    },
+    {
+      "name": "weekly_digest",
+      "status": "skipped",
+      "path": "",
+      "error_short": "WEEKLY_DIGEST_NOT_OK"
+    },
+    {
+      "name": "weekly_email",
+      "status": "skipped",
+      "path": "",
+      "error_short": "WEEKLY_EMAIL_NOT_OK"
+    },
+    {
+      "name": "weekly_calibration",
+      "status": "skipped",
+      "path": "",
+      "error_short": "WEEKLY_CALIBRATION_NOT_OK"
+    },
+    {
+      "name": "artifact_history",
+      "status": "skipped",
+      "path": "",
+      "error_short": "ARTIFACT_HISTORY_NOT_OK"
+    }
+  ],
+  "codes": [
+    "ok"
+  ],
+  "eligibility_changes": {
+    "added_count": 0,
+    "removed_count": 0,
+    "updated_count": 0,
+    "has_changes": false
+  },
+  "transaction_stream": {
+    "status": "unknown",
+    "max_age_hours": 168.0,
+    "last_event_utc": null,
+    "freshness_hours": null,
+    "event_count": 0
+  },
+  "generated_at_utc": "2026-03-17T20:56:58.710692Z"
+}

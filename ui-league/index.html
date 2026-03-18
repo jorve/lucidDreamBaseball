@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LDB League View</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../ui/tokens.css">
+  <link rel="stylesheet" href="../ui/styles.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="header-brand">
+    <h1>LDB League View</h1>
+    <span class="subtitle">Public league-facing dashboard</span>
+  </div>
+  <div class="header-meta">
+    <span id="statusBadge" class="badge badge-unknown">Loading</span>
+    <span id="asOf" class="as-of">—</span>
+  </div>
+</header>
+
+<nav>
+  <button class="tab active" data-tab="scoreboard">Scoreboard</button>
+  <button class="tab" data-tab="standings">Standings</button>
+  <button class="tab" data-tab="splits">Splits</button>
+  <button class="tab" data-tab="roto">Roto Progress</button>
+  <button class="tab" data-tab="rules">Rules</button>
+</nav>
+
+<main>
+  <div id="view-scoreboard" class="view active">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Latest Week Scoreboard</div>
+        <div class="card-sub" id="scoreboard-week-label">—</div>
+      </div>
+      <div class="card-sub" id="scoreboard-source-label" style="margin-bottom:8px">Source: —</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Matchup</th>
+              <th>Team</th>
+              <th class="num">HR</th>
+              <th class="num">R</th>
+              <th class="num">OBP</th>
+              <th class="num">OPS</th>
+              <th class="num">aRBI</th>
+              <th class="num">aSB</th>
+              <th class="num">K</th>
+              <th class="num">HRA</th>
+              <th class="num">aWHIP</th>
+              <th class="num">VIJAY</th>
+              <th class="num">ERA</th>
+              <th class="num">MGS*</th>
+              <th class="num">Score</th>
+            </tr>
+          </thead>
+          <tbody id="scoreboard-body"></tbody>
+        </table>
+      </div>
+      <div class="card-sub" style="margin-top:10px">* Matchups screen now prefers weekly accumulated category totals and computed category score from nightly ingestion artifacts.</div>
+    </div>
+  </div>
+
+  <div id="view-standings" class="view">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Standings</div>
+        <div class="card-sub">Season W-L and win percentage</div>
+      </div>
+      <div class="card-sub" id="standings-source-label" style="margin-bottom:8px">Source: —</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Rank</th>
+              <th>Team</th>
+              <th class="num">W</th>
+              <th class="num">L</th>
+              <th class="num">W%</th>
+              <th class="num">GB</th>
+            </tr>
+          </thead>
+          <tbody id="standings-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="view-splits" class="view">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Splits</div>
+        <div class="card-sub">Home/Away and Hitting/Pitching category win rates</div>
+      </div>
+      <div class="card-sub" id="splits-source-label" style="margin-bottom:8px">Source: —</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Team</th>
+              <th class="num">Home W%</th>
+              <th class="num">Away W%</th>
+              <th class="num">Hitting W%</th>
+              <th class="num">Pitching W%</th>
+            </tr>
+          </thead>
+          <tbody id="splits-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="view-roto" class="view">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Roto Progress (Season)</div>
+        <div class="card-sub">Cumulative 12-category roto points across the season</div>
+      </div>
+      <div class="card-sub" id="roto-source-label" style="margin-bottom:8px">Source: —</div>
+      <div class="card-sub" style="margin-top:4px">Batting roto totals (with roto points underneath)</div>
+      <div class="table-wrap">
+        <table id="roto-batting-table">
+          <thead>
+            <tr>
+              <th data-roto-table="batting" data-sort-key="team">Team</th>
+              <th class="num" data-roto-table="batting" data-sort-key="HR">HR</th>
+              <th class="num" data-roto-table="batting" data-sort-key="R">R</th>
+              <th class="num" data-roto-table="batting" data-sort-key="OBP">OBP</th>
+              <th class="num" data-roto-table="batting" data-sort-key="OPS">OPS</th>
+              <th class="num" data-roto-table="batting" data-sort-key="aRBI">aRBI</th>
+              <th class="num" data-roto-table="batting" data-sort-key="aSB">aSB</th>
+              <th class="num" data-roto-table="batting" data-sort-key="battingPoints">Batting Pts</th>
+            </tr>
+          </thead>
+          <tbody id="roto-batting-body"></tbody>
+        </table>
+      </div>
+
+      <div class="card-sub" style="margin-top:12px">Pitching roto totals (with roto points underneath)</div>
+      <div class="table-wrap">
+        <table id="roto-pitching-table">
+          <thead>
+            <tr>
+              <th data-roto-table="pitching" data-sort-key="team">Team</th>
+              <th class="num" data-roto-table="pitching" data-sort-key="K">K</th>
+              <th class="num" data-roto-table="pitching" data-sort-key="HRA">HRA</th>
+              <th class="num" data-roto-table="pitching" data-sort-key="aWHIP">aWHIP</th>
+              <th class="num" data-roto-table="pitching" data-sort-key="VIJAY">VIJAY</th>
+              <th class="num" data-roto-table="pitching" data-sort-key="ERA">ERA</th>
+              <th class="num" data-roto-table="pitching" data-sort-key="MGS">MGS</th>
+              <th class="num" data-roto-table="pitching" data-sort-key="pitchingPoints">Pitching Pts</th>
+            </tr>
+          </thead>
+          <tbody id="roto-pitching-body"></tbody>
+        </table>
+      </div>
+
+      <div class="card-sub" style="margin-top:12px">Roto point totals</div>
+      <div class="table-wrap">
+        <table id="roto-summary-table">
+          <thead>
+            <tr>
+              <th data-roto-table="summary" data-sort-key="team">Team</th>
+              <th class="num" data-roto-table="summary" data-sort-key="battingPoints">Batting Pts</th>
+              <th class="num" data-roto-table="summary" data-sort-key="pitchingPoints">Pitching Pts</th>
+              <th class="num" data-roto-table="summary" data-sort-key="totalRotoPoints">Total Roto Pts</th>
+              <th class="num" data-roto-table="summary" data-sort-key="rank">Rank</th>
+            </tr>
+          </thead>
+          <tbody id="roto-summary-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="view-rules" class="view">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Rules Summary</div>
+        <div class="card-sub">Loaded from local league rules file</div>
+      </div>
+      <pre id="rules-pre"></pre>
+    </div>
+  </div>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

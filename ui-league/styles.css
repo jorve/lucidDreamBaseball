@@ -1,0 +1,9 @@
+.view { display: none; }
+.view.active { display: block; }
+
+#rules-pre {
+  max-height: 520px;
+  overflow: auto;
+  font-size: 12px;
+  line-height: 1.4;
+}

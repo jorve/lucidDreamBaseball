@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LDB — Lucid Dream Baseball</title>
+  <!-- Brand design tokens — must load before styles.css -->
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="header-brand">
+    <h1>LDB</h1>
+    <span class="subtitle">Lucid Dream Baseball</span>
+  </div>
+  <div class="header-meta">
+    <span id="statusBadge" class="badge badge-unknown">Loading</span>
+    <span id="asOf" class="as-of">—</span>
+    <span id="lastNightlyRun" class="as-of">Last nightly run: —</span>
+  </div>
+</header>
+
+<nav>
+  <button class="tab active" data-tab="dashboard">Dashboard</button>
+  <button class="tab" data-tab="standings">Standings</button>
+  <button class="tab" data-tab="matchups">Matchups</button>
+  <button class="tab" data-tab="trends">Trends</button>
+</nav>
+
+<main>
+
+  <!-- ── Dashboard ─────────────────────────────────────────────────────── -->
+  <div id="view-dashboard" class="view active">
+
+    <div class="grid grid-3" style="margin-bottom:16px">
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Season Weeks Complete</div>
+        <div class="card-value" id="dash-weeks">—</div>
+        <div class="card-sub" id="dash-teams">— teams</div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">League-Wide Win Rate</div>
+        <div class="card-value" id="dash-winrate">—</div>
+        <div class="card-sub">avg wins per week</div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Ingestion Status</div>
+        <div id="dash-ingest-detail" style="font-size:12px;color:var(--text-dim);margin-top:4px">—</div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-header">
+        <div class="card-title">Model Ops</div>
+        <div class="card-sub">Horizon toggle + artifact freshness</div>
+      </div>
+      <div class="trends-controls" style="margin-bottom:12px">
+        <div class="select-wrap">
+          <label>Projection Horizon</label>
+          <div class="toggle-group">
+            <button id="horizon-weekly" class="toggle-btn active" type="button">Weekly</button>
+            <button id="horizon-daily" class="toggle-btn" type="button">Daily</button>
+          </div>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Artifact</th>
+              <th>Generated At</th>
+              <th class="num">Age (hrs)</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="dash-freshness-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">This Week's Top Scorers</div>
+          <div class="card-sub" id="dash-week-label">—</div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Team</th>
+                <th class="num">R</th>
+                <th class="num">HR</th>
+                <th class="num">OPS</th>
+                <th class="num">K</th>
+                <th class="num">ERA</th>
+                <th class="num">VIJAY</th>
+              </tr>
+            </thead>
+            <tbody id="dash-weekly-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">League Category Averages</div>
+          <div class="card-sub">season mean (CLAP)</div>
+        </div>
+        <div class="stat-grid" id="dash-clap-grid"></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:0">
+      <div class="card-header">
+        <div class="card-title">Recent Transactions</div>
+        <div class="card-sub" id="dash-tx-count">—</div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Player</th>
+              <th>Team</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody id="dash-tx-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">Top <span id="dash-horizon-label-left">Weekly</span> Overperformers</div>
+          <div class="card-sub">league-wide</div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Player</th>
+                <th>Role</th>
+                <th class="num">Delta</th>
+                <th>Flag</th>
+              </tr>
+            </thead>
+            <tbody id="dash-over-body"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">Top <span id="dash-horizon-label-right">Weekly</span> GM Projections</div>
+          <div class="card-sub">from GM view model</div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Player</th>
+                <th>Role</th>
+                <th class="num">Proj</th>
+                <th>Flag</th>
+              </tr>
+            </thead>
+            <tbody id="dash-gm-horizon-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">CLAP Provenance</div>
+          <div class="card-sub" id="dash-clap-provenance-source">Source: —</div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Source Type</th>
+              </tr>
+            </thead>
+            <tbody id="dash-clap-provenance-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">CLAP Calibration Diagnostics</div>
+          <div class="card-sub" id="dash-clap-calib-source">Source: —</div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Segment</th>
+                <th class="num">Analytic Brier</th>
+                <th class="num">Monte Carlo Brier</th>
+                <th class="num">Samples</th>
+              </tr>
+            </thead>
+            <tbody id="dash-clap-calib-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Player Season Totals</div>
+        <div class="card-sub" id="dash-season-players-source">Source: —</div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Team</th>
+              <th>Player</th>
+              <th>Status</th>
+              <th class="num">HR</th>
+              <th class="num">R</th>
+              <th class="num">OBP</th>
+              <th class="num">OPS</th>
+              <th class="num">K</th>
+              <th class="num">ERA</th>
+              <th class="num">aWHIP</th>
+              <th class="num">MGS</th>
+              <th class="num">VIJAY</th>
+            </tr>
+          </thead>
+          <tbody id="dash-season-players-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Standings ──────────────────────────────────────────────────────── -->
+  <div id="view-standings" class="view">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Season Standings</div>
+        <div class="card-sub">sorted by win %</div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Rk</th>
+              <th>Team</th>
+              <th class="num">W</th>
+              <th class="num">L</th>
+              <th class="num">Win%</th>
+              <th class="num">Avg R</th>
+              <th class="num">Avg HR</th>
+              <th class="num">Avg OPS</th>
+              <th class="num">Avg K</th>
+              <th class="num">Avg ERA</th>
+              <th class="num">Avg WHIP</th>
+              <th class="num">Avg VIJAY</th>
+              <th class="num">Avg aSB</th>
+            </tr>
+          </thead>
+          <tbody id="standings-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Matchups ───────────────────────────────────────────────────────── -->
+  <div id="view-matchups" class="view">
+    <div style="margin-bottom:16px">
+      <div class="card-title" style="margin-bottom:4px">Current Week Matchups</div>
+      <div class="card-sub">Category win probabilities from CLAP model · higher = more likely to win that category</div>
+    </div>
+    <div class="grid grid-matchups" id="matchups-grid"></div>
+  </div>
+
+  <!-- ── Trends ─────────────────────────────────────────────────────────── -->
+  <div id="view-trends" class="view">
+    <div class="trends-controls">
+      <div class="select-wrap">
+        <label for="trends-team">Team</label>
+        <select id="trends-team"></select>
+      </div>
+      <div class="select-wrap">
+        <label for="trends-cat">Category</label>
+        <select id="trends-cat">
+          <option value="R">R (Runs)</option>
+          <option value="HR">HR (Home Runs)</option>
+          <option value="OPS">OPS</option>
+          <option value="OBP">OBP</option>
+          <option value="aRBI">aRBI</option>
+          <option value="aSB">aSB</option>
+          <option value="K">K (Strikeouts)</option>
+          <option value="ERA">ERA</option>
+          <option value="aWHIP">aWHIP</option>
+          <option value="NQW">NQW</option>
+          <option value="VIJAY">VIJAY</option>
+          <option value="HRA">HRA</option>
+        </select>
+      </div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-container">
+        <canvas id="trends-chart"></canvas>
+      </div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <div class="card-title" style="margin-bottom:12px">Weekly Breakdown</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr id="trends-table-head"></tr>
+          </thead>
+          <tbody id="trends-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<img src="logo.png" class="brand-watermark" alt="">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

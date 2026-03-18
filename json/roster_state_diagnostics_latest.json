@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-03-17T15:49:36.583242Z",
+  "target_date": "2026-03-16",
+  "events_processed": 0,
+  "events_applied": 0,
+  "events_skipped": 0,
+  "quarantined_events_count": 0,
+  "quarantined_events": [],
+  "skipped_events": [],
+  "integrity_checks": {
+    "duplicate_player_assignments": 0,
+    "unknown_players_quarantined": 0,
+    "atomic_trade_failures": 0,
+    "status": "ok"
+  }
+}
