@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import time
 from urllib.parse import parse_qs, urlparse
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
@@ -107,7 +108,18 @@ class AuthManager:
 			self._fill_first(page, ["input[name='email']", "input[type='email']", "input[name='username']"], username)
 			self._fill_first(page, ["input[name='password']", "input[type='password']"], password)
 			self._click_first(page, ["button[type='submit']", "input[type='submit']"])
-			page.wait_for_timeout(5000)
+			# CBS sometimes takes extra time to redirect after login; also, if we extract tokens too early
+			# we end up with a session cookie set but no API token.
+			try:
+				page.wait_for_load_state("domcontentloaded", timeout=timeout_seconds * 1000)
+			except Exception:
+				pass
+			deadline = time.time() + max(5, timeout_seconds)
+			while time.time() < deadline:
+				url_lower = (page.url or "").lower()
+				if "login" not in url_lower:
+					break
+				page.wait_for_timeout(1000)
 
 			cookie_header = self._cookie_header_from_context(context)
 			local_storage_token = self._extract_local_storage_token(context)
@@ -203,6 +215,8 @@ class AuthManager:
 			f"https://{league_id}.baseball.cbssports.com/",
 			f"https://www.cbssports.com/fantasy/baseball/leagues/{league_id}/",
 			f"https://www.cbssports.com/fantasy/baseball/league/{league_id}/",
+			# Known token presence page in your setup; helps when token is not exposed on generic league landing pages.
+			f"https://{league_id}.baseball.cbssports.com/scoring/standard",
 		]
 		if default_url:
 			candidate_urls.insert(0, default_url)
