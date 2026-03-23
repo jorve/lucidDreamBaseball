@@ -1,0 +1,7 @@
+{
+  "resource": "schedule",
+  "endpoint": "league/schedules",
+  "target_date": "2026-03-22",
+  "request_time_utc": "2026-03-23T17:36:47.973312+00:00",
+  "league_id": "luciddreambaseball"
+}

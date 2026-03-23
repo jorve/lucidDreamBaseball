@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-03-23T13:21:21.964460Z",
+  "generated_at_utc": "2026-03-23T17:37:45.130266Z",
   "source": {
     "provider": "cbssports",
     "league_id": "luciddreambaseball",
-    "target_date": "2026-03-25"
+    "target_date": "2026-03-22"
   },
   "summary": {
     "events_seen": 0,
@@ -17,5 +17,5 @@
     "events_collisions": 0
   },
   "events": [],
-  "content_hash": "e62bf5d0142d5fffd95700b2915ee2042645d7a2"
+  "content_hash": "44f89f86e9665145904f92700219c3323bb83ec9"
 }

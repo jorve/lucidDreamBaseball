@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0",
+  "view_type": "league",
+  "horizon": "weekly",
+  "target_date": "2026-03-22",
+  "generated_at_utc": "2026-03-23T17:37:45.899388Z",
+  "window": {
+    "label": "weekly_remaining",
+    "start_date": "2026-03-22",
+    "end_date": "2026-03-22",
+    "days": 1,
+    "week_end_weekday": 6
+  },
+  "summary": {
+    "player_count": 1462,
+    "projected_points_total": 2279.397263
+  },
+  "leaders": {
+    "projected_points": [
+      {
+        "player_id": "15640",
+        "player_name": "Aaron Judge",
+        "player_role": "batters",
+        "projected_points_window": 6.618033,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "20123",
+        "player_name": "Juan Soto",
+        "player_role": "batters",
+        "projected_points_window": 6.27377,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "22267",
+        "player_name": "Tarik Skubal",
+        "player_role": "sp",
+        "projected_points_window": 5.628415,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "33677",
+        "player_name": "Paul Skenes",
+        "player_role": "sp",
+        "projected_points_window": 5.52459,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "19611",
+        "player_name": "Vladimir Guerrero Jr.",
+        "player_role": "batters",
+        "projected_points_window": 5.395082,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "17995",
+        "player_name": "Logan Webb",
+        "player_role": "sp",
+        "projected_points_window": 5.387978,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "25764",
+        "player_name": "Bobby Witt Jr.",
+        "player_role": "batters",
+        "projected_points_window": 5.379781,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "18401",
+        "player_name": "Ronald Acu\u00f1a Jr.",
+        "player_role": "batters",
+        "projected_points_window": 5.220765,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "27463",
+        "player_name": "Garrett Crochet",
+        "player_role": "sp",
+        "projected_points_window": 5.131148,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "18345",
+        "player_name": "Kyle Tucker",
+        "player_role": "batters",
+        "projected_points_window": 5.095628,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "13510",
+        "player_name": "Jos\u00e9 Ram\u00edrez",
+        "player_role": "batters",
+        "projected_points_window": 5.051913,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "16478",
+        "player_name": "Kyle Schwarber",
+        "player_role": "batters",
+        "projected_points_window": 5.051913,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "20778",
+        "player_name": "Cristopher S\u00e1nchez",
+        "player_role": "sp",
+        "projected_points_window": 5.04918,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "26289",
+        "player_name": "Gunnar Henderson",
+        "player_role": "batters",
+        "projected_points_window": 4.981967,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "19709",
+        "player_name": "Fernando Tatis Jr.",
+        "player_role": "batters",
+        "projected_points_window": 4.948634,
+        "performance_flag": "insufficient_data"
+      }
+    ],
+    "overperformers": [],
+    "underperformers": []
+  },
+  "weekly_summary": {
+    "overall_performance_counts": {
+      "overperforming": 0,
+      "underperforming": 0,
+      "on_track": 0,
+      "insufficient_data": 1462
+    },
+    "category_summary": {
+      "aRBI": {
+        "overperforming_count": 0,
+        "underperforming_count": 0,
+        "top_overperformers": [],
+        "top_underperformers": []
+      },
+      "aSB": {
+        "overperforming_count": 0,
+        "underperforming_count": 0,
+        "top_overperformers": [],
+        "top_underperformers": []
+      },
+      "MGS": {
+        "overperforming_count": 0,
+        "underperforming_count": 0,
+        "top_overperformers": [],
+        "top_underperformers": []
+      },
+      "VIJAY": {
+        "overperforming_count": 0,
+        "underperforming_count": 0,
+        "top_overperformers": [],
+        "top_underperformers": []
+      }
+    }
+  }
+}

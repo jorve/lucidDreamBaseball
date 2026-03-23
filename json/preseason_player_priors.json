@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-03-23T13:21:22.049504Z",
-  "target_date": "2026-03-25",
+  "generated_at_utc": "2026-03-23T17:37:45.377446Z",
+  "target_date": "2026-03-22",
   "season_year": 2026,
   "source_csvs": {
-    "batters": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\2026\\preseason\\batter_priors.csv",
-    "sp": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\2026\\preseason\\sp_priors.csv",
-    "rp": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\2026\\preseason\\rp_priors.csv"
+    "batters": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/2026/preseason/batter_priors.csv",
+    "sp": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/2026/preseason/sp_priors.csv",
+    "rp": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/2026/preseason/rp_priors.csv"
   },
   "summary": {
     "rows_parsed": 1463,
@@ -15,19 +15,19 @@
     "sources_loaded": 3,
     "source_summary": {
       "batters": {
-        "csv_path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\2026\\preseason\\batter_priors.csv",
+        "csv_path": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/2026/preseason/batter_priors.csv",
         "rows_parsed": 628,
         "invalid_rows": 0,
         "players_loaded": 628
       },
       "sp": {
-        "csv_path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\2026\\preseason\\sp_priors.csv",
+        "csv_path": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/2026/preseason/sp_priors.csv",
         "rows_parsed": 291,
         "invalid_rows": 0,
         "players_loaded": 291
       },
       "rp": {
-        "csv_path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\2026\\preseason\\rp_priors.csv",
+        "csv_path": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/2026/preseason/rp_priors.csv",
         "rows_parsed": 544,
         "invalid_rows": 0,
         "players_loaded": 544

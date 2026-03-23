@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "view_type": "gm",
   "horizon": "daily",
-  "target_date": "2026-03-25",
-  "generated_at_utc": "2026-03-23T13:21:22.737197Z",
+  "target_date": "2026-03-22",
+  "generated_at_utc": "2026-03-23T17:37:45.900530Z",
   "window": {
     "label": "daily",
-    "start_date": "2026-03-25",
-    "end_date": "2026-03-25",
+    "start_date": "2026-03-22",
+    "end_date": "2026-03-22",
     "days": 1
   },
   "summary": {

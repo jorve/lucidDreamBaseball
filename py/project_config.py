@@ -1,4 +1,5 @@
 import json
+import datetime as _dt
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -228,13 +229,105 @@ def _merge_project_config(default_config, user_config):
 	return merged
 
 
+def _parse_schedule_date(value):
+	if not value:
+		return None
+	try:
+		return _dt.datetime.strptime(value, "%m/%d/%y").date()
+	except (TypeError, ValueError):
+		return None
+
+
+def _schedule_paths_for_config(config):
+	paths_cfg = config.get("paths", {})
+	data_dir = paths_cfg.get("data_dir", "data")
+	json_dir = paths_cfg.get("json_dir", "json")
+	configured_year = str(config.get("current_year", "")).strip()
+	candidates = [
+		BASE_DIR / json_dir / "schedule.json",
+	]
+	if configured_year:
+		candidates.append(BASE_DIR / data_dir / configured_year / "schedule.json")
+	candidates.extend((BASE_DIR / data_dir).glob("*/schedule.json"))
+	seen = set()
+	ordered = []
+	for candidate in candidates:
+		key = str(candidate)
+		if key in seen:
+			continue
+		seen.add(key)
+		ordered.append(candidate)
+	return ordered
+
+
+def _infer_year_week_from_schedule(config):
+	for schedule_path in _schedule_paths_for_config(config):
+		if not schedule_path.exists():
+			continue
+		try:
+			with schedule_path.open() as infile:
+				payload = json.load(infile)
+			periods = payload["body"]["schedule"]["periods"]
+		except (OSError, json.JSONDecodeError, KeyError, TypeError):
+			continue
+		if not isinstance(periods, list) or not periods:
+			continue
+
+		today = _dt.date.today()
+		normalized = []
+		for period in periods:
+			if not isinstance(period, dict):
+				continue
+			pid_raw = period.get("id")
+			try:
+				pid = int(pid_raw)
+			except (TypeError, ValueError):
+				continue
+			start = _parse_schedule_date(period.get("start"))
+			end = _parse_schedule_date(period.get("end"))
+			normalized.append((pid, start, end))
+		if not normalized:
+			continue
+		normalized.sort(key=lambda item: item[0])
+
+		season_year = max(
+			(d.year for _, s, e in normalized for d in (s, e) if d is not None),
+			default=int(config.get("current_year", _dt.date.today().year)),
+		)
+
+		active_week = None
+		last_completed = None
+		for pid, start, end in normalized:
+			if start and end and start <= today <= end:
+				active_week = pid
+				break
+			if end and end < today:
+				last_completed = pid
+
+		if active_week is not None:
+			current_week = active_week
+		elif last_completed is not None:
+			current_week = last_completed
+		else:
+			current_week = normalized[0][0]
+
+		return {"current_year": int(season_year), "current_week": int(current_week)}
+	return None
+
+
 def load_project_config():
 	config_path = BASE_DIR / "project_config.json"
 	if not config_path.exists():
-		return DEFAULT_PROJECT_CONFIG
-	with config_path.open() as infile:
-		user_config = json.load(infile)
-	return _merge_project_config(DEFAULT_PROJECT_CONFIG, user_config)
+		merged = dict(DEFAULT_PROJECT_CONFIG)
+	else:
+		with config_path.open() as infile:
+			user_config = json.load(infile)
+		merged = _merge_project_config(DEFAULT_PROJECT_CONFIG, user_config)
+	inferred = _infer_year_week_from_schedule(merged)
+	if inferred is not None:
+		merged["current_year"] = inferred["current_year"]
+		merged["current_week"] = inferred["current_week"]
+	return merged
 
 
 PROJECT_CONFIG = load_project_config()

@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-03-23T17:37:46.219752Z",
+  "target_date": "2026-03-22",
+  "window": {
+    "lookback_days": 45
+  },
+  "metrics": {
+    "analytic_normal": {
+      "samples": 96,
+      "brier_score": 0.333333,
+      "mae": 0.333333
+    },
+    "monte_carlo": {
+      "samples": 96,
+      "brier_score": 0.250961,
+      "mae": 0.500878
+    },
+    "role_segments": {
+      "batters": {
+        "analytic_normal": {
+          "samples": 96,
+          "brier_score": 0.333333,
+          "mae": 0.333333
+        },
+        "monte_carlo": {
+          "samples": 96,
+          "brier_score": 0.250961,
+          "mae": 0.500878
+        }
+      },
+      "rp": {
+        "analytic_normal": {
+          "samples": 0,
+          "brier_score": null,
+          "mae": null
+        },
+        "monte_carlo": {
+          "samples": 0,
+          "brier_score": null,
+          "mae": null
+        }
+      },
+      "sp": {
+        "analytic_normal": {
+          "samples": 0,
+          "brier_score": null,
+          "mae": null
+        },
+        "monte_carlo": {
+          "samples": 0,
+          "brier_score": null,
+          "mae": null
+        }
+      }
+    },
+    "sp_start_buckets": {
+      "1-start": {
+        "analytic_normal": {
+          "samples": 96,
+          "brier_score": 0.333333,
+          "mae": 0.333333
+        },
+        "monte_carlo": {
+          "samples": 96,
+          "brier_score": 0.250961,
+          "mae": 0.500878
+        }
+      },
+      "2-start": {
+        "analytic_normal": {
+          "samples": 0,
+          "brier_score": null,
+          "mae": null
+        },
+        "monte_carlo": {
+          "samples": 0,
+          "brier_score": null,
+          "mae": null
+        }
+      }
+    },
+    "category_source_diagnostics": {
+      "component_derived_categories": [
+        "HR",
+        "R",
+        "OBP",
+        "OPS",
+        "aRBI",
+        "aSB",
+        "K",
+        "HRA",
+        "aWHIP",
+        "ERA",
+        "MGS"
+      ],
+      "appearance_summed_categories": [
+        "VIJAY"
+      ],
+      "source_segments": {
+        "component_derived": {
+          "analytic_normal": {
+            "samples": 88,
+            "brier_score": 0.363636,
+            "mae": 0.363636
+          },
+          "monte_carlo": {
+            "samples": 88,
+            "brier_score": 0.251086,
+            "mae": 0.501008
+          }
+        },
+        "appearance_summed": {
+          "analytic_normal": {
+            "samples": 8,
+            "brier_score": 0.0,
+            "mae": 0.0
+          },
+          "monte_carlo": {
+            "samples": 8,
+            "brier_score": 0.24958,
+            "mae": 0.499458
+          }
+        }
+      }
+    }
+  },
+  "engine_recommendation": {
+    "recommended": "monte_carlo",
+    "selected": "analytic_normal",
+    "selection_mode": "analytic_normal"
+  }
+}

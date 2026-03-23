@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-03-23T13:21:24.015955Z",
-  "target_date": "2026-03-25",
+  "generated_at_utc": "2026-03-23T17:37:46.685253Z",
+  "target_date": "2026-03-22",
   "lookback_week": {
     "status": "insufficient_history",
     "window": {
-      "start_date": "2026-03-16",
-      "end_date": "2026-03-22"
+      "start_date": "2026-03-09",
+      "end_date": "2026-03-15"
     },
     "summary": {
       "note": "Previous-week digest snapshot not found yet."
@@ -17,40 +17,40 @@
   "lookahead_week": {
     "status": "ok",
     "window": {
-      "start_date": "2026-03-30",
-      "end_date": "2026-04-05"
+      "start_date": "2026-03-23",
+      "end_date": "2026-03-29"
     },
     "summary": {
       "player_count": 1462,
-      "top_projection_points": 46.32623
+      "top_projection_points": 46.326231
     },
     "projected_top_players": [
       {
         "player_id": "15640",
         "player_name": "Aaron Judge",
         "player_role": "batters",
-        "projected_points_next_week": 46.32623,
+        "projected_points_next_week": 46.326231,
         "performance_flag": "insufficient_data"
       },
       {
         "player_id": "20123",
         "player_name": "Juan Soto",
         "player_role": "batters",
-        "projected_points_next_week": 43.916393,
+        "projected_points_next_week": 43.91639,
         "performance_flag": "insufficient_data"
       },
       {
         "player_id": "22267",
         "player_name": "Tarik Skubal",
         "player_role": "sp",
-        "projected_points_next_week": 39.398908,
+        "projected_points_next_week": 39.398905,
         "performance_flag": "insufficient_data"
       },
       {
         "player_id": "33677",
         "player_name": "Paul Skenes",
         "player_role": "sp",
-        "projected_points_next_week": 38.672131,
+        "projected_points_next_week": 38.67213,
         "performance_flag": "insufficient_data"
       },
       {
@@ -64,14 +64,14 @@
         "player_id": "17995",
         "player_name": "Logan Webb",
         "player_role": "sp",
-        "projected_points_next_week": 37.715847,
+        "projected_points_next_week": 37.715846,
         "performance_flag": "insufficient_data"
       },
       {
         "player_id": "25764",
         "player_name": "Bobby Witt Jr.",
         "player_role": "batters",
-        "projected_points_next_week": 37.65847,
+        "projected_points_next_week": 37.658467,
         "performance_flag": "insufficient_data"
       },
       {
@@ -125,8 +125,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "1",
@@ -144,8 +144,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "1",
@@ -163,8 +163,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "1",
@@ -182,8 +182,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "1",
@@ -201,17 +201,17 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       }
     ]
   },
   "delivery_metadata": {
-    "subject": "LDB Weekly Recap + Outlook (2026-03-23 to 2026-03-29)",
+    "subject": "LDB Weekly Recap + Outlook (2026-03-16 to 2026-03-22)",
     "send_schedule": {
       "send_day_weekday": 0,
       "send_time_local": "08:00",
-      "next_recommended_send_local": "2026-03-23 08:00"
+      "next_recommended_send_local": "2026-03-16 08:00"
     },
     "recipients": [],
     "delivery_mode": "generation_only"
@@ -219,9 +219,9 @@
   "source_snapshot": {
     "current_week_window": {
       "label": "weekly_remaining",
-      "start_date": "2026-03-25",
-      "end_date": "2026-03-29",
-      "days": 5,
+      "start_date": "2026-03-22",
+      "end_date": "2026-03-22",
+      "days": 1,
       "week_end_weekday": 6
     },
     "previous_week_history_available": false

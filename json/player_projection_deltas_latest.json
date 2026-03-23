@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-03-23T13:21:22.448915Z",
-  "target_date": "2026-03-25",
+  "generated_at_utc": "2026-03-23T17:37:45.679097Z",
+  "target_date": "2026-03-22",
   "model": {
     "type": "bayesian_shrinkage",
     "transition_weeks": 6,
-    "effective_weeks": 6,
+    "effective_weeks": 1,
     "prior_variance": 25.0,
     "observed_variance": 36.0,
     "overperform_threshold": 1.0,

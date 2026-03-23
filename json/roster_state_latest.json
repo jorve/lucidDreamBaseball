@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "as_of_utc": "2026-03-23T13:21:21.999623Z",
+  "as_of_utc": "2026-03-23T17:37:45.182771Z",
   "base_snapshot": {
-    "source_date": "2026-03-25",
+    "source_date": "2026-03-22",
     "resource": "rosters"
   },
   "event_apply_window": {
@@ -69,7 +69,7 @@
           "positions": [
             "SP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2250602",
@@ -1111,7 +1111,7 @@
           "positions": [
             "SP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2184343",
@@ -1231,7 +1231,7 @@
           "positions": [
             "SP"
           ],
-          "status": "A"
+          "status": "RS"
         },
         {
           "player_id": "2826050",
@@ -1247,7 +1247,7 @@
           "positions": [
             "SP"
           ],
-          "status": "A"
+          "status": "RS"
         },
         {
           "player_id": "2835067",
@@ -1343,7 +1343,7 @@
           "positions": [
             "SP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "29153547",
@@ -1477,7 +1477,7 @@
           "positions": [
             "SP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "1963334",
@@ -1493,7 +1493,7 @@
           "positions": [
             "SP,RP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2119659",
@@ -1509,7 +1509,7 @@
           "positions": [
             "1B,U"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2164751",
@@ -1557,7 +1557,7 @@
           "positions": [
             ""
           ],
-          "status": "RS"
+          "status": "I"
         },
         {
           "player_id": "26615397",
@@ -1613,7 +1613,7 @@
           "positions": [
             "3B,SS,U"
           ],
-          "status": "A"
+          "status": "RS"
         },
         {
           "player_id": "2829102",
@@ -1637,7 +1637,7 @@
           "positions": [
             "SP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2836763",
@@ -1677,7 +1677,7 @@
           "positions": [
             "3B,U"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2910625",
@@ -1685,7 +1685,7 @@
           "positions": [
             "RP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2914724",
@@ -1717,7 +1717,7 @@
           "positions": [
             "2B,3B,OF,U"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "29476193",
@@ -1741,7 +1741,7 @@
           "positions": [
             "RP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "3090756",
@@ -1757,7 +1757,7 @@
           "positions": [
             "SP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "3152038",
@@ -1773,7 +1773,7 @@
           "positions": [
             "1B,3B,SS,U"
           ],
-          "status": "RS"
+          "status": "A"
         }
       ]
     },
@@ -2861,7 +2861,7 @@
           "positions": [
             "SP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2000026",
@@ -2885,7 +2885,7 @@
           "positions": [
             "RP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2107839",
@@ -2893,7 +2893,7 @@
           "positions": [
             "SP,RP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2184450",
@@ -2965,7 +2965,7 @@
           "positions": [
             "RP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "26911664",
@@ -3077,7 +3077,7 @@
           "positions": [
             "SP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "29153543",
@@ -3109,7 +3109,7 @@
           "positions": [
             "U"
           ],
-          "status": "RS"
+          "status": "ML"
         },
         {
           "player_id": "29155725",
@@ -3149,7 +3149,7 @@
           "positions": [
             "SP,RP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2932872",
@@ -3197,7 +3197,7 @@
           "positions": [
             "SP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "3117474",
@@ -4939,7 +4939,7 @@
           "positions": [
             "U"
           ],
-          "status": "ML"
+          "status": "A"
         },
         {
           "player_id": "26911687",
@@ -5767,7 +5767,7 @@
           "positions": [
             "RP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2836722",

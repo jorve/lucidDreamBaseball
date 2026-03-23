@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-03-23T13:21:23.970807Z",
-  "target_date": "2026-03-25",
+  "generated_at_utc": "2026-03-23T17:37:46.629981Z",
+  "target_date": "2026-03-22",
   "assignment_snapshot": {
     "source": "roster_state_latest",
-    "as_of_utc": "2026-03-23T13:21:21.999623Z",
+    "as_of_utc": "2026-03-23T17:37:45.182771Z",
     "teams_count": 16
   },
   "scoring": {
@@ -22,8 +22,8 @@
       "player_name": "Aaron Judge",
       "player_role": "batters",
       "projected_points_daily": 6.618033,
-      "projected_points_weekly": 33.090164,
-      "composite_score": 25.148525,
+      "projected_points_weekly": 6.618033,
+      "composite_score": 6.618033,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -33,8 +33,8 @@
       "player_name": "Juan Soto",
       "player_role": "batters",
       "projected_points_daily": 6.27377,
-      "projected_points_weekly": 31.368852,
-      "composite_score": 23.840327,
+      "projected_points_weekly": 6.27377,
+      "composite_score": 6.27377,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -44,8 +44,8 @@
       "player_name": "Tarik Skubal",
       "player_role": "sp",
       "projected_points_daily": 5.628415,
-      "projected_points_weekly": 28.142077,
-      "composite_score": 21.387978,
+      "projected_points_weekly": 5.628415,
+      "composite_score": 5.628415,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -55,8 +55,8 @@
       "player_name": "Paul Skenes",
       "player_role": "sp",
       "projected_points_daily": 5.52459,
-      "projected_points_weekly": 27.622951,
-      "composite_score": 20.993443,
+      "projected_points_weekly": 5.52459,
+      "composite_score": 5.52459,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -66,8 +66,8 @@
       "player_name": "Vladimir Guerrero Jr.",
       "player_role": "batters",
       "projected_points_daily": 5.395082,
-      "projected_points_weekly": 26.97541,
-      "composite_score": 20.501312,
+      "projected_points_weekly": 5.395082,
+      "composite_score": 5.395082,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -77,8 +77,8 @@
       "player_name": "Logan Webb",
       "player_role": "sp",
       "projected_points_daily": 5.387978,
-      "projected_points_weekly": 26.939891,
-      "composite_score": 20.474317,
+      "projected_points_weekly": 5.387978,
+      "composite_score": 5.387978,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -88,8 +88,8 @@
       "player_name": "Bobby Witt Jr.",
       "player_role": "batters",
       "projected_points_daily": 5.379781,
-      "projected_points_weekly": 26.898907,
-      "composite_score": 20.443169,
+      "projected_points_weekly": 5.379781,
+      "composite_score": 5.379781,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -99,8 +99,8 @@
       "player_name": "Ronald Acu\u00f1a Jr.",
       "player_role": "batters",
       "projected_points_daily": 5.220765,
-      "projected_points_weekly": 26.103825,
-      "composite_score": 19.838907,
+      "projected_points_weekly": 5.220765,
+      "composite_score": 5.220765,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -110,8 +110,8 @@
       "player_name": "Garrett Crochet",
       "player_role": "sp",
       "projected_points_daily": 5.131148,
-      "projected_points_weekly": 25.655738,
-      "composite_score": 19.498361,
+      "projected_points_weekly": 5.131148,
+      "composite_score": 5.131148,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -121,8 +121,8 @@
       "player_name": "Kyle Tucker",
       "player_role": "batters",
       "projected_points_daily": 5.095628,
-      "projected_points_weekly": 25.478142,
-      "composite_score": 19.363388,
+      "projected_points_weekly": 5.095628,
+      "composite_score": 5.095628,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -132,8 +132,8 @@
       "player_name": "Jos\u00e9 Ram\u00edrez",
       "player_role": "batters",
       "projected_points_daily": 5.051913,
-      "projected_points_weekly": 25.259563,
-      "composite_score": 19.197268,
+      "projected_points_weekly": 5.051913,
+      "composite_score": 5.051913,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -143,8 +143,8 @@
       "player_name": "Kyle Schwarber",
       "player_role": "batters",
       "projected_points_daily": 5.051913,
-      "projected_points_weekly": 25.259563,
-      "composite_score": 19.197268,
+      "projected_points_weekly": 5.051913,
+      "composite_score": 5.051913,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -154,8 +154,8 @@
       "player_name": "Cristopher S\u00e1nchez",
       "player_role": "sp",
       "projected_points_daily": 5.04918,
-      "projected_points_weekly": 25.245902,
-      "composite_score": 19.186885,
+      "projected_points_weekly": 5.04918,
+      "composite_score": 5.04918,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -165,8 +165,8 @@
       "player_name": "Gunnar Henderson",
       "player_role": "batters",
       "projected_points_daily": 4.981967,
-      "projected_points_weekly": 24.909836,
-      "composite_score": 18.931475,
+      "projected_points_weekly": 4.981967,
+      "composite_score": 4.981967,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -176,8 +176,8 @@
       "player_name": "Fernando Tatis Jr.",
       "player_role": "batters",
       "projected_points_daily": 4.948634,
-      "projected_points_weekly": 24.743169,
-      "composite_score": 18.804809,
+      "projected_points_weekly": 4.948634,
+      "composite_score": 4.948634,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -187,8 +187,8 @@
       "player_name": "Julio Rodr\u00edguez",
       "player_role": "batters",
       "projected_points_daily": 4.889071,
-      "projected_points_weekly": 24.445355,
-      "composite_score": 18.57847,
+      "projected_points_weekly": 4.889071,
+      "composite_score": 4.889071,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -198,8 +198,8 @@
       "player_name": "Brent Rooker",
       "player_role": "batters",
       "projected_points_daily": 4.859563,
-      "projected_points_weekly": 24.297814,
-      "composite_score": 18.466339,
+      "projected_points_weekly": 4.859563,
+      "composite_score": 4.859563,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -209,8 +209,8 @@
       "player_name": "Yordan Alvarez",
       "player_role": "batters",
       "projected_points_daily": 4.844809,
-      "projected_points_weekly": 24.224044,
-      "composite_score": 18.410273,
+      "projected_points_weekly": 4.844809,
+      "composite_score": 4.844809,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -220,8 +220,8 @@
       "player_name": "Pete Alonso",
       "player_role": "batters",
       "projected_points_daily": 4.815847,
-      "projected_points_weekly": 24.079235,
-      "composite_score": 18.300219,
+      "projected_points_weekly": 4.815847,
+      "composite_score": 4.815847,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -231,8 +231,8 @@
       "player_name": "Ketel Marte",
       "player_role": "batters",
       "projected_points_daily": 4.780328,
-      "projected_points_weekly": 23.901639,
-      "composite_score": 18.165246,
+      "projected_points_weekly": 4.780328,
+      "composite_score": 4.780328,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -242,8 +242,8 @@
       "player_name": "Junior Caminero",
       "player_role": "batters",
       "projected_points_daily": 4.774863,
-      "projected_points_weekly": 23.874317,
-      "composite_score": 18.144481,
+      "projected_points_weekly": 4.774863,
+      "composite_score": 4.774863,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -253,8 +253,8 @@
       "player_name": "Rafael Devers",
       "player_role": "batters",
       "projected_points_daily": 4.734973,
-      "projected_points_weekly": 23.674863,
-      "composite_score": 17.992896,
+      "projected_points_weekly": 4.734973,
+      "composite_score": 4.734973,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -264,8 +264,8 @@
       "player_name": "Framber Valdez",
       "player_role": "sp",
       "projected_points_daily": 4.704918,
-      "projected_points_weekly": 23.52459,
-      "composite_score": 17.878688,
+      "projected_points_weekly": 4.704918,
+      "composite_score": 4.704918,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -275,8 +275,8 @@
       "player_name": "Bryce Harper",
       "player_role": "batters",
       "projected_points_daily": 4.703825,
-      "projected_points_weekly": 23.519126,
-      "composite_score": 17.874536,
+      "projected_points_weekly": 4.703825,
+      "composite_score": 4.703825,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -286,8 +286,8 @@
       "player_name": "Corbin Carroll",
       "player_role": "batters",
       "projected_points_daily": 4.680874,
-      "projected_points_weekly": 23.404372,
-      "composite_score": 17.787323,
+      "projected_points_weekly": 4.680874,
+      "composite_score": 4.680874,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -297,8 +297,8 @@
       "player_name": "Cal Raleigh",
       "player_role": "batters",
       "projected_points_daily": 4.665027,
-      "projected_points_weekly": 23.325137,
-      "composite_score": 17.727104,
+      "projected_points_weekly": 4.665027,
+      "composite_score": 4.665027,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -308,8 +308,8 @@
       "player_name": "Nick Kurtz",
       "player_role": "batters",
       "projected_points_daily": 4.663934,
-      "projected_points_weekly": 23.319672,
-      "composite_score": 17.722951,
+      "projected_points_weekly": 4.663934,
+      "composite_score": 4.663934,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -319,8 +319,8 @@
       "player_name": "Max Fried",
       "player_role": "sp",
       "projected_points_daily": 4.644809,
-      "projected_points_weekly": 23.224044,
-      "composite_score": 17.650274,
+      "projected_points_weekly": 4.644809,
+      "composite_score": 4.644809,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -330,8 +330,8 @@
       "player_name": "Freddie Freeman",
       "player_role": "batters",
       "projected_points_daily": 4.603825,
-      "projected_points_weekly": 23.019126,
-      "composite_score": 17.494536,
+      "projected_points_weekly": 4.603825,
+      "composite_score": 4.603825,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -341,8 +341,8 @@
       "player_name": "Matt Olson",
       "player_role": "batters",
       "projected_points_daily": 4.581421,
-      "projected_points_weekly": 22.907104,
-      "composite_score": 17.409399,
+      "projected_points_weekly": 4.581421,
+      "composite_score": 4.581421,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -352,8 +352,8 @@
       "player_name": "Bryan Woo",
       "player_role": "sp",
       "projected_points_daily": 4.579235,
-      "projected_points_weekly": 22.896175,
-      "composite_score": 17.401093,
+      "projected_points_weekly": 4.579235,
+      "composite_score": 4.579235,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -363,8 +363,8 @@
       "player_name": "Elly De La Cruz",
       "player_role": "batters",
       "projected_points_daily": 4.512568,
-      "projected_points_weekly": 22.562842,
-      "composite_score": 17.14776,
+      "projected_points_weekly": 4.512568,
+      "composite_score": 4.512568,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -374,8 +374,8 @@
       "player_name": "Hunter Brown",
       "player_role": "sp",
       "projected_points_daily": 4.486339,
-      "projected_points_weekly": 22.431694,
-      "composite_score": 17.048087,
+      "projected_points_weekly": 4.486339,
+      "composite_score": 4.486339,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -385,8 +385,8 @@
       "player_name": "James Wood",
       "player_role": "batters",
       "projected_points_daily": 4.446448,
-      "projected_points_weekly": 22.23224,
-      "composite_score": 16.896502,
+      "projected_points_weekly": 4.446448,
+      "composite_score": 4.446448,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -396,8 +396,8 @@
       "player_name": "Jes\u00fas Luzardo",
       "player_role": "sp",
       "projected_points_daily": 4.431694,
-      "projected_points_weekly": 22.15847,
-      "composite_score": 16.840437,
+      "projected_points_weekly": 4.431694,
+      "composite_score": 4.431694,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -407,8 +407,8 @@
       "player_name": "Francisco Lindor",
       "player_role": "batters",
       "projected_points_daily": 4.368306,
-      "projected_points_weekly": 21.84153,
-      "composite_score": 16.599563,
+      "projected_points_weekly": 4.368306,
+      "composite_score": 4.368306,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -418,8 +418,8 @@
       "player_name": "Riley Greene",
       "player_role": "batters",
       "projected_points_daily": 4.335519,
-      "projected_points_weekly": 21.677596,
-      "composite_score": 16.474973,
+      "projected_points_weekly": 4.335519,
+      "composite_score": 4.335519,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -429,8 +429,8 @@
       "player_name": "Chris Sale",
       "player_role": "sp",
       "projected_points_daily": 4.333333,
-      "projected_points_weekly": 21.666667,
-      "composite_score": 16.466667,
+      "projected_points_weekly": 4.333333,
+      "composite_score": 4.333333,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -440,8 +440,8 @@
       "player_name": "Wyatt Langford",
       "player_role": "batters",
       "projected_points_daily": 4.32623,
-      "projected_points_weekly": 21.631148,
-      "composite_score": 16.439673,
+      "projected_points_weekly": 4.32623,
+      "composite_score": 4.32623,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -451,8 +451,8 @@
       "player_name": "Roman Anthony",
       "player_role": "batters",
       "projected_points_daily": 4.325137,
-      "projected_points_weekly": 21.625683,
-      "composite_score": 16.435519,
+      "projected_points_weekly": 4.325137,
+      "composite_score": 4.325137,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -462,8 +462,8 @@
       "player_name": "Mookie Betts",
       "player_role": "batters",
       "projected_points_daily": 4.316393,
-      "projected_points_weekly": 21.581967,
-      "composite_score": 16.402295,
+      "projected_points_weekly": 4.316393,
+      "composite_score": 4.316393,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -473,8 +473,8 @@
       "player_name": "Zach Neto",
       "player_role": "batters",
       "projected_points_daily": 4.298361,
-      "projected_points_weekly": 21.491803,
-      "composite_score": 16.33377,
+      "projected_points_weekly": 4.298361,
+      "composite_score": 4.298361,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -484,8 +484,8 @@
       "player_name": "Jackson Chourio",
       "player_role": "batters",
       "projected_points_daily": 4.296175,
-      "projected_points_weekly": 21.480874,
-      "composite_score": 16.325464,
+      "projected_points_weekly": 4.296175,
+      "composite_score": 4.296175,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -495,8 +495,8 @@
       "player_name": "Trea Turner",
       "player_role": "batters",
       "projected_points_daily": 4.295628,
-      "projected_points_weekly": 21.478142,
-      "composite_score": 16.323388,
+      "projected_points_weekly": 4.295628,
+      "composite_score": 4.295628,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -506,8 +506,8 @@
       "player_name": "Yoshinobu Yamamoto",
       "player_role": "sp",
       "projected_points_daily": 4.284153,
-      "projected_points_weekly": 21.420765,
-      "composite_score": 16.279781,
+      "projected_points_weekly": 4.284153,
+      "composite_score": 4.284153,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -517,8 +517,8 @@
       "player_name": "Yandy D\u00edaz",
       "player_role": "batters",
       "projected_points_daily": 4.28306,
-      "projected_points_weekly": 21.415301,
-      "composite_score": 16.275629,
+      "projected_points_weekly": 4.28306,
+      "composite_score": 4.28306,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -528,8 +528,8 @@
       "player_name": "Michael Busch",
       "player_role": "batters",
       "projected_points_daily": 4.247541,
-      "projected_points_weekly": 21.237705,
-      "composite_score": 16.140656,
+      "projected_points_weekly": 4.247541,
+      "composite_score": 4.247541,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -539,8 +539,8 @@
       "player_name": "Austin Riley",
       "player_role": "batters",
       "projected_points_daily": 4.243169,
-      "projected_points_weekly": 21.215847,
-      "composite_score": 16.124044,
+      "projected_points_weekly": 4.243169,
+      "composite_score": 4.243169,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -550,8 +550,8 @@
       "player_name": "Dylan Cease",
       "player_role": "sp",
       "projected_points_daily": 4.240437,
-      "projected_points_weekly": 21.202186,
-      "composite_score": 16.113661,
+      "projected_points_weekly": 4.240437,
+      "composite_score": 4.240437,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -561,8 +561,8 @@
       "player_name": "Logan Gilbert",
       "player_role": "sp",
       "projected_points_daily": 4.224044,
-      "projected_points_weekly": 21.120219,
-      "composite_score": 16.051366,
+      "projected_points_weekly": 4.224044,
+      "composite_score": 4.224044,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -572,8 +572,8 @@
       "player_name": "Sonny Gray",
       "player_role": "sp",
       "projected_points_daily": 4.20765,
-      "projected_points_weekly": 21.038251,
-      "composite_score": 15.989071,
+      "projected_points_weekly": 4.20765,
+      "composite_score": 4.20765,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -583,8 +583,8 @@
       "player_name": "Vinnie Pasquantino",
       "player_role": "batters",
       "projected_points_daily": 4.204918,
-      "projected_points_weekly": 21.02459,
-      "composite_score": 15.978688,
+      "projected_points_weekly": 4.204918,
+      "composite_score": 4.204918,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -594,8 +594,8 @@
       "player_name": "George Kirby",
       "player_role": "sp",
       "projected_points_daily": 4.185792,
-      "projected_points_weekly": 20.928962,
-      "composite_score": 15.906011,
+      "projected_points_weekly": 4.185792,
+      "composite_score": 4.185792,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -605,8 +605,8 @@
       "player_name": "Corey Seager",
       "player_role": "batters",
       "projected_points_daily": 4.18306,
-      "projected_points_weekly": 20.915301,
-      "composite_score": 15.895629,
+      "projected_points_weekly": 4.18306,
+      "composite_score": 4.18306,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -616,8 +616,8 @@
       "player_name": "Alex Bregman",
       "player_role": "batters",
       "projected_points_daily": 4.179781,
-      "projected_points_weekly": 20.898907,
-      "composite_score": 15.883169,
+      "projected_points_weekly": 4.179781,
+      "composite_score": 4.179781,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -627,8 +627,8 @@
       "player_name": "Geraldo Perdomo",
       "player_role": "batters",
       "projected_points_daily": 4.161202,
-      "projected_points_weekly": 20.806011,
-      "composite_score": 15.812568,
+      "projected_points_weekly": 4.161202,
+      "composite_score": 4.161202,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -638,8 +638,8 @@
       "player_name": "Kevin Gausman",
       "player_role": "sp",
       "projected_points_daily": 4.15847,
-      "projected_points_weekly": 20.79235,
-      "composite_score": 15.802186,
+      "projected_points_weekly": 4.15847,
+      "composite_score": 4.15847,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -649,8 +649,8 @@
       "player_name": "Manny Machado",
       "player_role": "batters",
       "projected_points_daily": 4.149727,
-      "projected_points_weekly": 20.748634,
-      "composite_score": 15.768962,
+      "projected_points_weekly": 4.149727,
+      "composite_score": 4.149727,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -660,8 +660,8 @@
       "player_name": "Taylor Ward",
       "player_role": "batters",
       "projected_points_daily": 4.125137,
-      "projected_points_weekly": 20.625683,
-      "composite_score": 15.675519,
+      "projected_points_weekly": 4.125137,
+      "composite_score": 4.125137,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -671,8 +671,8 @@
       "player_name": "Randy Arozarena",
       "player_role": "batters",
       "projected_points_daily": 4.110383,
-      "projected_points_weekly": 20.551913,
-      "composite_score": 15.619454,
+      "projected_points_weekly": 4.110383,
+      "composite_score": 4.110383,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -682,8 +682,8 @@
       "player_name": "Seiya Suzuki",
       "player_role": "batters",
       "projected_points_daily": 4.101639,
-      "projected_points_weekly": 20.508197,
-      "composite_score": 15.58623,
+      "projected_points_weekly": 4.101639,
+      "composite_score": 4.101639,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -693,8 +693,8 @@
       "player_name": "Cole Ragans",
       "player_role": "sp",
       "projected_points_daily": 4.092896,
-      "projected_points_weekly": 20.464481,
-      "composite_score": 15.553005,
+      "projected_points_weekly": 4.092896,
+      "composite_score": 4.092896,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -704,8 +704,8 @@
       "player_name": "Jackson Merrill",
       "player_role": "batters",
       "projected_points_daily": 4.071585,
-      "projected_points_weekly": 20.357923,
-      "composite_score": 15.472022,
+      "projected_points_weekly": 4.071585,
+      "composite_score": 4.071585,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -715,8 +715,8 @@
       "player_name": "Jarren Duran",
       "player_role": "batters",
       "projected_points_daily": 4.066667,
-      "projected_points_weekly": 20.333333,
-      "composite_score": 15.453333,
+      "projected_points_weekly": 4.066667,
+      "composite_score": 4.066667,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -726,8 +726,8 @@
       "player_name": "Ranger Suarez",
       "player_role": "sp",
       "projected_points_daily": 4.065574,
-      "projected_points_weekly": 20.327869,
-      "composite_score": 15.44918,
+      "projected_points_weekly": 4.065574,
+      "composite_score": 4.065574,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -737,8 +737,8 @@
       "player_name": "Joe Ryan",
       "player_role": "sp",
       "projected_points_daily": 4.065574,
-      "projected_points_weekly": 20.327869,
-      "composite_score": 15.44918,
+      "projected_points_weekly": 4.065574,
+      "composite_score": 4.065574,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -748,8 +748,8 @@
       "player_name": "William Contreras",
       "player_role": "batters",
       "projected_points_daily": 4.059016,
-      "projected_points_weekly": 20.295082,
-      "composite_score": 15.424262,
+      "projected_points_weekly": 4.059016,
+      "composite_score": 4.059016,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -759,8 +759,8 @@
       "player_name": "George Springer",
       "player_role": "batters",
       "projected_points_daily": 4.054645,
-      "projected_points_weekly": 20.273224,
-      "composite_score": 15.40765,
+      "projected_points_weekly": 4.054645,
+      "composite_score": 4.054645,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -770,8 +770,8 @@
       "player_name": "Willy Adames",
       "player_role": "batters",
       "projected_points_daily": 4.051913,
-      "projected_points_weekly": 20.259563,
-      "composite_score": 15.397268,
+      "projected_points_weekly": 4.051913,
+      "composite_score": 4.051913,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -781,8 +781,8 @@
       "player_name": "Eugenio Su\u00e1rez",
       "player_role": "batters",
       "projected_points_daily": 4.028962,
-      "projected_points_weekly": 20.144809,
-      "composite_score": 15.310055,
+      "projected_points_weekly": 4.028962,
+      "composite_score": 4.028962,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -792,8 +792,8 @@
       "player_name": "Hunter Greene",
       "player_role": "sp",
       "projected_points_daily": 4.027322,
-      "projected_points_weekly": 20.136612,
-      "composite_score": 15.303825,
+      "projected_points_weekly": 4.027322,
+      "composite_score": 4.027322,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -803,8 +803,8 @@
       "player_name": "Matt Chapman",
       "player_role": "batters",
       "projected_points_daily": 4.022404,
-      "projected_points_weekly": 20.112022,
-      "composite_score": 15.285137,
+      "projected_points_weekly": 4.022404,
+      "composite_score": 4.022404,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -814,8 +814,8 @@
       "player_name": "Jacob deGrom",
       "player_role": "sp",
       "projected_points_daily": 4.005464,
-      "projected_points_weekly": 20.027322,
-      "composite_score": 15.220765,
+      "projected_points_weekly": 4.005464,
+      "composite_score": 4.005464,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -825,8 +825,8 @@
       "player_name": "Sandy Alcantara",
       "player_role": "sp",
       "projected_points_daily": 3.983607,
-      "projected_points_weekly": 19.918033,
-      "composite_score": 15.137705,
+      "projected_points_weekly": 3.983607,
+      "composite_score": 3.983607,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -836,8 +836,8 @@
       "player_name": "Zac Gallen",
       "player_role": "sp",
       "projected_points_daily": 3.983607,
-      "projected_points_weekly": 19.918033,
-      "composite_score": 15.137705,
+      "projected_points_weekly": 3.983607,
+      "composite_score": 3.983607,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -847,8 +847,8 @@
       "player_name": "Josh Naylor",
       "player_role": "batters",
       "projected_points_daily": 3.977596,
-      "projected_points_weekly": 19.887978,
-      "composite_score": 15.114863,
+      "projected_points_weekly": 3.977596,
+      "composite_score": 3.977596,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -858,8 +858,8 @@
       "player_name": "Jazz Chisholm Jr.",
       "player_role": "batters",
       "projected_points_daily": 3.97541,
-      "projected_points_weekly": 19.877049,
-      "composite_score": 15.106557,
+      "projected_points_weekly": 3.97541,
+      "composite_score": 3.97541,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -869,8 +869,8 @@
       "player_name": "Ian Happ",
       "player_role": "batters",
       "projected_points_daily": 3.97377,
-      "projected_points_weekly": 19.868852,
-      "composite_score": 15.100327,
+      "projected_points_weekly": 3.97377,
+      "composite_score": 3.97377,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -880,8 +880,8 @@
       "player_name": "Jos\u00e9 Soriano",
       "player_role": "sp",
       "projected_points_daily": 3.95082,
-      "projected_points_weekly": 19.754098,
-      "composite_score": 15.013115,
+      "projected_points_weekly": 3.95082,
+      "composite_score": 3.95082,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -891,8 +891,8 @@
       "player_name": "Bo Bichette",
       "player_role": "batters",
       "projected_points_daily": 3.939891,
-      "projected_points_weekly": 19.699454,
-      "composite_score": 14.971585,
+      "projected_points_weekly": 3.939891,
+      "composite_score": 3.939891,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -902,8 +902,8 @@
       "player_name": "Brandon Nimmo",
       "player_role": "batters",
       "projected_points_daily": 3.918579,
-      "projected_points_weekly": 19.592896,
-      "composite_score": 14.890601,
+      "projected_points_weekly": 3.918579,
+      "composite_score": 3.918579,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -913,8 +913,8 @@
       "player_name": "Maikel Garcia",
       "player_role": "batters",
       "projected_points_daily": 3.902732,
-      "projected_points_weekly": 19.513661,
-      "composite_score": 14.830382,
+      "projected_points_weekly": 3.902732,
+      "composite_score": 3.902732,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -924,8 +924,8 @@
       "player_name": "Spencer Torkelson",
       "player_role": "batters",
       "projected_points_daily": 3.900546,
-      "projected_points_weekly": 19.502732,
-      "composite_score": 14.822076,
+      "projected_points_weekly": 3.900546,
+      "composite_score": 3.900546,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -935,8 +935,8 @@
       "player_name": "Gleyber Torres",
       "player_role": "batters",
       "projected_points_daily": 3.896175,
-      "projected_points_weekly": 19.480874,
-      "composite_score": 14.805464,
+      "projected_points_weekly": 3.896175,
+      "composite_score": 3.896175,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -946,8 +946,8 @@
       "player_name": "Mitch Keller",
       "player_role": "sp",
       "projected_points_daily": 3.896175,
-      "projected_points_weekly": 19.480874,
-      "composite_score": 14.805464,
+      "projected_points_weekly": 3.896175,
+      "composite_score": 3.896175,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -957,8 +957,8 @@
       "player_name": "Cody Bellinger",
       "player_role": "batters",
       "projected_points_daily": 3.87541,
-      "projected_points_weekly": 19.377049,
-      "composite_score": 14.726557,
+      "projected_points_weekly": 3.87541,
+      "composite_score": 3.87541,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -968,8 +968,8 @@
       "player_name": "Pete Crow-Armstrong",
       "player_role": "batters",
       "projected_points_daily": 3.863388,
-      "projected_points_weekly": 19.31694,
-      "composite_score": 14.680874,
+      "projected_points_weekly": 3.863388,
+      "composite_score": 3.863388,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -979,8 +979,8 @@
       "player_name": "Tyler Soderstrom",
       "player_role": "batters",
       "projected_points_daily": 3.862842,
-      "projected_points_weekly": 19.314208,
-      "composite_score": 14.678798,
+      "projected_points_weekly": 3.862842,
+      "composite_score": 3.862842,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -990,8 +990,8 @@
       "player_name": "Luis Castillo",
       "player_role": "sp",
       "projected_points_daily": 3.857923,
-      "projected_points_weekly": 19.289617,
-      "composite_score": 14.660109,
+      "projected_points_weekly": 3.857923,
+      "composite_score": 3.857923,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1001,8 +1001,8 @@
       "player_name": "Ben Rice",
       "player_role": "batters",
       "projected_points_daily": 3.856284,
-      "projected_points_weekly": 19.281421,
-      "composite_score": 14.65388,
+      "projected_points_weekly": 3.856284,
+      "composite_score": 3.856284,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1012,8 +1012,8 @@
       "player_name": "Tanner Bibee",
       "player_role": "sp",
       "projected_points_daily": 3.846995,
-      "projected_points_weekly": 19.234973,
-      "composite_score": 14.61858,
+      "projected_points_weekly": 3.846995,
+      "composite_score": 3.846995,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1023,8 +1023,8 @@
       "player_name": "Byron Buxton",
       "player_role": "batters",
       "projected_points_daily": 3.842623,
-      "projected_points_weekly": 19.213115,
-      "composite_score": 14.601967,
+      "projected_points_weekly": 3.842623,
+      "composite_score": 3.842623,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1034,8 +1034,8 @@
       "player_name": "Nick Pivetta",
       "player_role": "sp",
       "projected_points_daily": 3.84153,
-      "projected_points_weekly": 19.20765,
-      "composite_score": 14.597814,
+      "projected_points_weekly": 3.84153,
+      "composite_score": 3.84153,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1045,8 +1045,8 @@
       "player_name": "Kyle Stowers",
       "player_role": "batters",
       "projected_points_daily": 3.837158,
-      "projected_points_weekly": 19.185792,
-      "composite_score": 14.581202,
+      "projected_points_weekly": 3.837158,
+      "composite_score": 3.837158,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1056,8 +1056,8 @@
       "player_name": "Bryan Reynolds",
       "player_role": "batters",
       "projected_points_daily": 3.835519,
-      "projected_points_weekly": 19.177596,
-      "composite_score": 14.574973,
+      "projected_points_weekly": 3.835519,
+      "composite_score": 3.835519,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1067,8 +1067,8 @@
       "player_name": "Brice Turang",
       "player_role": "batters",
       "projected_points_daily": 3.827869,
-      "projected_points_weekly": 19.139344,
-      "composite_score": 14.545901,
+      "projected_points_weekly": 3.827869,
+      "composite_score": 3.827869,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1078,8 +1078,8 @@
       "player_name": "Jose Altuve",
       "player_role": "batters",
       "projected_points_daily": 3.814208,
-      "projected_points_weekly": 19.071038,
-      "composite_score": 14.493989,
+      "projected_points_weekly": 3.814208,
+      "composite_score": 3.814208,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1089,8 +1089,8 @@
       "player_name": "Nathan Eovaldi",
       "player_role": "sp",
       "projected_points_daily": 3.814208,
-      "projected_points_weekly": 19.071038,
-      "composite_score": 14.493989,
+      "projected_points_weekly": 3.814208,
+      "composite_score": 3.814208,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1100,8 +1100,8 @@
       "player_name": "Christian Yelich",
       "player_role": "batters",
       "projected_points_daily": 3.802732,
-      "projected_points_weekly": 19.013661,
-      "composite_score": 14.450382,
+      "projected_points_weekly": 3.802732,
+      "composite_score": 3.802732,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1111,8 +1111,8 @@
       "player_name": "Willson Contreras",
       "player_role": "batters",
       "projected_points_daily": 3.801639,
-      "projected_points_weekly": 19.008197,
-      "composite_score": 14.44623,
+      "projected_points_weekly": 3.801639,
+      "composite_score": 3.801639,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1122,8 +1122,8 @@
       "player_name": "Steven Kwan",
       "player_role": "batters",
       "projected_points_daily": 3.767213,
-      "projected_points_weekly": 18.836066,
-      "composite_score": 14.31541,
+      "projected_points_weekly": 3.767213,
+      "composite_score": 3.767213,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1133,8 +1133,8 @@
       "player_name": "Ezequiel Tovar",
       "player_role": "batters",
       "projected_points_daily": 3.761749,
-      "projected_points_weekly": 18.808743,
-      "composite_score": 14.294645,
+      "projected_points_weekly": 3.761749,
+      "composite_score": 3.761749,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1144,8 +1144,8 @@
       "player_name": "Freddy Peralta",
       "player_role": "sp",
       "projected_points_daily": 3.759563,
-      "projected_points_weekly": 18.797814,
-      "composite_score": 14.286339,
+      "projected_points_weekly": 3.759563,
+      "composite_score": 3.759563,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1155,8 +1155,8 @@
       "player_name": "Jeremy Pe\u00f1a",
       "player_role": "batters",
       "projected_points_daily": 3.754098,
-      "projected_points_weekly": 18.770492,
-      "composite_score": 14.265574,
+      "projected_points_weekly": 3.754098,
+      "composite_score": 3.754098,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1166,8 +1166,8 @@
       "player_name": "Jonathan Aranda",
       "player_role": "batters",
       "projected_points_daily": 3.752459,
-      "projected_points_weekly": 18.762295,
-      "composite_score": 14.259344,
+      "projected_points_weekly": 3.752459,
+      "composite_score": 3.752459,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1177,8 +1177,8 @@
       "player_name": "CJ Abrams",
       "player_role": "batters",
       "projected_points_daily": 3.750273,
-      "projected_points_weekly": 18.751366,
-      "composite_score": 14.251038,
+      "projected_points_weekly": 3.750273,
+      "composite_score": 3.750273,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1188,8 +1188,8 @@
       "player_name": "Hunter Goodman",
       "player_role": "batters",
       "projected_points_daily": 3.740437,
-      "projected_points_weekly": 18.702186,
-      "composite_score": 14.213661,
+      "projected_points_weekly": 3.740437,
+      "composite_score": 3.740437,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1199,8 +1199,8 @@
       "player_name": "Spencer Strider",
       "player_role": "sp",
       "projected_points_daily": 3.737705,
-      "projected_points_weekly": 18.688525,
-      "composite_score": 14.203279,
+      "projected_points_weekly": 3.737705,
+      "composite_score": 3.737705,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1210,8 +1210,8 @@
       "player_name": "Shea Langeliers",
       "player_role": "batters",
       "projected_points_daily": 3.73388,
-      "projected_points_weekly": 18.669399,
-      "composite_score": 14.188743,
+      "projected_points_weekly": 3.73388,
+      "composite_score": 3.73388,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1221,8 +1221,8 @@
       "player_name": "Drew Rasmussen",
       "player_role": "sp",
       "projected_points_daily": 3.721311,
-      "projected_points_weekly": 18.606557,
-      "composite_score": 14.140983,
+      "projected_points_weekly": 3.721311,
+      "composite_score": 3.721311,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1232,8 +1232,8 @@
       "player_name": "Teoscar Hern\u00e1ndez",
       "player_role": "batters",
       "projected_points_daily": 3.718579,
-      "projected_points_weekly": 18.592896,
-      "composite_score": 14.130601,
+      "projected_points_weekly": 3.718579,
+      "composite_score": 3.718579,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1243,8 +1243,8 @@
       "player_name": "Heliot Ramos",
       "player_role": "batters",
       "projected_points_daily": 3.713115,
-      "projected_points_weekly": 18.565574,
-      "composite_score": 14.109836,
+      "projected_points_weekly": 3.713115,
+      "composite_score": 3.713115,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1254,8 +1254,8 @@
       "player_name": "Dansby Swanson",
       "player_role": "batters",
       "projected_points_daily": 3.694536,
-      "projected_points_weekly": 18.472678,
-      "composite_score": 14.039235,
+      "projected_points_weekly": 3.694536,
+      "composite_score": 3.694536,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1265,8 +1265,8 @@
       "player_name": "David Peterson",
       "player_role": "sp",
       "projected_points_daily": 3.693989,
-      "projected_points_weekly": 18.469945,
-      "composite_score": 14.037158,
+      "projected_points_weekly": 3.693989,
+      "composite_score": 3.693989,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1276,8 +1276,8 @@
       "player_name": "MacKenzie Gore",
       "player_role": "sp",
       "projected_points_daily": 3.688525,
-      "projected_points_weekly": 18.442623,
-      "composite_score": 14.016394,
+      "projected_points_weekly": 3.688525,
+      "composite_score": 3.688525,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1287,8 +1287,8 @@
       "player_name": "Jack Flaherty",
       "player_role": "sp",
       "projected_points_daily": 3.677596,
-      "projected_points_weekly": 18.387978,
-      "composite_score": 13.974863,
+      "projected_points_weekly": 3.677596,
+      "composite_score": 3.677596,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1298,8 +1298,8 @@
       "player_name": "Andy Pages",
       "player_role": "batters",
       "projected_points_daily": 3.672131,
-      "projected_points_weekly": 18.360656,
-      "composite_score": 13.954098,
+      "projected_points_weekly": 3.672131,
+      "composite_score": 3.672131,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1309,8 +1309,8 @@
       "player_name": "Iv\u00e1n Herrera",
       "player_role": "batters",
       "projected_points_daily": 3.662295,
-      "projected_points_weekly": 18.311475,
-      "composite_score": 13.916721,
+      "projected_points_weekly": 3.662295,
+      "composite_score": 3.662295,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1320,8 +1320,8 @@
       "player_name": "Alec Burleson",
       "player_role": "batters",
       "projected_points_daily": 3.656831,
-      "projected_points_weekly": 18.284153,
-      "composite_score": 13.895956,
+      "projected_points_weekly": 3.656831,
+      "composite_score": 3.656831,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1331,8 +1331,8 @@
       "player_name": "Aaron Nola",
       "player_role": "sp",
       "projected_points_daily": 3.644809,
-      "projected_points_weekly": 18.224044,
-      "composite_score": 13.850274,
+      "projected_points_weekly": 3.644809,
+      "composite_score": 3.644809,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1342,8 +1342,8 @@
       "player_name": "Nolan Schanuel",
       "player_role": "batters",
       "projected_points_daily": 3.630601,
-      "projected_points_weekly": 18.153005,
-      "composite_score": 13.796284,
+      "projected_points_weekly": 3.630601,
+      "composite_score": 3.630601,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1353,8 +1353,8 @@
       "player_name": "Jacob Wilson",
       "player_role": "batters",
       "projected_points_daily": 3.628962,
-      "projected_points_weekly": 18.144809,
-      "composite_score": 13.790055,
+      "projected_points_weekly": 3.628962,
+      "composite_score": 3.628962,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1364,8 +1364,8 @@
       "player_name": "Merrill Kelly",
       "player_role": "sp",
       "projected_points_daily": 3.617486,
-      "projected_points_weekly": 18.087432,
-      "composite_score": 13.746448,
+      "projected_points_weekly": 3.617486,
+      "composite_score": 3.617486,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1375,8 +1375,8 @@
       "player_name": "Gavin Williams",
       "player_role": "sp",
       "projected_points_daily": 3.617486,
-      "projected_points_weekly": 18.087432,
-      "composite_score": 13.746448,
+      "projected_points_weekly": 3.617486,
+      "composite_score": 3.617486,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1386,8 +1386,8 @@
       "player_name": "Jo Adell",
       "player_role": "batters",
       "projected_points_daily": 3.616393,
-      "projected_points_weekly": 18.081967,
-      "composite_score": 13.742295,
+      "projected_points_weekly": 3.616393,
+      "composite_score": 3.616393,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1397,8 +1397,8 @@
       "player_name": "Michael King",
       "player_role": "sp",
       "projected_points_daily": 3.612022,
-      "projected_points_weekly": 18.060109,
-      "composite_score": 13.725683,
+      "projected_points_weekly": 3.612022,
+      "composite_score": 3.612022,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1408,8 +1408,8 @@
       "player_name": "Brandon Pfaadt",
       "player_role": "sp",
       "projected_points_daily": 3.612022,
-      "projected_points_weekly": 18.060109,
-      "composite_score": 13.725683,
+      "projected_points_weekly": 3.612022,
+      "composite_score": 3.612022,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1419,8 +1419,8 @@
       "player_name": "Robbie Ray",
       "player_role": "sp",
       "projected_points_daily": 3.601093,
-      "projected_points_weekly": 18.005464,
-      "composite_score": 13.684153,
+      "projected_points_weekly": 3.601093,
+      "composite_score": 3.601093,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1430,8 +1430,8 @@
       "player_name": "Ryan Pepiot",
       "player_role": "sp",
       "projected_points_daily": 3.57377,
-      "projected_points_weekly": 17.868852,
-      "composite_score": 13.580327,
+      "projected_points_weekly": 3.57377,
+      "composite_score": 3.57377,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1441,8 +1441,8 @@
       "player_name": "Matthew Boyd",
       "player_role": "sp",
       "projected_points_daily": 3.562842,
-      "projected_points_weekly": 17.814208,
-      "composite_score": 13.538798,
+      "projected_points_weekly": 3.562842,
+      "composite_score": 3.562842,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1452,8 +1452,8 @@
       "player_name": "Salvador Perez",
       "player_role": "batters",
       "projected_points_daily": 3.559563,
-      "projected_points_weekly": 17.797814,
-      "composite_score": 13.526339,
+      "projected_points_weekly": 3.559563,
+      "composite_score": 3.559563,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1463,8 +1463,8 @@
       "player_name": "Michael Harris II",
       "player_role": "batters",
       "projected_points_daily": 3.55082,
-      "projected_points_weekly": 17.754098,
-      "composite_score": 13.493115,
+      "projected_points_weekly": 3.55082,
+      "composite_score": 3.55082,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1474,8 +1474,8 @@
       "player_name": "Will Smith",
       "player_role": "batters",
       "projected_points_daily": 3.547541,
-      "projected_points_weekly": 17.737705,
-      "composite_score": 13.480656,
+      "projected_points_weekly": 3.547541,
+      "composite_score": 3.547541,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1485,8 +1485,8 @@
       "player_name": "Yusei Kikuchi",
       "player_role": "sp",
       "projected_points_daily": 3.546448,
-      "projected_points_weekly": 17.73224,
-      "composite_score": 13.476502,
+      "projected_points_weekly": 3.546448,
+      "composite_score": 3.546448,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1496,8 +1496,8 @@
       "player_name": "Nolan McLean",
       "player_role": "sp",
       "projected_points_daily": 3.535519,
-      "projected_points_weekly": 17.677596,
-      "composite_score": 13.434973,
+      "projected_points_weekly": 3.535519,
+      "composite_score": 3.535519,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1507,8 +1507,8 @@
       "player_name": "Munetaka Murakami",
       "player_role": "batters",
       "projected_points_daily": 3.535519,
-      "projected_points_weekly": 17.677596,
-      "composite_score": 13.434973,
+      "projected_points_weekly": 3.535519,
+      "composite_score": 3.535519,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1518,8 +1518,8 @@
       "player_name": "Chris Bassitt",
       "player_role": "sp",
       "projected_points_daily": 3.530055,
-      "projected_points_weekly": 17.650273,
-      "composite_score": 13.414208,
+      "projected_points_weekly": 3.530055,
+      "composite_score": 3.530055,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1529,8 +1529,8 @@
       "player_name": "Oneil Cruz",
       "player_role": "batters",
       "projected_points_daily": 3.520765,
-      "projected_points_weekly": 17.603825,
-      "composite_score": 13.378907,
+      "projected_points_weekly": 3.520765,
+      "composite_score": 3.520765,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1540,8 +1540,8 @@
       "player_name": "Mike Trout",
       "player_role": "batters",
       "projected_points_daily": 3.511475,
-      "projected_points_weekly": 17.557377,
-      "composite_score": 13.343606,
+      "projected_points_weekly": 3.511475,
+      "composite_score": 3.511475,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1551,8 +1551,8 @@
       "player_name": "Nico Hoerner",
       "player_role": "batters",
       "projected_points_daily": 3.50929,
-      "projected_points_weekly": 17.546448,
-      "composite_score": 13.335301,
+      "projected_points_weekly": 3.50929,
+      "composite_score": 3.50929,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1562,8 +1562,8 @@
       "player_name": "Drake Baldwin",
       "player_role": "batters",
       "projected_points_daily": 3.492896,
-      "projected_points_weekly": 17.464481,
-      "composite_score": 13.273005,
+      "projected_points_weekly": 3.492896,
+      "composite_score": 3.492896,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1573,8 +1573,8 @@
       "player_name": "Brady Singer",
       "player_role": "sp",
       "projected_points_daily": 3.47541,
-      "projected_points_weekly": 17.377049,
-      "composite_score": 13.206557,
+      "projected_points_weekly": 3.47541,
+      "composite_score": 3.47541,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1584,8 +1584,8 @@
       "player_name": "Quinn Priester",
       "player_role": "sp",
       "projected_points_daily": 3.47541,
-      "projected_points_weekly": 17.377049,
-      "composite_score": 13.206557,
+      "projected_points_weekly": 3.47541,
+      "composite_score": 3.47541,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1595,8 +1595,8 @@
       "player_name": "Brendan Donovan",
       "player_role": "batters",
       "projected_points_daily": 3.470492,
-      "projected_points_weekly": 17.352459,
-      "composite_score": 13.187869,
+      "projected_points_weekly": 3.470492,
+      "composite_score": 3.470492,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1606,8 +1606,8 @@
       "player_name": "Miguel Vargas",
       "player_role": "batters",
       "projected_points_daily": 3.46612,
-      "projected_points_weekly": 17.330601,
-      "composite_score": 13.171257,
+      "projected_points_weekly": 3.46612,
+      "composite_score": 3.46612,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1617,8 +1617,8 @@
       "player_name": "Luis Arraez",
       "player_role": "batters",
       "projected_points_daily": 3.465027,
-      "projected_points_weekly": 17.325137,
-      "composite_score": 13.167104,
+      "projected_points_weekly": 3.465027,
+      "composite_score": 3.465027,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1628,8 +1628,8 @@
       "player_name": "Christian Walker",
       "player_role": "batters",
       "projected_points_daily": 3.451366,
-      "projected_points_weekly": 17.256831,
-      "composite_score": 13.115191,
+      "projected_points_weekly": 3.451366,
+      "composite_score": 3.451366,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1639,8 +1639,8 @@
       "player_name": "Adley Rutschman",
       "player_role": "batters",
       "projected_points_daily": 3.449727,
-      "projected_points_weekly": 17.248634,
-      "composite_score": 13.108962,
+      "projected_points_weekly": 3.449727,
+      "composite_score": 3.449727,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1650,8 +1650,8 @@
       "player_name": "Lawrence Butler",
       "player_role": "batters",
       "projected_points_daily": 3.444809,
-      "projected_points_weekly": 17.224044,
-      "composite_score": 13.090273,
+      "projected_points_weekly": 3.444809,
+      "composite_score": 3.444809,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1661,8 +1661,8 @@
       "player_name": "Luke Keaschall",
       "player_role": "batters",
       "projected_points_daily": 3.442077,
-      "projected_points_weekly": 17.210383,
-      "composite_score": 13.079891,
+      "projected_points_weekly": 3.442077,
+      "composite_score": 3.442077,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1672,8 +1672,8 @@
       "player_name": "Kyle Manzardo",
       "player_role": "batters",
       "projected_points_daily": 3.440437,
-      "projected_points_weekly": 17.202186,
-      "composite_score": 13.073661,
+      "projected_points_weekly": 3.440437,
+      "composite_score": 3.440437,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1683,8 +1683,8 @@
       "player_name": "Ryne Nelson",
       "player_role": "sp",
       "projected_points_daily": 3.431694,
-      "projected_points_weekly": 17.15847,
-      "composite_score": 13.040437,
+      "projected_points_weekly": 3.431694,
+      "composite_score": 3.431694,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1694,8 +1694,8 @@
       "player_name": "Kyle Bradish",
       "player_role": "sp",
       "projected_points_daily": 3.415301,
-      "projected_points_weekly": 17.076503,
-      "composite_score": 12.978142,
+      "projected_points_weekly": 3.415301,
+      "composite_score": 3.415301,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1705,8 +1705,8 @@
       "player_name": "Trevor Story",
       "player_role": "batters",
       "projected_points_daily": 3.39071,
-      "projected_points_weekly": 16.953552,
-      "composite_score": 12.884699,
+      "projected_points_weekly": 3.39071,
+      "composite_score": 3.39071,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1716,8 +1716,8 @@
       "player_name": "Xander Bogaerts",
       "player_role": "batters",
       "projected_points_daily": 3.388525,
-      "projected_points_weekly": 16.942623,
-      "composite_score": 12.876394,
+      "projected_points_weekly": 3.388525,
+      "composite_score": 3.388525,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1727,8 +1727,8 @@
       "player_name": "Nick Lodolo",
       "player_role": "sp",
       "projected_points_daily": 3.382514,
-      "projected_points_weekly": 16.912568,
-      "composite_score": 12.853552,
+      "projected_points_weekly": 3.382514,
+      "composite_score": 3.382514,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1738,8 +1738,8 @@
       "player_name": "Eury P\u00e9rez",
       "player_role": "sp",
       "projected_points_daily": 3.382514,
-      "projected_points_weekly": 16.912568,
-      "composite_score": 12.853552,
+      "projected_points_weekly": 3.382514,
+      "composite_score": 3.382514,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1749,8 +1749,8 @@
       "player_name": "Brandon Woodruff",
       "player_role": "sp",
       "projected_points_daily": 3.377049,
-      "projected_points_weekly": 16.885246,
-      "composite_score": 12.832787,
+      "projected_points_weekly": 3.377049,
+      "composite_score": 3.377049,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1760,8 +1760,8 @@
       "player_name": "Wilyer Abreu",
       "player_role": "batters",
       "projected_points_daily": 3.376503,
-      "projected_points_weekly": 16.882514,
-      "composite_score": 12.830711,
+      "projected_points_weekly": 3.376503,
+      "composite_score": 3.376503,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1771,8 +1771,8 @@
       "player_name": "Ozzie Albies",
       "player_role": "batters",
       "projected_points_daily": 3.370492,
-      "projected_points_weekly": 16.852459,
-      "composite_score": 12.807869,
+      "projected_points_weekly": 3.370492,
+      "composite_score": 3.370492,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1782,8 +1782,8 @@
       "player_name": "Shane Smith",
       "player_role": "sp",
       "projected_points_daily": 3.36612,
-      "projected_points_weekly": 16.830601,
-      "composite_score": 12.791257,
+      "projected_points_weekly": 3.36612,
+      "composite_score": 3.36612,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1793,8 +1793,8 @@
       "player_name": "Michael Wacha",
       "player_role": "sp",
       "projected_points_daily": 3.360656,
-      "projected_points_weekly": 16.803279,
-      "composite_score": 12.770492,
+      "projected_points_weekly": 3.360656,
+      "composite_score": 3.360656,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1804,8 +1804,8 @@
       "player_name": "Marcell Ozuna",
       "player_role": "batters",
       "projected_points_daily": 3.360109,
-      "projected_points_weekly": 16.800546,
-      "composite_score": 12.768415,
+      "projected_points_weekly": 3.360109,
+      "composite_score": 3.360109,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1815,8 +1815,8 @@
       "player_name": "Alec Bohm",
       "player_role": "batters",
       "projected_points_daily": 3.356831,
-      "projected_points_weekly": 16.784153,
-      "composite_score": 12.755956,
+      "projected_points_weekly": 3.356831,
+      "composite_score": 3.356831,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1826,8 +1826,8 @@
       "player_name": "Carlos Correa",
       "player_role": "batters",
       "projected_points_daily": 3.355738,
-      "projected_points_weekly": 16.778689,
-      "composite_score": 12.751804,
+      "projected_points_weekly": 3.355738,
+      "composite_score": 3.355738,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1837,8 +1837,8 @@
       "player_name": "Zack Wheeler",
       "player_role": "sp",
       "projected_points_daily": 3.355191,
-      "projected_points_weekly": 16.775956,
-      "composite_score": 12.749727,
+      "projected_points_weekly": 3.355191,
+      "composite_score": 3.355191,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1848,8 +1848,8 @@
       "player_name": "Blake Snell",
       "player_role": "sp",
       "projected_points_daily": 3.355191,
-      "projected_points_weekly": 16.775956,
-      "composite_score": 12.749727,
+      "projected_points_weekly": 3.355191,
+      "composite_score": 3.355191,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1859,8 +1859,8 @@
       "player_name": "Jakob Marsee",
       "player_role": "batters",
       "projected_points_daily": 3.344262,
-      "projected_points_weekly": 16.721311,
-      "composite_score": 12.708196,
+      "projected_points_weekly": 3.344262,
+      "composite_score": 3.344262,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1870,8 +1870,8 @@
       "player_name": "Daylen Lile",
       "player_role": "batters",
       "projected_points_daily": 3.342623,
-      "projected_points_weekly": 16.713115,
-      "composite_score": 12.701967,
+      "projected_points_weekly": 3.342623,
+      "composite_score": 3.342623,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1881,8 +1881,8 @@
       "player_name": "Kris Bubic",
       "player_role": "sp",
       "projected_points_daily": 3.333333,
-      "projected_points_weekly": 16.666667,
-      "composite_score": 12.666667,
+      "projected_points_weekly": 3.333333,
+      "composite_score": 3.333333,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1892,8 +1892,8 @@
       "player_name": "Kazuma Okamoto",
       "player_role": "batters",
       "projected_points_daily": 3.329508,
-      "projected_points_weekly": 16.647541,
-      "composite_score": 12.652131,
+      "projected_points_weekly": 3.329508,
+      "composite_score": 3.329508,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1903,8 +1903,8 @@
       "player_name": "Luis Severino",
       "player_role": "sp",
       "projected_points_daily": 3.327869,
-      "projected_points_weekly": 16.639344,
-      "composite_score": 12.645901,
+      "projected_points_weekly": 3.327869,
+      "composite_score": 3.327869,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1914,8 +1914,8 @@
       "player_name": "Bryson Stott",
       "player_role": "batters",
       "projected_points_daily": 3.325137,
-      "projected_points_weekly": 16.625683,
-      "composite_score": 12.635519,
+      "projected_points_weekly": 3.325137,
+      "composite_score": 3.325137,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1925,8 +1925,8 @@
       "player_name": "Shane Baz",
       "player_role": "sp",
       "projected_points_daily": 3.322404,
-      "projected_points_weekly": 16.612022,
-      "composite_score": 12.625137,
+      "projected_points_weekly": 3.322404,
+      "composite_score": 3.322404,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1936,8 +1936,8 @@
       "player_name": "Josh Bell",
       "player_role": "batters",
       "projected_points_daily": 3.31694,
-      "projected_points_weekly": 16.584699,
-      "composite_score": 12.604371,
+      "projected_points_weekly": 3.31694,
+      "composite_score": 3.31694,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1947,8 +1947,8 @@
       "player_name": "Trevor Rogers",
       "player_role": "sp",
       "projected_points_daily": 3.31694,
-      "projected_points_weekly": 16.584699,
-      "composite_score": 12.604371,
+      "projected_points_weekly": 3.31694,
+      "composite_score": 3.31694,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1958,8 +1958,8 @@
       "player_name": "Andrew Abbott",
       "player_role": "sp",
       "projected_points_daily": 3.311475,
-      "projected_points_weekly": 16.557377,
-      "composite_score": 12.583606,
+      "projected_points_weekly": 3.311475,
+      "composite_score": 3.311475,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1969,8 +1969,8 @@
       "player_name": "Xavier Edwards",
       "player_role": "batters",
       "projected_points_daily": 3.30929,
-      "projected_points_weekly": 16.546448,
-      "composite_score": 12.575301,
+      "projected_points_weekly": 3.30929,
+      "composite_score": 3.30929,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1980,8 +1980,8 @@
       "player_name": "Brayan Bello",
       "player_role": "sp",
       "projected_points_daily": 3.306011,
-      "projected_points_weekly": 16.530055,
-      "composite_score": 12.562842,
+      "projected_points_weekly": 3.306011,
+      "composite_score": 3.306011,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -1991,8 +1991,8 @@
       "player_name": "Jack Leiter",
       "player_role": "sp",
       "projected_points_daily": 3.300546,
-      "projected_points_weekly": 16.502732,
-      "composite_score": 12.542076,
+      "projected_points_weekly": 3.300546,
+      "composite_score": 3.300546,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2002,8 +2002,8 @@
       "player_name": "Jung Hoo Lee",
       "player_role": "batters",
       "projected_points_daily": 3.295082,
-      "projected_points_weekly": 16.47541,
-      "composite_score": 12.521312,
+      "projected_points_weekly": 3.295082,
+      "composite_score": 3.295082,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2013,8 +2013,8 @@
       "player_name": "Chase Burns",
       "player_role": "sp",
       "projected_points_daily": 3.295082,
-      "projected_points_weekly": 16.47541,
-      "composite_score": 12.521312,
+      "projected_points_weekly": 3.295082,
+      "composite_score": 3.295082,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2024,8 +2024,8 @@
       "player_name": "Matt Wallner",
       "player_role": "batters",
       "projected_points_daily": 3.29071,
-      "projected_points_weekly": 16.453552,
-      "composite_score": 12.504699,
+      "projected_points_weekly": 3.29071,
+      "composite_score": 3.29071,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2035,8 +2035,8 @@
       "player_name": "Brandon Lowe",
       "player_role": "batters",
       "projected_points_daily": 3.281421,
-      "projected_points_weekly": 16.407104,
-      "composite_score": 12.469399,
+      "projected_points_weekly": 3.281421,
+      "composite_score": 3.281421,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2046,8 +2046,8 @@
       "player_name": "Marcus Semien",
       "player_role": "batters",
       "projected_points_daily": 3.280328,
-      "projected_points_weekly": 16.401639,
-      "composite_score": 12.465246,
+      "projected_points_weekly": 3.280328,
+      "composite_score": 3.280328,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2057,8 +2057,8 @@
       "player_name": "Clay Holmes",
       "player_role": "sp",
       "projected_points_daily": 3.278689,
-      "projected_points_weekly": 16.393443,
-      "composite_score": 12.459017,
+      "projected_points_weekly": 3.278689,
+      "composite_score": 3.278689,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2068,8 +2068,8 @@
       "player_name": "Daulton Varsho",
       "player_role": "batters",
       "projected_points_daily": 3.278142,
-      "projected_points_weekly": 16.39071,
-      "composite_score": 12.45694,
+      "projected_points_weekly": 3.278142,
+      "composite_score": 3.278142,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2079,8 +2079,8 @@
       "player_name": "TJ Friedl",
       "player_role": "batters",
       "projected_points_daily": 3.277049,
-      "projected_points_weekly": 16.385246,
-      "composite_score": 12.452787,
+      "projected_points_weekly": 3.277049,
+      "composite_score": 3.277049,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2090,8 +2090,8 @@
       "player_name": "Casey Mize",
       "player_role": "sp",
       "projected_points_daily": 3.26776,
-      "projected_points_weekly": 16.338798,
-      "composite_score": 12.417487,
+      "projected_points_weekly": 3.26776,
+      "composite_score": 3.26776,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2101,8 +2101,8 @@
       "player_name": "Bailey Ober",
       "player_role": "sp",
       "projected_points_daily": 3.26776,
-      "projected_points_weekly": 16.338798,
-      "composite_score": 12.417487,
+      "projected_points_weekly": 3.26776,
+      "composite_score": 3.26776,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2112,8 +2112,8 @@
       "player_name": "Adolis Garc\u00eda",
       "player_role": "batters",
       "projected_points_daily": 3.264481,
-      "projected_points_weekly": 16.322404,
-      "composite_score": 12.405027,
+      "projected_points_weekly": 3.264481,
+      "composite_score": 3.264481,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2123,8 +2123,8 @@
       "player_name": "Brenton Doyle",
       "player_role": "batters",
       "projected_points_daily": 3.260109,
-      "projected_points_weekly": 16.300546,
-      "composite_score": 12.388415,
+      "projected_points_weekly": 3.260109,
+      "composite_score": 3.260109,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2134,8 +2134,8 @@
       "player_name": "Otto Lopez",
       "player_role": "batters",
       "projected_points_daily": 3.256831,
-      "projected_points_weekly": 16.284153,
-      "composite_score": 12.375956,
+      "projected_points_weekly": 3.256831,
+      "composite_score": 3.256831,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2145,8 +2145,8 @@
       "player_name": "Trent Grisham",
       "player_role": "batters",
       "projected_points_daily": 3.25082,
-      "projected_points_weekly": 16.254098,
-      "composite_score": 12.353115,
+      "projected_points_weekly": 3.25082,
+      "composite_score": 3.25082,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2156,8 +2156,8 @@
       "player_name": "Jake Cronenworth",
       "player_role": "batters",
       "projected_points_daily": 3.244809,
-      "projected_points_weekly": 16.224044,
-      "composite_score": 12.330273,
+      "projected_points_weekly": 3.244809,
+      "composite_score": 3.244809,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2167,8 +2167,8 @@
       "player_name": "Isaac Paredes",
       "player_role": "batters",
       "projected_points_daily": 3.244262,
-      "projected_points_weekly": 16.221311,
-      "composite_score": 12.328196,
+      "projected_points_weekly": 3.244262,
+      "composite_score": 3.244262,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2178,8 +2178,8 @@
       "player_name": "Masyn Winn",
       "player_role": "batters",
       "projected_points_daily": 3.24153,
-      "projected_points_weekly": 16.20765,
-      "composite_score": 12.317814,
+      "projected_points_weekly": 3.24153,
+      "composite_score": 3.24153,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2189,8 +2189,8 @@
       "player_name": "Yainer Diaz",
       "player_role": "batters",
       "projected_points_daily": 3.22623,
-      "projected_points_weekly": 16.131148,
-      "composite_score": 12.259673,
+      "projected_points_weekly": 3.22623,
+      "composite_score": 3.22623,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2200,8 +2200,8 @@
       "player_name": "Jake Burger",
       "player_role": "batters",
       "projected_points_daily": 3.212568,
-      "projected_points_weekly": 16.062842,
-      "composite_score": 12.20776,
+      "projected_points_weekly": 3.212568,
+      "composite_score": 3.212568,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2211,8 +2211,8 @@
       "player_name": "Ceddanne Rafaela",
       "player_role": "batters",
       "projected_points_daily": 3.208743,
-      "projected_points_weekly": 16.043716,
-      "composite_score": 12.193224,
+      "projected_points_weekly": 3.208743,
+      "composite_score": 3.208743,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2222,8 +2222,8 @@
       "player_name": "Braxton Ashcraft",
       "player_role": "sp",
       "projected_points_daily": 3.20765,
-      "projected_points_weekly": 16.038251,
-      "composite_score": 12.189071,
+      "projected_points_weekly": 3.20765,
+      "composite_score": 3.20765,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2233,8 +2233,8 @@
       "player_name": "J.P. Crawford",
       "player_role": "batters",
       "projected_points_daily": 3.204372,
-      "projected_points_weekly": 16.021858,
-      "composite_score": 12.176612,
+      "projected_points_weekly": 3.204372,
+      "composite_score": 3.204372,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2244,8 +2244,8 @@
       "player_name": "Tyler Glasnow",
       "player_role": "sp",
       "projected_points_daily": 3.202186,
-      "projected_points_weekly": 16.010929,
-      "composite_score": 12.168306,
+      "projected_points_weekly": 3.202186,
+      "composite_score": 3.202186,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2255,8 +2255,8 @@
       "player_name": "Sal Stewart",
       "player_role": "batters",
       "projected_points_daily": 3.201639,
-      "projected_points_weekly": 16.008197,
-      "composite_score": 12.16623,
+      "projected_points_weekly": 3.201639,
+      "composite_score": 3.201639,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2266,8 +2266,8 @@
       "player_name": "Andrew Vaughn",
       "player_role": "batters",
       "projected_points_daily": 3.196175,
-      "projected_points_weekly": 15.980874,
-      "composite_score": 12.145464,
+      "projected_points_weekly": 3.196175,
+      "composite_score": 3.196175,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2277,8 +2277,8 @@
       "player_name": "Jeffrey Springs",
       "player_role": "sp",
       "projected_points_daily": 3.174863,
-      "projected_points_weekly": 15.874317,
-      "composite_score": 12.064481,
+      "projected_points_weekly": 3.174863,
+      "composite_score": 3.174863,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2288,8 +2288,8 @@
       "player_name": "Ryan O'Hearn",
       "player_role": "batters",
       "projected_points_daily": 3.168852,
-      "projected_points_weekly": 15.844262,
-      "composite_score": 12.041639,
+      "projected_points_weekly": 3.168852,
+      "composite_score": 3.168852,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2299,8 +2299,8 @@
       "player_name": "Jorge Polanco",
       "player_role": "batters",
       "projected_points_daily": 3.168306,
-      "projected_points_weekly": 15.84153,
-      "composite_score": 12.039563,
+      "projected_points_weekly": 3.168306,
+      "composite_score": 3.168306,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2310,8 +2310,8 @@
       "player_name": "Emmet Sheehan",
       "player_role": "sp",
       "projected_points_daily": 3.15847,
-      "projected_points_weekly": 15.79235,
-      "composite_score": 12.002186,
+      "projected_points_weekly": 3.15847,
+      "composite_score": 3.15847,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2321,8 +2321,8 @@
       "player_name": "Tatsuya Imai",
       "player_role": "sp",
       "projected_points_daily": 3.15847,
-      "projected_points_weekly": 15.79235,
-      "composite_score": 12.002186,
+      "projected_points_weekly": 3.15847,
+      "composite_score": 3.15847,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2332,8 +2332,8 @@
       "player_name": "Matt McLain",
       "player_role": "batters",
       "projected_points_daily": 3.156284,
-      "projected_points_weekly": 15.781421,
-      "composite_score": 11.99388,
+      "projected_points_weekly": 3.156284,
+      "composite_score": 3.156284,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2343,8 +2343,8 @@
       "player_name": "Bubba Chandler",
       "player_role": "sp",
       "projected_points_daily": 3.153005,
-      "projected_points_weekly": 15.765027,
-      "composite_score": 11.98142,
+      "projected_points_weekly": 3.153005,
+      "composite_score": 3.153005,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2354,8 +2354,8 @@
       "player_name": "Trey Yesavage",
       "player_role": "sp",
       "projected_points_daily": 3.153005,
-      "projected_points_weekly": 15.765027,
-      "composite_score": 11.98142,
+      "projected_points_weekly": 3.153005,
+      "composite_score": 3.153005,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2365,8 +2365,8 @@
       "player_name": "Jeff McNeil",
       "player_role": "batters",
       "projected_points_daily": 3.14918,
-      "projected_points_weekly": 15.745902,
-      "composite_score": 11.966885,
+      "projected_points_weekly": 3.14918,
+      "composite_score": 3.14918,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2376,8 +2376,8 @@
       "player_name": "Matthew Liberatore",
       "player_role": "sp",
       "projected_points_daily": 3.142077,
-      "projected_points_weekly": 15.710383,
-      "composite_score": 11.939891,
+      "projected_points_weekly": 3.142077,
+      "composite_score": 3.142077,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2387,8 +2387,8 @@
       "player_name": "Colton Cowser",
       "player_role": "batters",
       "projected_points_daily": 3.142077,
-      "projected_points_weekly": 15.710383,
-      "composite_score": 11.939891,
+      "projected_points_weekly": 3.142077,
+      "composite_score": 3.142077,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2398,8 +2398,8 @@
       "player_name": "Shota Imanaga",
       "player_role": "sp",
       "projected_points_daily": 3.142077,
-      "projected_points_weekly": 15.710383,
-      "composite_score": 11.939891,
+      "projected_points_weekly": 3.142077,
+      "composite_score": 3.142077,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2409,8 +2409,8 @@
       "player_name": "Kerry Carpenter",
       "player_role": "batters",
       "projected_points_daily": 3.135519,
-      "projected_points_weekly": 15.677596,
-      "composite_score": 11.914973,
+      "projected_points_weekly": 3.135519,
+      "composite_score": 3.135519,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2420,8 +2420,8 @@
       "player_name": "Jordan Beck",
       "player_role": "batters",
       "projected_points_daily": 3.13224,
-      "projected_points_weekly": 15.661202,
-      "composite_score": 11.902513,
+      "projected_points_weekly": 3.13224,
+      "composite_score": 3.13224,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2431,8 +2431,8 @@
       "player_name": "Ram\u00f3n Laureano",
       "player_role": "batters",
       "projected_points_daily": 3.131694,
-      "projected_points_weekly": 15.65847,
-      "composite_score": 11.900437,
+      "projected_points_weekly": 3.131694,
+      "composite_score": 3.131694,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2442,8 +2442,8 @@
       "player_name": "Dylan Crews",
       "player_role": "batters",
       "projected_points_daily": 3.130601,
-      "projected_points_weekly": 15.653005,
-      "composite_score": 11.896284,
+      "projected_points_weekly": 3.130601,
+      "composite_score": 3.130601,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2453,8 +2453,8 @@
       "player_name": "Agust\u00edn Ram\u00edrez",
       "player_role": "batters",
       "projected_points_daily": 3.118033,
-      "projected_points_weekly": 15.590164,
-      "composite_score": 11.848525,
+      "projected_points_weekly": 3.118033,
+      "composite_score": 3.118033,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2464,8 +2464,8 @@
       "player_name": "Edward Cabrera",
       "player_role": "sp",
       "projected_points_daily": 3.114754,
-      "projected_points_weekly": 15.57377,
-      "composite_score": 11.836065,
+      "projected_points_weekly": 3.114754,
+      "composite_score": 3.114754,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2475,8 +2475,8 @@
       "player_name": "Nolan Arenado",
       "player_role": "batters",
       "projected_points_daily": 3.108743,
-      "projected_points_weekly": 15.543716,
-      "composite_score": 11.813224,
+      "projected_points_weekly": 3.108743,
+      "composite_score": 3.108743,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2486,8 +2486,8 @@
       "player_name": "Willi Castro",
       "player_role": "batters",
       "projected_points_daily": 3.098361,
-      "projected_points_weekly": 15.491803,
-      "composite_score": 11.77377,
+      "projected_points_weekly": 3.098361,
+      "composite_score": 3.098361,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2497,8 +2497,8 @@
       "player_name": "Luis Robert Jr.",
       "player_role": "batters",
       "projected_points_daily": 3.097268,
-      "projected_points_weekly": 15.486339,
-      "composite_score": 11.769618,
+      "projected_points_weekly": 3.097268,
+      "composite_score": 3.097268,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2508,8 +2508,8 @@
       "player_name": "Michael McGreevy",
       "player_role": "sp",
       "projected_points_daily": 3.092896,
-      "projected_points_weekly": 15.464481,
-      "composite_score": 11.753005,
+      "projected_points_weekly": 3.092896,
+      "composite_score": 3.092896,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2519,8 +2519,8 @@
       "player_name": "Mickey Moniak",
       "player_role": "batters",
       "projected_points_daily": 3.091803,
-      "projected_points_weekly": 15.459016,
-      "composite_score": 11.748852,
+      "projected_points_weekly": 3.091803,
+      "composite_score": 3.091803,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2530,8 +2530,8 @@
       "player_name": "Carlos Rod\u00f3n",
       "player_role": "sp",
       "projected_points_daily": 3.087432,
-      "projected_points_weekly": 15.437158,
-      "composite_score": 11.73224,
+      "projected_points_weekly": 3.087432,
+      "composite_score": 3.087432,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2541,8 +2541,8 @@
       "player_name": "Colson Montgomery",
       "player_role": "batters",
       "projected_points_daily": 3.084699,
-      "projected_points_weekly": 15.423497,
-      "composite_score": 11.721858,
+      "projected_points_weekly": 3.084699,
+      "composite_score": 3.084699,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2552,8 +2552,8 @@
       "player_name": "Alejandro Kirk",
       "player_role": "batters",
       "projected_points_daily": 3.06776,
-      "projected_points_weekly": 15.338798,
-      "composite_score": 11.657487,
+      "projected_points_weekly": 3.06776,
+      "composite_score": 3.06776,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2563,8 +2563,8 @@
       "player_name": "Seth Lugo",
       "player_role": "sp",
       "projected_points_daily": 3.060109,
-      "projected_points_weekly": 15.300546,
-      "composite_score": 11.628415,
+      "projected_points_weekly": 3.060109,
+      "composite_score": 3.060109,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2574,8 +2574,8 @@
       "player_name": "Sean Manaea",
       "player_role": "sp",
       "projected_points_daily": 3.054645,
-      "projected_points_weekly": 15.273224,
-      "composite_score": 11.60765,
+      "projected_points_weekly": 3.054645,
+      "composite_score": 3.054645,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2585,8 +2585,8 @@
       "player_name": "Jameson Taillon",
       "player_role": "sp",
       "projected_points_daily": 3.04918,
-      "projected_points_weekly": 15.245902,
-      "composite_score": 11.586885,
+      "projected_points_weekly": 3.04918,
+      "composite_score": 3.04918,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2596,8 +2596,8 @@
       "player_name": "Colt Keith",
       "player_role": "batters",
       "projected_points_daily": 3.046995,
-      "projected_points_weekly": 15.234973,
-      "composite_score": 11.57858,
+      "projected_points_weekly": 3.046995,
+      "composite_score": 3.046995,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2607,8 +2607,8 @@
       "player_name": "Sal Frelick",
       "player_role": "batters",
       "projected_points_daily": 3.042623,
-      "projected_points_weekly": 15.213115,
-      "composite_score": 11.561967,
+      "projected_points_weekly": 3.042623,
+      "composite_score": 3.042623,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2618,8 +2618,8 @@
       "player_name": "Lars Nootbaar",
       "player_role": "batters",
       "projected_points_daily": 3.040984,
-      "projected_points_weekly": 15.204918,
-      "composite_score": 11.555738,
+      "projected_points_weekly": 3.040984,
+      "composite_score": 3.040984,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2629,8 +2629,8 @@
       "player_name": "Bryce Miller",
       "player_role": "sp",
       "projected_points_daily": 3.038251,
-      "projected_points_weekly": 15.191257,
-      "composite_score": 11.545355,
+      "projected_points_weekly": 3.038251,
+      "composite_score": 3.038251,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2640,8 +2640,8 @@
       "player_name": "Jacob Misiorowski",
       "player_role": "sp",
       "projected_points_daily": 3.032787,
-      "projected_points_weekly": 15.163934,
-      "composite_score": 11.52459,
+      "projected_points_weekly": 3.032787,
+      "composite_score": 3.032787,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2651,8 +2651,8 @@
       "player_name": "Joe Musgrove",
       "player_role": "sp",
       "projected_points_daily": 3.027322,
-      "projected_points_weekly": 15.136612,
-      "composite_score": 11.503825,
+      "projected_points_weekly": 3.027322,
+      "composite_score": 3.027322,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2662,8 +2662,8 @@
       "player_name": "Reid Detmers",
       "player_role": "sp",
       "projected_points_daily": 3.027322,
-      "projected_points_weekly": 15.136612,
-      "composite_score": 11.503825,
+      "projected_points_weekly": 3.027322,
+      "composite_score": 3.027322,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2673,8 +2673,8 @@
       "player_name": "Cody Ponce",
       "player_role": "sp",
       "projected_points_daily": 3.021858,
-      "projected_points_weekly": 15.10929,
-      "composite_score": 11.48306,
+      "projected_points_weekly": 3.021858,
+      "composite_score": 3.021858,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2684,8 +2684,8 @@
       "player_name": "Caleb Durbin",
       "player_role": "batters",
       "projected_points_daily": 3.018579,
-      "projected_points_weekly": 15.092896,
-      "composite_score": 11.470601,
+      "projected_points_weekly": 3.018579,
+      "composite_score": 3.018579,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2695,8 +2695,8 @@
       "player_name": "Jonathan India",
       "player_role": "batters",
       "projected_points_daily": 3.012568,
-      "projected_points_weekly": 15.062842,
-      "composite_score": 11.44776,
+      "projected_points_weekly": 3.012568,
+      "composite_score": 3.012568,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2706,8 +2706,8 @@
       "player_name": "Max Muncy",
       "player_role": "batters",
       "projected_points_daily": 3.00929,
-      "projected_points_weekly": 15.046448,
-      "composite_score": 11.435301,
+      "projected_points_weekly": 3.00929,
+      "composite_score": 3.00929,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2717,8 +2717,8 @@
       "player_name": "Luis Garc\u00eda Jr.",
       "player_role": "batters",
       "projected_points_daily": 3.006011,
-      "projected_points_weekly": 15.030055,
-      "composite_score": 11.422842,
+      "projected_points_weekly": 3.006011,
+      "composite_score": 3.006011,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2728,8 +2728,8 @@
       "player_name": "Ryan Jeffers",
       "player_role": "batters",
       "projected_points_daily": 2.978142,
-      "projected_points_weekly": 14.89071,
-      "composite_score": 11.31694,
+      "projected_points_weekly": 2.978142,
+      "composite_score": 2.978142,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2739,8 +2739,8 @@
       "player_name": "Noah Cameron",
       "player_role": "sp",
       "projected_points_daily": 2.972678,
-      "projected_points_weekly": 14.863388,
-      "composite_score": 11.296175,
+      "projected_points_weekly": 2.972678,
+      "composite_score": 2.972678,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2750,8 +2750,8 @@
       "player_name": "Nick Martinez",
       "player_role": "sp",
       "projected_points_daily": 2.961749,
-      "projected_points_weekly": 14.808743,
-      "composite_score": 11.254645,
+      "projected_points_weekly": 2.961749,
+      "composite_score": 2.961749,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2761,8 +2761,8 @@
       "player_name": "Cade Smith",
       "player_role": "rp",
       "projected_points_daily": 2.956284,
-      "projected_points_weekly": 14.781421,
-      "composite_score": 11.23388,
+      "projected_points_weekly": 2.956284,
+      "composite_score": 2.956284,
       "performance_delta": null,
       "performance_flag": "insufficient_data",
       "slot_positions": []
@@ -2792,8 +2792,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "1",
@@ -2811,8 +2811,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "1",
@@ -2830,8 +2830,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "1",
@@ -2849,8 +2849,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "1",
@@ -2868,8 +2868,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "1",
@@ -2887,8 +2887,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "1",
@@ -2906,8 +2906,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "1",
@@ -2925,8 +2925,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "3",
@@ -2944,8 +2944,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "3",
@@ -2963,8 +2963,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "3",
@@ -2982,8 +2982,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "3",
@@ -3001,8 +3001,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "3",
@@ -3020,8 +3020,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "3",
@@ -3039,8 +3039,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "3",
@@ -3058,8 +3058,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "3",
@@ -3077,8 +3077,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "4",
@@ -3096,8 +3096,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "4",
@@ -3115,8 +3115,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "4",
@@ -3134,8 +3134,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "4",
@@ -3153,8 +3153,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "4",
@@ -3172,8 +3172,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "4",
@@ -3191,8 +3191,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "4",
@@ -3210,8 +3210,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "4",
@@ -3229,8 +3229,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "5",
@@ -3248,8 +3248,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "5",
@@ -3267,8 +3267,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "5",
@@ -3286,8 +3286,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "5",
@@ -3305,8 +3305,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "5",
@@ -3324,8 +3324,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "5",
@@ -3343,8 +3343,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "5",
@@ -3362,8 +3362,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "5",
@@ -3381,8 +3381,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "6",
@@ -3400,8 +3400,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "6",
@@ -3419,8 +3419,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "6",
@@ -3438,8 +3438,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "6",
@@ -3457,8 +3457,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "6",
@@ -3476,8 +3476,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "6",
@@ -3495,8 +3495,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "6",
@@ -3514,8 +3514,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "6",
@@ -3533,8 +3533,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "7",
@@ -3552,8 +3552,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "7",
@@ -3571,8 +3571,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "7",
@@ -3590,8 +3590,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "7",
@@ -3609,8 +3609,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "7",
@@ -3628,8 +3628,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "7",
@@ -3647,8 +3647,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "7",
@@ -3666,8 +3666,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "7",
@@ -3685,8 +3685,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "8",
@@ -3704,8 +3704,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "8",
@@ -3723,8 +3723,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "8",
@@ -3742,8 +3742,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "8",
@@ -3761,8 +3761,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "8",
@@ -3780,8 +3780,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "8",
@@ -3799,8 +3799,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "8",
@@ -3818,8 +3818,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "8",
@@ -3837,8 +3837,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "9",
@@ -3856,8 +3856,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "9",
@@ -3875,8 +3875,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "9",
@@ -3894,8 +3894,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "9",
@@ -3913,8 +3913,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "9",
@@ -3932,8 +3932,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "9",
@@ -3951,8 +3951,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "9",
@@ -3970,8 +3970,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "9",
@@ -3989,8 +3989,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "10",
@@ -4008,8 +4008,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "10",
@@ -4027,8 +4027,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "10",
@@ -4046,8 +4046,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "10",
@@ -4065,8 +4065,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "10",
@@ -4084,8 +4084,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "10",
@@ -4103,8 +4103,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "10",
@@ -4122,8 +4122,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "10",
@@ -4141,8 +4141,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "11",
@@ -4160,8 +4160,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "11",
@@ -4179,8 +4179,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "11",
@@ -4198,8 +4198,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "11",
@@ -4217,8 +4217,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "11",
@@ -4236,8 +4236,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "11",
@@ -4255,8 +4255,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "11",
@@ -4274,8 +4274,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "11",
@@ -4293,8 +4293,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "12",
@@ -4312,8 +4312,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "12",
@@ -4331,8 +4331,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "12",
@@ -4350,8 +4350,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "12",
@@ -4369,8 +4369,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "12",
@@ -4388,8 +4388,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "12",
@@ -4407,8 +4407,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "12",
@@ -4426,8 +4426,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "12",
@@ -4445,8 +4445,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "13",
@@ -4464,8 +4464,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "13",
@@ -4483,8 +4483,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "13",
@@ -4502,8 +4502,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "13",
@@ -4521,8 +4521,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "13",
@@ -4540,8 +4540,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "13",
@@ -4559,8 +4559,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "13",
@@ -4578,8 +4578,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "13",
@@ -4597,8 +4597,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "14",
@@ -4616,8 +4616,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "14",
@@ -4635,8 +4635,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "14",
@@ -4654,8 +4654,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "14",
@@ -4673,8 +4673,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "14",
@@ -4692,8 +4692,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "14",
@@ -4711,8 +4711,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "14",
@@ -4730,8 +4730,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "14",
@@ -4749,8 +4749,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "15",
@@ -4768,8 +4768,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "15",
@@ -4787,8 +4787,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "15",
@@ -4806,8 +4806,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "15",
@@ -4825,8 +4825,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "15",
@@ -4844,8 +4844,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "15",
@@ -4863,8 +4863,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "15",
@@ -4882,8 +4882,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "15",
@@ -4901,8 +4901,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "16",
@@ -4920,8 +4920,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "16",
@@ -4939,8 +4939,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "16",
@@ -4958,8 +4958,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "16",
@@ -4977,8 +4977,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "16",
@@ -4996,8 +4996,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "16",
@@ -5015,8 +5015,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "16",
@@ -5034,8 +5034,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       },
       {
         "team_id": "16",
@@ -5053,8 +5053,8 @@
           "slot_positions": []
         },
         "net_points_daily": 6.618033,
-        "net_points_weekly": 33.090164,
-        "net_composite_score": 25.148525
+        "net_points_weekly": 6.618033,
+        "net_composite_score": 6.618033
       }
     ]
   }

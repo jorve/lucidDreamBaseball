@@ -1,0 +1,16 @@
+{
+  "normalized_at_utc": "2026-03-23T17:37:45.057844+00:00",
+  "target_date": "2026-03-22",
+  "outputs": {
+    "week_snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/2026/week1.json",
+    "schedule_data": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/2026/schedule.json",
+    "schedule_json": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/schedule.json",
+    "rosters_json": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/rosters_latest.json",
+    "player_stats_json": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/player_stats_latest.json",
+    "ingestion_summary_json": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/ingestion_summary_2026-03-22.json"
+  },
+  "optional_resources_present": {
+    "rosters": true,
+    "player_stats": false
+  }
+}

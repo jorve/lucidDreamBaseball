@@ -1,0 +1,7 @@
+{
+  "resource": "rosters",
+  "endpoint": "league/rosters",
+  "target_date": "2026-03-22",
+  "request_time_utc": "2026-03-23T17:37:21.598750+00:00",
+  "league_id": "luciddreambaseball"
+}

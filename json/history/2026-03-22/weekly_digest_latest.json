@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-03-23T17:37:46.652652Z",
+  "target_date": "2026-03-22",
+  "window": {
+    "label": "weekly_remaining",
+    "start_date": "2026-03-22",
+    "end_date": "2026-03-22",
+    "days": 1,
+    "week_end_weekday": 6
+  },
+  "summary": {
+    "league_players": 1462,
+    "gm_players": 1462,
+    "overperforming_count": 0,
+    "underperforming_count": 0,
+    "replacement_candidates": 120
+  },
+  "top_overperformers": [],
+  "top_underperformers": [],
+  "category_spotlight": {
+    "aRBI": {
+      "overperforming_count": 0,
+      "underperforming_count": 0,
+      "top_overperformer": null,
+      "top_underperformer": null
+    },
+    "aSB": {
+      "overperforming_count": 0,
+      "underperforming_count": 0,
+      "top_overperformer": null,
+      "top_underperformer": null
+    },
+    "MGS": {
+      "overperforming_count": 0,
+      "underperforming_count": 0,
+      "top_overperformer": null,
+      "top_underperformer": null
+    },
+    "VIJAY": {
+      "overperforming_count": 0,
+      "underperforming_count": 0,
+      "top_overperformer": null,
+      "top_underperformer": null
+    }
+  },
+  "recommended_swaps": [
+    {
+      "team_id": "1",
+      "team_name": "The Powers of Matthew Starr",
+      "add_player": {
+        "player_id": "15640",
+        "player_name": "Aaron Judge",
+        "player_role": "batters",
+        "slot_positions": []
+      },
+      "drop_player": {
+        "player_id": "1000000656",
+        "player_name": "Drew Burress",
+        "player_role": "unknown",
+        "slot_positions": []
+      },
+      "net_points_daily": 6.618033,
+      "net_points_weekly": 6.618033,
+      "net_composite_score": 6.618033
+    },
+    {
+      "team_id": "1",
+      "team_name": "The Powers of Matthew Starr",
+      "add_player": {
+        "player_id": "15640",
+        "player_name": "Aaron Judge",
+        "player_role": "batters",
+        "slot_positions": []
+      },
+      "drop_player": {
+        "player_id": "1765810",
+        "player_name": "Drew Pomeranz",
+        "player_role": "unknown",
+        "slot_positions": []
+      },
+      "net_points_daily": 6.618033,
+      "net_points_weekly": 6.618033,
+      "net_composite_score": 6.618033
+    },
+    {
+      "team_id": "1",
+      "team_name": "The Powers of Matthew Starr",
+      "add_player": {
+        "player_id": "15640",
+        "player_name": "Aaron Judge",
+        "player_role": "batters",
+        "slot_positions": []
+      },
+      "drop_player": {
+        "player_id": "1811026",
+        "player_name": "Joc Pederson",
+        "player_role": "unknown",
+        "slot_positions": []
+      },
+      "net_points_daily": 6.618033,
+      "net_points_weekly": 6.618033,
+      "net_composite_score": 6.618033
+    },
+    {
+      "team_id": "1",
+      "team_name": "The Powers of Matthew Starr",
+      "add_player": {
+        "player_id": "15640",
+        "player_name": "Aaron Judge",
+        "player_role": "batters",
+        "slot_positions": []
+      },
+      "drop_player": {
+        "player_id": "1945481",
+        "player_name": "Xander Bogaerts",
+        "player_role": "unknown",
+        "slot_positions": []
+      },
+      "net_points_daily": 6.618033,
+      "net_points_weekly": 6.618033,
+      "net_composite_score": 6.618033
+    },
+    {
+      "team_id": "1",
+      "team_name": "The Powers of Matthew Starr",
+      "add_player": {
+        "player_id": "15640",
+        "player_name": "Aaron Judge",
+        "player_role": "batters",
+        "slot_positions": []
+      },
+      "drop_player": {
+        "player_id": "2167338",
+        "player_name": "Nick Pivetta",
+        "player_role": "unknown",
+        "slot_positions": []
+      },
+      "net_points_daily": 6.618033,
+      "net_points_weekly": 6.618033,
+      "net_composite_score": 6.618033
+    }
+  ]
+}

@@ -146,10 +146,23 @@ def get_required_inputs_for_plan(steps_to_run):
 	return sorted(required_inputs)
 
 
+def get_required_inputs_for_first_step(steps_to_run):
+	"""
+	Only inputs needed to start the first step in this run.
+
+	Validating the union of *all* steps would incorrectly require files that an
+	earlier step in the same run will regenerate (e.g. key_variables.json from
+	scoring) before that step has executed.
+	"""
+	if not steps_to_run:
+		return []
+	return sorted(REQUIRED_INPUTS_BY_STEP.get(steps_to_run[0], []))
+
+
 def validate_required_inputs(steps_to_run, max_input_age_hours):
 	now = datetime.datetime.now()
 	max_age = datetime.timedelta(hours=max_input_age_hours)
-	required_inputs = get_required_inputs_for_plan(steps_to_run)
+	required_inputs = get_required_inputs_for_first_step(steps_to_run)
 
 	for filename in required_inputs:
 		path_value = get_required_input_path(filename)
@@ -161,8 +174,17 @@ def validate_required_inputs(steps_to_run, max_input_age_hours):
 			)
 
 
+def _utc_now_iso():
+	return datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+
+
+def _format_duration(seconds):
+	return str(datetime.timedelta(seconds=round(seconds)))
+
+
 def main():
 	args = parse_args()
+	started_at = datetime.datetime.now(datetime.timezone.utc)
 
 	if args.list:
 		print("Pipeline steps:")
@@ -176,34 +198,73 @@ def main():
 		print(f"Error: {error}")
 		return 2
 
+	print(
+		f"[pipeline] start={_utc_now_iso()} "
+		f"python={sys.executable} "
+		f"base_dir={BASE_DIR}"
+	)
+	print(
+		f"[pipeline] flags: dry_run={args.dry_run} "
+		f"ingest_first={args.ingest_first} "
+		f"ingest_date={args.ingest_date or 'none'} "
+		f"skip_input_check={args.skip_input_check} "
+		f"max_input_age_hours={args.max_input_age_hours}"
+	)
 	print("Running pipeline steps:")
 	for step in steps_to_run:
 		print(f"- {step}")
 
 	if args.ingest_first:
 		try:
+			ingest_started = datetime.datetime.now(datetime.timezone.utc)
 			run_ingestion(date_value=args.ingest_date, dry_run=args.dry_run)
 			if not args.dry_run:
 				log_recompute_intent()
+			print(
+				f"[pipeline] ingestion completed in "
+				f"{_format_duration((datetime.datetime.now(datetime.timezone.utc) - ingest_started).total_seconds())}"
+			)
 		except subprocess.CalledProcessError as error:
 			print(f"Ingestion failed (exit code {error.returncode})")
 			return error.returncode
 
 	if not args.skip_input_check and not args.dry_run:
 		try:
+			validation_started = datetime.datetime.now(datetime.timezone.utc)
+			first_step_inputs = get_required_inputs_for_first_step(steps_to_run)
+			if first_step_inputs:
+				print(
+					f"[pipeline] checking freshness for first step "
+					f"({steps_to_run[0]}): {', '.join(first_step_inputs)}"
+				)
+			else:
+				print(
+					f"[pipeline] no declared JSON prerequisites for first step "
+					f"({steps_to_run[0]}); skipping staleness check"
+				)
 			validate_required_inputs(steps_to_run, args.max_input_age_hours)
+			print(
+				f"[pipeline] input validation passed in "
+				f"{_format_duration((datetime.datetime.now(datetime.timezone.utc) - validation_started).total_seconds())}"
+			)
 		except Exception as error:
 			print(f"Input validation failed: {error}")
 			return 3
 
 	for step in steps_to_run:
 		try:
+			step_started = datetime.datetime.now(datetime.timezone.utc)
 			run_step(step, dry_run=args.dry_run)
+			print(
+				f"[pipeline] step={step} status=ok duration="
+				f"{_format_duration((datetime.datetime.now(datetime.timezone.utc) - step_started).total_seconds())}"
+			)
 		except subprocess.CalledProcessError as error:
 			print(f"Step failed: {step} (exit code {error.returncode})")
 			return error.returncode
 
-	print("Pipeline completed successfully.")
+	elapsed = (datetime.datetime.now(datetime.timezone.utc) - started_at).total_seconds()
+	print(f"[pipeline] completed successfully in {_format_duration(elapsed)}")
 	return 0
 
 
