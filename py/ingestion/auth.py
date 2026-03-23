@@ -2,6 +2,7 @@ import json
 import os
 import re
 import time
+import base64
 from urllib.parse import parse_qs, urlparse
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
@@ -214,11 +215,20 @@ class AuthManager:
 		return None
 
 	def _extract_token_from_requests(self, request_events):
-		request_urls = [event.get("url") for event in request_events if event.get("url")]
-		token_from_url = self._extract_token_from_urls(request_urls)
+		fantasy_urls = []
+		for event in request_events:
+			url_value = event.get("url")
+			if not url_value:
+				continue
+			if self._is_fantasy_api_request_url(url_value):
+				fantasy_urls.append(url_value)
+		token_from_url = self._extract_token_from_urls(fantasy_urls)
 		if token_from_url:
 			return token_from_url
 		for event in request_events:
+			request_url = event.get("url") or ""
+			if not self._is_fantasy_api_request_url(request_url):
+				continue
 			headers = event.get("headers") or {}
 			auth_header = headers.get("authorization") or headers.get("Authorization")
 			if not auth_header or not isinstance(auth_header, str):
@@ -227,9 +237,49 @@ class AuthManager:
 			if len(parts) != 2:
 				continue
 			scheme, token_value = parts[0].strip().lower(), parts[1].strip()
-			if scheme == "bearer" and token_value:
-				return token_value
+			if scheme != "bearer" or not token_value:
+				continue
+			if not self._is_likely_jwt(token_value):
+				continue
+			if self._is_rejected_issuer(token_value):
+				continue
+			return token_value
 		return None
+
+	def _is_fantasy_api_request_url(self, request_url):
+		try:
+			parsed = urlparse(request_url)
+		except Exception:
+			return False
+		host = (parsed.netloc or "").lower()
+		path = (parsed.path or "").lower()
+		if "api.cbssports.com" not in host:
+			return False
+		if "/fantasy/" not in path:
+			return False
+		return True
+
+	def _is_likely_jwt(self, token_value):
+		if not token_value or not isinstance(token_value, str):
+			return False
+		parts = token_value.split(".")
+		return len(parts) == 3 and all(parts)
+
+	def _decode_jwt_payload(self, token_value):
+		try:
+			payload_b64 = token_value.split(".")[1]
+			padding = "=" * (-len(payload_b64) % 4)
+			decoded = base64.urlsafe_b64decode(payload_b64 + padding).decode("utf-8")
+			return json.loads(decoded)
+		except Exception:
+			return {}
+
+	def _is_rejected_issuer(self, token_value):
+		payload = self._decode_jwt_payload(token_value)
+		issuer = str(payload.get("iss", "")).lower()
+		if "adobe.com" in issuer or "ims" in issuer:
+			return True
+		return False
 
 	def _build_token_source_urls(self):
 		league_id = self.cbs_cfg.get("league_id", "luciddreambaseball")
