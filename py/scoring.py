@@ -40,7 +40,16 @@ for i in range(1, CURRENT_WEEK + 1):
 					cat_means[score["name"]] = []
 	for ldb_team in ldb_teams:
 		for ldb_cat in ldb_cats:
-			cat_means[ldb_cat].append(float(weekly_scores["week" + str(i)][ldb_team][ldb_cat]))
+			team_week_scores = weekly_scores["week" + str(i)].get(ldb_team, {})
+			raw_value = team_week_scores.get(ldb_cat)
+			if raw_value is None:
+				# Upstream API occasionally omits a category for a team/week.
+				# Keep the nightly pipeline moving with a neutral numeric fallback.
+				print(
+					f"Warning: missing category {ldb_cat!r} for team {ldb_team!r} in week {i}; using 0.0"
+				)
+				raw_value = 0.0
+			cat_means[ldb_cat].append(float(raw_value))
 
 list_CLAP = []
 for ldb_cat in ldb_cats:
