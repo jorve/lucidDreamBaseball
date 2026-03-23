@@ -102,8 +102,16 @@ class AuthManager:
 			browser = playwright.chromium.launch(headless=headless)
 			context = browser.new_context()
 			page = context.new_page()
-			request_urls = []
-			page.on("request", lambda request: request_urls.append(request.url))
+			request_events = []
+
+			def _on_request(request):
+				try:
+					headers = request.headers or {}
+				except Exception:
+					headers = {}
+				request_events.append({"url": request.url, "headers": headers})
+
+			page.on("request", _on_request)
 			page.goto(login_url, wait_until="domcontentloaded", timeout=timeout_seconds * 1000)
 			self._fill_first(page, ["input[name='email']", "input[type='email']", "input[name='username']"], username)
 			self._fill_first(page, ["input[name='password']", "input[type='password']"], password)
@@ -137,7 +145,7 @@ class AuthManager:
 				if not api_token:
 					api_token = self._extract_token_from_page_runtime(page)
 			if not api_token:
-				api_token = self._extract_token_from_urls(request_urls)
+				api_token = self._extract_token_from_requests(request_events)
 
 			browser.close()
 
@@ -203,6 +211,24 @@ class AuthManager:
 				token_value = query_params["access_token"][0]
 				if token_value:
 					return token_value
+		return None
+
+	def _extract_token_from_requests(self, request_events):
+		request_urls = [event.get("url") for event in request_events if event.get("url")]
+		token_from_url = self._extract_token_from_urls(request_urls)
+		if token_from_url:
+			return token_from_url
+		for event in request_events:
+			headers = event.get("headers") or {}
+			auth_header = headers.get("authorization") or headers.get("Authorization")
+			if not auth_header or not isinstance(auth_header, str):
+				continue
+			parts = auth_header.split(None, 1)
+			if len(parts) != 2:
+				continue
+			scheme, token_value = parts[0].strip().lower(), parts[1].strip()
+			if scheme == "bearer" and token_value:
+				return token_value
 		return None
 
 	def _build_token_source_urls(self):
