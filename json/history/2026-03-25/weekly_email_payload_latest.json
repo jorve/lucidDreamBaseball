@@ -1,0 +1,229 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-03-23T13:21:24.015955Z",
+  "target_date": "2026-03-25",
+  "lookback_week": {
+    "status": "insufficient_history",
+    "window": {
+      "start_date": "2026-03-16",
+      "end_date": "2026-03-22"
+    },
+    "summary": {
+      "note": "Previous-week digest snapshot not found yet."
+    },
+    "top_overperformers": [],
+    "top_underperformers": []
+  },
+  "lookahead_week": {
+    "status": "ok",
+    "window": {
+      "start_date": "2026-03-30",
+      "end_date": "2026-04-05"
+    },
+    "summary": {
+      "player_count": 1462,
+      "top_projection_points": 46.32623
+    },
+    "projected_top_players": [
+      {
+        "player_id": "15640",
+        "player_name": "Aaron Judge",
+        "player_role": "batters",
+        "projected_points_next_week": 46.32623,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "20123",
+        "player_name": "Juan Soto",
+        "player_role": "batters",
+        "projected_points_next_week": 43.916393,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "22267",
+        "player_name": "Tarik Skubal",
+        "player_role": "sp",
+        "projected_points_next_week": 39.398908,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "33677",
+        "player_name": "Paul Skenes",
+        "player_role": "sp",
+        "projected_points_next_week": 38.672131,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "19611",
+        "player_name": "Vladimir Guerrero Jr.",
+        "player_role": "batters",
+        "projected_points_next_week": 37.765574,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "17995",
+        "player_name": "Logan Webb",
+        "player_role": "sp",
+        "projected_points_next_week": 37.715847,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "25764",
+        "player_name": "Bobby Witt Jr.",
+        "player_role": "batters",
+        "projected_points_next_week": 37.65847,
+        "performance_flag": "insufficient_data"
+      },
+      {
+        "player_id": "18401",
+        "player_name": "Ronald Acu\u00f1a Jr.",
+        "player_role": "batters",
+        "projected_points_next_week": 36.545355,
+        "performance_flag": "insufficient_data"
+      }
+    ],
+    "projected_category_pulse": {
+      "aRBI": {
+        "overperforming_count": 0,
+        "underperforming_count": 0,
+        "top_overperformers": [],
+        "top_underperformers": []
+      },
+      "aSB": {
+        "overperforming_count": 0,
+        "underperforming_count": 0,
+        "top_overperformers": [],
+        "top_underperformers": []
+      },
+      "MGS": {
+        "overperforming_count": 0,
+        "underperforming_count": 0,
+        "top_overperformers": [],
+        "top_underperformers": []
+      },
+      "VIJAY": {
+        "overperforming_count": 0,
+        "underperforming_count": 0,
+        "top_overperformers": [],
+        "top_underperformers": []
+      }
+    },
+    "recommended_swaps": [
+      {
+        "team_id": "1",
+        "team_name": "The Powers of Matthew Starr",
+        "add_player": {
+          "player_id": "15640",
+          "player_name": "Aaron Judge",
+          "player_role": "batters",
+          "slot_positions": []
+        },
+        "drop_player": {
+          "player_id": "1000000656",
+          "player_name": "Drew Burress",
+          "player_role": "unknown",
+          "slot_positions": []
+        },
+        "net_points_daily": 6.618033,
+        "net_points_weekly": 33.090164,
+        "net_composite_score": 25.148525
+      },
+      {
+        "team_id": "1",
+        "team_name": "The Powers of Matthew Starr",
+        "add_player": {
+          "player_id": "15640",
+          "player_name": "Aaron Judge",
+          "player_role": "batters",
+          "slot_positions": []
+        },
+        "drop_player": {
+          "player_id": "1765810",
+          "player_name": "Drew Pomeranz",
+          "player_role": "unknown",
+          "slot_positions": []
+        },
+        "net_points_daily": 6.618033,
+        "net_points_weekly": 33.090164,
+        "net_composite_score": 25.148525
+      },
+      {
+        "team_id": "1",
+        "team_name": "The Powers of Matthew Starr",
+        "add_player": {
+          "player_id": "15640",
+          "player_name": "Aaron Judge",
+          "player_role": "batters",
+          "slot_positions": []
+        },
+        "drop_player": {
+          "player_id": "1811026",
+          "player_name": "Joc Pederson",
+          "player_role": "unknown",
+          "slot_positions": []
+        },
+        "net_points_daily": 6.618033,
+        "net_points_weekly": 33.090164,
+        "net_composite_score": 25.148525
+      },
+      {
+        "team_id": "1",
+        "team_name": "The Powers of Matthew Starr",
+        "add_player": {
+          "player_id": "15640",
+          "player_name": "Aaron Judge",
+          "player_role": "batters",
+          "slot_positions": []
+        },
+        "drop_player": {
+          "player_id": "1945481",
+          "player_name": "Xander Bogaerts",
+          "player_role": "unknown",
+          "slot_positions": []
+        },
+        "net_points_daily": 6.618033,
+        "net_points_weekly": 33.090164,
+        "net_composite_score": 25.148525
+      },
+      {
+        "team_id": "1",
+        "team_name": "The Powers of Matthew Starr",
+        "add_player": {
+          "player_id": "15640",
+          "player_name": "Aaron Judge",
+          "player_role": "batters",
+          "slot_positions": []
+        },
+        "drop_player": {
+          "player_id": "2167338",
+          "player_name": "Nick Pivetta",
+          "player_role": "unknown",
+          "slot_positions": []
+        },
+        "net_points_daily": 6.618033,
+        "net_points_weekly": 33.090164,
+        "net_composite_score": 25.148525
+      }
+    ]
+  },
+  "delivery_metadata": {
+    "subject": "LDB Weekly Recap + Outlook (2026-03-23 to 2026-03-29)",
+    "send_schedule": {
+      "send_day_weekday": 0,
+      "send_time_local": "08:00",
+      "next_recommended_send_local": "2026-03-23 08:00"
+    },
+    "recipients": [],
+    "delivery_mode": "generation_only"
+  },
+  "source_snapshot": {
+    "current_week_window": {
+      "label": "weekly_remaining",
+      "start_date": "2026-03-25",
+      "end_date": "2026-03-29",
+      "days": 5,
+      "week_end_weekday": 6
+    },
+    "previous_week_history_available": false
+  }
+}

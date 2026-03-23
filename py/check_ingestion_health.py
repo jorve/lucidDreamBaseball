@@ -101,23 +101,35 @@ def main():
 		elif isinstance(txn_freshness_hours, (int, float)):
 			txn_healthy = float(txn_freshness_hours) <= txn_max_age_hours
 
-		if not ingestion_healthy or not txn_healthy:
+		storage_parity = status_index.get("storage_parity", {})
+		storage_health = storage_parity.get("status", "unknown")
+		storage_healthy = storage_health in {"ok", "unknown"}
+
+		if not ingestion_healthy or not txn_healthy or not storage_healthy:
 			print(
 				"UNHEALTHY: "
 				f"ingestion_health={'healthy' if ingestion_healthy else 'stale'}; "
-				f"transaction_health={'healthy' if txn_healthy else txn_status}."
+				f"transaction_health={'healthy' if txn_healthy else txn_status}; "
+				f"storage_parity={storage_health}."
 			)
 			print(
 				f"ingestion_age={age}; threshold={max_age_delta}; "
 				f"transaction_age_hours={txn_freshness_hours}; "
-				f"transaction_threshold_hours={txn_max_age_hours}"
+				f"transaction_threshold_hours={txn_max_age_hours}; "
+				f"storage_parity_mismatched={storage_parity.get('mismatched')}; "
+				f"storage_parity_missing={storage_parity.get('missing_in_db')}"
 			)
-			return 2 if not ingestion_healthy else 3
+			if not ingestion_healthy:
+				return 2
+			if not txn_healthy:
+				return 3
+			return 4
 
 		print(
 			"HEALTHY: "
 			f"ingestion_age={age} (threshold={max_age_delta}); "
-			f"transaction_health={txn_status}"
+			f"transaction_health={txn_status}; "
+			f"storage_parity={storage_health}"
 		)
 		return 0
 

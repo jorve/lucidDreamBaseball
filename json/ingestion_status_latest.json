@@ -1,10 +1,16 @@
 {
   "schema_version": "1.0",
   "status": "ok",
-  "last_success_utc": "2026-03-17T20:56:58.710692Z",
-  "target_date": "2026-03-16",
+  "last_success_utc": "2026-03-23T13:21:24.037907Z",
+  "target_date": "2026-03-25",
   "freshness_hours": 0.0,
   "resources": [
+    {
+      "name": "storage",
+      "status": "skipped",
+      "path": "",
+      "error_short": "STORAGE_NOT_OK"
+    },
     {
       "name": "auth",
       "status": "ok",
@@ -14,92 +20,98 @@
     {
       "name": "fetch",
       "status": "ok",
-      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-16",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\raw\\2026-03-25",
       "error_short": null
     },
     {
       "name": "normalize",
-      "status": "skipped",
+      "status": "ok",
       "path": "",
-      "error_short": "NORMALIZE_NOT_OK"
+      "error_short": null
     },
     {
       "name": "transactions",
-      "status": "skipped",
-      "path": "",
-      "error_short": "TRANSACTIONS_NOT_OK"
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\transactions_latest.json",
+      "error_short": null
     },
     {
       "name": "roster_state",
-      "status": "skipped",
-      "path": "",
-      "error_short": "ROSTER_STATE_NOT_OK"
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\roster_state_latest.json",
+      "error_short": null
     },
     {
       "name": "recompute_trigger",
-      "status": "skipped",
-      "path": "",
-      "error_short": "RECOMPUTE_TRIGGER_NOT_OK"
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\recompute_request_latest.json",
+      "error_short": null
     },
     {
       "name": "player_priors",
-      "status": "skipped",
-      "path": "",
-      "error_short": "PLAYER_PRIORS_NOT_OK"
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\preseason_player_priors.json",
+      "error_short": null
     },
     {
       "name": "player_eligibility",
-      "status": "skipped",
-      "path": "",
-      "error_short": "PLAYER_ELIGIBILITY_NOT_OK"
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\player_eligibility_latest.json",
+      "error_short": null
     },
     {
       "name": "player_blend",
-      "status": "skipped",
-      "path": "",
-      "error_short": "PLAYER_BLEND_NOT_OK"
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\player_projection_deltas_latest.json",
+      "error_short": null
     },
     {
       "name": "projection_horizons",
-      "status": "skipped",
+      "status": "ok",
       "path": "",
-      "error_short": "PROJECTION_HORIZONS_NOT_OK"
+      "error_short": null
     },
     {
       "name": "view_models",
-      "status": "skipped",
-      "path": "",
-      "error_short": "VIEW_MODELS_NOT_OK"
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\view_league_daily_latest.json",
+      "error_short": null
+    },
+    {
+      "name": "clap_v2",
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\clap_v2_latest.json",
+      "error_short": null
     },
     {
       "name": "free_agent_candidates",
-      "status": "skipped",
-      "path": "",
-      "error_short": "FREE_AGENT_CANDIDATES_NOT_OK"
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\free_agent_candidates_latest.json",
+      "error_short": null
     },
     {
       "name": "weekly_digest",
-      "status": "skipped",
-      "path": "",
-      "error_short": "WEEKLY_DIGEST_NOT_OK"
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\weekly_digest_latest.json",
+      "error_short": null
     },
     {
       "name": "weekly_email",
-      "status": "skipped",
-      "path": "",
-      "error_short": "WEEKLY_EMAIL_NOT_OK"
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\weekly_email_payload_latest.json",
+      "error_short": null
     },
     {
       "name": "weekly_calibration",
       "status": "skipped",
-      "path": "",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\weekly_calibration_latest.json",
       "error_short": "WEEKLY_CALIBRATION_NOT_OK"
     },
     {
       "name": "artifact_history",
-      "status": "skipped",
-      "path": "",
-      "error_short": "ARTIFACT_HISTORY_NOT_OK"
+      "status": "ok",
+      "path": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\artifact_history_latest.json",
+      "error_short": null
     }
   ],
   "codes": [
@@ -118,5 +130,12 @@
     "freshness_hours": null,
     "event_count": 0
   },
-  "generated_at_utc": "2026-03-17T20:56:58.710692Z"
+  "storage_parity": {
+    "status": "unknown",
+    "generated_at_utc": null,
+    "matched": 0,
+    "mismatched": 0,
+    "missing_in_db": 0
+  },
+  "generated_at_utc": "2026-03-23T13:21:24.037907Z"
 }

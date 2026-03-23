@@ -1,0 +1,16 @@
+{
+  "normalized_at_utc": "2026-03-23T13:21:21.879428+00:00",
+  "target_date": "2026-03-25",
+  "outputs": {
+    "week_snapshot": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\2016\\week12.json",
+    "schedule_data": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\data\\2016\\schedule.json",
+    "schedule_json": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\schedule.json",
+    "rosters_json": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\rosters_latest.json",
+    "player_stats_json": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\player_stats_latest.json",
+    "ingestion_summary_json": "C:\\Users\\J0RV3\\Documents\\Development\\lucidDreamBaseball\\json\\ingestion_summary_2026-03-25.json"
+  },
+  "optional_resources_present": {
+    "rosters": true,
+    "player_stats": false
+  }
+}

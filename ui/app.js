@@ -34,6 +34,8 @@ async function loadAll() {
     clapPlayerHistory:      "/json/clap_player_history_latest.json",
     matchupExpectations:    "/json/matchup_expectations_latest.json",
     clapCalibration:        "/json/clap_calibration_latest.json",
+    scheduleStrength:       "/json/schedule_strength_latest.json",
+    vijayValuation:         "/json/vijay_valuation_latest.json",
   };
 
   const results = await Promise.allSettled(
@@ -815,6 +817,255 @@ function renderTrends() {
   }
 }
 
+/* ── Season Outlook ─────────────────────────────────────────────────────── */
+
+function renderSeasonOutlook() {
+  const d = state.data.scheduleStrength;
+  if (!d || !d.teams) {
+    const container = document.getElementById("outlook-divisions");
+    if (container) container.innerHTML = '<div class="card"><div class="card-sub">Schedule strength data not yet available. Run the pipeline to generate schedule_strength_latest.json.</div></div>';
+    return;
+  }
+
+  // Header summary cards
+  setText("outlook-periods-remaining", d.remaining_periods ?? "—");
+  setText("outlook-periods-total", `of ${d.total_periods ?? "—"} total`);
+  setText("outlook-prob-source", (d.win_probability_source || "—").replace(/_/g, " "));
+  setText("outlook-target-date", d.target_date ?? "—");
+  const age = d.generated_at_utc ? ageHours(d.generated_at_utc) : null;
+  setText("outlook-generated-at", age !== null ? `${age.toFixed(1)}h ago` : "—");
+
+  // Division cards
+  const divsContainer = document.getElementById("outlook-divisions");
+  if (divsContainer) {
+    divsContainer.innerHTML = "";
+    const divisions = d.division_projections || {};
+    const divNames = Object.keys(divisions).sort();
+
+    const grid = document.createElement("div");
+    grid.className = "grid grid-2";
+    grid.style.marginBottom = "16px";
+
+    divNames.forEach(divName => {
+      const teams = divisions[divName] || [];
+      const card = document.createElement("div");
+      card.className = "card";
+
+      const header = document.createElement("div");
+      header.className = "card-header";
+      header.innerHTML = `<div class="card-title">${divName}</div><div class="card-sub">Division projection</div>`;
+      card.appendChild(header);
+
+      const tableWrap = document.createElement("div");
+      tableWrap.className = "table-wrap";
+      const table = document.createElement("table");
+
+      const thead = document.createElement("thead");
+      thead.innerHTML = `<tr>
+        <th>Rk</th><th>Team</th>
+        <th class="num">Cur W-L</th>
+        <th class="num">Proj W</th>
+        <th class="num">Proj Win%</th>
+        <th>SOS</th>
+      </tr>`;
+      table.appendChild(thead);
+
+      const tbody = document.createElement("tbody");
+      teams.forEach(t => {
+        const rec = t.current_record || {};
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${t.projected_division_rank}</td>
+          <td><strong>${t.long_abbr}</strong></td>
+          <td class="num">${rec.w ?? 0}–${rec.l ?? 0}</td>
+          <td class="num">${fmt(t.projected_wins, 1)}</td>
+          <td class="num">${fmtPct(t.projected_win_pct)}</td>
+          <td><span class="sos-badge sos-${(t.sos_label || "avg").toLowerCase()}">${t.sos_label || "—"}</span></td>
+        `;
+        tbody.appendChild(tr);
+      });
+      table.appendChild(tbody);
+      tableWrap.appendChild(table);
+      card.appendChild(tableWrap);
+      grid.appendChild(card);
+    });
+
+    divsContainer.appendChild(grid);
+  }
+
+  // All-teams table sorted by projected win %
+  const tbody = document.getElementById("outlook-all-teams-body");
+  if (tbody) {
+    tbody.innerHTML = "";
+    const allTeams = Object.values(d.teams).sort(
+      (a, b) => (b.projected_win_pct ?? 0) - (a.projected_win_pct ?? 0)
+    );
+    allTeams.forEach((t, idx) => {
+      const rec = t.current_record || {};
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${idx + 1}</td>
+        <td><strong>${t.long_abbr}</strong></td>
+        <td style="font-size:11px;color:var(--text-dim)">${t.division || "—"}</td>
+        <td class="num">${rec.w ?? 0}</td>
+        <td class="num">${rec.l ?? 0}</td>
+        <td class="num">${t.games_remaining ?? "—"}</td>
+        <td class="num">${fmt(t.projected_wins, 1)}</td>
+        <td class="num">${fmt(t.projected_losses, 1)}</td>
+        <td class="num">${fmtPct(t.projected_win_pct)}</td>
+        <td><span class="sos-badge sos-${(t.sos_label || "avg").toLowerCase()}">${t.sos_label || "—"}</span></td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
+
+  // Team selector for drilldown
+  const sel = document.getElementById("outlook-team-select");
+  if (sel) {
+    sel.innerHTML = "";
+    const teams = Object.values(d.teams).sort((a, b) =>
+      (a.long_abbr || "").localeCompare(b.long_abbr || "")
+    );
+    teams.forEach(t => {
+      const opt = document.createElement("option");
+      opt.value = t.team_id;
+      opt.textContent = `${t.long_abbr} — ${t.display_name}`;
+      sel.appendChild(opt);
+    });
+    sel.addEventListener("change", () => renderOutlookSchedule(d));
+    renderOutlookSchedule(d);
+  }
+}
+
+function renderOutlookSchedule(d) {
+  const sel = document.getElementById("outlook-team-select");
+  const tbody = document.getElementById("outlook-schedule-body");
+  if (!sel || !tbody || !d || !d.teams) return;
+
+  const teamId = sel.value;
+  const team = d.teams[teamId];
+  tbody.innerHTML = "";
+
+  if (!team || !team.remaining_matchups || team.remaining_matchups.length === 0) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = '<td colspan="5" style="color:var(--text-dim)">No remaining matchups on record — schedule may not be fully published yet.</td>';
+    tbody.appendChild(tr);
+    return;
+  }
+
+  team.remaining_matchups
+    .slice()
+    .sort((a, b) => (a.period_id ?? 0) - (b.period_id ?? 0))
+    .forEach(m => {
+      const prob = Number(m.win_probability);
+      const probClass = prob >= 0.55 ? "pos" : prob <= 0.45 ? "neg" : "";
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${m.period_label || `Period ${m.period_id}`}</td>
+        <td style="font-size:11px;color:var(--text-dim)">${m.start_date || ""}${m.end_date ? " – " + m.end_date : ""}</td>
+        <td><strong>${m.opponent_abbr}</strong></td>
+        <td>${m.is_home ? "Home" : "Away"}</td>
+        <td class="num ${probClass}">${isNaN(prob) ? "—" : (prob * 100).toFixed(1) + "%"}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+}
+
+/* ── Relievers (VIJAY Valuation) ────────────────────────────────────────── */
+
+const vijayState = { filter: "all" };
+
+const RISK_TIER_CLASS = {
+  "Locked In":  "pos",
+  "Solid":      "",
+  "Volatile":   "warn",
+  "High Risk":  "neg",
+};
+
+function renderRelievers() {
+  const d = state.data.vijayValuation;
+  if (!d || !d.relievers) {
+    const tbody = document.getElementById("vijay-table-body");
+    if (tbody) tbody.innerHTML = '<tr><td colspan="13" style="color:var(--text-dim)">VIJAY valuation data not yet available. Run: python py/vijay_valuation.py</td></tr>';
+    return;
+  }
+
+  setText("vijay-total", d.total_relievers ?? "—");
+  setText("vijay-fa-count", d.free_agent_count ?? "—");
+  setText("vijay-rostered-count", d.rostered_count ?? "—");
+  const age = d.generated_at_utc ? ageHours(d.generated_at_utc) : null;
+  setText("vijay-generated-at", age !== null ? `${age.toFixed(1)}h ago` : "—");
+
+  // Wire filter buttons
+  const filters = { all: "vijay-filter-all", fa: "vijay-filter-fa", close: "vijay-filter-close", setup: "vijay-filter-setup" };
+  Object.entries(filters).forEach(([key, btnId]) => {
+    const btn = document.getElementById(btnId);
+    if (!btn) return;
+    btn.classList.toggle("active", vijayState.filter === key);
+    btn.onclick = () => {
+      vijayState.filter = key;
+      Object.values(filters).forEach(id => {
+        const b = document.getElementById(id);
+        if (b) b.classList.remove("active");
+      });
+      btn.classList.add("active");
+      renderVijayTable(d);
+    };
+  });
+
+  renderVijayTable(d);
+}
+
+function renderVijayTable(d) {
+  const tbody = document.getElementById("vijay-table-body");
+  if (!tbody) return;
+  tbody.innerHTML = "";
+
+  let relievers = d.relievers || [];
+
+  // Apply filter
+  if (vijayState.filter === "fa") {
+    relievers = relievers.filter(r => r.roster_status === "Free Agent");
+  } else if (vijayState.filter === "close") {
+    relievers = relievers.filter(r => r.role_type === "Closer" || r.role_type === "Co-Closer");
+  } else if (vijayState.filter === "setup") {
+    relievers = relievers.filter(r => r.role_type === "Elite Setup" || r.role_type === "Setup");
+  }
+
+  if (relievers.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="13" style="color:var(--text-dim)">No relievers match this filter.</td></tr>';
+    return;
+  }
+
+  relievers.forEach(r => {
+    const riskClass = RISK_TIER_CLASS[r.risk_tier] || "";
+    const statusLabel = r.roster_status === "Free Agent"
+      ? '<span style="color:var(--text-dim)">Free Agent</span>'
+      : `<span style="font-size:11px">${r.rostered_by_team_name || "Rostered"}</span>`;
+    const vijayDelta = r.risk_adj_vijay - r.projected_vijay;
+    const deltaClass = vijayDelta < -1 ? "neg" : vijayDelta > 1 ? "pos" : "";
+    const bsClass = r.bs_rate_pct >= 22 ? "neg" : r.bs_rate_pct >= 15 ? "warn" : r.bs_rate_pct < 10 ? "pos" : "";
+
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="num">${r.rank}</td>
+      <td><strong>${r.name}</strong></td>
+      <td style="font-size:11px;color:var(--text-dim)">${r.mlb_team}</td>
+      <td style="font-size:11px">${r.role_type}</td>
+      <td class="${riskClass}" style="font-size:11px;font-weight:600">${r.risk_tier}</td>
+      <td class="num">${fmt(r.proj_sv, 1)}</td>
+      <td class="num">${fmt(r.proj_hld, 1)}</td>
+      <td class="num">${fmt(r.proj_bs, 1)}</td>
+      <td class="num ${bsClass}">${fmt(r.bs_rate_pct, 1)}%</td>
+      <td class="num">${fmt(r.proj_ip, 1)}</td>
+      <td class="num">${fmt(r.projected_vijay, 2)}</td>
+      <td class="num ${deltaClass}">${fmt(r.risk_adj_vijay, 2)}</td>
+      <td>${statusLabel}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
 /* ── Init ───────────────────────────────────────────────────────────────── */
 async function init() {
   try {
@@ -825,6 +1076,8 @@ async function init() {
     renderStandings();
     renderMatchups();
     buildTrendsSelectors();
+    renderSeasonOutlook();
+    renderRelievers();
 
     const weeklyBtn = document.getElementById("horizon-weekly");
     const dailyBtn = document.getElementById("horizon-daily");

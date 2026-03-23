@@ -13,6 +13,57 @@ from project_config import (
 UTC = timezone.utc
 
 
+# ── Vol-scaling helpers ──────────────────────────────────────────────────── #
+
+def _compute_vol_medians(priors: list) -> dict:
+	"""Return median projection_vol per player_role for players that have it."""
+	import statistics
+	by_role: dict[str, list[float]] = {}
+	for p in priors:
+		vol = p.get("projection_vol")
+		role = p.get("player_role", "unknown")
+		if vol is not None and vol > 0:
+			by_role.setdefault(role, []).append(float(vol))
+	return {role: statistics.median(vols) for role, vols in by_role.items() if vols}
+
+
+def _vol_multiplier(
+	player_vol,
+	player_role: str,
+	vol_medians: dict,
+	min_mult: float,
+	max_mult: float,
+	enabled: bool,
+) -> tuple[float, str]:
+	"""Return (prior_variance_multiplier, vol_tier) for a single player.
+
+	The multiplier scales the global prior_variance:
+	  < 0.75  → "Established"  (low Vol relative to role peers → sticky prior)
+	  0.75–1.25 → "Average"    (near-median Vol → unchanged behaviour)
+	  > 1.25  → "Uncertain"    (high Vol relative to peers → prior fades faster)
+
+	Falls back to (1.0, "Average") when scaling is disabled or Vol is absent.
+	"""
+	if not enabled or player_vol is None or player_vol <= 0:
+		return 1.0, "Average"
+
+	role_median = vol_medians.get(player_role)
+	if not role_median or role_median <= 0:
+		return 1.0, "Average"
+
+	raw_mult = float(player_vol) / role_median
+	clamped = max(min_mult, min(max_mult, raw_mult))
+
+	if clamped < 0.75:
+		tier = "Established"
+	elif clamped > 1.25:
+		tier = "Uncertain"
+	else:
+		tier = "Average"
+
+	return clamped, tier
+
+
 class PlayerBlendError(RuntimeError):
 	pass
 
@@ -44,19 +95,35 @@ class PlayerBlendBuilder:
 		underperform_threshold = float(self.player_blend_cfg.get("underperform_threshold", 1.0))
 		thresholds_pct = self._load_thresholds_percent()
 
+		# Vol-scaling: per-player prior_variance based on projection uncertainty
+		vol_scaling_cfg = self.player_blend_cfg.get("vol_scaling", {})
+		vol_scaling_enabled = vol_scaling_cfg.get("enabled", True)
+		vol_min_mult = float(vol_scaling_cfg.get("min_multiplier", 0.5))
+		vol_max_mult = float(vol_scaling_cfg.get("max_multiplier", 2.0))
+		vol_medians = _compute_vol_medians(priors) if vol_scaling_enabled else {}
+
 		entries = []
 		for prior in priors:
 			player_id = str(prior["player_id"])
 			prior_projection = float(prior["prior_projection"])
 			observed_profile = observed_by_player.get(player_id, {})
 			observed_points = observed_profile.get("points")
+
+			# Compute this player's prior_variance, optionally scaled by Vol
+			player_vol = prior.get("projection_vol")
+			player_role = prior.get("player_role", "")
+			vol_multiplier, vol_tier = _vol_multiplier(
+				player_vol, player_role, vol_medians, vol_min_mult, vol_max_mult, vol_scaling_enabled
+			)
+			player_prior_variance = prior_variance * vol_multiplier
+
 			if observed_points is None:
-				prior_precision = 1.0 / prior_variance
+				prior_precision = 1.0 / player_prior_variance
 				observed_precision = 0.0
 				blended_projection = prior_projection
 				performance_delta = None
 			else:
-				prior_precision = 1.0 / prior_variance
+				prior_precision = 1.0 / player_prior_variance
 				observed_precision = float(effective_weeks) / observed_variance
 				total_precision = prior_precision + observed_precision
 				blended_projection = (
@@ -89,6 +156,11 @@ class PlayerBlendBuilder:
 					"performance_flag": performance_flag,
 					"category_delta_pct": category_signals["category_delta_pct"],
 					"category_performance_flags": category_signals["category_performance_flags"],
+					# Vol-scaling diagnostics
+					"projection_vol": round(player_vol, 3) if player_vol is not None else None,
+					"vol_tier": vol_tier,
+					"vol_multiplier": round(vol_multiplier, 4),
+					"prior_variance_used": round(player_prior_variance, 4),
 				}
 			)
 
@@ -110,6 +182,12 @@ class PlayerBlendBuilder:
 				"overperform_threshold": overperform_threshold,
 				"underperform_threshold": underperform_threshold,
 				"performance_thresholds_percent": thresholds_pct,
+				"vol_scaling": {
+					"enabled": vol_scaling_enabled,
+					"min_multiplier": vol_min_mult,
+					"max_multiplier": vol_max_mult,
+					"vol_medians_by_role": {k: round(v, 3) for k, v in vol_medians.items()},
+				},
 			},
 			"summary": {
 				"players_with_priors": len(entries),

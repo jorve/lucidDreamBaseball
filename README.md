@@ -155,6 +155,7 @@ Notes:
 - CLAP v2 treats `VIJAY` as an appearance-summed category in RP modeling, stored independently from component-derived categories.
 - API request pacing/backoff is configurable via `ingestion.request_policy` (`min_interval_seconds`, `jitter_seconds`, `max_attempts`, `retry_backoff_seconds`, `user_agent`).
 - Ingestion overlap protection is configurable via `ingestion.run_lock` (`enabled`, `stale_hours`) to avoid concurrent scheduler runs.
+- Backend storage migration controls live under `storage` (`mode`, `enabled`, `sqlite_path`, `strict_writes`, `parity`, `retention_days`).
 
 Weekly generation-only utility (no delivery send):
 
@@ -226,6 +227,7 @@ Health behavior now reports two dimensions:
 
 - ingestion freshness (latest successful run age)
 - transaction stream freshness (age of most recent transaction event)
+- storage parity health (`ok`, `drift`, or `unknown`)
 
 Default thresholds are configured in `project_config.json`:
 
@@ -233,6 +235,23 @@ Default thresholds are configured in `project_config.json`:
 - `ingestion.transaction_health_max_age_hours`
 
 Health check reads `json/ingestion_status_latest.json` first and falls back to ingestion logs if needed.
+
+### Backend storage (dual-write + parity)
+
+Storage migration utilities:
+
+- `python py/storage_backfill_and_parity.py --mode backfill --force-write`
+- `python py/storage_backfill_and_parity.py --mode parity`
+- `python py/storage_backfill_and_parity.py --mode both --force-write`
+
+Parity output is written to:
+
+- `json/storage_parity_latest.json`
+
+Operational guidance:
+
+- See `BACKEND_STORAGE_SCOPE.md` for canonical entity scope and boundaries.
+- See `STORAGE_CUTOVER_RUNBOOK.md` for readiness gates, cutover sequence, and rollback steps.
 
 Status index reason codes now include eligibility drift signals:
 

@@ -12,6 +12,7 @@ from project_config import (
 	get_ingestion_config,
 	get_ingestion_raw_dir,
 )
+from storage import StorageRecorder
 
 
 UTC = timezone.utc
@@ -44,6 +45,7 @@ class CbsApiFetcher:
 			)
 		)
 		self._last_request_time = None
+		self.storage_recorder = StorageRecorder()
 
 	def _build_endpoints(self, configured_endpoints):
 		defaults = {
@@ -368,6 +370,12 @@ class CbsApiFetcher:
 	def _write_json(self, path_value: Path, payload):
 		with path_value.open("w") as outfile:
 			json.dump(payload, outfile, indent=2)
+		self.storage_recorder.record_json_artifact(
+			path_value=path_value,
+			payload=payload,
+			artifact_kind="raw",
+			write_source="ingestion.fetch_cbs_data._write_json",
+		)
 
 	def _summarize_optional_error(self, error_text):
 		status_match = re.search(r"(\d{3})\s+Client Error:\s+([A-Za-z ]+)\s+for url:\s+(\S+)", error_text)

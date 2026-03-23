@@ -1,0 +1,806 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-03-18T19:20:33.620702Z",
+  "target_date": "2026-03-18",
+  "current_period_id": 0,
+  "total_periods": 1,
+  "remaining_periods": 1,
+  "win_probability_source": "xmatchups_category_dp",
+  "teams": {
+    "5": {
+      "team_id": "5",
+      "display_name": "AIDS",
+      "long_abbr": "AIDS",
+      "division": "Honkbal Hoofdklasse (UNION)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "8",
+          "opponent_abbr": "IZZY",
+          "opponent_name": "Izzy Alcantara's New Backstop Busters",
+          "is_home": false,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "8": {
+      "team_id": "8",
+      "display_name": "Izzy Alcantara's New Backstop Busters",
+      "long_abbr": "IZZY",
+      "division": "Honkbal Hoofdklasse (UNION)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "5",
+          "opponent_abbr": "AIDS",
+          "opponent_name": "AIDS",
+          "is_home": true,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "1": {
+      "team_id": "1",
+      "display_name": "The Powers of Matthew Starr",
+      "long_abbr": "PWRS",
+      "division": "All-American Girls (UNION)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "17",
+          "opponent_abbr": "N8",
+          "opponent_name": "Nate's Team",
+          "is_home": false,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "17": {
+      "team_id": "17",
+      "display_name": "Nate's Team",
+      "long_abbr": "N8",
+      "division": "All-American Girls (UNION)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "1",
+          "opponent_abbr": "PWRS",
+          "opponent_name": "The Powers of Matthew Starr",
+          "is_home": true,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "14": {
+      "team_id": "14",
+      "display_name": "Bed Stuy Fish Fry",
+      "long_abbr": "FRY",
+      "division": "Iron & Oil (Federal)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "13",
+          "opponent_abbr": "DIPAS",
+          "opponent_name": "American Double IPAs",
+          "is_home": false,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "13": {
+      "team_id": "13",
+      "display_name": "American Double IPAs",
+      "long_abbr": "DIPAS",
+      "division": "Iron & Oil (Federal)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "14",
+          "opponent_abbr": "FRY",
+          "opponent_name": "Bed Stuy Fish Fry",
+          "is_home": true,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "12": {
+      "team_id": "12",
+      "display_name": "Orchids of Asia Day Spa",
+      "long_abbr": "OADS",
+      "division": "California Winter (FEDERAL)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "9",
+          "opponent_abbr": "ICHI",
+          "opponent_name": "Honeynut Ichiros",
+          "is_home": false,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "9": {
+      "team_id": "9",
+      "display_name": "Honeynut Ichiros",
+      "long_abbr": "ICHI",
+      "division": "California Winter (FEDERAL)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "12",
+          "opponent_abbr": "OADS",
+          "opponent_name": "Orchids of Asia Day Spa",
+          "is_home": true,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "15": {
+      "team_id": "15",
+      "display_name": "Brooklyn Balks",
+      "long_abbr": "BALK",
+      "division": "All-American Girls (UNION)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "11",
+          "opponent_abbr": "TONES",
+          "opponent_name": "The Dulcet Tones of Vincent Scully",
+          "is_home": false,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "11": {
+      "team_id": "11",
+      "display_name": "The Dulcet Tones of Vincent Scully",
+      "long_abbr": "TONES",
+      "division": "All-American Girls (UNION)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "15",
+          "opponent_abbr": "BALK",
+          "opponent_name": "Brooklyn Balks",
+          "is_home": true,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "3": {
+      "team_id": "3",
+      "display_name": "The Compleat Works of Mtt McQny",
+      "long_abbr": "WORK",
+      "division": "Honkbal Hoofdklasse (UNION)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "6",
+          "opponent_abbr": "CORN",
+          "opponent_name": "Cornballers",
+          "is_home": false,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "6": {
+      "team_id": "6",
+      "display_name": "Cornballers",
+      "long_abbr": "CORN",
+      "division": "Honkbal Hoofdklasse (UNION)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "3",
+          "opponent_abbr": "WORK",
+          "opponent_name": "The Compleat Works of Mtt McQny",
+          "is_home": true,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "4": {
+      "team_id": "4",
+      "display_name": "Los Pollos",
+      "long_abbr": "POLLOS",
+      "division": "Iron & Oil (Federal)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "16",
+          "opponent_abbr": "ROOF",
+          "opponent_name": "Olympic-Size Swimming Pool Up On The Roof",
+          "is_home": false,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "16": {
+      "team_id": "16",
+      "display_name": "Olympic-Size Swimming Pool Up On The Roof",
+      "long_abbr": "ROOF",
+      "division": "Iron & Oil (Federal)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "4",
+          "opponent_abbr": "POLLOS",
+          "opponent_name": "Los Pollos",
+          "is_home": true,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "10": {
+      "team_id": "10",
+      "display_name": "Brophy's Choice",
+      "long_abbr": "CHOICE",
+      "division": "California Winter (FEDERAL)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "7",
+          "opponent_abbr": "NEO",
+          "opponent_name": "Northeastern Oklahoma A&M",
+          "is_home": false,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    },
+    "7": {
+      "team_id": "7",
+      "display_name": "Northeastern Oklahoma A&M",
+      "long_abbr": "NEO",
+      "division": "California Winter (FEDERAL)",
+      "current_record": {
+        "w": 0,
+        "l": 0,
+        "t": 0
+      },
+      "games_played": 0,
+      "games_remaining": 1,
+      "total_games": 1,
+      "remaining_matchups": [
+        {
+          "period_id": 1,
+          "period_label": "Period 1",
+          "start_date": "3/25/26",
+          "end_date": "3/29/26",
+          "opponent_id": "10",
+          "opponent_abbr": "CHOICE",
+          "opponent_name": "Brophy's Choice",
+          "is_home": true,
+          "win_probability": 0.5
+        }
+      ],
+      "expected_remaining_wins": 0.5,
+      "expected_remaining_losses": 0.5,
+      "projected_wins": 0.5,
+      "projected_losses": 0.5,
+      "projected_win_pct": 0.5,
+      "sos": 0.5,
+      "sos_label": "Average"
+    }
+  },
+  "division_projections": {
+    "Honkbal Hoofdklasse (UNION)": [
+      {
+        "team_id": "5",
+        "long_abbr": "AIDS",
+        "display_name": "AIDS",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 1
+      },
+      {
+        "team_id": "8",
+        "long_abbr": "IZZY",
+        "display_name": "Izzy Alcantara's New Backstop Busters",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 2
+      },
+      {
+        "team_id": "3",
+        "long_abbr": "WORK",
+        "display_name": "The Compleat Works of Mtt McQny",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 3
+      },
+      {
+        "team_id": "6",
+        "long_abbr": "CORN",
+        "display_name": "Cornballers",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 4
+      }
+    ],
+    "All-American Girls (UNION)": [
+      {
+        "team_id": "1",
+        "long_abbr": "PWRS",
+        "display_name": "The Powers of Matthew Starr",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 1
+      },
+      {
+        "team_id": "17",
+        "long_abbr": "N8",
+        "display_name": "Nate's Team",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 2
+      },
+      {
+        "team_id": "15",
+        "long_abbr": "BALK",
+        "display_name": "Brooklyn Balks",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 3
+      },
+      {
+        "team_id": "11",
+        "long_abbr": "TONES",
+        "display_name": "The Dulcet Tones of Vincent Scully",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 4
+      }
+    ],
+    "Iron & Oil (Federal)": [
+      {
+        "team_id": "14",
+        "long_abbr": "FRY",
+        "display_name": "Bed Stuy Fish Fry",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 1
+      },
+      {
+        "team_id": "13",
+        "long_abbr": "DIPAS",
+        "display_name": "American Double IPAs",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 2
+      },
+      {
+        "team_id": "4",
+        "long_abbr": "POLLOS",
+        "display_name": "Los Pollos",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 3
+      },
+      {
+        "team_id": "16",
+        "long_abbr": "ROOF",
+        "display_name": "Olympic-Size Swimming Pool Up On The Roof",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 4
+      }
+    ],
+    "California Winter (FEDERAL)": [
+      {
+        "team_id": "12",
+        "long_abbr": "OADS",
+        "display_name": "Orchids of Asia Day Spa",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 1
+      },
+      {
+        "team_id": "9",
+        "long_abbr": "ICHI",
+        "display_name": "Honeynut Ichiros",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 2
+      },
+      {
+        "team_id": "10",
+        "long_abbr": "CHOICE",
+        "display_name": "Brophy's Choice",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 3
+      },
+      {
+        "team_id": "7",
+        "long_abbr": "NEO",
+        "display_name": "Northeastern Oklahoma A&M",
+        "current_record": {
+          "w": 0,
+          "l": 0,
+          "t": 0
+        },
+        "projected_wins": 0.5,
+        "projected_losses": 0.5,
+        "projected_win_pct": 0.5,
+        "sos_label": "Average",
+        "projected_division_rank": 4
+      }
+    ]
+  },
+  "note": "Projected records assume remaining-schedule win probabilities are accurate. Early-season projections carry high variance."
+}

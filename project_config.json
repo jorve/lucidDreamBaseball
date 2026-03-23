@@ -9,6 +9,23 @@
     "ingestion_state_dir": ".state",
     "logs_dir": "logs"
   },
+  "storage": {
+    "mode": "json_only",
+    "enabled": false,
+    "sqlite_path": ".state/lucid_storage.db",
+    "strict_writes": false,
+    "parity": {
+      "enabled": false,
+      "hash_required": true,
+      "tolerance": 1e-06
+    },
+    "retention_days": {
+      "raw_resources": 45,
+      "normalized_resources": 90,
+      "artifact_writes": 180,
+      "run_events": 365
+    }
+  },
   "ingestion": {
     "enabled": true,
     "auth_mode": "hybrid",
@@ -70,6 +87,11 @@
       "observed_variance": 36.0,
       "overperform_threshold": 1.0,
       "underperform_threshold": 1.0,
+      "vol_scaling": {
+        "enabled": true,
+        "min_multiplier": 0.5,
+        "max_multiplier": 2.0
+      },
       "performance_thresholds_percent": {
         "overall": {
           "over": 10.0,

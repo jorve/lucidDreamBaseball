@@ -18,6 +18,8 @@ PIPELINE_STEPS = [
 	"weekly_xmatchup_preview",
 	"week_preview",
 	"batter_WAR",
+	"schedule_strength",
+	"vijay_valuation",
 ]
 
 REQUIRED_INPUTS_BY_STEP = {
@@ -26,6 +28,8 @@ REQUIRED_INPUTS_BY_STEP = {
 	"weekly_xmatchup_preview": ["key_variables.json", "ldb_xmatchups.json", "schedule.json"],
 	"week_preview": ["key_variables.json", "week_matchups.json", "ldb_xmatchups.json"],
 	"batter_WAR": ["key_variables.json", "ldbCLAP.json", "replacementLevel.json"],
+	"schedule_strength": ["schedule.json"],
+	# vijay_valuation reads the RP priors CSV directly — no JSON input requirement
 }
 
 

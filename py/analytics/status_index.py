@@ -5,6 +5,7 @@ from analytics.validators import ValidationError, validate_ingestion_status_payl
 from project_config import (
 	get_ingestion_config,
 	get_ingestion_status_latest_path,
+	get_storage_parity_latest_path,
 	get_transactions_latest_path,
 )
 
@@ -110,6 +111,38 @@ def _eligibility_change_snapshot(run_summary):
 	}
 
 
+def _storage_parity_snapshot():
+	path_value = get_storage_parity_latest_path()
+	if not path_value.exists():
+		return {
+			"status": "unknown",
+			"generated_at_utc": None,
+			"matched": 0,
+			"mismatched": 0,
+			"missing_in_db": 0,
+		}
+	try:
+		payload = read_json(path_value)
+	except Exception:
+		return {
+			"status": "unknown",
+			"generated_at_utc": None,
+			"matched": 0,
+			"mismatched": 0,
+			"missing_in_db": 0,
+		}
+	summary = payload.get("summary", {}) if isinstance(payload, dict) else {}
+	mismatched = int(summary.get("mismatched", 0) or 0)
+	missing_in_db = int(summary.get("missing_in_db", 0) or 0)
+	return {
+		"status": "drift" if (mismatched + missing_in_db) > 0 else "ok",
+		"generated_at_utc": payload.get("generated_at_utc"),
+		"matched": int(summary.get("matched", 0) or 0),
+		"mismatched": mismatched,
+		"missing_in_db": missing_in_db,
+	}
+
+
 def write_ingestion_status_index(target_date, run_summary, dry_run=False):
 	now_utc = datetime.now(UTC)
 	now_utc_str = now_utc.isoformat().replace("+00:00", "Z")
@@ -132,6 +165,7 @@ def write_ingestion_status_index(target_date, run_summary, dry_run=False):
 	ingestion_freshness_hours = (now_utc - last_success).total_seconds() / 3600.0
 
 	resources = [
+		_resource_row("storage", run_summary.get("storage"), fallback_error="STORAGE_NOT_OK"),
 		_resource_row("auth", run_summary.get("auth"), fallback_error="AUTH_NOT_OK"),
 		_resource_row("fetch", run_summary.get("fetch"), fallback_error="FETCH_NOT_OK"),
 		_resource_row("normalize", run_summary.get("normalize"), fallback_error="NORMALIZE_NOT_OK"),
@@ -169,10 +203,13 @@ def write_ingestion_status_index(target_date, run_summary, dry_run=False):
 		codes.append("ELIGIBILITY_REMOVED")
 
 	transaction_stream = _transaction_stream_snapshot(now_utc, txn_max_age_hours)
+	storage_parity = _storage_parity_snapshot()
 	if transaction_stream["status"] == "stale":
 		codes.append("HEALTH_TXN_FEED_STALE")
 	if ingestion_freshness_hours > ingestion_max_age_hours:
 		codes.append("HEALTH_INGESTION_STALE")
+	if storage_parity["status"] == "drift":
+		codes.append("HEALTH_STORAGE_PARITY_DRIFT")
 	if not codes:
 		codes.append("ok")
 
@@ -186,6 +223,7 @@ def write_ingestion_status_index(target_date, run_summary, dry_run=False):
 		"codes": codes,
 		"eligibility_changes": eligibility_changes,
 		"transaction_stream": transaction_stream,
+		"storage_parity": storage_parity,
 		"generated_at_utc": now_utc_str,
 	}
 	try:

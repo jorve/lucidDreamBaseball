@@ -68,7 +68,7 @@ class PlayerPriorBuilder:
 						invalid_rows += 1
 						source_invalid += 1
 						continue
-					player_name = self._first_non_empty(row, ["player_name", "name", "fullname"]) or f"UNKNOWN_{player_id}"
+					player_name = self._first_non_empty(row, ["player_name", "name", "fullname", "Name", "NameASCII"]) or f"UNKNOWN_{player_id}"
 					player_row = {
 						"player_id": str(player_id),
 						"player_name": player_name,
@@ -77,6 +77,7 @@ class PlayerPriorBuilder:
 						"source_key": source_key,
 						"mlbam_id": self._first_non_empty(row, ["MLBAMID", "mlbam_id"]),
 						"projected_appearances": self._float_or_none(self._first_non_empty(row, ["G", "APP"])),
+						"projection_vol": self._float_or_none(self._first_non_empty(row, ["Vol"])),
 					}
 					player_row.update(self._derived_scoring_fields(source_key, row, player_row.get("projected_appearances")))
 					players.append(player_row)

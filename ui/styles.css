@@ -541,9 +541,23 @@ select option { background: var(--surface); }
 }
 
 /* ── Delta coloring ──────────────────────────────────────────────────────── */
-.pos { color: var(--win); }
-.neg { color: var(--loss); }
-.neu { color: var(--neutral); }
+.pos  { color: var(--win); }
+.neg  { color: var(--loss); }
+.neu  { color: var(--neutral); }
+.warn { color: #fbbf24; }
+
+/* ── Strength-of-schedule badges ────────────────────────────────────────── */
+.sos-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.sos-easy    { background: #0d2d1a; color: var(--win);     border: 1px solid var(--win-dim); }
+.sos-average { background: var(--surface2); color: var(--neutral); border: 1px solid var(--border); }
+.sos-hard    { background: #2d0d0d; color: var(--loss);    border: 1px solid var(--loss-dim); }
 
 /* ── Brand watermark ─────────────────────────────────────────────────────── */
 .brand-watermark {

@@ -27,6 +27,8 @@
   <button class="tab" data-tab="standings">Standings</button>
   <button class="tab" data-tab="matchups">Matchups</button>
   <button class="tab" data-tab="trends">Trends</button>
+  <button class="tab" data-tab="season-outlook">Season Outlook</button>
+  <button class="tab" data-tab="relievers">Relievers</button>
 </nav>
 
 <main>
@@ -325,6 +327,170 @@
         </table>
       </div>
     </div>
+  </div>
+
+
+  <!-- ── Season Outlook ────────────────────────────────────────────────── -->
+  <div id="view-season-outlook" class="view">
+
+    <div class="grid grid-3" style="margin-bottom:16px">
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Periods Remaining</div>
+        <div class="card-value" id="outlook-periods-remaining">—</div>
+        <div class="card-sub" id="outlook-periods-total">of — total</div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Win Prob Source</div>
+        <div class="card-value" id="outlook-prob-source" style="font-size:13px;word-break:break-word">—</div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Projection Date</div>
+        <div class="card-value" id="outlook-target-date" style="font-size:16px">—</div>
+        <div class="card-sub" id="outlook-generated-at">—</div>
+      </div>
+    </div>
+
+    <!-- Division projections -->
+    <div id="outlook-divisions"></div>
+
+    <!-- Full league projection table -->
+    <div class="card" style="margin-top:16px">
+      <div class="card-header">
+        <div class="card-title">Projected Final Standings — All Teams</div>
+        <div class="card-sub">sorted by projected win %</div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Rk</th>
+              <th>Team</th>
+              <th>Division</th>
+              <th class="num">Current W</th>
+              <th class="num">Current L</th>
+              <th class="num">Remaining</th>
+              <th class="num">Proj W</th>
+              <th class="num">Proj L</th>
+              <th class="num">Proj Win%</th>
+              <th>SOS</th>
+            </tr>
+          </thead>
+          <tbody id="outlook-all-teams-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Remaining schedule drilldown -->
+    <div class="card" style="margin-top:16px">
+      <div class="card-header">
+        <div class="card-title">Remaining Schedule Detail</div>
+        <div class="card-sub">select a team to view their upcoming matchups</div>
+      </div>
+      <div class="trends-controls" style="margin-bottom:12px">
+        <div class="select-wrap">
+          <label for="outlook-team-select">Team</label>
+          <select id="outlook-team-select"></select>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Period</th>
+              <th>Dates</th>
+              <th>Opponent</th>
+              <th>Home/Away</th>
+              <th class="num">Win Prob</th>
+            </tr>
+          </thead>
+          <tbody id="outlook-schedule-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── Relievers (VIJAY Valuation) ───────────────────────────────────── -->
+  <div id="view-relievers" class="view">
+
+    <div class="grid grid-3" style="margin-bottom:16px">
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Total Relievers Ranked</div>
+        <div class="card-value" id="vijay-total">—</div>
+        <div class="card-sub" id="vijay-generated-at">—</div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Free Agents Available</div>
+        <div class="card-value" id="vijay-fa-count">—</div>
+        <div class="card-sub">by risk-adjusted VIJAY</div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Rostered</div>
+        <div class="card-value" id="vijay-rostered-count">—</div>
+        <div class="card-sub">across all teams</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Reliever Rankings — Risk-Adjusted VIJAY</div>
+        <div class="card-sub">sorted by risk-adj VIJAY · blown-save rate penalty applied above 10% baseline</div>
+      </div>
+
+      <div class="trends-controls" style="margin-bottom:12px">
+        <div class="select-wrap">
+          <label>Filter</label>
+          <div class="toggle-group">
+            <button id="vijay-filter-all"   class="toggle-btn active" type="button">All</button>
+            <button id="vijay-filter-fa"    class="toggle-btn" type="button">FA Only</button>
+            <button id="vijay-filter-close" class="toggle-btn" type="button">Closers</button>
+            <button id="vijay-filter-setup" class="toggle-btn" type="button">Setup</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th class="num">Rk</th>
+              <th>Name</th>
+              <th>MLB</th>
+              <th>Role</th>
+              <th>Risk</th>
+              <th class="num">Proj SV</th>
+              <th class="num">Proj HLD</th>
+              <th class="num">Proj BS</th>
+              <th class="num">BS%</th>
+              <th class="num">Proj IP</th>
+              <th class="num">VIJAY</th>
+              <th class="num">Adj VIJAY</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="vijay-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- VIJAY formula reference card -->
+    <div class="card" style="margin-top:16px">
+      <div class="card-header">
+        <div class="card-title">VIJAY Formula Reference</div>
+        <div class="card-sub">league-specific reliever metric</div>
+      </div>
+      <div style="font-family: monospace; font-size: 13px; color: var(--text-dim); line-height: 1.8; padding: 4px 0">
+        VIJAY = (((INN − (INNdGS × GS)) + (S × 3) + (HD × 3)) / 4) − ((BS + RL) × 2)<br>
+        <br>
+        <span style="color:var(--text)">Risk Adj: </span>excess_bs_rate × SV × 2.0 penalty applied above 10% BS baseline<br>
+        <br>
+        <span style="color:var(--win)">Locked In</span> = BS% &lt; 10%, strong closer or setup role &nbsp;|&nbsp;
+        <span style="color:var(--text)">Solid</span> = BS% &lt; 15% &nbsp;|&nbsp;
+        <span style="color:#fbbf24">Volatile</span> = BS% 15–22% &nbsp;|&nbsp;
+        <span style="color:var(--loss)">High Risk</span> = BS% &ge; 22%
+      </div>
+    </div>
+
   </div>
 
 </main>

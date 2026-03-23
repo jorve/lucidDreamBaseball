@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "as_of_utc": "2026-03-17T15:49:36.583242Z",
+  "as_of_utc": "2026-03-23T13:21:21.999623Z",
   "base_snapshot": {
-    "source_date": "2026-03-16",
+    "source_date": "2026-03-25",
     "resource": "rosters"
   },
   "event_apply_window": {
@@ -24,12 +24,52 @@
           "status": "ML"
         },
         {
+          "player_id": "1765810",
+          "player_name": "Drew Pomeranz",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "1811026",
+          "player_name": "Joc Pederson",
+          "positions": [
+            "U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "1945481",
+          "player_name": "Xander Bogaerts",
+          "positions": [
+            "SS,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2167338",
           "player_name": "Nick Pivetta",
           "positions": [
             "SP"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "2171342",
+          "player_name": "Tyler O'Neill",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2211754",
+          "player_name": "Dylan Cease",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "2250602",
@@ -40,12 +80,68 @@
           "status": "ML"
         },
         {
+          "player_id": "2507358",
+          "player_name": "Jazz Chisholm",
+          "positions": [
+            "2B,3B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2507363",
+          "player_name": "Fernando Tatis Jr.",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "26608279",
+          "player_name": "Ha-seong Kim",
+          "positions": [
+            "SS,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "26615333",
           "player_name": "Coby Mayo",
           "positions": [
             "1B,U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "26911759",
+          "player_name": "Tanner McDougal",
+          "positions": [
+            ""
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "26912480",
+          "player_name": "Edgar Quero",
+          "positions": [
+            "C,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2822464",
+          "player_name": "Camilo Doval",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2824624",
+          "player_name": "Carlos Narvaez",
+          "positions": [
+            "C,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "2829101",
@@ -56,18 +152,34 @@
           "status": "ML"
         },
         {
+          "player_id": "2829343",
+          "player_name": "Luis Gil",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2829355",
           "player_name": "Ivan Herrera",
           "positions": [
             "U"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2835071",
           "player_name": "Heliot Ramos",
           "positions": [
             "OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2836902",
+          "player_name": "Robert Garcia",
+          "positions": [
+            "RP"
           ],
           "status": "A"
         },
@@ -80,12 +192,44 @@
           "status": "A"
         },
         {
+          "player_id": "2898231",
+          "player_name": "Dennis Santana",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "29075499",
           "player_name": "Caden Dana",
           "positions": [
             "SP,RP"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "29075725",
+          "player_name": "Landen Roupp",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "29075749",
+          "player_name": "Orion Kerkering",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "29092535",
+          "player_name": "Ryan Walker",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
         },
         {
           "player_id": "29153551",
@@ -160,6 +304,14 @@
           "status": "A"
         },
         {
+          "player_id": "2932975",
+          "player_name": "Lars Nootbaar",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "29426043",
           "player_name": "Cam Smith",
           "positions": [
@@ -205,7 +357,7 @@
           "positions": [
             "RF,OF,U"
           ],
-          "status": "A"
+          "status": "RS"
         },
         {
           "player_id": "3166655",
@@ -222,18 +374,58 @@
             "CF,OF,U"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "3174944",
+          "player_name": "Slade Cecconi",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
         }
       ]
     },
     {
       "team_id": "3",
-      "team_name": "The Compleat Works of Mtt McQny",
+      "team_name": "The Compleat Works of Jnnfr Lpz",
       "players": [
+        {
+          "player_id": "1739608",
+          "player_name": "Mike Trout",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "1744777",
+          "player_name": "Zack Wheeler",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
         {
           "player_id": "1793168",
           "player_name": "Salvador Perez",
           "positions": [
             "C,1B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "1894663",
+          "player_name": "Brandon Nimmo",
+          "positions": [
+            "OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "1953522",
+          "player_name": "Marcell Ozuna",
+          "positions": [
+            "U"
           ],
           "status": "A"
         },
@@ -250,6 +442,62 @@
           "player_name": "Trea Turner",
           "positions": [
             "SS,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2165932",
+          "player_name": "Reynaldo Lopez",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2184468",
+          "player_name": "Walker Buehler",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2210221",
+          "player_name": "Seth Lugo",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2211177",
+          "player_name": "Ryan O'Hearn",
+          "positions": [
+            "1B,RF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2211216",
+          "player_name": "Tyler Mahle",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2211752",
+          "player_name": "Ryan Helsley",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "26635137",
+          "player_name": "Graham Ashcraft",
+          "positions": [
+            "RP"
           ],
           "status": "A"
         },
@@ -278,6 +526,14 @@
           "status": "ML"
         },
         {
+          "player_id": "26912475",
+          "player_name": "Jacob Lopez",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "26913054",
           "player_name": "Samuel Zavala",
           "positions": [
@@ -286,12 +542,68 @@
           "status": "ML"
         },
         {
+          "player_id": "2794938",
+          "player_name": "Zach McKinstry",
+          "positions": [
+            "3B,SS,RF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2803408",
+          "player_name": "Adrian Morejon",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2835063",
+          "player_name": "Jake Burger",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2837057",
+          "player_name": "Edouard Julien",
+          "positions": [
+            "1B,2B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2837161",
+          "player_name": "Jake Mangum",
+          "positions": [
+            "CF,RF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2837573",
+          "player_name": "Spencer Strider",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2837689",
           "player_name": "Gavin Williams",
           "positions": [
             "SP"
           ],
-          "status": "RS"
+          "status": "A"
+        },
+        {
+          "player_id": "2847307",
+          "player_name": "Otto Lopez",
+          "positions": [
+            "2B,SS,U"
+          ],
+          "status": "A"
         },
         {
           "player_id": "28920019",
@@ -302,12 +614,12 @@
           "status": "ML"
         },
         {
-          "player_id": "2898212",
-          "player_name": "Ranger Suarez",
+          "player_id": "2901082",
+          "player_name": "Pablo Lopez",
           "positions": [
             "SP"
           ],
-          "status": "RS"
+          "status": "I"
         },
         {
           "player_id": "29085946",
@@ -350,6 +662,38 @@
           "status": "ML"
         },
         {
+          "player_id": "2918658",
+          "player_name": "Michael King",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2931972",
+          "player_name": "Jeremiah Jackson",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "29321956",
+          "player_name": "Kyle Karros",
+          "positions": [
+            "3B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "29644503",
+          "player_name": "Payton Tolle",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "ML"
+        },
+        {
           "player_id": "3152047",
           "player_name": "Brenton Doyle",
           "positions": [
@@ -372,6 +716,22 @@
       "team_name": "Los Pollos",
       "players": [
         {
+          "player_id": "1735742",
+          "player_name": "Kyle Higashioka",
+          "positions": [
+            "C,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "1846226",
+          "player_name": "Jason Adam",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2001078",
           "player_name": "Max Fried",
           "positions": [
@@ -380,18 +740,50 @@
           "status": "A"
         },
         {
+          "player_id": "2001084",
+          "player_name": "Lance McCullers",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2002312",
           "player_name": "Joe Musgrove",
           "positions": [
             ""
           ],
-          "status": "A"
+          "status": "RS"
         },
         {
           "player_id": "2044495",
           "player_name": "Jose Ramirez",
           "positions": [
             "3B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2044513",
+          "player_name": "Zach Eflin",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2050483",
+          "player_name": "Merrill Kelly",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2117203",
+          "player_name": "Edwin Diaz",
+          "positions": [
+            "RP"
           ],
           "status": "A"
         },
@@ -404,10 +796,34 @@
           "status": "A"
         },
         {
+          "player_id": "2184356",
+          "player_name": "Ian Happ",
+          "positions": [
+            "OF,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2184451",
           "player_name": "Trent Grisham",
           "positions": [
             "CF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2211176",
+          "player_name": "Rhys Hoskins",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2218312",
+          "player_name": "Paul Sewald",
+          "positions": [
+            "RP"
           ],
           "status": "A"
         },
@@ -436,6 +852,30 @@
           "status": "ML"
         },
         {
+          "player_id": "26615346",
+          "player_name": "Jordan Westburg",
+          "positions": [
+            "2B,3B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "26615395",
+          "player_name": "Carmen Mlodzinski",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "26635167",
+          "player_name": "Spencer Steer",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "26719565",
           "player_name": "Colton Cowser",
           "positions": [
@@ -452,12 +892,28 @@
           "status": "A"
         },
         {
+          "player_id": "2739972",
+          "player_name": "Kyle Finnegan",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2835062",
           "player_name": "Jo Adell",
           "positions": [
             "CF,RF,OF,U"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "2836690",
+          "player_name": "Joey Cantillo",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "2837149",
@@ -476,12 +932,28 @@
           "status": "ML"
         },
         {
+          "player_id": "28837584",
+          "player_name": "Spencer Horwitz",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "28920018",
           "player_name": "Dylan Lesko",
           "positions": [
             ""
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2898211",
+          "player_name": "Seranthony Dominguez",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
         },
         {
           "player_id": "29075524",
@@ -500,6 +972,14 @@
           "status": "ML"
         },
         {
+          "player_id": "29075773",
+          "player_name": "Spencer Arrighetti",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "29077619",
           "player_name": "Jarlin Susana",
           "positions": [
@@ -508,18 +988,34 @@
           "status": "ML"
         },
         {
+          "player_id": "2910637",
+          "player_name": "Cristian Javier",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2919567",
           "player_name": "Trevor Megill",
           "positions": [
             "RP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2932999",
           "player_name": "Jeremy Pena",
           "positions": [
             "SS,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2933069",
+          "player_name": "Joe Ryan",
+          "positions": [
+            "SP,RP"
           ],
           "status": "A"
         },
@@ -562,6 +1058,22 @@
       "team_name": "AIDS",
       "players": [
         {
+          "player_id": "1755142",
+          "player_name": "Nolan Arenado",
+          "positions": [
+            "3B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "1765813",
+          "player_name": "Bryce Harper",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "1894629",
           "player_name": "George Springer",
           "positions": [
@@ -578,10 +1090,42 @@
           "status": "A"
         },
         {
+          "player_id": "2066810",
+          "player_name": "Ryan McMahon",
+          "positions": [
+            "3B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2171169",
+          "player_name": "Fernando Cruz",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2173411",
+          "player_name": "Matthew Boyd",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2184343",
           "player_name": "Dansby Swanson",
           "positions": [
             "SS,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2221784",
+          "player_name": "Vladimir Guerrero Jr.",
+          "positions": [
+            "1B,U"
           ],
           "status": "A"
         },
@@ -591,7 +1135,23 @@
           "positions": [
             "RF,OF,U"
           ],
-          "status": "A"
+          "status": "RS"
+        },
+        {
+          "player_id": "2443874",
+          "player_name": "Jake Junis",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2447496",
+          "player_name": "Jake Cronenworth",
+          "positions": [
+            "2B,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "26719707",
@@ -608,6 +1168,14 @@
             "SP"
           ],
           "status": "RS"
+        },
+        {
+          "player_id": "26754137",
+          "player_name": "Jovani Moran",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
         },
         {
           "player_id": "26911704",
@@ -634,10 +1202,42 @@
           "status": "ML"
         },
         {
+          "player_id": "2731209",
+          "player_name": "Lane Thomas",
+          "positions": [
+            "CF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2804924",
+          "player_name": "Mark Leiter",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2821318",
+          "player_name": "Luis Arraez",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2821757",
           "player_name": "Edward Cabrera",
           "positions": [
             "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2826050",
+          "player_name": "Gabe Speier",
+          "positions": [
+            "RP"
           ],
           "status": "A"
         },
@@ -664,6 +1264,14 @@
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2835083",
+          "player_name": "Brendon Little",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
         },
         {
           "player_id": "2836515",
@@ -714,12 +1322,28 @@
           "status": "ML"
         },
         {
+          "player_id": "29075503",
+          "player_name": "Chandler Simpson",
+          "positions": [
+            "CF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "29075514",
           "player_name": "Dalton Rushing",
           "positions": [
             "C,U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2910624",
+          "player_name": "Jesus Luzardo",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "29153547",
@@ -770,12 +1394,28 @@
           "status": "ML"
         },
         {
+          "player_id": "3077704",
+          "player_name": "Ezequiel Duran",
+          "positions": [
+            "1B,2B,SS,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "3077710",
           "player_name": "Brayan Rocchio",
           "positions": [
             "2B,SS,U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "3083169",
+          "player_name": "Dylan Lee",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
         },
         {
           "player_id": "3117482",
@@ -832,6 +1472,14 @@
           "status": "ML"
         },
         {
+          "player_id": "1765806",
+          "player_name": "Jameson Taillon",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "1963334",
           "player_name": "Ketel Marte",
           "positions": [
@@ -840,12 +1488,44 @@
           "status": "A"
         },
         {
+          "player_id": "2066704",
+          "player_name": "Sean Manaea",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2119659",
           "player_name": "Teoscar Hernandez",
           "positions": [
             "RF,OF,U"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "2121030",
+          "player_name": "Yandy Diaz",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2164751",
+          "player_name": "Taylor Rogers",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2211243",
+          "player_name": "Tony Santillan",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "2250597",
@@ -877,7 +1557,7 @@
           "positions": [
             ""
           ],
-          "status": "A"
+          "status": "RS"
         },
         {
           "player_id": "26615397",
@@ -901,7 +1581,7 @@
           "positions": [
             ""
           ],
-          "status": "A"
+          "status": "RS"
         },
         {
           "player_id": "26911802",
@@ -952,12 +1632,28 @@
           "status": "ML"
         },
         {
+          "player_id": "2835074",
+          "player_name": "David Peterson",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2836763",
           "player_name": "Garrett Crochet",
           "positions": [
             "SP"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "2837111",
+          "player_name": "Jacob Latz",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "28926327",
@@ -976,6 +1672,54 @@
           "status": "ML"
         },
         {
+          "player_id": "2910610",
+          "player_name": "Isaac Paredes",
+          "positions": [
+            "3B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2910625",
+          "player_name": "JoJo Romero",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2914724",
+          "player_name": "Tommy Edman",
+          "positions": [
+            "2B,CF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "29153545",
+          "player_name": "Rhett Lowder",
+          "positions": [
+            ""
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2933080",
+          "player_name": "Cole Sands",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2942965",
+          "player_name": "Jonathan India",
+          "positions": [
+            "2B,3B,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "29476193",
           "player_name": "Payton Eeles",
           "positions": [
@@ -992,6 +1736,14 @@
           "status": "A"
         },
         {
+          "player_id": "3085906",
+          "player_name": "Kevin Ginkel",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "3090756",
           "player_name": "J.P. Martinez",
           "positions": [
@@ -1000,12 +1752,28 @@
           "status": "ML"
         },
         {
+          "player_id": "3126008",
+          "player_name": "Tarik Skubal",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "3152038",
           "player_name": "Diego Cartaya",
           "positions": [
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "3152102",
+          "player_name": "Jared Triolo",
+          "positions": [
+            "1B,3B,SS,U"
+          ],
+          "status": "RS"
         }
       ]
     },
@@ -1038,10 +1806,66 @@
           "status": "A"
         },
         {
+          "player_id": "1961735",
+          "player_name": "Caleb Thielbar",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2000754",
+          "player_name": "Brooks Raley",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2044508",
           "player_name": "Jacob deGrom",
           "positions": [
             "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2048821",
+          "player_name": "Chris Martin",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2106304",
+          "player_name": "Max Muncy",
+          "positions": [
+            "3B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2121144",
+          "player_name": "Shawn Armstrong",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2135266",
+          "player_name": "Jack Flaherty",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2170031",
+          "player_name": "Tyler Rogers",
+          "positions": [
+            "RP"
           ],
           "status": "A"
         },
@@ -1062,6 +1886,14 @@
           "status": "A"
         },
         {
+          "player_id": "2507341",
+          "player_name": "Yordan Alvarez",
+          "positions": [
+            "U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "26643918",
           "player_name": "Cristian Hernandez",
           "positions": [
@@ -1070,12 +1902,20 @@
           "status": "ML"
         },
         {
+          "player_id": "2782922",
+          "player_name": "Jake Fraley",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2821278",
           "player_name": "Jonathan Aranda",
           "positions": [
             "1B,U"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "2829082",
@@ -1094,6 +1934,22 @@
           "status": "A"
         },
         {
+          "player_id": "2836883",
+          "player_name": "Tyler Freeman",
+          "positions": [
+            "2B,RF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2837004",
+          "player_name": "Tyler Holton",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "28837122",
           "player_name": "Moises Ballesteros",
           "positions": [
@@ -1102,12 +1958,28 @@
           "status": "ML"
         },
         {
+          "player_id": "28862920",
+          "player_name": "Jared Koenig",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "28920016",
           "player_name": "Zachary Neto",
           "positions": [
             "SS,U"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "29041593",
+          "player_name": "Masataka Yoshida",
+          "positions": [
+            "U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "29075757",
@@ -1131,7 +2003,7 @@
           "positions": [
             "CF,OF,U"
           ],
-          "status": "A"
+          "status": "RS"
         },
         {
           "player_id": "29321884",
@@ -1156,6 +2028,14 @@
             "2B,U"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "2932640",
+          "player_name": "Kody Clemens",
+          "positions": [
+            "1B,2B,OF,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "29426030",
@@ -1190,6 +2070,14 @@
           "status": "ML"
         },
         {
+          "player_id": "2942978",
+          "player_name": "Brady Singer",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "29644454",
           "player_name": "Tommy White",
           "positions": [
@@ -1220,6 +2108,22 @@
             "SS,U"
           ],
           "status": "RS"
+        },
+        {
+          "player_id": "3117939",
+          "player_name": "Matt Wallner",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "3157914",
+          "player_name": "Kerry Carpenter",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "A"
         }
       ]
     },
@@ -1236,12 +2140,92 @@
           "status": "ML"
         },
         {
+          "player_id": "1839905",
+          "player_name": "Jose Altuve",
+          "positions": [
+            "2B,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2044379",
+          "player_name": "Christian Walker",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2044503",
+          "player_name": "Jose Berrios",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2048494",
+          "player_name": "Yimi Garcia",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2071264",
           "player_name": "Aaron Judge",
           "positions": [
             "RF,OF,U"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "2184447",
+          "player_name": "Tyler Stephenson",
+          "positions": [
+            "C,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2184448",
+          "player_name": "Josh Naylor",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2210233",
+          "player_name": "Matt Strahm",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2211224",
+          "player_name": "Justin Steele",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2223750",
+          "player_name": "Tanner Scott",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2247803",
+          "player_name": "Dietrich Enns",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "2449977",
@@ -1276,6 +2260,30 @@
           "status": "ML"
         },
         {
+          "player_id": "26861461",
+          "player_name": "Robert Suarez",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2826339",
+          "player_name": "Edwin Uceta",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2829012",
+          "player_name": "Yainer Diaz",
+          "positions": [
+            "C,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2836680",
           "player_name": "Jose Caballero",
           "positions": [
@@ -1290,6 +2298,14 @@
             "SP,RP"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2837059",
+          "player_name": "Janson Junk",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "2837085",
@@ -1316,6 +2332,46 @@
           "status": "ML"
         },
         {
+          "player_id": "2898212",
+          "player_name": "Ranger Suarez",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "29075729",
+          "player_name": "Logan Henderson",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "29084177",
+          "player_name": "Chad Patrick",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "29085317",
+          "player_name": "Sawyer Gipson-Long",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2910628",
+          "player_name": "Tobias Myers",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "29153561",
           "player_name": "Jonny Farmelo",
           "positions": [
@@ -1332,12 +2388,20 @@
           "status": "ML"
         },
         {
+          "player_id": "2931996",
+          "player_name": "Shane McClanahan",
+          "positions": [
+            ""
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2932701",
           "player_name": "Brendan Donovan",
           "positions": [
             "2B,OF,U"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "29339048",
@@ -1364,6 +2428,14 @@
           "status": "ML"
         },
         {
+          "player_id": "2942980",
+          "player_name": "Trevor Larnach",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "3117472",
           "player_name": "Bobby Witt",
           "positions": [
@@ -1374,6 +2446,14 @@
         {
           "player_id": "3152115",
           "player_name": "Ryne Nelson",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "3157710",
+          "player_name": "Griffin Jax",
           "positions": [
             "SP,RP"
           ],
@@ -1394,10 +2474,82 @@
       "team_name": "Honeynut Ichiros",
       "players": [
         {
+          "player_id": "1208718",
+          "player_name": "Kenley Jansen",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "1765812",
           "player_name": "Manny Machado",
           "positions": [
             "3B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2006996",
+          "player_name": "Blake Snell",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2041873",
+          "player_name": "Corey Seager",
+          "positions": [
+            "SS,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2044509",
+          "player_name": "Matt Olson",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2066300",
+          "player_name": "J.P. Crawford",
+          "positions": [
+            "SS,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2068548",
+          "player_name": "Tyler Glasnow",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2114418",
+          "player_name": "Chris Bassitt",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2135258",
+          "player_name": "Luke Weaver",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2449444",
+          "player_name": "Bryan Reynolds",
+          "positions": [
+            "RF,OF,U"
           ],
           "status": "A"
         },
@@ -1408,6 +2560,14 @@
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "26615315",
+          "player_name": "Austin Wells",
+          "positions": [
+            "C,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "26912443",
@@ -1426,6 +2586,14 @@
           "status": "A"
         },
         {
+          "player_id": "2772560",
+          "player_name": "Luis Rengifo",
+          "positions": [
+            "2B,3B,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2822087",
           "player_name": "William Contreras",
           "positions": [
@@ -1434,12 +2602,36 @@
           "status": "A"
         },
         {
+          "player_id": "2826036",
+          "player_name": "Gregory Soto",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2835059",
+          "player_name": "Pavin Smith",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2837246",
           "player_name": "Garrett Mitchell",
           "positions": [
             "CF,OF,U"
           ],
-          "status": "RS"
+          "status": "A"
+        },
+        {
+          "player_id": "28890020",
+          "player_name": "Mason Montgomery",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
         },
         {
           "player_id": "28920006",
@@ -1466,16 +2658,40 @@
           "status": "ML"
         },
         {
+          "player_id": "29075699",
+          "player_name": "Hunter Barco",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "29075709",
           "player_name": "Jacob Misiorowski",
           "positions": [
             "SP,RP"
           ],
-          "status": "ML"
+          "status": "A"
+        },
+        {
+          "player_id": "29075715",
+          "player_name": "Jordan Beck",
+          "positions": [
+            "OF,U"
+          ],
+          "status": "A"
         },
         {
           "player_id": "29075748",
           "player_name": "Noah Cameron",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "29075794",
+          "player_name": "Will Warren",
           "positions": [
             "SP"
           ],
@@ -1522,6 +2738,14 @@
           "status": "A"
         },
         {
+          "player_id": "29342352",
+          "player_name": "Matt Svanson",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "29426038",
           "player_name": "Konnor Griffin",
           "positions": [
@@ -1543,7 +2767,7 @@
           "positions": [
             "3B,RF,OF,U"
           ],
-          "status": "ML"
+          "status": "A"
         },
         {
           "player_id": "3117477",
@@ -1552,6 +2776,14 @@
             "SP,RP"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "3152110",
+          "player_name": "Nasim Nunez",
+          "positions": [
+            "SS,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "50002605",
@@ -1624,6 +2856,14 @@
           "status": "ML"
         },
         {
+          "player_id": "1225651",
+          "player_name": "Max Scherzer",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2000026",
           "player_name": "Byron Buxton",
           "positions": [
@@ -1632,10 +2872,26 @@
           "status": "A"
         },
         {
-          "player_id": "2184447",
-          "player_name": "Tyler Stephenson",
+          "player_id": "2000028",
+          "player_name": "Carlos Correa",
           "positions": [
-            "C,U"
+            "3B,SS,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2066703",
+          "player_name": "Hunter Harvey",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2107839",
+          "player_name": "Steven Matz",
+          "positions": [
+            "SP,RP"
           ],
           "status": "RS"
         },
@@ -1664,12 +2920,52 @@
           "status": "ML"
         },
         {
+          "player_id": "2250616",
+          "player_name": "Anthony Kay",
+          "positions": [
+            ""
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2413942",
+          "player_name": "Josh H. Smith",
+          "positions": [
+            "1B,3B,SS,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "26615344",
+          "player_name": "Luisangel Acuna",
+          "positions": [
+            "2B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "26719666",
+          "player_name": "Max Muncy",
+          "positions": [
+            "2B,3B,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "26720082",
           "player_name": "Jordan Lawlar",
           "positions": [
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "26757032",
+          "player_name": "Matt Brash",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "26911664",
@@ -1680,10 +2976,10 @@
           "status": "A"
         },
         {
-          "player_id": "2835053",
-          "player_name": "Royce Lewis",
+          "player_id": "2768551",
+          "player_name": "Luis Garcia",
           "positions": [
-            "3B,U"
+            "2B,U"
           ],
           "status": "RS"
         },
@@ -1704,6 +3000,14 @@
           "status": "ML"
         },
         {
+          "player_id": "28837123",
+          "player_name": "Dominic Canzone",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "28838043",
           "player_name": "Wilyer Abreu",
           "positions": [
@@ -1720,8 +3024,24 @@
           "status": "A"
         },
         {
+          "player_id": "2901324",
+          "player_name": "Shohei Ohtani",
+          "positions": [
+            "U,SP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "29075539",
           "player_name": "Emmet Sheehan",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "29075780",
+          "player_name": "Troy Melton",
           "positions": [
             "SP,RP"
           ],
@@ -1816,6 +3136,30 @@
           "status": "RS"
         },
         {
+          "player_id": "2932590",
+          "player_name": "Blaze Alexander",
+          "positions": [
+            "3B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2932735",
+          "player_name": "Braydon Fisher",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2932872",
+          "player_name": "Kyle Leahy",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "29426031",
           "player_name": "Chase Burns",
           "positions": [
@@ -1852,6 +3196,14 @@
           "player_name": "Logan Webb",
           "positions": [
             "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "3117474",
+          "player_name": "Andrew Vaughn",
+          "positions": [
+            "1B,U"
           ],
           "status": "RS"
         },
@@ -1894,10 +3246,50 @@
           "status": "A"
         },
         {
+          "player_id": "1765815",
+          "player_name": "Christian Yelich",
+          "positions": [
+            "OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "1894627",
+          "player_name": "Francisco Lindor",
+          "positions": [
+            "SS,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "1947839",
+          "player_name": "J.T. Realmuto",
+          "positions": [
+            "C,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "1960254",
           "player_name": "Eugenio Suarez",
           "positions": [
             "3B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2117131",
+          "player_name": "Luis Severino",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2133925",
+          "player_name": "Aaron Nola",
+          "positions": [
+            "SP"
           ],
           "status": "A"
         },
@@ -1926,12 +3318,60 @@
           "status": "A"
         },
         {
+          "player_id": "2165919",
+          "player_name": "Cody Bellinger",
+          "positions": [
+            "CF,RF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2165933",
+          "player_name": "Willy Adames",
+          "positions": [
+            "SS,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2167471",
           "player_name": "Gleyber Torres",
           "positions": [
             "2B,U"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "2211187",
+          "player_name": "Ke'Bryan Hayes",
+          "positions": [
+            "3B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2211203",
+          "player_name": "Ryan Mountcastle",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2227187",
+          "player_name": "Jeffrey Springs",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2250599",
+          "player_name": "Will Benson",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "2250617",
@@ -1942,12 +3382,68 @@
           "status": "A"
         },
         {
+          "player_id": "26615439",
+          "player_name": "Andre Pallante",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "26719613",
+          "player_name": "Michael McGreevy",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "26911669",
           "player_name": "James Triantos",
           "positions": [
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "26911690",
+          "player_name": "Joseph Ortiz",
+          "positions": [
+            "SS,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "26911758",
+          "player_name": "Sean Burke",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2728643",
+          "player_name": "Adolis Garcia",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2837306",
+          "player_name": "Bailey Ober",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2837680",
+          "player_name": "Garrett Whitlock",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
         },
         {
           "player_id": "28839805",
@@ -1964,6 +3460,14 @@
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "29033787",
+          "player_name": "Ben Brown",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
         },
         {
           "player_id": "29075533",
@@ -1998,6 +3502,14 @@
           "status": "ML"
         },
         {
+          "player_id": "2931936",
+          "player_name": "Xavier Edwards",
+          "positions": [
+            "2B,SS,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "29321951",
           "player_name": "Zyhir Hope",
           "positions": [
@@ -2008,6 +3520,14 @@
         {
           "player_id": "2932621",
           "player_name": "Michael Burrows",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "29453038",
+          "player_name": "Ben Casparius",
           "positions": [
             "SP,RP"
           ],
@@ -2028,6 +3548,14 @@
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "530362",
+          "player_name": "Justin Verlander",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
         }
       ]
     },
@@ -2035,6 +3563,14 @@
       "team_id": "12",
       "team_name": "Orchids of Asia Day Spa",
       "players": [
+        {
+          "player_id": "1765052",
+          "player_name": "Paul Goldschmidt",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "RS"
+        },
         {
           "player_id": "1945488",
           "player_name": "Trevor Story",
@@ -2044,10 +3580,26 @@
           "status": "A"
         },
         {
+          "player_id": "1988873",
+          "player_name": "Jorge Soler",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2120160",
           "player_name": "Emilio Pagan",
           "positions": [
             "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2135243",
+          "player_name": "Kyle Schwarber",
+          "positions": [
+            "U"
           ],
           "status": "A"
         },
@@ -2084,10 +3636,26 @@
           "status": "ML"
         },
         {
+          "player_id": "2228478",
+          "player_name": "Andrew Kittredge",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2507333",
           "player_name": "Shane Bieber",
           "positions": [
             "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "26615325",
+          "player_name": "Alec Burleson",
+          "positions": [
+            "1B,RF,OF,U"
           ],
           "status": "A"
         },
@@ -2132,6 +3700,14 @@
           "status": "ML"
         },
         {
+          "player_id": "26747031",
+          "player_name": "Vinnie Pasquantino",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "26757772",
           "player_name": "Joey Wiemer",
           "positions": [
@@ -2148,12 +3724,60 @@
           "status": "ML"
         },
         {
+          "player_id": "26911730",
+          "player_name": "Louie Varland",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "26912489",
+          "player_name": "Abner Uribe",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "26913029",
           "player_name": "Kevin Alcantara",
           "positions": [
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2733997",
+          "player_name": "Garrett Cleavinger",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2739969",
+          "player_name": "Thairo Estrada",
+          "positions": [
+            "2B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2824831",
+          "player_name": "Johan Oviedo",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2826875",
+          "player_name": "Luis Robert",
+          "positions": [
+            "CF,OF,U"
+          ],
+          "status": "A"
         },
         {
           "player_id": "2835055",
@@ -2168,6 +3792,22 @@
           "player_name": "Max Meyer",
           "positions": [
             "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2837636",
+          "player_name": "Will Vest",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2846118",
+          "player_name": "Lenyn Sosa",
+          "positions": [
+            "1B,2B,U"
           ],
           "status": "RS"
         },
@@ -2202,6 +3842,22 @@
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2914671",
+          "player_name": "Zac Gallen",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2914723",
+          "player_name": "Randy Arozarena",
+          "positions": [
+            "OF,U"
+          ],
+          "status": "A"
         },
         {
           "player_id": "29153548",
@@ -2265,13 +3921,21 @@
           "positions": [
             "CF,OF,U"
           ],
-          "status": "A"
+          "status": "RS"
         },
         {
           "player_id": "2942967",
           "player_name": "Ryan Weathers",
           "positions": [
             "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2942987",
+          "player_name": "Matt McLain",
+          "positions": [
+            "2B,U"
           ],
           "status": "A"
         },
@@ -2322,6 +3986,14 @@
             "C,U"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "3117479",
+          "player_name": "Josh Jung",
+          "positions": [
+            "3B,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "3117917",
@@ -2418,6 +4090,78 @@
           "status": "A"
         },
         {
+          "player_id": "1947827",
+          "player_name": "Marcus Semien",
+          "positions": [
+            "2B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2001081",
+          "player_name": "Michael Wacha",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2044482",
+          "player_name": "Josh Hader",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2066820",
+          "player_name": "Devin Williams",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2135575",
+          "player_name": "Raisel Iglesias",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2165929",
+          "player_name": "Rafael Devers",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2171084",
+          "player_name": "Willson Contreras",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2184351",
+          "player_name": "Alex Bregman",
+          "positions": [
+            "3B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2211794",
+          "player_name": "Sandy Alcantara",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2447495",
           "player_name": "Bo Bichette",
           "positions": [
@@ -2490,6 +4234,30 @@
           "status": "ML"
         },
         {
+          "player_id": "2821492",
+          "player_name": "David Bednar",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2826021",
+          "player_name": "Jose Soriano",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2835068",
+          "player_name": "Clarke Schmidt",
+          "positions": [
+            "SP"
+          ],
+          "status": "I"
+        },
+        {
           "player_id": "2835075",
           "player_name": "DL Hall",
           "positions": [
@@ -2503,11 +4271,19 @@
           "positions": [
             "SP"
           ],
-          "status": "ML"
+          "status": "A"
         },
         {
           "player_id": "2836804",
           "player_name": "Reid Detmers",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2837519",
+          "player_name": "Cade Smith",
           "positions": [
             "RP"
           ],
@@ -2535,7 +4311,7 @@
           "positions": [
             "CF,OF,U"
           ],
-          "status": "A"
+          "status": "RS"
         },
         {
           "player_id": "29086586",
@@ -2544,6 +4320,22 @@
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "29089058",
+          "player_name": "Jhostynxon Garcia",
+          "positions": [
+            "U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2931974",
+          "player_name": "Ryan Jeffers",
+          "positions": [
+            "C,U"
+          ],
+          "status": "A"
         },
         {
           "player_id": "29322008",
@@ -2583,7 +4375,7 @@
           "positions": [
             "2B,3B,U"
           ],
-          "status": "A"
+          "status": "RS"
         },
         {
           "player_id": "29632938",
@@ -2592,6 +4384,14 @@
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "3117421",
+          "player_name": "Pete Fairbanks",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
         },
         {
           "player_id": "3152041",
@@ -2672,10 +4472,66 @@
           "status": "ML"
         },
         {
+          "player_id": "1940495",
+          "player_name": "Josh Bell",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2135259",
+          "player_name": "Foster Griffin",
+          "positions": [
+            ""
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2171637",
+          "player_name": "Willi Castro",
+          "positions": [
+            "2B,3B,RF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2207809",
+          "player_name": "Mike Soroka",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2211777",
           "player_name": "Ronald Acuna Jr.",
           "positions": [
             "RF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2223751",
+          "player_name": "Luis Castillo",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2227731",
+          "player_name": "Cedric Mullins",
+          "positions": [
+            "CF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2444515",
+          "player_name": "Jose Alvarado",
+          "positions": [
+            "RP"
           ],
           "status": "A"
         },
@@ -2686,6 +4542,38 @@
             "SP"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2821477",
+          "player_name": "Eduard Bazardo",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2829081",
+          "player_name": "Christopher Morel",
+          "positions": [
+            "OF,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2835054",
+          "player_name": "Hunter Greene",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2836849",
+          "player_name": "Jeremiah Estrada",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
         },
         {
           "player_id": "2837374",
@@ -2702,6 +4590,14 @@
             "RF,OF,U"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "2837507",
+          "player_name": "Gavin Sheets",
+          "positions": [
+            "OF,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "28920004",
@@ -2728,6 +4624,14 @@
           "status": "ML"
         },
         {
+          "player_id": "29090728",
+          "player_name": "Chase Meidroth",
+          "positions": [
+            "2B,SS,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2910638",
           "player_name": "Andres Munoz",
           "positions": [
@@ -2750,6 +4654,14 @@
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2921005",
+          "player_name": "Luke Raley",
+          "positions": [
+            "1B,RF,OF,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "29292533",
@@ -2808,12 +4720,28 @@
           "status": "ML"
         },
         {
+          "player_id": "2942974",
+          "player_name": "Logan Gilbert",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2942976",
           "player_name": "Matthew Liberatore",
           "positions": [
             "SP"
           ],
           "status": "A"
+        },
+        {
+          "player_id": "2942993",
+          "player_name": "J.T. Ginn",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "29632924",
@@ -2840,6 +4768,14 @@
           "status": "ML"
         },
         {
+          "player_id": "3055522",
+          "player_name": "Bryan Abreu",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "3117537",
           "player_name": "Riley Greene",
           "positions": [
@@ -2862,6 +4798,14 @@
             "SP,RP"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "3158249",
+          "player_name": "Isaac Collins",
+          "positions": [
+            "OF,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "50002597",
@@ -2902,10 +4846,66 @@
           "status": "A"
         },
         {
+          "player_id": "2036146",
+          "player_name": "Kirby Yates",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2106654",
+          "player_name": "Mookie Betts",
+          "positions": [
+            "SS,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2167302",
+          "player_name": "Mitch Keller",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2210225",
+          "player_name": "Carlos Estevez",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2211222",
+          "player_name": "Cody Ponce",
+          "positions": [
+            ""
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2447476",
           "player_name": "Pete Alonso",
           "positions": [
             "1B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2507353",
+          "player_name": "Andres Gimenez",
+          "positions": [
+            "2B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2507366",
+          "player_name": "Jesus Sanchez",
+          "positions": [
+            "RF,OF,U"
           ],
           "status": "A"
         },
@@ -2923,7 +4923,15 @@
           "positions": [
             "SS,U"
           ],
-          "status": "A"
+          "status": "RS"
+        },
+        {
+          "player_id": "26861431",
+          "player_name": "Alexis Diaz",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "26911662",
@@ -2934,12 +4942,52 @@
           "status": "ML"
         },
         {
+          "player_id": "26911687",
+          "player_name": "Spencer Schwellenbach",
+          "positions": [
+            "SP"
+          ],
+          "status": "I"
+        },
+        {
+          "player_id": "26911742",
+          "player_name": "Robert Gasser",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "26911810",
+          "player_name": "Bryce Miller",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2835053",
+          "player_name": "Royce Lewis",
+          "positions": [
+            "3B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2849889",
+          "player_name": "Corbin Burnes",
+          "positions": [
+            "SP"
+          ],
+          "status": "I"
+        },
+        {
           "player_id": "28837106",
           "player_name": "Daniel Palencia",
           "positions": [
             "RP"
           ],
-          "status": "RS"
+          "status": "A"
         },
         {
           "player_id": "28920020",
@@ -2948,6 +4996,22 @@
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "29075501",
+          "player_name": "Carson Whisenhunt",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "29075510",
+          "player_name": "Connor Prielipp",
+          "positions": [
+            ""
+          ],
+          "status": "RS"
         },
         {
           "player_id": "29077648",
@@ -2963,7 +5027,23 @@
           "positions": [
             "C,U"
           ],
-          "status": "A"
+          "status": "RS"
+        },
+        {
+          "player_id": "2931997",
+          "player_name": "Parker Meadows",
+          "positions": [
+            "CF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "29321957",
+          "player_name": "C.J. Kayfus",
+          "positions": [
+            "1B,RF,OF,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "29322010",
@@ -2972,6 +5052,30 @@
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2933070",
+          "player_name": "Erik Sabrowski",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2933158",
+          "player_name": "Gus Varland",
+          "positions": [
+            ""
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2933192",
+          "player_name": "Ryan Weiss",
+          "positions": [
+            ""
+          ],
+          "status": "RS"
         },
         {
           "player_id": "29339043",
@@ -3006,6 +5110,14 @@
           "status": "ML"
         },
         {
+          "player_id": "2942958",
+          "player_name": "Casey Mize",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2942960",
           "player_name": "Alec Bohm",
           "positions": [
@@ -3022,6 +5134,22 @@
           "status": "ML"
         },
         {
+          "player_id": "3073522",
+          "player_name": "Yusei Kikuchi",
+          "positions": [
+            "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "3166987",
+          "player_name": "Clayton Beeter",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "50009347",
           "player_name": "Ethan Conrad",
           "positions": [
@@ -3036,10 +5164,42 @@
       "team_name": "Olympic-Size Swimming Pool Up On The Roof",
       "players": [
         {
+          "player_id": "1630079",
+          "player_name": "Freddie Freeman",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2000033",
           "player_name": "Kevin Gausman",
           "positions": [
             "SP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2044540",
+          "player_name": "Clay Holmes",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2167292",
+          "player_name": "Steven Okert",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2167464",
+          "player_name": "Ozzie Albies",
+          "positions": [
+            "2B,U"
           ],
           "status": "A"
         },
@@ -3052,12 +5212,36 @@
           "status": "A"
         },
         {
+          "player_id": "2184470",
+          "player_name": "Taylor Ward",
+          "positions": [
+            "OF,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2211186",
+          "player_name": "Austin Riley",
+          "positions": [
+            "3B,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2211211",
           "player_name": "Jahmai Jones",
           "positions": [
             "RF,OF,U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2250588",
+          "player_name": "Mickey Moniak",
+          "positions": [
+            "CF,RF,OF,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "2250592",
@@ -3132,6 +5316,14 @@
           "status": "ML"
         },
         {
+          "player_id": "26762061",
+          "player_name": "Randy Vasquez",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "26912478",
           "player_name": "Eury Perez",
           "positions": [
@@ -3180,6 +5372,22 @@
           "status": "ML"
         },
         {
+          "player_id": "2837304",
+          "player_name": "Riley O'Brien",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "28921922",
+          "player_name": "Hunter Gaddis",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2900486",
           "player_name": "Freddy Peralta",
           "positions": [
@@ -3188,12 +5396,68 @@
           "status": "A"
         },
         {
+          "player_id": "29036770",
+          "player_name": "Jose Ferrer",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "29085495",
+          "player_name": "Jordan Leasure",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "29086774",
+          "player_name": "Jack Dreyer",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2910604",
+          "player_name": "Brandon Lowe",
+          "positions": [
+            "2B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "29155727",
+          "player_name": "Nolan Schanuel",
+          "positions": [
+            "1B,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2931925",
           "player_name": "Brennen Davis",
           "positions": [
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2932861",
+          "player_name": "Steven Kwan",
+          "positions": [
+            "OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2933171",
+          "player_name": "Alex Vesia",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
         },
         {
           "player_id": "29342344",
@@ -3218,6 +5482,22 @@
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2942984",
+          "player_name": "Nico Hoerner",
+          "positions": [
+            "2B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2942992",
+          "player_name": "Bo Naylor",
+          "positions": [
+            "C,U"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "3077713",
@@ -3276,6 +5556,14 @@
           "status": "ML"
         },
         {
+          "player_id": "3157614",
+          "player_name": "Bryan Baker",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "3165152",
           "player_name": "Dillon Dingler",
           "positions": [
@@ -3322,12 +5610,84 @@
           "status": "A"
         },
         {
+          "player_id": "2106657",
+          "player_name": "Jorge Polanco",
+          "positions": [
+            "2B,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2119046",
+          "player_name": "Mike Yastrzemski",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2165918",
+          "player_name": "Jake Bauers",
+          "positions": [
+            "1B,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2169895",
+          "player_name": "Jeff McNeil",
+          "positions": [
+            "2B,CF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2224252",
+          "player_name": "Ramon Laureano",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2443746",
+          "player_name": "Drew Anderson",
+          "positions": [
+            ""
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2447488",
+          "player_name": "Lucas Erceg",
+          "positions": [
+            "RP"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2449452",
           "player_name": "Akil Baddoo",
           "positions": [
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "2449982",
+          "player_name": "A.J. Minter",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "26615412",
+          "player_name": "Carter Baumler",
+          "positions": [
+            ""
+          ],
+          "status": "RS"
         },
         {
           "player_id": "26615456",
@@ -3362,6 +5722,14 @@
           "status": "ML"
         },
         {
+          "player_id": "26911775",
+          "player_name": "Christian Scott",
+          "positions": [
+            ""
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "26912505",
           "player_name": "Elly De La Cruz",
           "positions": [
@@ -3378,10 +5746,50 @@
           "status": "ML"
         },
         {
+          "player_id": "27023012",
+          "player_name": "Seiya Suzuki",
+          "positions": [
+            "RF,OF,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2823660",
+          "player_name": "Brad Keller",
+          "positions": [
+            "SP,RP"
+          ],
+          "status": "A"
+        },
+        {
+          "player_id": "2835921",
+          "player_name": "Juan Mejia",
+          "positions": [
+            "RP"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "2836722",
+          "player_name": "Ernie Clement",
+          "positions": [
+            "2B,3B,SS,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "2837638",
           "player_name": "Mark Vientos",
           "positions": [
             "3B,U"
+          ],
+          "status": "RS"
+        },
+        {
+          "player_id": "28838027",
+          "player_name": "Justin Sterner",
+          "positions": [
+            "SP,RP"
           ],
           "status": "A"
         },
@@ -3474,6 +5882,14 @@
           "status": "ML"
         },
         {
+          "player_id": "2931920",
+          "player_name": "Griffin Conine",
+          "positions": [
+            "OF,U"
+          ],
+          "status": "RS"
+        },
+        {
           "player_id": "2932071",
           "player_name": "Simeon Woods Richardson",
           "positions": [
@@ -3482,12 +5898,28 @@
           "status": "RS"
         },
         {
+          "player_id": "2932710",
+          "player_name": "Jarren Duran",
+          "positions": [
+            "CF,OF,U"
+          ],
+          "status": "A"
+        },
+        {
           "player_id": "29658251",
           "player_name": "A.J. Ewing",
           "positions": [
             "U"
           ],
           "status": "ML"
+        },
+        {
+          "player_id": "29660108",
+          "player_name": "Didier Fuentes",
+          "positions": [
+            "SP"
+          ],
+          "status": "RS"
         },
         {
           "player_id": "3117480",

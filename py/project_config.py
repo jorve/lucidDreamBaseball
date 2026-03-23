@@ -83,6 +83,11 @@ DEFAULT_PROJECT_CONFIG = {
 				"MGS": {"over": 12.0, "under": 12.0},
 				"VIJAY": {"over": 20.0, "under": 20.0},
 			},
+			"vol_scaling": {
+				"enabled": True,
+				"min_multiplier": 0.5,
+				"max_multiplier": 2.0,
+			},
 		},
 		"projections": {
 			"scoring_week_end_weekday": 6,
@@ -146,6 +151,23 @@ DEFAULT_PROJECT_CONFIG = {
 			"max_session_age_hours": 72,
 		},
 	},
+	"storage": {
+		"mode": "json_only",
+		"enabled": False,
+		"sqlite_path": ".state/lucid_storage.db",
+		"strict_writes": False,
+		"parity": {
+			"enabled": False,
+			"hash_required": True,
+			"tolerance": 1e-6,
+		},
+		"retention_days": {
+			"raw_resources": 45,
+			"normalized_resources": 90,
+			"artifact_writes": 180,
+			"run_events": 365,
+		},
+	},
 }
 
 
@@ -165,6 +187,9 @@ def _merge_project_config(default_config, user_config):
 	merged_ingestion_player_blend = dict(default_config.get("ingestion", {}).get("player_blend", {}))
 	merged_ingestion_eligibility = dict(default_config.get("ingestion", {}).get("eligibility", {}))
 	merged_ingestion_projections = dict(default_config.get("ingestion", {}).get("projections", {}))
+	merged_storage = dict(default_config.get("storage", {}))
+	merged_storage_parity = dict(default_config.get("storage", {}).get("parity", {}))
+	merged_storage_retention = dict(default_config.get("storage", {}).get("retention_days", {}))
 	merged_paths.update(user_config.get("paths", {}))
 	merged_ingestion.update(user_config.get("ingestion", {}))
 	merged_ingestion_cbs.update(user_config.get("ingestion", {}).get("cbs", {}))
@@ -179,6 +204,9 @@ def _merge_project_config(default_config, user_config):
 	merged_ingestion_player_blend.update(user_config.get("ingestion", {}).get("player_blend", {}))
 	merged_ingestion_eligibility.update(user_config.get("ingestion", {}).get("eligibility", {}))
 	merged_ingestion_projections.update(user_config.get("ingestion", {}).get("projections", {}))
+	merged_storage.update(user_config.get("storage", {}))
+	merged_storage_parity.update(user_config.get("storage", {}).get("parity", {}))
+	merged_storage_retention.update(user_config.get("storage", {}).get("retention_days", {}))
 	merged_ingestion["cbs"] = merged_ingestion_cbs
 	merged_ingestion["auth"] = merged_ingestion_auth
 	merged_ingestion["transactions"] = merged_ingestion_transactions
@@ -191,9 +219,12 @@ def _merge_project_config(default_config, user_config):
 	merged_ingestion["player_blend"] = merged_ingestion_player_blend
 	merged_ingestion["eligibility"] = merged_ingestion_eligibility
 	merged_ingestion["projections"] = merged_ingestion_projections
+	merged_storage["parity"] = merged_storage_parity
+	merged_storage["retention_days"] = merged_storage_retention
 	merged.update(user_config)
 	merged["paths"] = merged_paths
 	merged["ingestion"] = merged_ingestion
+	merged["storage"] = merged_storage
 	return merged
 
 
@@ -211,6 +242,7 @@ CURRENT_YEAR = int(PROJECT_CONFIG["current_year"])
 CURRENT_WEEK = int(PROJECT_CONFIG["current_week"])
 PATHS = PROJECT_CONFIG["paths"]
 INGESTION_CONFIG = PROJECT_CONFIG.get("ingestion", {})
+STORAGE_CONFIG = PROJECT_CONFIG.get("storage", {})
 
 
 def resolve_existing_path(path_candidates, not_found_message):
@@ -385,6 +417,18 @@ def get_clap_calibration_latest_path():
 	return get_json_output_path("clap_calibration_latest.json")
 
 
+def get_storage_parity_latest_path():
+	return get_json_output_path("storage_parity_latest.json")
+
+
+def get_schedule_strength_latest_path():
+	return get_json_output_path("schedule_strength_latest.json")
+
+
+def get_vijay_valuation_latest_path():
+	return get_json_output_path("vijay_valuation_latest.json")
+
+
 def get_ingestion_config():
 	return INGESTION_CONFIG
 
@@ -395,6 +439,17 @@ def get_ingestion_cbs_config():
 
 def get_ingestion_auth_config():
 	return INGESTION_CONFIG.get("auth", {})
+
+
+def get_storage_config():
+	return STORAGE_CONFIG
+
+
+def get_storage_db_path():
+	configured = STORAGE_CONFIG.get("sqlite_path", ".state/lucid_storage.db")
+	path_value = BASE_DIR / configured
+	path_value.parent.mkdir(parents=True, exist_ok=True)
+	return path_value
 
 
 def get_required_input_path(filename):

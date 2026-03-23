@@ -9,6 +9,7 @@ from project_config import (
 	get_ingestion_raw_dir,
 	get_json_output_path,
 )
+from storage import StorageRecorder
 
 
 UTC = timezone.utc
@@ -22,6 +23,7 @@ class IngestionNormalizer:
 	def __init__(self):
 		self.data_year_dir = get_data_year_dir(CURRENT_YEAR)
 		self.data_year_dir.mkdir(parents=True, exist_ok=True)
+		self.storage_recorder = StorageRecorder()
 
 	def normalize(self, target_date, dry_run=False):
 		raw_dir = get_ingestion_raw_dir(target_date)
@@ -105,3 +107,9 @@ class IngestionNormalizer:
 		path_value.parent.mkdir(parents=True, exist_ok=True)
 		with path_value.open("w") as outfile:
 			json.dump(payload, outfile, indent=2)
+		self.storage_recorder.record_json_artifact(
+			path_value=path_value,
+			payload=payload,
+			artifact_kind="normalized",
+			write_source="ingestion.normalize._write_json",
+		)

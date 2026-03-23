@@ -28,10 +28,13 @@ from project_config import (
 	get_ingestion_raw_dir,
 	get_ingestion_run_log_path,
 	get_ingestion_state_dir,
+	get_storage_config,
 )
+from storage import StorageRecorder, StorageWriteError
 
 
 UTC = timezone.utc
+STORAGE_RECORDER = StorageRecorder()
 
 
 class IngestionRunLockError(RuntimeError):
@@ -127,6 +130,12 @@ def append_run_log(target_date, payload):
 	log_path = get_ingestion_run_log_path(target_date)
 	with log_path.open("a") as logfile:
 		logfile.write(json.dumps(payload) + "\n")
+	STORAGE_RECORDER.record_run_event(
+		event_type="ingestion_run_log",
+		target_date=target_date.strftime("%Y-%m-%d"),
+		status=payload.get("status", "unknown"),
+		payload=payload,
+	)
 
 
 def cleanup_old_raw_snapshots(target_date, dry_run=False):
@@ -168,8 +177,22 @@ def main():
 		"skip_auth": args.skip_auth,
 		"skip_normalize": args.skip_normalize,
 	}
+	storage_cfg = get_storage_config()
+	storage_mode = str(storage_cfg.get("mode", "json_only"))
+	storage_enabled = bool(storage_cfg.get("enabled", False) or storage_mode in {"dual_write", "db_primary"})
+	run_summary["storage"] = {
+		"status": "ok" if storage_enabled else "skipped",
+		"mode": storage_mode,
+		"db_path": str(STORAGE_RECORDER.db_path),
+	}
 	lock_info = acquire_run_lock(dry_run=args.dry_run)
 	run_summary["run_lock"] = {"status": "ok" if lock_info.get("acquired") else "skipped"}
+	STORAGE_RECORDER.record_run_event(
+		event_type="run_lock",
+		target_date=target_date.strftime("%Y-%m-%d"),
+		status=run_summary["run_lock"]["status"],
+		payload=run_summary["run_lock"],
+	)
 
 	try:
 		auth_manager = AuthManager()
@@ -179,10 +202,22 @@ def main():
 			skip_auth=args.skip_auth,
 		)
 		run_summary["auth"] = {"status": "ok", "updated_at": auth_session.updated_at.isoformat()}
+		STORAGE_RECORDER.record_run_event(
+			event_type="auth",
+			target_date=target_date.strftime("%Y-%m-%d"),
+			status="ok",
+			payload=run_summary["auth"],
+		)
 
 		fetcher = CbsApiFetcher()
 		fetch_result = fetcher.fetch_all(target_date=target_date, auth_session=auth_session, dry_run=args.dry_run)
 		run_summary["fetch"] = {"status": "ok", "raw_dir": str(fetch_result["raw_dir"])}
+		STORAGE_RECORDER.record_run_event(
+			event_type="fetch",
+			target_date=target_date.strftime("%Y-%m-%d"),
+			status="ok",
+			payload=run_summary["fetch"],
+		)
 		if args.dry_run:
 			run_summary["team_weekly_totals"] = {"status": "dry_run"}
 		else:
@@ -219,6 +254,12 @@ def main():
 			normalizer = IngestionNormalizer()
 			normalize_result = normalizer.normalize(target_date=target_date, dry_run=args.dry_run)
 			run_summary["normalize"] = {"status": "ok", "outputs": {k: str(v) for k, v in normalize_result["outputs"].items()}}
+			STORAGE_RECORDER.record_run_event(
+				event_type="normalize",
+				target_date=target_date.strftime("%Y-%m-%d"),
+				status="ok",
+				payload=run_summary["normalize"],
+			)
 
 			transactions_cfg = ingestion_cfg.get("transactions", {})
 			if args.dry_run:
@@ -463,6 +504,7 @@ def main():
 		WeeklyEmailError,
 		WeeklyCalibrationError,
 		ArtifactHistoryError,
+		StorageWriteError,
 		ValueError,
 	) as error:
 		run_summary["status"] = "failed"
@@ -477,6 +519,12 @@ def main():
 		except StatusIndexError as status_error:
 			run_summary["status_index"] = {"status": "failed", "error_short": str(status_error)}
 		append_run_log(target_date, run_summary)
+		STORAGE_RECORDER.record_run_event(
+			event_type="pipeline_failed",
+			target_date=target_date.strftime("%Y-%m-%d"),
+			status="failed",
+			payload={"error": str(error)},
+		)
 		print(f"Ingestion failed: {error}")
 		release_run_lock(lock_info)
 		return 1
@@ -492,6 +540,12 @@ def main():
 	except StatusIndexError as error:
 		run_summary["status_index"] = {"status": "failed", "error_short": str(error)}
 	append_run_log(target_date, run_summary)
+	STORAGE_RECORDER.record_run_event(
+		event_type="pipeline_complete",
+		target_date=target_date.strftime("%Y-%m-%d"),
+		status="ok",
+		payload={"status_index": run_summary.get("status_index", {})},
+	)
 	release_run_lock(lock_info)
 	print("Ingestion completed successfully.")
 	return 0
