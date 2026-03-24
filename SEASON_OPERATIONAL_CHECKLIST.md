@@ -44,6 +44,57 @@ Runbook for launch period operations from one week before opening day through we
   - `json/weekly_email_payload_latest.json`
   - `json/artifact_history_latest.json`
 
+## Thursday (First Opening Day Stats Land)
+
+Use this sequence once real opening-day box score stats appear in CBS.
+
+### Copy/paste (VM)
+
+```bash
+cd /srv/lucidDreamBaseball
+source .venv/bin/activate
+set -a && source /etc/lucidDreamBaseball.env && set +a
+sudo grep -c '^CBS_API_TOKEN=' /etc/lucidDreamBaseball.env
+systemctl list-timers --all | rg lucid-nightly || true
+python py/run_pipeline.py --ingest-first
+ls -la json/ingestion_status_latest.json json/schedule.json
+tail -n 120 /var/log/lucid-nightly.log
+```
+
+### Copy/paste (Windows — token task sanity)
+
+```powershell
+schtasks /Query /TN "LucidDreamBaseball Token Push" /V /FO LIST
+Get-Content "C:\Users\J0RV3\Documents\Development\lucidDreamBaseball\logs\push_token_task.log" -Tail 30
+```
+
+- [ ] Confirm token + scheduler prerequisites:
+  - Windows task `LucidDreamBaseball Token Push` shows recent success (`Last Result: 0`)
+  - VM timer is active: `systemctl list-timers --all | rg lucid-nightly`
+  - VM env file has a single token entry:
+    - `sudo grep -c '^CBS_API_TOKEN=' /etc/lucidDreamBaseball.env` returns `1`
+- [ ] Run one manual VM pipeline pass after first stats appear:
+  - `cd /srv/lucidDreamBaseball`
+  - `source .venv/bin/activate`
+  - `set -a; source /etc/lucidDreamBaseball.env; set +a`
+  - `python py/run_pipeline.py --ingest-first`
+- [ ] Validate first-stats ingestion outputs:
+  - `json/ingestion_status_latest.json` has no critical failures
+  - `json/transactions_latest.json` and `json/roster_state_latest.json` updated
+  - `json/schedule.json` and `data/<year>/week<current_week>.json` updated today
+- [ ] Validate projection + decision outputs are populated:
+  - `json/player_projection_daily_latest.json`
+  - `json/player_projection_weekly_latest.json`
+  - `json/view_league_weekly_latest.json`
+  - `json/view_gm_weekly_latest.json`
+  - `json/free_agent_candidates_latest.json`
+- [ ] Acceptable opening-day caveat:
+  - sparse/incomplete first-day category coverage can produce warnings
+  - treat as expected unless pipeline exits non-zero or artifacts stop updating
+- [ ] If Thursday manual run succeeds:
+  - leave nightly timer unchanged (no schedule edits needed)
+  - monitor Friday morning run log: `tail -n 120 /var/log/lucid-nightly.log`
+
 ## Day +1 to Day +7 (Week 1 Operations)
 
 Daily:
