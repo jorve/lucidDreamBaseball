@@ -73,7 +73,12 @@ class FreeAgentCandidatesBuilder:
 		rows = []
 		for prior in priors_players:
 			player_id = str(prior.get("player_id"))
-			if not player_id or player_id == "None" or player_id in rostered_ids:
+			if not player_id or player_id == "None":
+				continue
+			# League-wide: anyone on any team roster is not a free agent. rostered_ids holds
+			# CBS Fantasy ids plus prior-space ids merged from them; also treat a prior row
+			# whose cbs_player_id is still on a roster as rostered (defense in depth).
+			if self._prior_is_rostered(rostered_ids, prior):
 				continue
 			weekly_row = weekly_map.get(player_id, {})
 			daily_row = daily_map.get(player_id, {})
@@ -182,17 +187,57 @@ class FreeAgentCandidatesBuilder:
 			"teams_count": len(teams),
 		}, normalized_teams
 
+	def _prior_is_rostered(self, rostered_ids, prior):
+		pid = str(prior.get("player_id") or "")
+		if pid and pid != "None" and pid in rostered_ids:
+			return True
+		cbs = str(prior.get("cbs_player_id") or "").strip()
+		if cbs and cbs != "None" and cbs in rostered_ids:
+			return True
+		return False
+
 	def _merge_prior_space_rostered_ids(self, rostered_ids, roster_teams, priors_players):
 		"""
 		Roster snapshots use CBS Fantasy player ids (e.g. 2071264) while preseason priors
 		and projections use CSV player_id (e.g. 15640). Those strings never match, so
 		rostered stars would incorrectly appear as free-agent candidates.
 
-		For each rostered player, if their normalized name matches exactly one prior row,
-		also add that prior's player_id to the rostered set.
+		Merge order:
+		1) If a prior row carries ``cbs_player_id`` (same as roster ``player.id`` / CBS
+		   Fantasy id) and that id is rostered, add the prior's ``player_id`` to the set.
+		2) Otherwise, for each roster player, if the normalized name matches exactly one
+		   prior row, add that prior's ``player_id``. If multiple priors share the name,
+		   disambiguate when exactly one prior's ``cbs_player_id`` equals the roster
+		   player's CBS id; else count as ambiguous.
 		"""
+		meta = {}
 		if not roster_teams or not priors_players:
-			return rostered_ids, {}
+			return rostered_ids, meta
+
+		prior_by_id = {}
+		for prior in priors_players:
+			pid = str(prior.get("player_id") or "")
+			if pid and pid != "None":
+				prior_by_id[pid] = prior
+
+		cbs_added = 0
+		for prior in priors_players:
+			cbs = prior.get("cbs_player_id")
+			if cbs is None:
+				continue
+			cbs = str(cbs).strip()
+			if not cbs or cbs == "None":
+				continue
+			if cbs not in rostered_ids:
+				continue
+			pid = str(prior.get("player_id") or "")
+			if not pid or pid == "None":
+				continue
+			if pid not in rostered_ids:
+				rostered_ids.add(pid)
+				cbs_added += 1
+		if cbs_added:
+			meta["prior_space_ids_merged_via_cbs_id"] = cbs_added
 
 		by_name = defaultdict(list)
 		for prior in priors_players:
@@ -204,7 +249,7 @@ class FreeAgentCandidatesBuilder:
 				continue
 			by_name[name].append(pid)
 
-		added = 0
+		name_added = 0
 		ambiguous_names = 0
 		for team in roster_teams:
 			for player in team.get("players", []):
@@ -215,21 +260,35 @@ class FreeAgentCandidatesBuilder:
 				if not candidates:
 					continue
 				unique = list(dict.fromkeys(candidates))
+				roster_cbs = str(player.get("player_id") or "")
 				if len(unique) == 1:
 					prior_pid = unique[0]
 					if prior_pid not in rostered_ids:
 						rostered_ids.add(prior_pid)
-						added += 1
+						name_added += 1
 				else:
-					ambiguous_names += 1
+					matched = None
+					for pid in unique:
+						pr = prior_by_id.get(pid)
+						if not pr:
+							continue
+						if str(pr.get("cbs_player_id") or "").strip() == roster_cbs:
+							matched = pid
+							break
+					if matched and matched not in rostered_ids:
+						rostered_ids.add(matched)
+						name_added += 1
+					elif not matched:
+						ambiguous_names += 1
 
-		# Only include metadata when something meaningful happened
-		if added == 0 and ambiguous_names == 0:
+		if name_added:
+			meta["prior_space_ids_merged"] = name_added
+		if ambiguous_names:
+			meta["ambiguous_prior_name_matches"] = ambiguous_names
+
+		if not meta:
 			return rostered_ids, {}
-		return rostered_ids, {
-			"prior_space_ids_merged": added,
-			"ambiguous_prior_name_matches": ambiguous_names,
-		}
+		return rostered_ids, meta
 
 	def _load_eligibility_map(self):
 		eligibility_path = get_player_eligibility_latest_path()

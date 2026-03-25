@@ -1,9 +1,50 @@
-.view { display: none; }
-.view.active { display: block; }
+/* ─────────────────────────────────────────────────────────────────────────── */
+/* LDB League View — Amber & Ink overrides                                      */
+/* Inherits ../ui/tokens.css + ../ui/styles.css                                 */
+/* ─────────────────────────────────────────────────────────────────────────── */
 
+.view { display: none; }
+.view.active {
+  display: block;
+  animation: fadeUp 0.22s ease both;
+}
+
+/* ── Rules pre ──────────────────────────────────────────────────────────────── */
 #rules-pre {
-  max-height: 520px;
+  max-height: 560px;
   overflow: auto;
+  font-family: var(--mono);
   font-size: 12px;
-  line-height: 1.4;
+  line-height: 1.75;
+  color: var(--text-dim);
+  white-space: pre-wrap;
+}
+
+/* ── Sortable column headers ─────────────────────────────────────────────────── */
+thead th[data-sort-key] { cursor: pointer; }
+thead th[data-sort-key]:hover { color: var(--text); background: var(--surface3); }
+thead th[data-sort-key]::after { content: ' ↕'; font-size: 8px; opacity: 0.3; }
+thead th[data-sort-key].sort-asc::after  { content: ' ↑'; opacity: 1; color: var(--accent); }
+thead th[data-sort-key].sort-desc::after { content: ' ↓'; opacity: 1; color: var(--accent); }
+
+/* ── Scoreboard win/loss cell highlighting ────────────────────────────────────── */
+tbody td.num.pos {
+  color: var(--win);
+  background: rgba(21,105,47,0.06);
+}
+
+tbody td.num.neg {
+  color: var(--loss);
+  background: rgba(185,27,27,0.05);
+}
+
+/* ── Roto section sub-labels ─────────────────────────────────────────────────── */
+.roto-section-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin: var(--t-sp-5) 0 var(--t-sp-2);
 }

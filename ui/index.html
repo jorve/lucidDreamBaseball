@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LDB — Lucid Dream Baseball</title>
-  <!-- Brand design tokens — must load before styles.css -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Libre+Baskerville:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="tokens.css">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -284,9 +286,9 @@
 
   <!-- ── Matchups ───────────────────────────────────────────────────────── -->
   <div id="view-matchups" class="view">
-    <div style="margin-bottom:16px">
-      <div class="card-title" style="margin-bottom:4px">Current Week Matchups</div>
-      <div class="card-sub">Category win probabilities from CLAP model · higher = more likely to win that category</div>
+    <div class="page-header">
+      <div class="page-title">Current Week Matchups</div>
+      <div class="page-sub">Category win probabilities from CLAP model · higher = more likely to win that category</div>
     </div>
     <div class="grid grid-matchups" id="matchups-grid"></div>
   </div>
@@ -568,14 +570,14 @@
         <div class="card-title">VIJAY Formula Reference</div>
         <div class="card-sub">league-specific reliever metric</div>
       </div>
-      <div style="font-family: monospace; font-size: 13px; color: var(--text-dim); line-height: 1.8; padding: 4px 0">
+      <div style="font-family: var(--mono); font-size: 12px; color: var(--text-dim); line-height: 1.9; padding: 4px 0">
         VIJAY = (((INN − (INNdGS × GS)) + (S × 3) + (HD × 3)) / 4) − ((BS + RL) × 2)<br>
         <br>
         <span style="color:var(--text)">Risk Adj: </span>excess_bs_rate × SV × 2.0 penalty applied above 10% BS baseline<br>
         <br>
         <span style="color:var(--win)">Locked In</span> = BS% &lt; 10%, strong closer or setup role &nbsp;|&nbsp;
         <span style="color:var(--text)">Solid</span> = BS% &lt; 15% &nbsp;|&nbsp;
-        <span style="color:#fbbf24">Volatile</span> = BS% 15–22% &nbsp;|&nbsp;
+        <span style="color:var(--warn)">Volatile</span> = BS% 15–22% &nbsp;|&nbsp;
         <span style="color:var(--loss)">High Risk</span> = BS% &ge; 22%
       </div>
     </div>

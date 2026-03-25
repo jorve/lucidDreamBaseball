@@ -494,7 +494,7 @@ function makePctCell(p) {
   const cell = document.createElement("td");
   cell.className = "num win-pct";
   const color = p >= 0.55 ? "var(--win)" : p < 0.45 ? "var(--loss)" : "var(--text)";
-  const barBg = p >= 0.55 ? "var(--win-dim)" : p < 0.45 ? "var(--loss-dim)" : "var(--border2)";
+  const barBg = p >= 0.55 ? "var(--win)" : p < 0.45 ? "var(--loss)" : "var(--accent)";
   cell.style.color = color;
   cell.innerHTML =
     `<span style="display:inline-flex;align-items:center;gap:6px;justify-content:flex-end">` +
@@ -862,10 +862,12 @@ function renderWeekPreview() {
     card.appendChild(header);
 
     // Projected category wins bar
+    const awayLeading = awayWins > homeWins;
+    const homeLeading = homeWins > awayWins;
     const winsBar = mkEl("div", { class: "matchup-win-counts" });
-    winsBar.appendChild(mkEl("div", { class: "matchup-proj-wins left",  text: String(awayWins) }));
-    winsBar.appendChild(mkEl("div", { class: "matchup-proj-label",      text: "proj cat wins" }));
-    winsBar.appendChild(mkEl("div", { class: "matchup-proj-wins right", text: String(homeWins) }));
+    winsBar.appendChild(mkEl("div", { class: `matchup-proj-wins${awayLeading ? " leading" : ""}`,       text: String(awayWins) }));
+    winsBar.appendChild(mkEl("div", { class: "matchup-proj-label",                                      text: "proj cat wins" }));
+    winsBar.appendChild(mkEl("div", { class: `matchup-proj-wins right${homeLeading ? " leading" : ""}`, text: String(homeWins) }));
     card.appendChild(winsBar);
 
     // Per-category probability rows
@@ -884,11 +886,13 @@ function renderWeekPreview() {
       }));
 
       const barWrap = mkEl("div", { class: "cat-bar-wrap" });
+      const barTrack = mkEl("div", { class: "cat-bar-track" });
       const barLeft = mkEl("div", { class: `cat-bar-left${awayFav ? " fav" : ""}` });
       barLeft.style.width = `${Math.max(2, awayPct)}%`;
-      barWrap.appendChild(barLeft);
+      barTrack.appendChild(barLeft);
+      barTrack.appendChild(mkEl("div", { class: "cat-bar-right" }));
+      barWrap.appendChild(barTrack);
       barWrap.appendChild(mkEl("div", { class: "cat-name", text: PREVIEW_CAT_LABELS[cat] || cat }));
-      barWrap.appendChild(mkEl("div", { class: "cat-bar-right" }));
       row.appendChild(barWrap);
 
       row.appendChild(mkEl("div", {

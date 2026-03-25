@@ -523,6 +523,8 @@ function renderStandings() {
     const rank = idx + 1;
     const tr   = document.createElement("tr");
 
+    if (rank === 1) tr.classList.add("rank-first");
+
     const rankTd = document.createElement("td");
     const rb = el("span", { class: `rank-badge rank-${rank <= 3 ? rank : ""}`, text: String(rank) });
     rankTd.appendChild(rb);
@@ -535,7 +537,7 @@ function renderStandings() {
     const pctTd = document.createElement("td");
     pctTd.className = "num win-pct";
     const pctColor = pct >= 0.55 ? "var(--win)" : pct < 0.45 ? "var(--loss)" : "var(--text)";
-    const barBg    = pct >= 0.55 ? "var(--win-dim)" : pct < 0.45 ? "var(--loss-dim)" : "var(--border2)";
+    const barBg    = pct >= 0.55 ? "var(--win)" : pct < 0.45 ? "var(--loss)" : "var(--accent)";
     pctTd.style.color = pctColor;
     pctTd.innerHTML =
       `<span style="display:inline-flex;align-items:center;gap:6px;justify-content:flex-end">` +
@@ -626,10 +628,12 @@ function renderMatchups() {
     card.appendChild(header);
 
     // Projected cat wins bar
+    const awayLeading = awayWins > homeWins;
+    const homeLeading = homeWins > awayWins;
     const winsBar = el("div", { class: "matchup-win-counts" });
-    const awayWinsEl = el("div", { class: "matchup-proj-wins left", text: String(awayWins) });
+    const awayWinsEl = el("div", { class: `matchup-proj-wins${awayLeading ? " leading" : ""}`, text: String(awayWins) });
     const label = el("div", { class: "matchup-proj-label", text: "proj cat wins" });
-    const homeWinsEl = el("div", { class: "matchup-proj-wins right", text: String(homeWins) });
+    const homeWinsEl = el("div", { class: `matchup-proj-wins right${homeLeading ? " leading" : ""}`, text: String(homeWins) });
     winsBar.appendChild(awayWinsEl);
     winsBar.appendChild(label);
     winsBar.appendChild(homeWinsEl);
@@ -655,15 +659,15 @@ function renderMatchups() {
 
       // Bar
       const barWrap = el("div", { class: "cat-bar-wrap" });
+      const barTrack = el("div", { class: "cat-bar-track" });
       const barLeft = el("div", { class: `cat-bar-left${awayFav ? " fav" : ""}` });
-      // Width = awayPct% of 50% of the bar (center-out)
       barLeft.style.width = `${Math.max(2, awayPct)}%`;
-      const catLabel = el("div", { class: "cat-name", text: CAT_LABELS[cat] || cat });
       const barRight = el("div", { class: "cat-bar-right" });
-
-      barWrap.appendChild(barLeft);
+      barTrack.appendChild(barLeft);
+      barTrack.appendChild(barRight);
+      const catLabel = el("div", { class: "cat-name", text: CAT_LABELS[cat] || cat });
+      barWrap.appendChild(barTrack);
       barWrap.appendChild(catLabel);
-      barWrap.appendChild(barRight);
 
       // Home prob label
       const homeLabel = el("div", {
@@ -729,8 +733,8 @@ function renderTrends() {
 
   const ctx = document.getElementById("trends-chart").getContext("2d");
 
-  const teamColor   = "#FF6B2B";   /* brand ember */
-  const avgColor    = "rgba(250,240,220,0.35)";  /* brand cream dim */
+  const teamColor   = "#C2390A";   /* accent red-orange */
+  const avgColor    = "rgba(26,20,16,0.20)";
   const lowerBetter = LOWER_IS_BETTER.has(cat);
 
   const datasets = [
@@ -754,11 +758,11 @@ function renderTrends() {
       label: "League avg",
       data: avgLine,
       borderColor: avgColor,
-      borderWidth: 1,
+      borderWidth: 1.5,
       borderDash: [5, 4],
       pointRadius: 0,
       fill: false,
-      tension: 0,
+      tension: 0.3,
     });
   }
 
@@ -772,18 +776,20 @@ function renderTrends() {
       plugins: {
         legend: {
           labels: {
-            color: "rgba(250,240,220,0.55)",
-            font: { size: 12 },
-            boxWidth: 16,
+            color: "rgba(26,20,16,0.52)",
+            font: { family: "'IBM Plex Mono', monospace", size: 11 },
+            boxWidth: 14,
+            padding: 16,
           }
         },
         tooltip: {
-          backgroundColor: "#272018",
-          borderColor: "#3D3028",
+          backgroundColor: "#1A1410",
+          borderColor: "#35291F",
           borderWidth: 1,
-          titleColor: "#FAF0DC",
-          bodyColor: "rgba(250,240,220,0.55)",
-          padding: 10,
+          titleColor: "#EDE6D8",
+          bodyColor: "rgba(237,230,216,0.70)",
+          padding: 12,
+          cornerRadius: 6,
           callbacks: {
             label: ctx => {
               const v = ctx.raw;
@@ -795,18 +801,20 @@ function renderTrends() {
       },
       scales: {
         x: {
-          ticks: { color: "rgba(250,240,220,0.4)", font: { size: 11 } },
-          grid:  { color: "#3D3028" },
+          ticks: { color: "rgba(26,20,16,0.40)", font: { family: "'IBM Plex Mono', monospace", size: 10 } },
+          grid:  { color: "#D5CFC3" },
+          border: { color: "#D5CFC3" },
         },
         y: {
           reverse: lowerBetter,
-          ticks: { color: "rgba(250,240,220,0.4)", font: { size: 11 } },
-          grid:  { color: "#3D3028" },
+          ticks: { color: "rgba(26,20,16,0.40)", font: { family: "'IBM Plex Mono', monospace", size: 10 } },
+          grid:  { color: "#D5CFC3" },
+          border: { color: "#D5CFC3" },
           title: {
             display: true,
             text: lowerBetter ? `${cat} (lower = better)` : cat,
-            color: "rgba(250,240,220,0.4)",
-            font: { size: 11 },
+            color: "rgba(26,20,16,0.40)",
+            font: { family: "'IBM Plex Mono', monospace", size: 10 },
           }
         },
       },

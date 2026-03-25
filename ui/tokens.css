@@ -1,95 +1,94 @@
 /* ─────────────────────────────────────────────────────────────────────────── */
-/* LDB — Brand Design Tokens                                                    */
-/* Source: Brand Standards · Ember & Gold                                       */
-/*                                                                              */
-/* Usage: link this file BEFORE styles.css in index.html                        */
-/* All tokens are prefixed --brand-* to avoid collisions with semantic vars     */
+/* LDB — Design Tokens · Amber & Ink                                            */
+/* Editorial sports analytics — warm parchment, deep ink, Baskerville + Mono   */
+/* Load before styles.css                                                        */
 /* ─────────────────────────────────────────────────────────────────────────── */
-
-/* ── Self-hosted fonts (woff2, latin subset only) ───────────────────────── */
-@font-face {
-  font-family: 'IBM Plex Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('fonts/ibm-plex-mono-latin-400-normal.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'IBM Plex Mono';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('fonts/ibm-plex-mono-latin-700-normal.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'EB Garamond';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('fonts/eb-garamond-latin-400-normal.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'EB Garamond';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url('fonts/eb-garamond-latin-400-italic.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'EB Garamond';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url('fonts/eb-garamond-latin-600-normal.woff2') format('woff2');
-}
 
 :root {
 
-  /* ── Color: Core palette ──────────────────────────────────────────────── */
-  /* Ember  · Primary brand color — headers, accents, CTAs (25% of layout)  */
-  --brand-ember:         #FF6B2B;
+  /* ── Canvas (light, parchment) ────────────────────────────────────────── */
+  --t-bg:        #EDE6D8;   /* warm parchment — main canvas */
+  --t-surface:   #FAF7F0;   /* card / panel surface */
+  --t-surface-2: #EDE8DD;   /* table header, elevated, hover */
+  --t-surface-3: #E4DDD0;   /* pressed, deepest light level */
 
-  /* Saffron · Supporting accent — highlights, secondary elements (5%)       */
-  --brand-saffron:       #F5A623;
+  /* ── Borders ──────────────────────────────────────────────────────────── */
+  --t-border:    #D5CFC3;   /* primary dividers */
+  --t-border-2:  #C0B8AA;   /* stronger borders, inputs */
 
-  /* Cream  · Body text, light elements — replaces white (10%)               */
-  --brand-cream:         #FAF0DC;
+  /* ── Dark ink (header, masthead) ─────────────────────────────────────── */
+  --t-ink:       #1A1410;   /* deep warm near-black */
+  --t-ink-2:     #231C16;   /* nav — slightly lighter */
+  --t-ink-border:#35291F;   /* borders inside dark zones */
 
-  /* Charcoal · Base background (60%)                                        */
-  --brand-charcoal:      #1A1A1A;
+  /* ── Primary accent — deep red-orange ink ────────────────────────────── */
+  --t-accent:    #C2390A;
+  --t-accent-dk: #8C2907;   /* active, hover darkened */
+  --t-accent-lt: #FCE9E3;   /* chip bg, tinted bg */
+  --t-accent-md: #EDADA0;   /* mid-tone tint */
 
-  /* ── Color: Surface steps (warm-tinted charcoal, each step clearly       */
-  /*           lighter than the last — bg < surface < surface-2)           */
-  --brand-surface:       #272018;  /* cards, nav, header (+1 step)  */
-  --brand-surface-2:     #322A20;  /* table headers, hover states   */
-  --brand-border:        #3D3028;  /* primary dividers              */
-  --brand-border-2:      #4A3B2E;  /* secondary borders, inputs     */
+  /* ── Win (forest green) ───────────────────────────────────────────────── */
+  --t-win:       #15692F;
+  --t-win-dk:    #0F4A21;
+  --t-win-lt:    #D8F3E0;
 
-  /* ── Color: Ember & Saffron — dimmed fills ───────────────────────────── */
-  --brand-ember-dim:     #8B3812;  /* active fills — dark ember, reads "selected" not "disabled" */
-  --brand-saffron-dim:   #A8690C;  /* secondary active fills        */
+  /* ── Loss (deep crimson) ──────────────────────────────────────────────── */
+  --t-loss:      #B91B1B;
+  --t-loss-dk:   #881515;
+  --t-loss-lt:   #FCE0E0;
 
-  /* ── Color: Text hierarchy (cream-based) ─────────────────────────────── */
-  --brand-text:          #FAF0DC;                   /* primary text          */
-  --brand-text-dim:      rgba(250, 240, 220, 0.55); /* secondary / labels    */
-  --brand-text-muted:    rgba(250, 240, 220, 0.40); /* ghost / placeholders — was 25%, raised for legibility */
+  /* ── Warn (amber) ─────────────────────────────────────────────────────── */
+  --t-warn:      #8C4000;
+  --t-warn-lt:   #FEF0D6;
 
-  /* ── Typography: Font families ───────────────────────────────────────── */
-  /* IBM Plex Mono — headings, labels, UI chrome, code                      */
-  --brand-font-mono:     'IBM Plex Mono', 'Courier New', monospace;
+  /* ── Text (on light bg) ───────────────────────────────────────────────── */
+  --t-text:      #1A1410;
+  --t-text-dim:  rgba(26, 20, 16, 0.54);
+  --t-text-muted:rgba(26, 20, 16, 0.34);
 
-  /* EB Garamond — body copy, long-form text, quotes                        */
-  --brand-font-serif:    'EB Garamond', Georgia, serif;
+  /* ── Text (on dark ink bg) ────────────────────────────────────────────── */
+  --t-text-inv:      #EDE6D8;
+  --t-text-inv-dim:  rgba(237, 230, 216, 0.58);
+  --t-text-inv-muted:rgba(237, 230, 216, 0.32);
 
-  /* ── Typography: Scale (matches brand spec) ──────────────────────────── */
-  --brand-size-display:  1.75rem;    /* 28px — Display / Title     */
-  --brand-size-heading:  1.125rem;   /* 18px — Section Heading     */
-  --brand-size-label:    0.75rem;    /* 12px — Subheading / Label  */
-  --brand-size-body:     0.6875rem;  /* 11px — Body Text           */
-  --brand-size-caption:  0.5625rem;  /* 9px  — Caption / Footer    */
+  /* ── Typography ───────────────────────────────────────────────────────── */
+  --t-serif: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+  --t-mono:  'IBM Plex Mono', 'Courier New', monospace;
+
+  /* ── Geometry ─────────────────────────────────────────────────────────── */
+  --t-radius-sm: 3px;
+  --t-radius:    6px;
+  --t-radius-lg: 10px;
+
+  /* ── Elevation (light-mode shadows) ──────────────────────────────────── */
+  --t-shadow-xs: 0 1px 2px rgba(26,20,16,0.06);
+  --t-shadow-sm: 0 2px 6px rgba(26,20,16,0.08), 0 1px 2px rgba(26,20,16,0.04);
+  --t-shadow:    0 4px 14px rgba(26,20,16,0.10), 0 2px 4px rgba(26,20,16,0.06);
+  --t-shadow-lg: 0 8px 28px rgba(26,20,16,0.12), 0 3px 8px rgba(26,20,16,0.08);
+  --t-shadow-accent: 0 3px 10px rgba(194,57,10,0.22);
+
+  /* ── Spacing ──────────────────────────────────────────────────────────── */
+  --t-sp-1: 4px;
+  --t-sp-2: 8px;
+  --t-sp-3: 12px;
+  --t-sp-4: 16px;
+  --t-sp-5: 20px;
+  --t-sp-6: 24px;
+  --t-sp-8: 32px;
+
+  /* ── Legacy aliases (backward compat) ────────────────────────────────── */
+  --brand-ember:      var(--t-accent);
+  --brand-saffron:    var(--t-warn);
+  --brand-cream:      var(--t-text-inv);
+  --brand-charcoal:   var(--t-ink);
+  --brand-surface:    var(--t-surface);
+  --brand-surface-2:  var(--t-surface-2);
+  --brand-border:     var(--t-border);
+  --brand-border-2:   var(--t-border-2);
+  --brand-text:       var(--t-text);
+  --brand-text-dim:   var(--t-text-dim);
+  --brand-text-muted: var(--t-text-muted);
+  --brand-font-mono:  var(--t-mono);
+  --brand-font-serif: var(--t-serif);
 
 }

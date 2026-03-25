@@ -42,7 +42,8 @@ class PlayerPriorBuilder:
 				for row in reader:
 					rows_parsed += 1
 					source_rows += 1
-					player_id = self._first_non_empty(row, ["player_id", "id", "cbs_id"])
+					# Projection player_id (CSV PlayerId) — not the same as CBS Fantasy roster id (see cbs_player_id).
+					player_id = self._first_non_empty(row, ["player_id", "id"])
 					if not player_id:
 						player_id = self._first_non_empty(row, ["PlayerId", "MLBAMID"])
 					if not player_id:
@@ -79,6 +80,13 @@ class PlayerPriorBuilder:
 						"projected_appearances": self._float_or_none(self._first_non_empty(row, ["G", "APP"])),
 						"projection_vol": self._float_or_none(self._first_non_empty(row, ["Vol"])),
 					}
+					# CBS Fantasy player id from league roster/API (`player.id`), for roster ↔ prior matching.
+					cbs_fantasy = self._first_non_empty(
+						row,
+						["CBSPlayerId", "CBSFantasyPlayerId", "CBSPlayerID", "cbs_player_id", "cbs_fantasy_id"],
+					)
+					if cbs_fantasy:
+						player_row["cbs_player_id"] = str(cbs_fantasy).strip()
 					player_row.update(self._derived_scoring_fields(source_key, row, player_row.get("projected_appearances")))
 					players.append(player_row)
 			source_summary[source_key] = {
