@@ -1,32 +1,32 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-03-23T17:37:46.219752Z",
-  "target_date": "2026-03-22",
+  "generated_at_utc": "2026-03-25T18:44:49.886744Z",
+  "target_date": "2026-03-24",
   "window": {
     "lookback_days": 45
   },
   "metrics": {
     "analytic_normal": {
-      "samples": 96,
-      "brier_score": 0.333333,
-      "mae": 0.333333
+      "samples": 192,
+      "brier_score": 0.166667,
+      "mae": 0.166667
     },
     "monte_carlo": {
-      "samples": 96,
-      "brier_score": 0.250961,
-      "mae": 0.500878
+      "samples": 192,
+      "brier_score": 0.249836,
+      "mae": 0.499753
     },
     "role_segments": {
       "batters": {
         "analytic_normal": {
-          "samples": 96,
-          "brier_score": 0.333333,
-          "mae": 0.333333
+          "samples": 192,
+          "brier_score": 0.166667,
+          "mae": 0.166667
         },
         "monte_carlo": {
-          "samples": 96,
-          "brier_score": 0.250961,
-          "mae": 0.500878
+          "samples": 192,
+          "brier_score": 0.249836,
+          "mae": 0.499753
         }
       },
       "rp": {
@@ -57,14 +57,14 @@
     "sp_start_buckets": {
       "1-start": {
         "analytic_normal": {
-          "samples": 96,
-          "brier_score": 0.333333,
-          "mae": 0.333333
+          "samples": 192,
+          "brier_score": 0.166667,
+          "mae": 0.166667
         },
         "monte_carlo": {
-          "samples": 96,
-          "brier_score": 0.250961,
-          "mae": 0.500878
+          "samples": 192,
+          "brier_score": 0.249836,
+          "mae": 0.499753
         }
       },
       "2-start": {
@@ -100,24 +100,24 @@
       "source_segments": {
         "component_derived": {
           "analytic_normal": {
-            "samples": 88,
-            "brier_score": 0.363636,
-            "mae": 0.363636
+            "samples": 176,
+            "brier_score": 0.181818,
+            "mae": 0.181818
           },
           "monte_carlo": {
-            "samples": 88,
-            "brier_score": 0.251086,
-            "mae": 0.501008
+            "samples": 176,
+            "brier_score": 0.249859,
+            "mae": 0.49978
           }
         },
         "appearance_summed": {
           "analytic_normal": {
-            "samples": 8,
+            "samples": 16,
             "brier_score": 0.0,
             "mae": 0.0
           },
           "monte_carlo": {
-            "samples": 8,
+            "samples": 16,
             "brier_score": 0.24958,
             "mae": 0.499458
           }
@@ -126,7 +126,7 @@
     }
   },
   "engine_recommendation": {
-    "recommended": "monte_carlo",
+    "recommended": "analytic_normal",
     "selected": "analytic_normal",
     "selection_mode": "analytic_normal"
   }

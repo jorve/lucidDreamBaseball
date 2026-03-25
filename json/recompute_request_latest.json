@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-03-23T17:37:45.221132Z",
+  "generated_at_utc": "2026-03-25T18:44:49.225500Z",
   "triggered": false,
   "reason_codes": [
     "NO_NEW_APPLIED_EVENTS"
   ],
-  "target_date": "2026-03-22",
+  "target_date": "2026-03-24",
   "event_window": {
     "first_new_event_id": null,
     "last_new_event_id": null,

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-03-23T17:37:45.479952Z",
-  "target_date": "2026-03-22",
+  "generated_at_utc": "2026-03-25T18:44:49.317319Z",
+  "target_date": "2026-03-24",
   "season_year": 2026,
   "source_csvs": {
     "batters": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/2026/preseason/CBS_batter_elig.csv",

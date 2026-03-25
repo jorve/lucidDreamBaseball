@@ -28,6 +28,7 @@
   <button class="tab" data-tab="standings">Standings</button>
   <button class="tab" data-tab="splits">Splits</button>
   <button class="tab" data-tab="roto">Roto Progress</button>
+  <button class="tab" data-tab="preview">Week Preview</button>
   <button class="tab" data-tab="rules">Rules</button>
 </nav>
 
@@ -177,6 +178,29 @@
         </table>
       </div>
     </div>
+  </div>
+
+  <div id="view-preview" class="view">
+    <div style="margin-bottom:16px">
+      <div class="card-title" style="margin-bottom:4px">Week Preview</div>
+      <div class="card-sub">Category win probabilities from CLAP model &middot; <span id="preview-period-label">—</span></div>
+    </div>
+    <div class="grid grid-3" style="margin-bottom:16px">
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Engine</div>
+        <div class="card-value" id="preview-engine-label" style="font-size:14px;word-break:break-all">—</div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Matchups</div>
+        <div class="card-value" id="preview-matchup-count">—</div>
+        <div class="card-sub">this period</div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Generated</div>
+        <div class="card-value" id="preview-generated-at" style="font-size:14px">—</div>
+      </div>
+    </div>
+    <div class="grid grid-matchups" id="preview-matchups-grid"></div>
   </div>
 
   <div id="view-rules" class="view">

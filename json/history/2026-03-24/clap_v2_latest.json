@@ -1,0 +1,3631 @@
+{
+  "schema_version": "1.0",
+  "generated_at_utc": "2026-03-25T18:44:49.862721Z",
+  "target_date": "2026-03-24",
+  "period_key": "period_1",
+  "summary": {
+    "teams": 16,
+    "matchups": 8,
+    "players_profiled": 1462
+  },
+  "config": {
+    "selected_engine": "analytic_normal",
+    "monte_carlo_samples": 3000,
+    "player_cv": 0.35,
+    "min_sigma": 0.05,
+    "stabilization_samples_weekly": 6,
+    "stabilization_samples_starts": 6
+  },
+  "league_baseline": {
+    "HR": {
+      "mu": 0.0,
+      "sigma": 0.0,
+      "sample_size": 16,
+      "stability": 0.0
+    },
+    "R": {
+      "mu": 0.0,
+      "sigma": 0.0,
+      "sample_size": 16,
+      "stability": 0.0
+    },
+    "OBP": {
+      "mu": 0.0,
+      "sigma": 0.0,
+      "sample_size": 16,
+      "stability": 0.0
+    },
+    "OPS": {
+      "mu": 0.0,
+      "sigma": 0.0,
+      "sample_size": 16,
+      "stability": 0.0
+    },
+    "aRBI": {
+      "mu": 0.0,
+      "sigma": 0.0,
+      "sample_size": 16,
+      "stability": 0.0
+    },
+    "aSB": {
+      "mu": 0.0,
+      "sigma": 0.0,
+      "sample_size": 16,
+      "stability": 0.0
+    },
+    "K": {
+      "mu": 0.0,
+      "sigma": 0.0,
+      "sample_size": 16,
+      "stability": 0.0
+    },
+    "HRA": {
+      "mu": 0.0,
+      "sigma": 0.0,
+      "sample_size": 16,
+      "stability": 0.0
+    },
+    "aWHIP": {
+      "mu": 0.0,
+      "sigma": 0.0,
+      "sample_size": 16,
+      "stability": 0.0
+    },
+    "VIJAY": {
+      "mu": 0.0,
+      "sigma": 0.0,
+      "sample_size": 16,
+      "stability": 0.0
+    },
+    "ERA": {
+      "mu": 0.0,
+      "sigma": 0.0,
+      "sample_size": 16,
+      "stability": 0.0
+    },
+    "MGS": {
+      "mu": 0.0,
+      "sigma": 0.0,
+      "sample_size": 16,
+      "stability": 0.0
+    }
+  },
+  "teams": [
+    {
+      "team_id": "1",
+      "team_name": "The Powers of Matthew Starr",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "10",
+      "team_name": "Brophy's Choice",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "11",
+      "team_name": "The Dulcet Tones of Vincent Scully",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "12",
+      "team_name": "Orchids of Asia Day Spa",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "13",
+      "team_name": "American Double IPAs",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "14",
+      "team_name": "Bed Stuy Fish Fry",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "15",
+      "team_name": "Brooklyn Balks",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "16",
+      "team_name": "Olympic-Size Swimming Pool Up On The Roof",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "17",
+      "team_name": "Nate's Team",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "3",
+      "team_name": "The Compleat Works of Jnnfr Lpz",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "4",
+      "team_name": "Los Pollos",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "5",
+      "team_name": "AIDS",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "6",
+      "team_name": "Cornballers",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "7",
+      "team_name": "Northeastern Oklahoma A&M",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "8",
+      "team_name": "Izzy Alcantara's New Backstop Busters",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    },
+    {
+      "team_id": "9",
+      "team_name": "Honeynut Ichiros",
+      "projected_points_window": 0.0,
+      "players_projected": 0,
+      "expected_sp_starts_week": 0.0,
+      "categories": {
+        "HR": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "R": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OBP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "OPS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aRBI": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aSB": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "K": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "HRA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "aWHIP": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "VIJAY": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "ERA": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        },
+        "MGS": {
+          "mu": 0.0,
+          "sigma": 0.0,
+          "contributors": 0
+        }
+      },
+      "role_categories": {
+        "batters": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "rp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        },
+        "sp": {
+          "HR": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "R": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OBP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "OPS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aRBI": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aSB": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "K": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "HRA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "aWHIP": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "VIJAY": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "ERA": {
+            "mu": 0.0,
+            "sigma": 0.0
+          },
+          "MGS": {
+            "mu": 0.0,
+            "sigma": 0.0
+          }
+        }
+      }
+    }
+  ]
+}

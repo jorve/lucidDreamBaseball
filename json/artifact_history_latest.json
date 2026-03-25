@@ -1,93 +1,93 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-03-23T17:37:47.043964Z",
-  "target_date": "2026-03-22",
-  "history_root": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22",
+  "generated_at_utc": "2026-03-25T18:44:50.545455Z",
+  "target_date": "2026-03-24",
+  "history_root": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24",
   "retention_days": 180,
   "artifacts": [
     {
       "artifact": "player_projection_daily",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/player_projection_daily_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/player_projection_daily_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/player_projection_daily_latest.json"
     },
     {
       "artifact": "player_projection_weekly",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/player_projection_weekly_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/player_projection_weekly_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/player_projection_weekly_latest.json"
     },
     {
       "artifact": "view_league_daily",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/view_league_daily_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/view_league_daily_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/view_league_daily_latest.json"
     },
     {
       "artifact": "view_league_weekly",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/view_league_weekly_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/view_league_weekly_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/view_league_weekly_latest.json"
     },
     {
       "artifact": "view_gm_daily",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/view_gm_daily_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/view_gm_daily_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/view_gm_daily_latest.json"
     },
     {
       "artifact": "view_gm_weekly",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/view_gm_weekly_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/view_gm_weekly_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/view_gm_weekly_latest.json"
     },
     {
       "artifact": "free_agent_candidates",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/free_agent_candidates_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/free_agent_candidates_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/free_agent_candidates_latest.json"
     },
     {
       "artifact": "team_weekly_totals",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/team_weekly_totals_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/team_weekly_totals_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/team_weekly_totals_latest.json"
     },
     {
       "artifact": "clap_v2",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/clap_v2_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/clap_v2_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/clap_v2_latest.json"
     },
     {
       "artifact": "clap_player_history",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/clap_player_history_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/clap_player_history_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/clap_player_history_latest.json"
     },
     {
       "artifact": "matchup_expectations",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/matchup_expectations_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/matchup_expectations_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/matchup_expectations_latest.json"
     },
     {
       "artifact": "clap_calibration",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/clap_calibration_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/clap_calibration_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/clap_calibration_latest.json"
     },
     {
       "artifact": "weekly_digest_json",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/weekly_digest_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/weekly_digest_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/weekly_digest_latest.json"
     },
     {
       "artifact": "weekly_digest_text",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/weekly_digest_latest.txt",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/weekly_digest_latest.txt"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/weekly_digest_latest.txt"
     },
     {
       "artifact": "weekly_calibration",
@@ -99,13 +99,13 @@
       "artifact": "weekly_email_payload",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/weekly_email_payload_latest.json",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/weekly_email_payload_latest.json"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/weekly_email_payload_latest.json"
     },
     {
       "artifact": "weekly_email_text",
       "status": "snapshotted",
       "source": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/weekly_email_latest.txt",
-      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-22/weekly_email_latest.txt"
+      "snapshot": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/json/history/2026-03-24/weekly_email_latest.txt"
     }
   ],
   "cleanup": {

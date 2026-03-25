@@ -28,6 +28,7 @@
   <button class="tab" data-tab="matchups">Matchups</button>
   <button class="tab" data-tab="trends">Trends</button>
   <button class="tab" data-tab="season-outlook">Season Outlook</button>
+  <button class="tab" data-tab="free-agents">Free Agents</button>
   <button class="tab" data-tab="relievers">Relievers</button>
 </nav>
 
@@ -48,8 +49,11 @@
         <div class="card-sub">avg wins per week</div>
       </div>
       <div class="card">
-        <div class="card-title" style="margin-bottom:8px">Ingestion Status</div>
-        <div id="dash-ingest-detail" style="font-size:12px;color:var(--text-dim);margin-top:4px">—</div>
+        <div class="card-header" style="margin-bottom:8px">
+          <div class="card-title">Ingestion Status</div>
+          <span id="dash-ingest-badge" class="badge badge-unknown">—</span>
+        </div>
+        <div id="dash-ingest-detail" class="resource-chips"></div>
       </div>
     </div>
 
@@ -261,6 +265,7 @@
               <th class="num">W</th>
               <th class="num">L</th>
               <th class="num">Win%</th>
+              <th class="num">GB</th>
               <th class="num">Avg R</th>
               <th class="num">Avg HR</th>
               <th class="num">Avg OPS</th>
@@ -404,6 +409,90 @@
             </tr>
           </thead>
           <tbody id="outlook-schedule-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── Free Agents ───────────────────────────────────────────────────── -->
+  <div id="view-free-agents" class="view">
+
+    <div class="grid grid-3" style="margin-bottom:16px">
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">FA Candidates</div>
+        <div class="card-value" id="fa-candidate-count">—</div>
+        <div class="card-sub" id="fa-generated-at">—</div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Rostered Players</div>
+        <div class="card-value" id="fa-rostered-count">—</div>
+        <div class="card-sub">currently on rosters</div>
+      </div>
+      <div class="card">
+        <div class="card-title" style="margin-bottom:8px">Universe Size</div>
+        <div class="card-value" id="fa-universe-count">—</div>
+        <div class="card-sub">total players tracked</div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom:16px">
+      <div class="card-header">
+        <div class="card-title">Top Free Agent Candidates</div>
+        <div class="card-sub" id="fa-source-label">Source: —</div>
+      </div>
+      <div class="trends-controls" style="margin-bottom:12px">
+        <div class="select-wrap">
+          <label>Role</label>
+          <div class="toggle-group">
+            <button id="fa-filter-all" class="toggle-btn active" type="button">All</button>
+            <button id="fa-filter-bat" class="toggle-btn" type="button">Batters</button>
+            <button id="fa-filter-sp"  class="toggle-btn" type="button">SP</button>
+            <button id="fa-filter-rp"  class="toggle-btn" type="button">RP</button>
+          </div>
+        </div>
+        <div class="select-wrap">
+          <label for="fa-search">Search</label>
+          <input type="search" id="fa-search" class="search-input" placeholder="Player name…" autocomplete="off">
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th class="num">Rk</th>
+              <th>Player</th>
+              <th>Role</th>
+              <th class="num">Weekly Proj</th>
+              <th class="num">Daily Proj</th>
+              <th class="num">Composite</th>
+              <th class="num">Δ Perf</th>
+              <th>Flag</th>
+            </tr>
+          </thead>
+          <tbody id="fa-candidates-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title">Recommended Swaps</div>
+        <div class="card-sub">top suggested add/drop per team · from weekly digest</div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Team</th>
+              <th>Add</th>
+              <th>Drop</th>
+              <th class="num">Net Daily</th>
+              <th class="num">Net Weekly</th>
+              <th class="num">Net Score</th>
+            </tr>
+          </thead>
+          <tbody id="fa-swaps-body"></tbody>
         </table>
       </div>
     </div>

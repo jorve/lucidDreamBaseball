@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-03-23T17:37:46.201043Z",
-  "target_date": "2026-03-22",
+  "generated_at_utc": "2026-03-25T18:44:49.862721Z",
+  "target_date": "2026-03-24",
   "period_key": "period_1",
   "selected_engine": "analytic_normal",
   "summary": {

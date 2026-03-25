@@ -128,12 +128,9 @@ function renderHeader() {
   if (ts) {
     const d = new Date(ts);
     setText("asOf", `Updated ${d.toLocaleDateString()} ${d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}`);
-    setText(
-      "lastNightlyRun",
-      `Last nightly run: ${d.toLocaleDateString()} ${d.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}`
-    );
+    setText("lastNightlyRun", status.target_date ? `Data for ${status.target_date}` : "Data date: —");
   } else {
-    setText("lastNightlyRun", "Last nightly run: unavailable");
+    setText("lastNightlyRun", "Last run: unavailable");
   }
 }
 
@@ -165,9 +162,28 @@ function renderDashboard() {
   const avgWins = totalMatches > 0 ? (totalWins / (totalMatches / 12)).toFixed(1) : "—";
   setText("dash-winrate", avgWins);
 
-  // Ingestion detail
-  const resources = (status.resources || []).map(r => `${r.name}: ${r.status}`).join(" · ");
-  setText("dash-ingest-detail", resources || "—");
+  // Ingestion status badge + resource chips
+  const ingestBadge = document.getElementById("dash-ingest-badge");
+  if (ingestBadge) {
+    const s = status.status || "unknown";
+    ingestBadge.textContent = s;
+    ingestBadge.className = `badge badge-${s === "ok" ? "ok" : s === "warn" ? "warn" : s === "error" ? "error" : "unknown"}`;
+  }
+  const ingestDetail = document.getElementById("dash-ingest-detail");
+  if (ingestDetail) {
+    ingestDetail.innerHTML = "";
+    (status.resources || []).forEach(r => {
+      const chipClass = r.status === "ok" ? "chip chip-green" : r.status === "skipped" ? "chip chip-gray" : "chip chip-red";
+      const chip = el("span", { class: chipClass, text: r.name });
+      chip.title = r.error_short ? `${r.status}: ${r.error_short}` : r.status;
+      ingestDetail.appendChild(chip);
+    });
+    if (!status.resources?.length) {
+      ingestDetail.textContent = "—";
+      ingestDetail.style.fontSize = "12px";
+      ingestDetail.style.color = "var(--text-dim)";
+    }
+  }
 
   // Latest week scorers table — sort by R descending
   const body = clearEl("dash-weekly-body");
@@ -498,6 +514,7 @@ function renderStandings() {
   });
 
   teams.sort((a, b) => b.pct - a.pct);
+  const leaderW = teams[0]?.w ?? 0;
 
   const body = clearEl("standings-body");
 
@@ -516,9 +533,17 @@ function renderStandings() {
 
     const pctTd = document.createElement("td");
     pctTd.className = "num win-pct";
-    pctTd.style.color = pct >= 0.55 ? "var(--win)" : pct < 0.45 ? "var(--loss)" : "var(--text)";
-    pctTd.textContent = (pct * 100).toFixed(1) + "%";
+    const pctColor = pct >= 0.55 ? "var(--win)" : pct < 0.45 ? "var(--loss)" : "var(--text)";
+    const barBg    = pct >= 0.55 ? "var(--win-dim)" : pct < 0.45 ? "var(--loss-dim)" : "var(--border2)";
+    pctTd.style.color = pctColor;
+    pctTd.innerHTML =
+      `<span style="display:inline-flex;align-items:center;gap:6px;justify-content:flex-end">` +
+      `<span class="pct-bar-wrap"><span class="pct-bar" style="width:${(pct*100).toFixed(0)}%;background:${barBg}"></span></span>` +
+      `${(pct * 100).toFixed(1)}%</span>`;
     tr.appendChild(pctTd);
+
+    const gb = idx === 0 ? "—" : ((leaderW - w) / 2).toFixed(1);
+    tr.appendChild(td(gb, "num dim"));
 
     tr.appendChild(td(fmt(c.R_mean, 1), "num"));
     tr.appendChild(td(fmt(c.HR_mean, 1), "num"));
@@ -703,8 +728,8 @@ function renderTrends() {
 
   const ctx = document.getElementById("trends-chart").getContext("2d");
 
-  const teamColor   = "#38bdf8";
-  const avgColor    = "#64748b";
+  const teamColor   = "#FF6B2B";   /* brand ember */
+  const avgColor    = "rgba(250,240,220,0.35)";  /* brand cream dim */
   const lowerBetter = LOWER_IS_BETTER.has(cat);
 
   const datasets = [
@@ -712,7 +737,7 @@ function renderTrends() {
       label: `${team} — ${cat}`,
       data: values,
       borderColor: teamColor,
-      backgroundColor: teamColor + "22",
+      backgroundColor: teamColor + "28",
       borderWidth: 2,
       pointBackgroundColor: teamColor,
       pointRadius: 4,
@@ -746,17 +771,17 @@ function renderTrends() {
       plugins: {
         legend: {
           labels: {
-            color: "#94a3b8",
+            color: "rgba(250,240,220,0.55)",
             font: { size: 12 },
             boxWidth: 16,
           }
         },
         tooltip: {
-          backgroundColor: "#0f172a",
-          borderColor: "#1e2d45",
+          backgroundColor: "#272018",
+          borderColor: "#3D3028",
           borderWidth: 1,
-          titleColor: "#e2e8f0",
-          bodyColor: "#94a3b8",
+          titleColor: "#FAF0DC",
+          bodyColor: "rgba(250,240,220,0.55)",
           padding: 10,
           callbacks: {
             label: ctx => {
@@ -769,17 +794,17 @@ function renderTrends() {
       },
       scales: {
         x: {
-          ticks: { color: "#64748b", font: { size: 11 } },
-          grid:  { color: "#1e2d45" },
+          ticks: { color: "rgba(250,240,220,0.4)", font: { size: 11 } },
+          grid:  { color: "#3D3028" },
         },
         y: {
           reverse: lowerBetter,
-          ticks: { color: "#64748b", font: { size: 11 } },
-          grid:  { color: "#1e2d45" },
+          ticks: { color: "rgba(250,240,220,0.4)", font: { size: 11 } },
+          grid:  { color: "#3D3028" },
           title: {
             display: true,
             text: lowerBetter ? `${cat} (lower = better)` : cat,
-            color: "#64748b",
+            color: "rgba(250,240,220,0.4)",
             font: { size: 11 },
           }
         },
@@ -982,6 +1007,13 @@ const RISK_TIER_CLASS = {
   "High Risk":  "neg",
 };
 
+const RISK_TIER_CHIP = {
+  "Locked In": "chip chip-ember",
+  "Solid":     "chip chip-gray",
+  "Volatile":  "chip chip-warn",
+  "High Risk": "chip chip-red",
+};
+
 function renderRelievers() {
   const d = state.data.vijayValuation;
   if (!d || !d.relievers) {
@@ -1038,21 +1070,21 @@ function renderVijayTable(d) {
   }
 
   relievers.forEach(r => {
-    const riskClass = RISK_TIER_CLASS[r.risk_tier] || "";
+    const riskChip    = RISK_TIER_CHIP[r.risk_tier]  || "chip chip-gray";
     const statusLabel = r.roster_status === "Free Agent"
-      ? '<span style="color:var(--text-dim)">Free Agent</span>'
+      ? '<span class="chip chip-gray" style="font-size:10px">FA</span>'
       : `<span style="font-size:11px">${r.rostered_by_team_name || "Rostered"}</span>`;
-    const vijayDelta = r.risk_adj_vijay - r.projected_vijay;
-    const deltaClass = vijayDelta < -1 ? "neg" : vijayDelta > 1 ? "pos" : "";
-    const bsClass = r.bs_rate_pct >= 22 ? "neg" : r.bs_rate_pct >= 15 ? "warn" : r.bs_rate_pct < 10 ? "pos" : "";
+    const vijayDelta  = r.risk_adj_vijay - r.projected_vijay;
+    const deltaClass  = vijayDelta < -1 ? "neg" : vijayDelta > 1 ? "pos" : "";
+    const bsClass     = r.bs_rate_pct >= 22 ? "neg" : r.bs_rate_pct >= 15 ? "warn" : r.bs_rate_pct < 10 ? "pos" : "";
 
     const tr = document.createElement("tr");
     tr.innerHTML = `
-      <td class="num">${r.rank}</td>
+      <td class="num dim">${r.rank}</td>
       <td><strong>${r.name}</strong></td>
       <td style="font-size:11px;color:var(--text-dim)">${r.mlb_team}</td>
       <td style="font-size:11px">${r.role_type}</td>
-      <td class="${riskClass}" style="font-size:11px;font-weight:600">${r.risk_tier}</td>
+      <td><span class="${riskChip}">${r.risk_tier}</span></td>
       <td class="num">${fmt(r.proj_sv, 1)}</td>
       <td class="num">${fmt(r.proj_hld, 1)}</td>
       <td class="num">${fmt(r.proj_bs, 1)}</td>
@@ -1066,6 +1098,170 @@ function renderVijayTable(d) {
   });
 }
 
+/* ── Free Agents view ───────────────────────────────────────────────────── */
+
+const faState = { filter: "all", search: "" };
+
+function flagClass(flag) {
+  if (!flag || flag === "insufficient_data") return "dim";
+  if (flag === "ahead" || flag === "overperforming") return "pos";
+  if (flag === "behind" || flag === "underperforming") return "neg";
+  if (flag === "on_pace") return "";
+  return "dim";
+}
+
+function flagLabel(flag) {
+  if (!flag) return "—";
+  return flag.replace(/_/g, " ");
+}
+
+const ROLE_LABELS = { batters: "Bat", sp: "SP", rp: "RP" };
+
+function renderFreeAgents() {
+  const d      = state.data.freeAgents   || {};
+  const digest = state.data.weeklyDigest || {};
+
+  // Summary cards
+  const summary = d.summary || {};
+  setText("fa-candidate-count", summary.candidate_count      ?? "—");
+  setText("fa-rostered-count",  summary.rostered_player_count ?? "—");
+  setText("fa-universe-count",  summary.universe_player_count ?? "—");
+
+  const age = d.generated_at_utc ? ageHours(d.generated_at_utc) : null;
+  const ageStr = age !== null ? `${age.toFixed(1)}h ago` : "—";
+  setText("fa-generated-at", d.target_date ? `${ageStr} · ${d.target_date}` : ageStr);
+
+  const scoring = d.scoring || {};
+  const wLabel = (scoring.weekly_weight != null && scoring.daily_weight != null)
+    ? ` · ${(scoring.weekly_weight * 100).toFixed(0)}% weekly + ${(scoring.daily_weight * 100).toFixed(0)}% daily`
+    : "";
+  const win = digest.window || {};
+  const winLabel = (win.start_date && win.end_date)
+    ? ` · Window: ${win.start_date} – ${win.end_date}`
+    : "";
+  setText("fa-source-label",
+    d.candidates
+      ? `Source: free_agent_candidates_latest.json${wLabel}${winLabel}`
+      : "Source: unavailable");
+
+  // Filter buttons
+  const filterMap = { all: "fa-filter-all", batters: "fa-filter-bat", sp: "fa-filter-sp", rp: "fa-filter-rp" };
+  Object.entries(filterMap).forEach(([key, btnId]) => {
+    const btn = document.getElementById(btnId);
+    if (!btn) return;
+    btn.classList.toggle("active", faState.filter === key);
+    btn.onclick = () => {
+      faState.filter = key;
+      Object.values(filterMap).forEach(id => {
+        const b = document.getElementById(id);
+        if (b) b.classList.remove("active");
+      });
+      btn.classList.add("active");
+      renderFaCandidatesTable(d);
+    };
+  });
+
+  // Search input
+  const searchInput = document.getElementById("fa-search");
+  if (searchInput) {
+    searchInput.value = faState.search;
+    searchInput.oninput = () => {
+      faState.search = searchInput.value.trim().toLowerCase();
+      renderFaCandidatesTable(d);
+    };
+  }
+
+  renderFaCandidatesTable(d);
+  renderFaSwaps(digest);
+}
+
+function renderFaCandidatesTable(d) {
+  const body = clearEl("fa-candidates-body");
+  let candidates = (d.candidates || []).slice();
+
+  if (faState.filter !== "all") {
+    candidates = candidates.filter(c => c.player_role === faState.filter);
+  }
+  if (faState.search) {
+    candidates = candidates.filter(c =>
+      (c.player_name || "").toLowerCase().includes(faState.search)
+    );
+  }
+
+  if (!candidates.length) {
+    const tr = document.createElement("tr");
+    const c  = document.createElement("td");
+    c.colSpan = 8; c.className = "dim"; c.style.padding = "16px 10px";
+    c.textContent = "No candidates match the current filter.";
+    tr.appendChild(c); body.appendChild(tr);
+    return;
+  }
+
+  candidates.slice(0, 100).forEach((cand, idx) => {
+    const tr = document.createElement("tr");
+    tr.appendChild(td(String(idx + 1), "num dim"));
+    tr.appendChild(td(cand.player_name || "—", "team-name"));
+    tr.appendChild(td(ROLE_LABELS[cand.player_role] || cand.player_role || "—", "dim"));
+    tr.appendChild(td(fmt(cand.projected_points_weekly, 3), "num"));
+    tr.appendChild(td(fmt(cand.projected_points_daily,  3), "num"));
+    tr.appendChild(td(fmt(cand.composite_score,         3), "num"));
+
+    const delta = cand.performance_delta;
+    const deltaTd = document.createElement("td");
+    deltaTd.className = delta == null ? "num dim" : delta > 0 ? "num pos" : delta < 0 ? "num neg" : "num";
+    deltaTd.textContent = delta == null ? "—" : (delta > 0 ? "+" : "") + fmt(delta, 2);
+    tr.appendChild(deltaTd);
+
+    const flagTd = document.createElement("td");
+    const cls = flagClass(cand.performance_flag);
+    flagTd.innerHTML = `<span class="${cls}" style="font-size:11px">${flagLabel(cand.performance_flag)}</span>`;
+    tr.appendChild(flagTd);
+
+    body.appendChild(tr);
+  });
+}
+
+function renderFaSwaps(digest) {
+  const body  = clearEl("fa-swaps-body");
+  const swaps = digest.recommended_swaps || [];
+
+  if (!swaps.length) {
+    const tr = document.createElement("tr");
+    const c  = document.createElement("td");
+    c.colSpan = 6; c.className = "dim"; c.style.padding = "16px 10px";
+    c.textContent = "No swap recommendations available.";
+    tr.appendChild(c); body.appendChild(tr);
+    return;
+  }
+
+  // Best swap per team by composite score
+  const byTeam = {};
+  swaps.forEach(s => {
+    const id = s.team_id;
+    if (!byTeam[id] || s.net_composite_score > byTeam[id].net_composite_score) {
+      byTeam[id] = s;
+    }
+  });
+
+  Object.values(byTeam)
+    .sort((a, b) => b.net_composite_score - a.net_composite_score)
+    .forEach(s => {
+      const tr = document.createElement("tr");
+      tr.appendChild(td(s.team_name || "—", "team-name"));
+      const addRole  = ROLE_LABELS[s.add_player?.player_role]  || "?";
+      const dropRole = ROLE_LABELS[s.drop_player?.player_role] || "?";
+      tr.appendChild(td(`${s.add_player?.player_name  || "—"} (${addRole})`,  "pos"));
+      tr.appendChild(td(`${s.drop_player?.player_name || "—"} (${dropRole})`, "neg"));
+      tr.appendChild(td(fmt(s.net_points_daily,    3), "num"));
+      tr.appendChild(td(fmt(s.net_points_weekly,   3), "num"));
+      const scoreTd = document.createElement("td");
+      scoreTd.className = s.net_composite_score >= 0 ? "num pos" : "num neg";
+      scoreTd.textContent = (s.net_composite_score > 0 ? "+" : "") + fmt(s.net_composite_score, 3);
+      tr.appendChild(scoreTd);
+      body.appendChild(tr);
+    });
+}
+
 /* ── Init ───────────────────────────────────────────────────────────────── */
 async function init() {
   try {
@@ -1077,6 +1273,7 @@ async function init() {
     renderMatchups();
     buildTrendsSelectors();
     renderSeasonOutlook();
+    renderFreeAgents();
     renderRelievers();
 
     const weeklyBtn = document.getElementById("horizon-weekly");

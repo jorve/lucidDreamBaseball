@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "generated_at_utc": "2026-03-23T17:37:46.652652Z",
-  "target_date": "2026-03-22",
+  "generated_at_utc": "2026-03-25T18:44:50.278557Z",
+  "target_date": "2026-03-24",
   "window": {
     "label": "weekly_remaining",
-    "start_date": "2026-03-22",
-    "end_date": "2026-03-22",
-    "days": 1,
+    "start_date": "2026-03-24",
+    "end_date": "2026-03-29",
+    "days": 6,
     "week_end_weekday": 6
   },
   "summary": {
@@ -61,8 +61,8 @@
         "slot_positions": []
       },
       "net_points_daily": 6.618033,
-      "net_points_weekly": 6.618033,
-      "net_composite_score": 6.618033
+      "net_points_weekly": 39.708197,
+      "net_composite_score": 29.781148
     },
     {
       "team_id": "1",
@@ -80,8 +80,8 @@
         "slot_positions": []
       },
       "net_points_daily": 6.618033,
-      "net_points_weekly": 6.618033,
-      "net_composite_score": 6.618033
+      "net_points_weekly": 39.708197,
+      "net_composite_score": 29.781148
     },
     {
       "team_id": "1",
@@ -99,8 +99,8 @@
         "slot_positions": []
       },
       "net_points_daily": 6.618033,
-      "net_points_weekly": 6.618033,
-      "net_composite_score": 6.618033
+      "net_points_weekly": 39.708197,
+      "net_composite_score": 29.781148
     },
     {
       "team_id": "1",
@@ -118,8 +118,8 @@
         "slot_positions": []
       },
       "net_points_daily": 6.618033,
-      "net_points_weekly": 6.618033,
-      "net_composite_score": 6.618033
+      "net_points_weekly": 39.708197,
+      "net_composite_score": 29.781148
     },
     {
       "team_id": "1",
@@ -137,8 +137,8 @@
         "slot_positions": []
       },
       "net_points_daily": 6.618033,
-      "net_points_weekly": 6.618033,
-      "net_composite_score": 6.618033
+      "net_points_weekly": 39.708197,
+      "net_composite_score": 29.781148
     }
   ]
 }

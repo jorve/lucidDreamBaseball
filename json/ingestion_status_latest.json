@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "status": "ok",
-  "last_success_utc": "2026-03-23T17:37:47.052724Z",
-  "target_date": "2026-03-22",
+  "last_success_utc": "2026-03-25T18:44:50.551312Z",
+  "target_date": "2026-03-24",
   "freshness_hours": 0.0,
   "resources": [
     {
@@ -20,7 +20,7 @@
     {
       "name": "fetch",
       "status": "ok",
-      "path": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-22",
+      "path": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24",
       "error_short": null
     },
     {
@@ -137,5 +137,5 @@
     "mismatched": 0,
     "missing_in_db": 0
   },
-  "generated_at_utc": "2026-03-23T17:37:47.052724Z"
+  "generated_at_utc": "2026-03-25T18:44:50.551312Z"
 }

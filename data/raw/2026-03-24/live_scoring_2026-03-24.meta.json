@@ -1,0 +1,7 @@
+{
+  "resource": "live_scoring",
+  "endpoint": "league/scoring/live",
+  "target_date": "2026-03-24",
+  "request_time_utc": "2026-03-25T18:43:44.863466+00:00",
+  "league_id": "luciddreambaseball"
+}

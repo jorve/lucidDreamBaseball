@@ -1,9 +1,12 @@
-LDB Weekly Email (2026-03-22)
+LDB Weekly Email (2026-03-24)
 
-Previous Week (2026-03-09 -> 2026-03-15)
-- Previous-week digest snapshot not found yet.
+Previous Week (2026-03-16 -> 2026-03-22)
+- Overperforming: 0
+- Underperforming: 0
+- Top overperformers:
+- Top underperformers:
 
-Upcoming Week (2026-03-23 -> 2026-03-29)
+Upcoming Week (2026-03-30 -> 2026-04-05)
 - Projected top players:
 - Aaron Judge (batters) 46.33
 - Juan Soto (batters) 43.92
@@ -11,8 +14,8 @@ Upcoming Week (2026-03-23 -> 2026-03-29)
 - Paul Skenes (sp) 38.67
 - Vladimir Guerrero Jr. (batters) 37.77
 - Recommended swaps:
-- The Powers of Matthew Starr add Aaron Judge / drop Drew Burress (net weekly 6.62)
-- The Powers of Matthew Starr add Aaron Judge / drop Drew Pomeranz (net weekly 6.62)
-- The Powers of Matthew Starr add Aaron Judge / drop Joc Pederson (net weekly 6.62)
-- The Powers of Matthew Starr add Aaron Judge / drop Xander Bogaerts (net weekly 6.62)
-- The Powers of Matthew Starr add Aaron Judge / drop Nick Pivetta (net weekly 6.62)
+- The Powers of Matthew Starr add Aaron Judge / drop Drew Burress (net weekly 39.71)
+- The Powers of Matthew Starr add Aaron Judge / drop Drew Pomeranz (net weekly 39.71)
+- The Powers of Matthew Starr add Aaron Judge / drop Joc Pederson (net weekly 39.71)
+- The Powers of Matthew Starr add Aaron Judge / drop Xander Bogaerts (net weekly 39.71)
+- The Powers of Matthew Starr add Aaron Judge / drop Nick Pivetta (net weekly 39.71)

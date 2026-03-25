@@ -1,0 +1,39 @@
+{
+  "target_date": "2026-03-24",
+  "resources": {
+    "live_scoring": {
+      "file": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24/live_scoring_2026-03-24.json",
+      "metadata": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24/live_scoring_2026-03-24.meta.json",
+      "status": "ok"
+    },
+    "schedule": {
+      "file": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24/schedule_2026-03-24.json",
+      "metadata": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24/schedule_2026-03-24.meta.json",
+      "status": "ok"
+    },
+    "rosters": {
+      "file": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24/rosters_2026-03-24.json",
+      "metadata": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24/rosters_2026-03-24.meta.json",
+      "status": "ok"
+    },
+    "player_stats": {
+      "file": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24/player_stats_2026-03-24.json",
+      "metadata": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24/player_stats_2026-03-24.meta.json",
+      "status": "optional_failed",
+      "error": "400 Bad Request at /fantasy/players/stats"
+    },
+    "league_lineup": {
+      "file": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24/league_lineup_2026-03-24.json",
+      "metadata": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24/league_lineup_2026-03-24.meta.json",
+      "status": "optional_failed",
+      "error": "400 Bad Request at /api/league/transactions/lineup"
+    },
+    "scout_team": {
+      "file": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24/scout_team_2026-03-24.json",
+      "metadata": "/mnt/c/Users/J0RV3/Documents/Development/lucidDreamBaseball/data/raw/2026-03-24/scout_team_2026-03-24.meta.json",
+      "status": "optional_failed",
+      "error": "400 Bad Request at /api/players/scout-team"
+    }
+  },
+  "fetched_at": "2026-03-25T18:43:42.121563+00:00"
+}
