@@ -1,3 +1,4 @@
+from collections import defaultdict
 from datetime import datetime, timezone
 
 from analytics.io import read_json, write_json
@@ -61,6 +62,9 @@ class FreeAgentCandidatesBuilder:
 			return {"status": "skipped", "reason": "FREE_AGENT_UNIVERSE_EMPTY", "output_path": output_path}
 
 		rostered_ids, assignment_meta, roster_teams = self._load_rostered_player_ids(target_date)
+		rostered_ids, merge_meta = self._merge_prior_space_rostered_ids(rostered_ids, roster_teams, priors_players)
+		if merge_meta:
+			assignment_meta = {**assignment_meta, **merge_meta}
 		eligibility_map = self._load_eligibility_map()
 		daily_map = {str(row.get("player_id")): row for row in daily_players}
 		weekly_map = {str(row.get("player_id")): row for row in weekly_players}
@@ -177,6 +181,55 @@ class FreeAgentCandidatesBuilder:
 			"as_of_utc": None,
 			"teams_count": len(teams),
 		}, normalized_teams
+
+	def _merge_prior_space_rostered_ids(self, rostered_ids, roster_teams, priors_players):
+		"""
+		Roster snapshots use CBS Fantasy player ids (e.g. 2071264) while preseason priors
+		and projections use CSV player_id (e.g. 15640). Those strings never match, so
+		rostered stars would incorrectly appear as free-agent candidates.
+
+		For each rostered player, if their normalized name matches exactly one prior row,
+		also add that prior's player_id to the rostered set.
+		"""
+		if not roster_teams or not priors_players:
+			return rostered_ids, {}
+
+		by_name = defaultdict(list)
+		for prior in priors_players:
+			name = (prior.get("player_name") or "").strip().lower()
+			if not name:
+				continue
+			pid = str(prior.get("player_id") or "")
+			if not pid or pid == "None":
+				continue
+			by_name[name].append(pid)
+
+		added = 0
+		ambiguous_names = 0
+		for team in roster_teams:
+			for player in team.get("players", []):
+				name = (player.get("player_name") or "").strip().lower()
+				if not name:
+					continue
+				candidates = by_name.get(name)
+				if not candidates:
+					continue
+				unique = list(dict.fromkeys(candidates))
+				if len(unique) == 1:
+					prior_pid = unique[0]
+					if prior_pid not in rostered_ids:
+						rostered_ids.add(prior_pid)
+						added += 1
+				else:
+					ambiguous_names += 1
+
+		# Only include metadata when something meaningful happened
+		if added == 0 and ambiguous_names == 0:
+			return rostered_ids, {}
+		return rostered_ids, {
+			"prior_space_ids_merged": added,
+			"ambiguous_prior_name_matches": ambiguous_names,
+		}
 
 	def _load_eligibility_map(self):
 		eligibility_path = get_player_eligibility_latest_path()

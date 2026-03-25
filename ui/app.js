@@ -110,6 +110,7 @@ function switchTab(tab) {
   document.querySelectorAll(".tab").forEach(b => b.classList.toggle("active", b.dataset.tab === tab));
   document.querySelectorAll(".view").forEach(v => v.classList.toggle("active", v.id === `view-${tab}`));
   if (tab === "trends") renderTrends();
+  if (tab === "free-agents") renderFreeAgents();
 }
 
 document.querySelectorAll(".tab").forEach(b => {
@@ -1178,6 +1179,7 @@ function renderFreeAgents() {
 function renderFaCandidatesTable(d) {
   const body = clearEl("fa-candidates-body");
   let candidates = (d.candidates || []).slice();
+  const totalRaw = (d.candidates || []).length;
 
   if (faState.filter !== "all") {
     candidates = candidates.filter(c => c.player_role === faState.filter);
@@ -1192,7 +1194,10 @@ function renderFaCandidatesTable(d) {
     const tr = document.createElement("tr");
     const c  = document.createElement("td");
     c.colSpan = 8; c.className = "dim"; c.style.padding = "16px 10px";
-    c.textContent = "No candidates match the current filter.";
+    const emptyRun = totalRaw === 0 && faState.filter === "all" && !faState.search;
+    c.textContent = emptyRun
+      ? "No free agent candidates in this run."
+      : "No candidates match the current filter.";
     tr.appendChild(c); body.appendChild(tr);
     return;
   }
@@ -1223,7 +1228,10 @@ function renderFaCandidatesTable(d) {
 
 function renderFaSwaps(digest) {
   const body  = clearEl("fa-swaps-body");
-  const swaps = digest.recommended_swaps || [];
+  const raw = digest.recommended_swaps;
+  const swaps = Array.isArray(raw)
+    ? raw.filter(s => s && typeof s === "object")
+    : [];
 
   if (!swaps.length) {
     const tr = document.createElement("tr");

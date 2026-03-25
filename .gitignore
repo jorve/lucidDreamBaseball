@@ -8,7 +8,11 @@
 *.so
 *.pyc
 *.idea
+
+# Python environments
 .venv/
+.venv*/
+.vent/
 
 # Logs and databases #
 ######################
@@ -21,5 +25,20 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
-.vent/
-.venv/
+# --- Runtime / generated (VM + local; avoids git pull conflicts) ---
+# Regenerate via ingestion / pipeline. If these were ever committed, run once:
+#   git rm -r --cached .state json/*_latest.json data/raw ...   (adjust to match)
+.state/
+logs/
+data/raw/
+json/history/
+json/*_latest.json
+json/ingestion_summary_*.json
+json/storage_parity_latest.json
+
+# SQLite (dual-write / primary storage experiments)
+*.sqlite
+*.db
+
+# Claude / local tooling (optional)
+.claude/

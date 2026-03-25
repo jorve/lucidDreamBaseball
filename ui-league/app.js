@@ -52,6 +52,7 @@ function switchTab(tab) {
   state.activeTab = tab;
   document.querySelectorAll(".tab").forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
   document.querySelectorAll(".view").forEach((v) => v.classList.toggle("active", v.id === `view-${tab}`));
+  if (tab === "preview") renderWeekPreview();
 }
 
 document.querySelectorAll(".tab").forEach((b) => {
