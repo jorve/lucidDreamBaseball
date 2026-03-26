@@ -5,6 +5,7 @@ from analytics.validators import ValidationError, validate_ingestion_status_payl
 from project_config import (
 	get_ingestion_config,
 	get_ingestion_status_latest_path,
+	get_player_registry_latest_path,
 	get_storage_parity_latest_path,
 	get_transactions_latest_path,
 )
@@ -174,6 +175,7 @@ def write_ingestion_status_index(target_date, run_summary, dry_run=False):
 		_resource_row("recompute_trigger", run_summary.get("recompute_trigger"), fallback_error="RECOMPUTE_TRIGGER_NOT_OK"),
 		_resource_row("player_priors", run_summary.get("player_priors"), fallback_error="PLAYER_PRIORS_NOT_OK"),
 		_resource_row("player_eligibility", run_summary.get("player_eligibility"), fallback_error="PLAYER_ELIGIBILITY_NOT_OK"),
+		_resource_row("player_registry", run_summary.get("player_registry"), fallback_error="PLAYER_REGISTRY_NOT_OK"),
 		_resource_row("player_blend", run_summary.get("player_blend"), fallback_error="PLAYER_BLEND_NOT_OK"),
 		_resource_row("projection_horizons", run_summary.get("projection_horizons"), fallback_error="PROJECTION_HORIZONS_NOT_OK"),
 		_resource_row("view_models", run_summary.get("view_models"), fallback_error="VIEW_MODELS_NOT_OK"),

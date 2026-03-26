@@ -38,6 +38,32 @@ tbody td.num.neg {
   background: rgba(185,27,27,0.05);
 }
 
+/* ── Scoreboard matchup pair separator ───────────────────────────────────────── */
+tbody tr.matchup-end {
+  border-bottom: 2px solid var(--border2);
+}
+tbody tr.matchup-end td {
+  border-bottom: 2px solid var(--border2);
+}
+
+/* ── Roto pts sub-row ────────────────────────────────────────────────────────── */
+tbody tr.roto-pts-row {
+  font-size: 11px;
+  color: var(--text-muted) !important;
+  background: rgba(26,20,16,0.03) !important;
+  border-bottom: 2px solid var(--border2);
+}
+tbody tr.roto-pts-row td {
+  color: var(--text-muted);
+  padding-top: 2px;
+  padding-bottom: 4px;
+}
+tbody tr.roto-pts-row .team-name {
+  font-style: italic;
+  font-family: var(--mono);
+  font-size: 10px;
+}
+
 /* ── Roto section sub-labels ─────────────────────────────────────────────────── */
 .roto-section-label {
   font-family: var(--mono);

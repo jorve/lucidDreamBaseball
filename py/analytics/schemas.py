@@ -1,6 +1,7 @@
 TRANSACTIONS_SCHEMA_VERSION = "1.0"
 ROSTER_STATE_SCHEMA_VERSION = "1.0"
 INGESTION_STATUS_SCHEMA_VERSION = "1.0"
+PLAYER_REGISTRY_SCHEMA_VERSION = "1.0"
 
 TRANSACTION_EVENT_TYPES = {"add", "drop", "trade"}
 TRANSACTION_VALIDATION_CODES = {"ok", "warn_missing_optional", "warn_collision", "error_quarantined"}
@@ -46,3 +47,13 @@ INGESTION_STATUS_REQUIRED_ROOT_FIELDS = {
 	"resources",
 }
 INGESTION_STATUS_REQUIRED_RESOURCE_FIELDS = {"name", "status", "path", "error_short"}
+
+PLAYER_REGISTRY_REQUIRED_ROOT_FIELDS = {
+	"schema_version",
+	"generated_at_utc",
+	"target_date",
+	"source",
+	"summary",
+	"players",
+	"review_queue",
+}

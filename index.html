@@ -6,56 +6,61 @@
   <title>LDB Apps</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="ui/tokens.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=Libre+Baskerville:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/ui/tokens.css">
   <style>
     body {
       margin: 0;
       min-height: 100vh;
       display: grid;
       place-items: center;
-      background: var(--brand-charcoal);
-      color: var(--brand-cream);
-      font-family: var(--brand-font-serif);
+      background: var(--t-ink);
+      color: var(--t-text-inv);
+      font-family: var(--t-mono), monospace;
     }
     .panel {
       width: min(720px, 92vw);
-      background: var(--brand-surface);
-      border: 1px solid var(--brand-border);
-      border-radius: 12px;
-      padding: 24px;
+      background: var(--t-ink-2);
+      border: 1px solid var(--t-ink-border);
+      border-radius: 10px;
+      padding: 32px;
     }
     h1 {
-      margin: 0 0 8px 0;
-      color: var(--brand-ember);
-      font-family: var(--brand-font-mono);
-      font-size: 24px;
+      margin: 0 0 6px 0;
+      color: var(--t-accent);
+      font-family: var(--t-serif), serif;
+      font-style: italic;
+      font-size: 28px;
     }
     p {
-      margin: 0 0 18px 0;
-      color: var(--brand-text-dim);
+      margin: 0 0 20px 0;
+      font-size: 13px;
+      color: var(--t-text-inv-dim);
     }
     .links {
       display: grid;
-      gap: 12px;
+      gap: 10px;
     }
     a {
       display: block;
       text-decoration: none;
-      color: var(--brand-cream);
-      border: 1px solid var(--brand-border-2);
-      border-radius: 8px;
-      padding: 12px 14px;
-      background: var(--brand-surface-2);
-      font-family: var(--brand-font-mono);
+      color: var(--t-text-inv);
+      border: 1px solid var(--t-ink-border);
+      border-radius: 6px;
+      padding: 13px 16px;
+      background: var(--t-ink);
+      font-family: var(--t-mono), monospace;
+      font-size: 13px;
+      transition: border-color 0.15s ease, background 0.15s ease;
     }
     a:hover {
-      border-color: var(--brand-ember);
+      border-color: var(--t-accent);
+      background: rgba(194,57,10,0.08);
     }
     .hint {
-      margin-top: 14px;
-      font-size: 12px;
-      color: var(--brand-text-dim);
+      margin-top: 16px;
+      font-size: 11px;
+      color: var(--t-text-inv-muted);
     }
   </style>
 </head>

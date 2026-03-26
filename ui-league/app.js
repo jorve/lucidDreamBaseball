@@ -290,8 +290,9 @@ function renderScoreboardWeeklyTotals() {
       { team: home, myC: homeC, oppC: awayC, score: matchup?.score?.home, label: "" },
     ];
 
-    pairs.forEach((row) => {
+    pairs.forEach((row, pairIdx) => {
       const tr = document.createElement("tr");
+      if (pairIdx === 1) tr.classList.add("matchup-end");
       tr.appendChild(td(row.label));
       tr.appendChild(td(row.team.team_abbr || row.team.team_name || "—", "team-name"));
 
@@ -379,6 +380,7 @@ function renderScoreboardCurrent() {
       const getSB = (c) => c.ASB ?? c.aSB;
 
       const tr = document.createElement("tr");
+      if (idx === pair.length - 1) tr.classList.add("matchup-end");
       tr.appendChild(td(idx === 0 ? entry.matchupLabel : ""));
       tr.appendChild(td(rowTeam.long_abbr || rowTeam.name || "—", "team-name"));
 
@@ -708,6 +710,7 @@ function renderRoto() {
       battingBody.appendChild(battingTotalsRow);
 
       const battingPointsRow = document.createElement("tr");
+      battingPointsRow.classList.add("roto-pts-row");
       battingPointsRow.appendChild(td(`${r.team} (Pts)`, "team-name"));
       battingCategories.forEach((category) => {
         battingPointsRow.appendChild(td((r[`pts_${category}`] || 0).toFixed(2), "num"));
@@ -726,6 +729,7 @@ function renderRoto() {
       pitchingBody.appendChild(pitchingTotalsRow);
 
       const pitchingPointsRow = document.createElement("tr");
+      pitchingPointsRow.classList.add("roto-pts-row");
       pitchingPointsRow.appendChild(td(`${r.team} (Pts)`, "team-name"));
       pitchingCategories.forEach((category) => {
         pitchingPointsRow.appendChild(td((r[`pts_${category}`] || 0).toFixed(2), "num"));

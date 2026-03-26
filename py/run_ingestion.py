@@ -8,6 +8,7 @@ from analytics.artifact_history import ArtifactHistoryBuilder, ArtifactHistoryEr
 from analytics.clap_v2 import ClapV2Builder, ClapV2Error
 from analytics.free_agent_candidates import FreeAgentCandidatesBuilder, FreeAgentCandidatesError
 from analytics.player_eligibility import PlayerEligibilityBuilder, PlayerEligibilityError
+from analytics.player_registry import PlayerRegistryBuilder, PlayerRegistryError
 from analytics.player_blend import PlayerBlendBuilder, PlayerBlendError
 from analytics.projection_horizons import ProjectionHorizonBuilder, ProjectionHorizonError
 from analytics.player_priors import PlayerPriorBuilder, PlayerPriorError
@@ -268,6 +269,7 @@ def main():
 				run_summary["recompute_trigger"] = {"status": "dry_run"}
 				run_summary["player_priors"] = {"status": "dry_run"}
 				run_summary["player_eligibility"] = {"status": "dry_run"}
+				run_summary["player_registry"] = {"status": "dry_run"}
 				run_summary["player_blend"] = {"status": "dry_run"}
 				run_summary["projection_horizons"] = {"status": "dry_run"}
 				run_summary["view_models"] = {"status": "dry_run"}
@@ -341,6 +343,17 @@ def main():
 					run_summary["player_eligibility"]["summary"] = eligibility_result["summary"]
 				if "changes_summary" in eligibility_result:
 					run_summary["player_eligibility"]["changes_summary"] = eligibility_result["changes_summary"]
+
+				registry_builder = PlayerRegistryBuilder()
+				registry_result = registry_builder.build(target_date=target_date, dry_run=args.dry_run)
+				run_summary["player_registry"] = {
+					"status": registry_result["status"],
+					"output": str(registry_result.get("output_path", "")),
+				}
+				if "reason" in registry_result:
+					run_summary["player_registry"]["reason"] = registry_result["reason"]
+				if "summary" in registry_result:
+					run_summary["player_registry"]["summary"] = registry_result["summary"]
 
 				if priors_result["status"] == "ok":
 					player_blend_builder = PlayerBlendBuilder()

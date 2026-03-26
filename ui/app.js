@@ -36,6 +36,7 @@ async function loadAll() {
     clapCalibration:        "/json/clap_calibration_latest.json",
     scheduleStrength:       "/json/schedule_strength_latest.json",
     vijayValuation:         "/json/vijay_valuation_latest.json",
+    playerRegistry:         "/json/player_registry_latest.json",
   };
 
   const results = await Promise.allSettled(
@@ -1126,6 +1127,83 @@ function flagLabel(flag) {
 
 const ROLE_LABELS = { batters: "Bat", sp: "SP", rp: "RP" };
 
+/* ── Player Registry (review queue) ─────────────────────────────────────── */
+
+const prState = { kind: "all", search: "" };
+
+function renderPlayerRegistryPanel() {
+  const reg = state.data.playerRegistry || {};
+  const summary = reg.summary || {};
+
+  const parts = [];
+  if (summary.players_total != null) parts.push(`${summary.players_total} rostered`);
+  if (summary.matched_via_cbs_player_id != null) parts.push(`${summary.matched_via_cbs_player_id} matched (CBS id)`);
+  if (summary.matched_via_unique_name != null) parts.push(`${summary.matched_via_unique_name} matched (name)`);
+  if (summary.ambiguous != null) parts.push(`${summary.ambiguous} ambiguous`);
+  if (summary.unmatched != null) parts.push(`${summary.unmatched} unmatched`);
+  if (summary.review_queue_count != null) parts.push(`${summary.review_queue_count} in queue`);
+  setText("pr-summary-line", parts.length ? parts.join(" · ") : "Source unavailable");
+
+  const kindSel = document.getElementById("pr-filter-kind");
+  if (kindSel) {
+    kindSel.value = prState.kind;
+    kindSel.onchange = () => {
+      prState.kind = kindSel.value;
+      renderPlayerRegistryReviewTable(reg);
+    };
+  }
+
+  const search = document.getElementById("pr-search");
+  if (search) {
+    search.value = prState.search;
+    search.oninput = () => {
+      prState.search = search.value.trim().toLowerCase();
+      renderPlayerRegistryReviewTable(reg);
+    };
+  }
+
+  renderPlayerRegistryReviewTable(reg);
+}
+
+function renderPlayerRegistryReviewTable(reg) {
+  const body = clearEl("pr-review-body");
+  const raw = Array.isArray(reg.review_queue) ? reg.review_queue.slice() : [];
+
+  let rows = raw;
+  if (prState.kind !== "all") rows = rows.filter(r => r.kind === prState.kind);
+  if (prState.search) {
+    rows = rows.filter(r => {
+      const name = (r.player_name || "").toLowerCase();
+      const id = String(r.cbs_player_id || "").toLowerCase();
+      return name.includes(prState.search) || id.includes(prState.search);
+    });
+  }
+
+  if (!rows.length) {
+    const tr = document.createElement("tr");
+    const c = document.createElement("td");
+    c.colSpan = 4;
+    c.className = "dim";
+    c.style.padding = "16px 10px";
+    c.textContent = raw.length
+      ? "No review items match the current filter."
+      : "No review queue items found (registry missing or fully matched).";
+    tr.appendChild(c);
+    body.appendChild(tr);
+    return;
+  }
+
+  rows.slice(0, 120).forEach(item => {
+    const tr = document.createElement("tr");
+    tr.appendChild(td(item.kind || "—", "dim"));
+    tr.appendChild(td(item.player_name || "—", "team-name"));
+    tr.appendChild(td(String(item.cbs_player_id || "—"), "num"));
+    const candidates = Array.isArray(item.prior_player_ids) ? item.prior_player_ids.join(", ") : "—";
+    tr.appendChild(td(candidates, "dim"));
+    body.appendChild(tr);
+  });
+}
+
 function renderFreeAgents() {
   const d      = state.data.freeAgents   || {};
   const digest = state.data.weeklyDigest || {};
@@ -1182,6 +1260,7 @@ function renderFreeAgents() {
 
   renderFaCandidatesTable(d);
   renderFaSwaps(digest);
+  renderPlayerRegistryPanel();
 }
 
 function renderFaCandidatesTable(d) {

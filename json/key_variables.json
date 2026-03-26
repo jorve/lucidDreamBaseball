@@ -1,22 +1,60 @@
 {
-  "current_week": 12,
-  "WAR_adjustments": {
-    "rp_inns": 3,
-    "pit_RL": 0.38,
-    "at_bats": 25,
-    "sp_inns": 8,
-    "off_RL": 0.29
-  },
-  "ldb_good_cats": [
+  "current_week": 1,
+  "ldb_teams": [
+    "AIDS",
+    "DIPAS",
+    "FRY",
+    "BALK",
+    "CHOICE",
+    "CORN",
+    "ICHI",
+    "IZZY",
+    "POLLOS",
+    "N8",
+    "NEO",
+    "ROOF",
+    "OADS",
+    "WORK",
+    "TONES",
+    "PWRS"
+  ],
+  "ldb_cats": [
+    "ASB",
     "HR",
     "OBP",
     "OPS",
     "R",
     "aRBI",
-    "aSB",
+    "ERA",
+    "HRA",
     "K",
-    "NQW",
+    "MGS",
+    "VIJAY",
+    "aWHIP"
+  ],
+  "ldb_bad_cats": [
+    "ERA",
+    "HRA",
+    "aWHIP"
+  ],
+  "ldb_good_cats": [
+    "ASB",
+    "HR",
+    "OBP",
+    "OPS",
+    "R",
+    "aRBI",
+    "K",
+    "MGS",
     "VIJAY"
+  ],
+  "ldb_bat_cats": [
+    "HR",
+    "OBP",
+    "OPS",
+    "R",
+    "aRBI",
+    "aSB"
   ],
   "ldb_pit_cats": [
     "ERA",
@@ -26,47 +64,11 @@
     "VIJAY",
     "aWHIP"
   ],
-  "ldb_cats": [
-    "HR",
-    "OBP",
-    "OPS",
-    "R",
-    "aRBI",
-    "aSB",
-    "ERA",
-    "HRA",
-    "K",
-    "NQW",
-    "VIJAY",
-    "aWHIP"
-  ],
-  "ldb_teams": [
-    "AIDS",
-    "DIPA",
-    "FISHFRY",
-    "BALK",
-    "CHOICE",
-    "MICE",
-    "CORN",
-    "ICHI",
-    "BUSTERS",
-    "POLLOS",
-    "WORKS",
-    "PWRS",
-    "WHACK",
-    "WIND"
-  ],
-  "ldb_bad_cats": [
-    "ERA",
-    "HRA",
-    "aWHIP"
-  ],
-  "ldb_bat_cats": [
-    "HR",
-    "OBP",
-    "OPS",
-    "R",
-    "aRBI",
-    "aSB"
-  ]
+  "WAR_adjustments": {
+    "at_bats": 25,
+    "sp_inns": 8,
+    "rp_inns": 3,
+    "off_RL": 0.29,
+    "pit_RL": 0.38
+  }
 }

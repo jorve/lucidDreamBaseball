@@ -418,6 +418,10 @@ def get_ingestion_status_latest_path():
 	return get_json_output_path("ingestion_status_latest.json")
 
 
+def get_rosters_latest_path():
+	return get_json_output_path("rosters_latest.json")
+
+
 def get_preseason_player_priors_path():
 	return get_json_output_path("preseason_player_priors.json")
 
@@ -484,6 +488,10 @@ def get_player_eligibility_latest_path():
 
 def get_player_eligibility_changes_latest_path():
 	return get_json_output_path("player_eligibility_changes_latest.json")
+
+
+def get_player_registry_latest_path():
+	return get_json_output_path("player_registry_latest.json")
 
 
 def get_team_weekly_totals_latest_path():

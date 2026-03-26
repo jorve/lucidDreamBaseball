@@ -2,6 +2,7 @@ from analytics.artifact_history import ArtifactHistoryBuilder, ArtifactHistoryEr
 from analytics.clap_v2 import ClapV2Builder, ClapV2Error
 from analytics.free_agent_candidates import FreeAgentCandidatesBuilder, FreeAgentCandidatesError
 from analytics.player_eligibility import PlayerEligibilityBuilder, PlayerEligibilityError
+from analytics.player_registry import PlayerRegistryBuilder, PlayerRegistryError
 from analytics.player_blend import PlayerBlendBuilder, PlayerBlendError
 from analytics.projection_horizons import ProjectionHorizonBuilder, ProjectionHorizonError
 from analytics.player_priors import PlayerPriorBuilder, PlayerPriorError
@@ -22,6 +23,8 @@ from analytics.validators import (
 __all__ = [
 	"PlayerEligibilityBuilder",
 	"PlayerEligibilityError",
+	"PlayerRegistryBuilder",
+	"PlayerRegistryError",
 	"ClapV2Builder",
 	"ClapV2Error",
 	"ArtifactHistoryBuilder",

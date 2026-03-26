@@ -54,11 +54,19 @@ for i in range(1, CURRENT_WEEK + 1):
 list_CLAP = []
 for ldb_cat in ldb_cats:
 	cat_means[ldb_cat + "_mean"] = statistics.mean(cat_means[ldb_cat])
-	cat_means[ldb_cat + "_stddev"] = statistics.stdev(cat_means[ldb_cat])
-	ldb_CLAP[ldb_cat] = [statistics.mean(cat_means[ldb_cat]), statistics.stdev(cat_means[ldb_cat])]
-	list_CLAP.append([ldb_cat, statistics.mean(cat_means[ldb_cat]), statistics.stdev(cat_means[ldb_cat])])
+	# Early season (or partial API payloads) can yield zero variance; avoid crashing the pipeline.
+	try:
+		stddev = statistics.stdev(cat_means[ldb_cat])
+	except statistics.StatisticsError:
+		stddev = 0.0
+	cat_means[ldb_cat + "_stddev"] = stddev
+	ldb_CLAP[ldb_cat] = [cat_means[ldb_cat + "_mean"], stddev]
+	list_CLAP.append([ldb_cat, cat_means[ldb_cat + "_mean"], stddev])
 	cat_means["z" + ldb_cat] = []
 	for item in cat_means[ldb_cat]:
+		if stddev == 0:
+			cat_means["z" + ldb_cat].append(0.0)
+			continue
 		if ldb_cat in ldb_good_cats:
 			cat_means["z" + ldb_cat].append((item - cat_means[ldb_cat + "_mean"])/cat_means[ldb_cat + "_stddev"])
 		else:

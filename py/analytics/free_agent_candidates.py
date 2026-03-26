@@ -215,10 +215,17 @@ class FreeAgentCandidatesBuilder:
 			return rostered_ids, meta
 
 		prior_by_id = {}
+		priors_with_cbs = 0
+		priors_missing_cbs = 0
 		for prior in priors_players:
 			pid = str(prior.get("player_id") or "")
 			if pid and pid != "None":
 				prior_by_id[pid] = prior
+			cbs = str(prior.get("cbs_player_id") or "").strip()
+			if cbs and cbs != "None":
+				priors_with_cbs += 1
+			else:
+				priors_missing_cbs += 1
 
 		cbs_added = 0
 		for prior in priors_players:
@@ -251,13 +258,29 @@ class FreeAgentCandidatesBuilder:
 
 		name_added = 0
 		ambiguous_names = 0
+		unmatched_roster = []
+		ambiguous_roster = []
+		disambiguated_by_cbs = 0
+		max_list = 60
 		for team in roster_teams:
+			team_id = str(team.get("team_id", ""))
+			team_name = team.get("team_name") or f"TEAM_{team_id}"
 			for player in team.get("players", []):
 				name = (player.get("player_name") or "").strip().lower()
 				if not name:
 					continue
 				candidates = by_name.get(name)
 				if not candidates:
+					if len(unmatched_roster) < max_list:
+						unmatched_roster.append(
+							{
+								"team_id": team_id,
+								"team_name": team_name,
+								"player_id": str(player.get("player_id") or ""),
+								"player_name": player.get("player_name") or "",
+								"reason": "no_prior_name_match",
+							}
+						)
 					continue
 				unique = list(dict.fromkeys(candidates))
 				roster_cbs = str(player.get("player_id") or "")
@@ -278,13 +301,33 @@ class FreeAgentCandidatesBuilder:
 					if matched and matched not in rostered_ids:
 						rostered_ids.add(matched)
 						name_added += 1
+						disambiguated_by_cbs += 1
 					elif not matched:
 						ambiguous_names += 1
+						if len(ambiguous_roster) < max_list:
+							ambiguous_roster.append(
+								{
+									"team_id": team_id,
+									"team_name": team_name,
+									"player_id": roster_cbs,
+									"player_name": player.get("player_name") or "",
+									"prior_player_ids": unique[:10],
+									"reason": "ambiguous_prior_name_match",
+								}
+							)
 
 		if name_added:
 			meta["prior_space_ids_merged"] = name_added
 		if ambiguous_names:
 			meta["ambiguous_prior_name_matches"] = ambiguous_names
+		if disambiguated_by_cbs:
+			meta["ambiguous_names_resolved_via_cbs_id"] = disambiguated_by_cbs
+		meta["priors_with_cbs_player_id"] = priors_with_cbs
+		meta["priors_missing_cbs_player_id"] = priors_missing_cbs
+		if unmatched_roster:
+			meta["unmatched_roster_players_sample"] = unmatched_roster
+		if ambiguous_roster:
+			meta["ambiguous_roster_players_sample"] = ambiguous_roster
 
 		if not meta:
 			return rostered_ids, {}

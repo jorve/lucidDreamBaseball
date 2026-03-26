@@ -33,7 +33,12 @@ for i in range(1, CURRENT_WEEK + 1):
 			if not team["long_abbr"] in team_scores:
 				team_scores[team["long_abbr"]] = {}
 			team_scores[team["long_abbr"]]["week" + str(i)] = {}
-			team_scores[team["long_abbr"]]["week" + str(i)]["record"] = team["matchups"][0]["pts"].split('-')
+			matchups = team.get("matchups") or []
+			if not matchups:
+				# Opening day / partial weeks can omit matchup rows.
+				team_scores[team["long_abbr"]]["week" + str(i)]["record"] = [0, 0]
+			else:
+				team_scores[team["long_abbr"]]["week" + str(i)]["record"] = matchups[0]["pts"].split('-')
 			if team["home_away"] == "away":
 				team_scores[team["long_abbr"]]["week" + str(i)]["record"] = [int(team_scores[team["long_abbr"]]["week" + str(i)]["record"][0]), int(team_scores[team["long_abbr"]]["week" + str(i)]["record"][1]) + int(team_scores[team["long_abbr"]]["week" + str(i)]["record"][2])]
 				team_scores[team["long_abbr"]]["week" + str(i)]["away"] = True
@@ -75,7 +80,10 @@ for team in ldb_teams:
 		if not ldb_cat in team_CLAP:
 			team_CLAP[ldb_cat + "_array"] = []
 		for i in range(1, CURRENT_WEEK + 1):
-			team_CLAP[ldb_cat + "_array"].append(float(team_scores[team]["week" + str(i)][ldb_cat]))
+			value = team_scores[team].get("week" + str(i), {}).get(ldb_cat)
+			if value is None:
+				value = 0.0
+			team_CLAP[ldb_cat + "_array"].append(float(value))
 
 for team in ldb_teams:
 	team_CLAP = team_CLAPS[team]
@@ -83,7 +91,11 @@ for team in ldb_teams:
 		cat_mean = str(ldb_cat + "_mean")
 		cat_stddev = str(ldb_cat + "_stddev")
 		team_CLAP[cat_mean] = statistics.mean(team_CLAP[ldb_cat + "_array"])
-		team_CLAP[cat_stddev] = statistics.stdev(team_CLAP[ldb_cat + "_array"])
+		# Early season: some categories may be constant or have too few data points.
+		try:
+			team_CLAP[cat_stddev] = statistics.stdev(team_CLAP[ldb_cat + "_array"])
+		except statistics.StatisticsError:
+			team_CLAP[cat_stddev] = 0.0
 
 
 with get_json_output_path("team_CLAPS.json").open('wt') as f:

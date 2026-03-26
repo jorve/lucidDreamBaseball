@@ -6,6 +6,8 @@ from analytics.schemas import (
 	INGESTION_STATUS_REQUIRED_RESOURCE_FIELDS,
 	INGESTION_STATUS_REQUIRED_ROOT_FIELDS,
 	INGESTION_STATUS_SCHEMA_VERSION,
+	PLAYER_REGISTRY_REQUIRED_ROOT_FIELDS,
+	PLAYER_REGISTRY_SCHEMA_VERSION,
 	ROSTER_INTEGRITY_STATUSES,
 	ROSTER_REQUIRED_PLAYER_FIELDS,
 	ROSTER_REQUIRED_ROOT_FIELDS,
@@ -116,4 +118,16 @@ def validate_ingestion_status_payload(payload):
 			raise ValidationError("SCHEMA_INVALID_ENUM", f"resource[{idx}].status is invalid.")
 		if resource["status"] == "ok" and resource["error_short"] is not None:
 			raise ValidationError("SCHEMA_INVALID_VALUE", f"resource[{idx}].error_short must be null when status is ok.")
+	return True
+
+
+def validate_player_registry_payload(payload):
+	_require_fields(payload, PLAYER_REGISTRY_REQUIRED_ROOT_FIELDS, "player_registry")
+	if payload["schema_version"] != PLAYER_REGISTRY_SCHEMA_VERSION:
+		raise ValidationError("SCHEMA_UNSUPPORTED_VERSION", "Unsupported player registry schema version.")
+	_parse_utc_timestamp(payload["generated_at_utc"], "player_registry", "generated_at_utc")
+	if not isinstance(payload.get("players"), list):
+		raise ValidationError("SCHEMA_INVALID_TYPE", "player_registry.players must be a list.")
+	if not isinstance(payload.get("review_queue"), list):
+		raise ValidationError("SCHEMA_INVALID_TYPE", "player_registry.review_queue must be a list.")
 	return True
