@@ -31,11 +31,15 @@ for ldb_team in ldb_teams:
 		zarray = team_CLAPS[ldb_team][zclapcat]
 		parray = team_CLAPS[ldb_team][pclapcat]
 		score_array = team_CLAPS[ldb_team][ldb_cat + "_array"]
+		cat_stddev = float(ldbCLAP[ldb_cat][1] or 0)
 		for score in score_array:
-			if ldb_cat in ldb_bad_cats:
-				zarray.append((ldbCLAP[ldb_cat][0] - score) / ldbCLAP[ldb_cat][1])
+			# Early season can produce zero-variance categories; use neutral z-score.
+			if cat_stddev == 0:
+				zarray.append(0.0)
+			elif ldb_cat in ldb_bad_cats:
+				zarray.append((ldbCLAP[ldb_cat][0] - score) / cat_stddev)
 			else:
-				zarray.append((score - ldbCLAP[ldb_cat][0]) / ldbCLAP[ldb_cat][1])
+				zarray.append((score - ldbCLAP[ldb_cat][0]) / cat_stddev)
 		for zscore in zarray:
 			parray.append(scipy.stats.norm.cdf(zscore))
 		if not ldb_cat in ldb_xwins:
